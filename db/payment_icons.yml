@@ -1,0 +1,11 @@
+-
+  id: 1
+  name: visa
+  label: visa
+  group: credit_cards
+
+-
+  id: 2
+  name: mastercard
+  label: MasterCard
+  group: credit_cards
