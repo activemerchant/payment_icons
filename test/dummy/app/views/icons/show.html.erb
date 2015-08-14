@@ -1,0 +1,10 @@
+Hello there
+<% PaymentIcon.credit_cards.each do |card| %>
+  <div><%= image_tag PaymentIcon.path(card.name) %></div>
+<% end %>
+
+<% PaymentIcon.cryptocurrencies.each do |currency| %>
+  <div>
+    <%= image_tag PaymentIcon.path(currency.name) %>
+  </div>
+<% end %>

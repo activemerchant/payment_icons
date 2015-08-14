@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = PaymentIcons::VERSION
   s.authors     = ["Nakul Pathak"]
   s.email       = ["nakul.pathak@shopify.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of PaymentIcons."
-  s.description = "TODO: Description of PaymentIcons."
+  s.homepage    = "https://github.com/Shopify/payment_icons"
+  s.summary     = "Payment Icon engine that can be integrated with any rails app to give easy access to common payment icons like visa, mastercard, etc."
+  s.description = "Mountable rails engine with which loads assets (svg files of payment icons) and provides a frozen_record model called PaymentIcon to access these through groups, names of icons, etc."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.3"
   s.add_dependency "frozen_record"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'sqlite3'
 end

@@ -1,7 +1,7 @@
 -
   id: 1
   name: visa
-  label: visa
+  label: Visa
   group: credit_cards
 
 -
@@ -9,3 +9,38 @@
   name: mastercard
   label: MasterCard
   group: credit_cards
+-
+  id: 3
+  name: discover
+  label: Discover
+  group: credit_cards
+-
+  id: 4
+  name: american_express
+  label: American Express
+  group: credit_cards
+-
+  id: 5
+  name: diners_club
+  label: Diners Club
+  group: credit_cards
+-
+  id: 6
+  name: jcb
+  label: JCB
+  group: credit_cards
+-
+  id: 7
+  name: bitcoin
+  label: Bitcoin
+  group: cryptocurrency
+-
+  id: 8
+  name: dogecoin
+  label: Dogecoin
+  group: cryptocurrency
+-
+  id: 9
+  name: litecoin
+  label: Litecoin
+  group: cryptocurrency
