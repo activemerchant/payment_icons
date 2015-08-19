@@ -6,7 +6,7 @@
 
 -
   id: 2
-  name: mastercard
+  name: master
   label: MasterCard
   group: credit_cards
 -
@@ -16,12 +16,12 @@
   group: credit_cards
 -
   id: 4
-  name: american_express
+  name: american-express
   label: American Express
   group: credit_cards
 -
   id: 5
-  name: diners_club
+  name: diners-club
   label: Diners Club
   group: credit_cards
 -
