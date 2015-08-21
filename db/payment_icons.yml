@@ -58,7 +58,7 @@
   id: 12
   name: dankort
   label: Dankort
-  group: debit_card
+  group: bank_transfers
 -
   id: 13
   name: dwolla
@@ -68,7 +68,7 @@
   id: 14
   name: forbrugsforeningen
   label: Forbrugsforeningen
-  group: debit_card
+  group: bank_transfers
 -
   id: 15
   name: giropay
@@ -83,7 +83,7 @@
   id: 17
   name: laser
   label: Laser
-  group: debit_card
+  group: bank_transfers
 -
   id: 18
   name: paypal
@@ -98,7 +98,7 @@
   id: 20
   name: maestro
   label: Maestro
-  group: debit_card
+  group: bank_transfers
 -
   id: 21
   name: unionpay
@@ -108,4 +108,4 @@
   id: 22
   name: visaelectron
   label: Visa Electron
-  group: debit_card
+  group: bank_transfers
