@@ -17,7 +17,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test "#credit_cards returns all icons of group credit card" do
-    assert_equal ["visa", "mastercard", "discover", "american_express", "diners_club", "jcb"], PaymentIcon.credit_cards.pluck(:name)
+    assert_equal ["visa", "master", "discover", "american-express", "diners-club", "jcb"], PaymentIcon.credit_cards.pluck(:name)
   end
 
   test "#cryptocurrencies returns all icons of group cryptocurrency" do
@@ -25,7 +25,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test "#find_by_group returns all icons of group passed" do
-    assert_equal ["visa", "mastercard", "discover", "american_express", "diners_club", "jcb"], PaymentIcon.find_by_group('credit_cards').pluck(:name)
+    assert_equal ["boleto", "dwolla", "giropay", "sofort", "unionpay"], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
   end
 
   test "#path returns relative path of icon for image_tag to render" do

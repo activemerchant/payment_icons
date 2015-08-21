@@ -33,14 +33,79 @@
   id: 7
   name: bitcoin
   label: Bitcoin
-  group: cryptocurrency
+  group: cryptocurrencies
 -
   id: 8
   name: dogecoin
   label: Dogecoin
-  group: cryptocurrency
+  group: cryptocurrencies
 -
   id: 9
   name: litecoin
   label: Litecoin
-  group: cryptocurrency
+  group: cryptocurrencies
+-
+  id: 10
+  name: amazon
+  label: Amazon
+  group: mobile_wallets
+-
+  id: 11
+  name: boleto
+  label: Boleto
+  group: bank_transfers
+-
+  id: 12
+  name: dankort
+  label: Dankort
+  group: debit_card
+-
+  id: 13
+  name: dwolla
+  label: Dwolla
+  group: bank_transfers
+-
+  id: 14
+  name: forbrugsforeningen
+  label: Forbrugsforeningen
+  group: debit_card
+-
+  id: 15
+  name: giropay
+  label: Giropay
+  group: bank_transfers
+-
+  id: 16
+  name: google-wallet
+  label: Google Wallet
+  group: mobile wallet
+-
+  id: 17
+  name: laser
+  label: Laser
+  group: debit_card
+-
+  id: 18
+  name: paypal
+  label: Paypal
+  group: mobile_wallet
+-
+  id: 19
+  name: sofort
+  label: Sofort
+  group: bank_transfers
+-
+  id: 20
+  name: maestro
+  label: Maestro
+  group: debit_card
+-
+  id: 21
+  name: unionpay
+  label: Union Pay
+  group: bank_transfers
+-
+  id: 22
+  name: visaelectron
+  label: Visa Electron
+  group: debit_card

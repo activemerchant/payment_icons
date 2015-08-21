@@ -15,7 +15,7 @@ class PaymentIcon < FrozenRecord::Base
   end
 
   def self.cryptocurrencies
-    where(group: 'cryptocurrency')
+    where(group: 'cryptocurrencies')
   end
 
 end
