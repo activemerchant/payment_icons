@@ -18,4 +18,12 @@ class PaymentIcon < FrozenRecord::Base
     where(group: 'cryptocurrencies')
   end
 
+  def self.bank_transfers
+    where(group: 'bank_transfers')
+  end
+
+  def self.mobile_wallets
+    where(group: 'mobile_wallets')
+  end
+
 end

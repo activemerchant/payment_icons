@@ -78,7 +78,7 @@
   id: 16
   name: google-wallet
   label: Google Wallet
-  group: mobile wallet
+  group: mobile_wallets
 -
   id: 17
   name: laser
@@ -88,7 +88,7 @@
   id: 18
   name: paypal
   label: Paypal
-  group: mobile_wallet
+  group: mobile_wallets
 -
   id: 19
   name: sofort

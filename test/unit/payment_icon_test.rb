@@ -17,8 +17,16 @@ class PaymentIconTest < ActiveSupport::TestCase
     assert_equal ["visa", "master", "discover", "american-express", "diners-club", "jcb"], PaymentIcon.credit_cards.pluck(:name)
   end
 
-  test "#cryptocurrencies returns all icons of group cryptocurrency" do
+  test "#cryptocurrencies returns all icons of group cryptocurrencies" do
     assert_equal ["bitcoin", "dogecoin", "litecoin"], PaymentIcon.cryptocurrencies.pluck(:name)
+  end
+
+  test "#bank_transfers returns all icons of group bank_transfers" do
+    assert_equal ["boleto", "dankort", "dwolla", "forbrugsforeningen", "giropay", "laser", "sofort", "maestro", "unionpay", "visaelectron"], PaymentIcon.bank_transfers.pluck(:name)
+  end
+
+  test "#mobile_wallets returns all icons of group mobile_wallets" do
+    assert_equal ["amazon", "google-wallet", "paypal"], PaymentIcon.mobile_wallets.pluck(:name)
   end
 
   test "#find_by_group returns all icons of group passed" do
