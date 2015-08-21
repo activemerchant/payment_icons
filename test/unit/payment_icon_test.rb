@@ -22,7 +22,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test "#find_by_group returns all icons of group passed" do
-    assert_equal ["boleto", "dwolla", "giropay", "sofort", "unionpay"], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
+    assert_equal ["boleto", "dankort", "dwolla", "forbrugsforeningen", "giropay", "laser", "sofort", "maestro", "unionpay", "visaelectron"], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
   end
 
   test "#path returns path within app/assets/images" do
