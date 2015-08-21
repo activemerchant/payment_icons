@@ -2,9 +2,6 @@ require 'test_helper'
 
 class PaymentIconTest < ActiveSupport::TestCase
 
-  setup do
-  end
-
   test "#find works" do
     icon = PaymentIcon.find(1)
     assert_equal "visa", icon.name
@@ -28,7 +25,7 @@ class PaymentIconTest < ActiveSupport::TestCase
     assert_equal ["boleto", "dwolla", "giropay", "sofort", "unionpay"], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
   end
 
-  test "#path returns relative path of icon for image_tag to render" do
+  test "#path returns path within app/assets/images" do
     assert_equal "payment_icons/visa.svg", PaymentIcon.path('visa')
   end
 
