@@ -48,7 +48,7 @@
   id: 10
   name: amazon
   label: Amazon
-  group: mobile_wallets
+  group: wallets
 -
   id: 11
   name: boleto
@@ -78,7 +78,7 @@
   id: 16
   name: google-wallet
   label: Google Wallet
-  group: mobile_wallets
+  group: wallets
 -
   id: 17
   name: laser
@@ -88,7 +88,7 @@
   id: 18
   name: paypal
   label: Paypal
-  group: mobile_wallets
+  group: wallets
 -
   id: 19
   name: sofort
