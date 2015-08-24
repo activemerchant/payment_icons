@@ -1,111 +1,88 @@
 -
-  id: 1
   name: visa
   label: Visa
   group: credit_cards
-
 -
-  id: 2
   name: master
   label: MasterCard
   group: credit_cards
 -
-  id: 3
   name: discover
   label: Discover
   group: credit_cards
 -
-  id: 4
   name: american-express
   label: American Express
   group: credit_cards
 -
-  id: 5
   name: diners-club
   label: Diners Club
   group: credit_cards
 -
-  id: 6
   name: jcb
   label: JCB
   group: credit_cards
 -
-  id: 7
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
 -
-  id: 8
   name: dogecoin
   label: Dogecoin
   group: cryptocurrencies
 -
-  id: 9
   name: litecoin
   label: Litecoin
   group: cryptocurrencies
 -
-  id: 10
   name: amazon
   label: Amazon
   group: wallets
 -
-  id: 11
   name: boleto
   label: Boleto
   group: bank_transfers
 -
-  id: 12
   name: dankort
   label: Dankort
   group: bank_transfers
 -
-  id: 13
   name: dwolla
   label: Dwolla
   group: bank_transfers
 -
-  id: 14
   name: forbrugsforeningen
   label: Forbrugsforeningen
   group: bank_transfers
 -
-  id: 15
   name: giropay
   label: Giropay
   group: bank_transfers
 -
-  id: 16
   name: google-wallet
   label: Google Wallet
   group: wallets
 -
-  id: 17
   name: laser
   label: Laser
   group: bank_transfers
 -
-  id: 18
   name: paypal
   label: Paypal
   group: wallets
 -
-  id: 19
   name: sofort
   label: Sofort
   group: bank_transfers
 -
-  id: 20
   name: maestro
   label: Maestro
   group: bank_transfers
 -
-  id: 21
   name: unionpay
   label: Union Pay
   group: bank_transfers
 -
-  id: 22
   name: visaelectron
   label: Visa Electron
   group: bank_transfers

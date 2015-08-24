@@ -1,8 +1,7 @@
 class PaymentIcon < FrozenRecord::Base
-
   self.base_path = File.expand_path('../../db/', __dir__)
 
-  def self.path(name)
+  def path
     "payment_icons/#{name}.svg"
   end
 
@@ -25,5 +24,4 @@ class PaymentIcon < FrozenRecord::Base
   def self.wallets
     where(group: 'wallets')
   end
-
 end
