@@ -1,6 +1,8 @@
 Hello there
 <% PaymentIcon.credit_cards.each do |card| %>
-  <div><%= image_tag card.path %></div>
+  <div>
+    <%= image_tag card.path %>
+  </div>
 <% end %>
 
 <% PaymentIcon.cryptocurrencies.each do |currency| %>
