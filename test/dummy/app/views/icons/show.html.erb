@@ -1,12 +1,14 @@
 Hello there
-<% PaymentIcon.credit_cards.each do |card| %>
-  <div>
-    <%= image_tag card.path %>
-  </div>
-<% end %>
+<div>
+  <% PaymentIcon.credit_cards.each do |card| %>
+    <%= image_tag card.path, id: "#{card.name}" %>
+  <% end %>
+</div>
 
-<% PaymentIcon.cryptocurrencies.each do |currency| %>
-  <div>
-    <%= image_tag currency.path %>
-  </div>
-<% end %>
+<div>
+  <% PaymentIcon.cryptocurrencies.each do |currency| %>
+    <%= image_tag currency.path, id: "#{currency.name}" %>
+  <% end %>
+</div>
+
+<%= image_tag "chocolate.png", id: "chocolate" %>

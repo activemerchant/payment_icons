@@ -17,6 +17,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '~> 4.1'
   s.add_dependency 'frozen_record'
-
-  s.add_development_dependency('pry')
 end
