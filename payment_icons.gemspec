@@ -5,8 +5,8 @@ require 'payment_icons/version'
 Gem::Specification.new do |s|
   s.name        = 'payment_icons'
   s.version     = PaymentIcons::VERSION
-  s.authors     = ['Nakul Pathak']
-  s.email       = ['nakul.pathak@shopify.com']
+  s.authors     = ['Nakul Pathak', 'Shopify']
+  s.email       = ['payments-integrations@shopify.com']
   s.homepage    = 'https://github.com/Shopify/payment_icons'
   s.summary     = 'Payment Icon engine that can be integrated with any rails app to give easy access to common payment icons like visa, mastercard, etc.'
   s.description = 'Mountable rails engine which loads assets (svg files of payment icons) and provides a frozen_record model called PaymentIcon to access these through groups, names of icons, etc.'
