@@ -1,7 +1,5 @@
-$data-svg-payment-method-bitcoin: asset-url("payment_icons/bitcoin.svg");
-$data-svg-payment-method-litecoin: asset-url("payment_icons/litecoin.svg");
-$data-svg-payment-method-dogecoin: asset-url("payment_icons/dogecoin.svg");
+$icon-size: 56px 36px;
 
-.ico-payment-method--bitcoin { background-image: $data-svg-payment-method-bitcoin; background-size: 56px 36px; }
-.ico-payment-method--litecoin { background-image: $data-svg-payment-method-litecoin; background-size: 56px 36px; }
-.ico-payment-method--dogecoin { background-image: $data-svg-payment-method-dogecoin; background-size: 56px 36px; }
+.ico-payment-method--bitcoin { background-image: asset-url("payment_icons/bitcoin.svg"); background-size: $icon-size }
+.ico-payment-method--litecoin { background-image: asset-url("payment_icons/litecoin.svg"); background-size: $icon-size }
+.ico-payment-method--dogecoin { background-image: asset-url("payment_icons/dogecoin.svg"); background-size: $icon-size }
