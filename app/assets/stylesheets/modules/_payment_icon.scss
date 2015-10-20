@@ -1,0 +1,7 @@
+$data-svg-payment-method-bitcoin: asset-url("payment_icons/bitcoin.svg");
+$data-svg-payment-method-litecoin: asset-url("payment_icons/litecoin.svg");
+$data-svg-payment-method-dogecoin: asset-url("payment_icons/dogecoin.svg");
+
+.ico-payment-method--bitcoin { background-image: $data-svg-payment-method-bitcoin; background-size: 56px 36px; }
+.ico-payment-method--litecoin { background-image: $data-svg-payment-method-litecoin; background-size: 56px 36px; }
+.ico-payment-method--dogecoin { background-image: $data-svg-payment-method-dogecoin; background-size: 56px 36px; }
