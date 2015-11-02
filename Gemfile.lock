@@ -3,7 +3,7 @@ PATH
   specs:
     payment_icons (0.0.1)
       frozen_record
-      railties (~> 4.1)
+      railties (>= 4.1, < 5.1)
 
 GEM
   remote: https://rubygems.org/
