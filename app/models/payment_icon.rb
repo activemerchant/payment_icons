@@ -1,6 +1,14 @@
 class PaymentIcon < FrozenRecord::Base
   self.base_path = File.expand_path('../../db/', __dir__)
 
+  GROUPS = {
+      credit_cards: 'Credit cards',
+      cryptocurrencies: 'Digital currencies',
+      bank_transfers: 'Bank transfers',
+      wallets: 'Digital wallets',
+      other: 'Other'
+    }
+
   def path
     "payment_icons/#{name}.svg"
   end
