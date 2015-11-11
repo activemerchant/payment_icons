@@ -41,7 +41,7 @@
 -
   name: boleto
   label: Boleto
-  group: bank_transfers
+  group: other
 -
   name: dankort
   label: Dankort
