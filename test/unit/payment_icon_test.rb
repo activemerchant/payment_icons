@@ -15,7 +15,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test '#bank_transfers returns all icons of group bank_transfers' do
-    assert_equal ['boleto', 'dankort', 'dwolla', 'forbrugsforeningen', 'giropay', 'laser', 'sofort', 'maestro', 'unionpay', 'visaelectron'], PaymentIcon.bank_transfers.pluck(:name)
+    assert_equal ['dankort', 'dwolla', 'forbrugsforeningen', 'giropay', 'laser', 'sofort', 'maestro', 'unionpay', 'visaelectron'], PaymentIcon.bank_transfers.pluck(:name)
   end
 
   test '#wallets returns all icons of group wallets' do
@@ -23,7 +23,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test '#find_by_group returns all icons of group passed' do
-    assert_equal ['boleto', 'dankort', 'dwolla', 'forbrugsforeningen', 'giropay', 'laser', 'sofort', 'maestro', 'unionpay', 'visaelectron'], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
+    assert_equal ['dankort', 'dwolla', 'forbrugsforeningen', 'giropay', 'laser', 'sofort', 'maestro', 'unionpay', 'visaelectron'], PaymentIcon.find_by_group('bank_transfers').pluck(:name)
   end
 
   test '#path returns path within app/assets/images' do
