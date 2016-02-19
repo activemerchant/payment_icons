@@ -86,3 +86,15 @@
   name: visaelectron
   label: Visa Electron
   group: bank_transfers
+-
+  name: payfast_instant_eft
+  label: PayFast Instant EFT
+  group: bank_transfers
+-
+  name: mobicred
+  label: mobicred
+  group: other
+-
+  name: payd
+  label: payD
+  group: other
