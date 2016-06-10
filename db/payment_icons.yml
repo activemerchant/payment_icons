@@ -98,3 +98,7 @@
   name: payd
   label: payD
   group: other
+-
+  name: masterpass
+  label: MasterPass
+  group: other
