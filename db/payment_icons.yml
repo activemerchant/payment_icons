@@ -98,3 +98,8 @@
   name: payzapp
   label: PayZapp
   group: wallets
+-
+  name: netbanking
+  label: NetBanking
+  group: bank_transfers
+
