@@ -86,6 +86,23 @@
   name: visaelectron
   label: Visa Electron
   group: bank_transfers
+-
+  name: paytm
+  label: Paytm
+  group: wallets
+-
+  name: mobikwik
+  label: MobiKwik
+  group: wallets
+-
+  name: payzapp
+  label: PayZapp
+  group: wallets
+-
+  name: netbanking
+  label: NetBanking
+  group: bank_transfers
+
 
   name: paysera
   label: Paysera

@@ -36,6 +36,6 @@ If you'd like to add a new payment method icon to this repository,
   * Solid white background
 4. Edit `db/payment_icons.yml` file with the name, label and group of your icon. Valid group options are credit_cards, cryptocurrencies, wallets, bank_transfers and other.
 5. Push your changes to your fork (`git push origin my_new_icon`)
-6. Open a [pull request](https://github.com/activemerchant/payment_icons/pulls). One of our awesome maintainers will review it.
+6. Open a [pull request](https://github.com/activemerchant/payment_icons/pulls) and one of our maintainers will review it.
 
 ##### The trademarks and trade names provided in this library are those of their respective owners.
