@@ -102,40 +102,35 @@
   name: netbanking
   label: NetBanking
   group: bank_transfers
-
-
+-
   name: paysera
   label: Paysera
   group: wallets
-  
+-  
   name: citadele
   label: Citadele
   group: bank_transfers
-
+-
   name: danske_bank
   label: Danske Bank
   group: bank_transfers
-
+-
   name: krediidipank
   label: Krediidipank 
   group: bank_transfers
-
+-
   name: lhv
   label: LHV 
   group: bank_transfers
-
-  name: medicinos_bankas
-  label: Medicinos Bankas
-  group: bank_transfers
-
+-
   name: nordea
   label: Nordea
   group: bank_transfers
-  
+ - 
   name: seb
   label: SEB
   group: bank_transfers
-
+-
   name: swedbank
   label: Swedbank
   group: bank_transfers
