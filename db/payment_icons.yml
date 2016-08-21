@@ -103,3 +103,7 @@
   label: NetBanking
   group: bank_transfers
 
+- 
+  name: tap
+  label: tap
+  group: credit_cards
