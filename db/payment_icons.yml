@@ -104,6 +104,6 @@
   group: bank_transfers
 
 - 
-  name: tap
-  label: tap
+  name: K-Net
+  label: K-Net
   group: credit_cards
