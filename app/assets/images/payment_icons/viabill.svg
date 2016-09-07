@@ -39,20 +39,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1294"
-     inkscape:window-height="1024"
+     inkscape:window-width="1863"
+     inkscape:window-height="1176"
      id="namedview3621"
-     showgrid="false"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="1.0752355"
-     inkscape:cy="50.89147"
-     inkscape:window-x="4086"
-     inkscape:window-y="137"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3619" />
+     showgrid="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="17.25334"
+     inkscape:cy="12.178266"
+     inkscape:window-x="3897"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3619"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5829" />
+  </sodipodi:namedview>
   <g
      id="g3629"
-     transform="matrix(0.03845597,0,0,0.03845597,0.3217168,0.11212555)">
+     transform="matrix(0.03845597,0,0,0.03845597,0.00275084,0.0496255)">
     <path
        style="fill:#fdfdfd"
        d="M 0,312 0,0 l 494,0 494,0 0,312 0,312 -494,0 -494,0 0,-312 z"
