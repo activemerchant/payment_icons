@@ -102,4 +102,19 @@
   name: netbanking
   label: NetBanking
   group: bank_transfers
-
+-
+  name: mobilepay
+  label: MobilePay
+  group: wallets
+-
+  name: viabill
+  label: ViaBill
+  group: wallets
+-
+  name: klarna
+  label: Klarna
+  group: other
+-
+  name: przelew24
+  label: Przelew24
+  group: other
