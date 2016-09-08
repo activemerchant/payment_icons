@@ -109,7 +109,7 @@
 -
   name: viabill
   label: ViaBill
-  group: wallets
+  group: other
 -
   name: klarna
   label: Klarna
