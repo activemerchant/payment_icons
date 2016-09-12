@@ -102,4 +102,64 @@
   name: netbanking
   label: NetBanking
   group: bank_transfers
+-
+  name: mobilepay
+  label: MobilePay
+  group: other
+-
+  name: viabill
+  label: ViaBill
+  group: other
+-
+  name: klarna
+  label: Klarna
+  group: other
+-
+  name: przelew24
+  label: Przelew24
+  group: bank_transfers
+-
+  name: epayments
+  label: ePayments
+  group: bank_transfers
+-
+  name: paysera
+  label: PaySera
+  group: other
+-
+  name: paysafecard
+  label: PaySafeCard
+  group: other
+-
+  name: elv
+  label: ELV
+  group: bank_transfers
+-
+  name: ideal
+  label: iDEAL
+  group: other
+-
+  name: arvato
+  label: Arvato
+  group: other
+-
+  name: santander
+  label: Santander
+  group: other
+-
+  name: swish
+  label: Swish
+  group: other
+-
+  name: prepaysolutions
+  label: PrePaySolutions
+  group: other
+-
+  name: masterpass
+  label: MasterPass
+  group: other
+-
+  name: creditcard
+  label: Other credit cards
+  group: credit_cards
 
