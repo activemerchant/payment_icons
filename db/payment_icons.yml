@@ -158,4 +158,8 @@
   name: masterpass
   label: MasterPass
   group: other
+-
+  name: creditcard
+  label: Other credit cards
+  group: credit_cards
 
