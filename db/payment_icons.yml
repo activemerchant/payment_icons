@@ -102,4 +102,20 @@
   name: netbanking
   label: NetBanking
   group: bank_transfers
+-
+  name: mobilepay
+  label: MobilePay
+  group: other
+-
+  name: viabill
+  label: ViaBill
+  group: other
+-
+  name: klarna
+  label: Klarna
+  group: other
+-
+  name: santander
+  label: Santander
+  group: other
 
