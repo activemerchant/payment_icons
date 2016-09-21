@@ -118,4 +118,20 @@
   name: santander
   label: Santander
   group: other
+-
+  name: przelew24
+  label: Przelew24
+  group: bank_transfers
+-
+  name: epayments
+  label: ePayments
+  group: bank_transfers
+-
+  name: paysera
+  label: PaySera
+  group: other
+-
+  name: paysafecard
+  label: PaySafeCard
+  group: other
 
