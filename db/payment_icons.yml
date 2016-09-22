@@ -102,4 +102,11 @@
   name: netbanking
   label: NetBanking
   group: bank_transfers
-
+-
+  name: prepaysolutions
+  label: PrePaySolutions
+  group: other
+-
+  name: masterpass
+  label: MasterPass
+  group: other
