@@ -134,3 +134,7 @@
   name: swedbank
   label: Swedbank
   group: bank_transfers
+-
+  name: dnb
+  label: DNB
+  group: bank_transfers
