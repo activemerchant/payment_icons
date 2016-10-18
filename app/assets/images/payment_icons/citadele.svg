@@ -13,7 +13,7 @@
    xml:space="preserve"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92pre1 15099"
    sodipodi:docname="citadele.svg"><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,8 +23,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="988"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview3005"
      showgrid="false"
      inkscape:zoom="8.2141514"
@@ -33,7 +33,8 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" /><metadata
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="true" /><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
@@ -8282,7 +8283,13 @@
        clipPathUnits="userSpaceOnUse"><path
          inkscape:connector-curvature="0"
          id="path11081"
-         d="m 0,841.89 595.276,0 L 595.276,0 0,0 0,841.89 Z" /></clipPath></defs><g
+         d="m 0,841.89 595.276,0 L 595.276,0 0,0 0,841.89 Z" /></clipPath></defs><rect
+     style="fill:#ffffff;stroke-width:0.99616039"
+     id="rect2263"
+     width="38"
+     height="24"
+     x="0"
+     y="-5.5511151e-016" /><g
      id="g11469"
      transform="matrix(0.13534041,0,0,0.13534041,10.561119,41.439044)"><g
        transform="matrix(1.25,0,0,-1.25,-73.93887,-236.87917)"

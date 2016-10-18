@@ -14,7 +14,7 @@
    viewBox="0 0 38.000003 23.999999"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92pre1 15099"
    sodipodi:docname="paysera.svg">
   <defs
      id="defs4" />
@@ -39,8 +39,9 @@
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
-     inkscape:window-y="1072"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,6 +59,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-5.4651821,-1021.8912)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.99451786"
+       id="rect10"
+       width="38"
+       height="24"
+       x="5.4651823"
+       y="1021.8912" />
     <g
        transform="matrix(0.0588046,0,0,-0.0588046,-0.2883129,1051.3663)"
        inkscape:label="paysera"

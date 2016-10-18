@@ -16,7 +16,7 @@
    id="svg2"
    xml:space="preserve"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92pre1 15099"
    sodipodi:docname="nordea.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
      id="metadata14"><rdf:RDF><cc:Work
@@ -42,8 +42,15 @@
      inkscape:window-y="123"
      inkscape:current-layer="svg2"
      showgrid="false"
-     inkscape:window-maximized="0" /><defs
-     id="defs4" /><path
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true" /><defs
+     id="defs4" /><rect
+     style="fill:#ffffff;stroke-width:2.29278612"
+     id="rect3668"
+     width="87.243446"
+     height="55.101124"
+     x="0"
+     y="-1.0299722" /><path
      d="m 12.766165,28.457356 c 0,2.80411 2.405882,4.76217 5.849534,4.76217 3.443652,0 5.848741,-1.95806 5.848741,-4.76217 0,-2.8041 -2.405089,-4.76232 -5.848741,-4.76232 -3.443811,0 -5.849534,1.95838 -5.849534,4.76232 l 0,0 z m 2.399682,3.2e-4 c 0,-1.6549 1.386395,-2.76722 3.449852,-2.76722 2.063297,0 3.450009,1.11232 3.450009,2.76722 0,1.65442 -1.386554,2.76659 -3.450009,2.76659 -2.063457,1.6e-4 -3.449852,-1.11217 -3.449852,-2.76659 l 0,0 z"
      style="fill:#0065a4"
      id="path6"
