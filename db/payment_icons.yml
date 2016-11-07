@@ -23,6 +23,10 @@
   label: JCB
   group: credit_cards
 -
+  name: rupay
+  label: RuPay
+  group: credit_cards
+-
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
