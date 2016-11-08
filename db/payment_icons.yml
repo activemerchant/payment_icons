@@ -142,3 +142,12 @@
   name: dnb
   label: DNB
   group: bank_transfers
+
+  name: prepaysolutions
+  label: PrePaySolutions
+  group: other
+-
+  name: masterpass
+  label: MasterPass
+  group: other
+
