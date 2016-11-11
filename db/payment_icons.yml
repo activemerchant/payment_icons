@@ -107,7 +107,6 @@
   label: NetBanking
   group: bank_transfers
 -
-<<<<<<< HEAD
   name: paysera
   label: Paysera
   group: wallets
@@ -143,14 +142,15 @@
   name: dnb
   label: DNB
   group: bank_transfers
-
+-
   name: prepaysolutions
   label: PrePaySolutions
   group: other
 -
   name: masterpass
   label: MasterPass
-=======
+  group: other
+-
   name: mobilepay
   label: MobilePay
   group: other
@@ -165,6 +165,5 @@
 -
   name: santander
   label: Santander
->>>>>>> d37d4423bd82e18594d3ced7bd6c99ed682e70fe
   group: other
 
