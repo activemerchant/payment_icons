@@ -107,6 +107,7 @@
   label: NetBanking
   group: bank_transfers
 -
+<<<<<<< HEAD
   name: paysera
   label: Paysera
   group: wallets
@@ -165,5 +166,21 @@
 -
   name: santander
   label: Santander
+  group: other
+-
+  name: elv
+  label: ELV
+  group: bank_transfers
+-
+  name: ideal
+  label: iDEAL
+  group: other
+-
+  name: arvato
+  label: Arvato
+  group: other
+-
+  name: swish
+  label: Swish
   group: other
 
