@@ -191,10 +191,6 @@
   label: ePayments
   group: bank_transfers
 -
-  name: paysera
-  label: PaySera
-  group: other
--
   name: paysafecard
   label: PaySafeCard
   group: other
