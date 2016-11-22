@@ -196,3 +196,7 @@
   label: Swish
   group: other
 
+- 
+  name: k-net
+  label: k-net
+  group: credit_cards
