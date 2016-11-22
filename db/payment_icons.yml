@@ -91,6 +91,18 @@
   label: Visa Electron
   group: bank_transfers
 -
+  name: airtel_money
+  label: Airtel Money
+  group: wallets
+-
+  name: freecharge
+  label: Freecharge
+  group: wallets
+-
+  name: ola_money
+  label: Ola Money
+  group: wallets
+-
   name: paytm
   label: Paytm
   group: wallets
