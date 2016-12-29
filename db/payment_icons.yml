@@ -91,6 +91,10 @@
   label: Visa Electron
   group: bank_transfers
 -
+  name: knet
+  label: KNET
+  group: bank_transfers
+-
   name: airtel_money
   label: Airtel Money
   group: wallets
