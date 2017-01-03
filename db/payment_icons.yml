@@ -4,7 +4,7 @@
   group: credit_cards
 -
   name: master
-  label: MasterCard
+  label: Mastercard
   group: credit_cards
 -
   name: discover
