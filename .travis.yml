@@ -1,0 +1,10 @@
+ language: ruby
+ script: "bundle exec rake test"
+ sudo: false
+ cache: bundler
+
+ rvm:
+ - 2.2.3
+
+notifications:
+  email: false
