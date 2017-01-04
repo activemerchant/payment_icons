@@ -4,7 +4,7 @@ class IconsControllerTest < ActionController::TestCase
 
   test 'can find all payment icon assets' do
     PaymentIcon.all.each do |icon|
-      assert_not_nil Rails.application.assets.find_asset("payment_icons/#{icon.name}.svg")
+      assert_not_nil Rails.application.assets.find_asset("payment_icons/#{icon.name}.svg"), "#{icon.name} not found"
     end
   end
 
