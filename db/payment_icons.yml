@@ -11,11 +11,11 @@
   label: Discover
   group: credit_cards
 -
-  name: american-express
+  name: american_express
   label: American Express
   group: credit_cards
 -
-  name: diners-club
+  name: diners_club
   label: Diners Club
   group: credit_cards
 -
@@ -63,7 +63,7 @@
   label: Giropay
   group: bank_transfers
 -
-  name: google-wallet
+  name: google_wallet
   label: Google Wallet
   group: wallets
 -
@@ -142,7 +142,7 @@
   name: nordea
   label: Nordea
   group: bank_transfers
-- 
+-
   name: seb
   label: SEB
   group: bank_transfers
