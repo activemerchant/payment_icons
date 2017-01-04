@@ -122,7 +122,7 @@
   name: paysera
   label: Paysera
   group: wallets
--  
+-
   name: citadele
   label: Citadele
   group: bank_transfers
@@ -132,17 +132,17 @@
   group: bank_transfers
 -
   name: krediidipank
-  label: Krediidipank 
+  label: Krediidipank
   group: bank_transfers
 -
   name: lhv
-  label: LHV 
+  label: LHV
   group: bank_transfers
 -
   name: nordea
   label: Nordea
   group: bank_transfers
- - 
+- 
   name: seb
   label: SEB
   group: bank_transfers
