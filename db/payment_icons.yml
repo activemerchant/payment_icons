@@ -72,7 +72,7 @@
   group: bank_transfers
 -
   name: paypal
-  label: Paypal
+  label: PayPal
   group: wallets
 -
   name: sofort
