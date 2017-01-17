@@ -206,3 +206,23 @@
   name: paysafecard
   label: PaySafeCard
   group: other
+-
+  name: masterpass
+  label: MasterPass
+  group: other
+-
+  name: mondido
+  label: Mondido
+  group: other
+-
+  name: collector
+  label: Collector
+  group: other
+-
+  name: trustly
+  label: Trustly
+  group: other
+-
+  name: invoice
+  label: Invoice
+  group: other
