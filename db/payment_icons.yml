@@ -207,10 +207,6 @@
   label: PaySafeCard
   group: other
 -
-  name: masterpass
-  label: MasterPass
-  group: other
--
   name: mondido
   label: Mondido
   group: other
