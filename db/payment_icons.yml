@@ -206,3 +206,7 @@
   name: paysafecard
   label: PaySafeCard
   group: other
+-
+  name: sezzle
+  label: Sezzle
+  group: other
