@@ -234,3 +234,7 @@
   name: sunkus
   label: Sunkus
   group: convenience_stores
+-
+  name: dailyyamazaki
+  label: Daily Yamazaki
+  group: convenience_stores
