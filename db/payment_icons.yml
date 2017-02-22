@@ -83,9 +83,9 @@
   label: Maestro
   group: bank_transfers
 -
-  name: unionpay
+  name: union_pay
   label: Union Pay
-  group: bank_transfers
+  group: credit_cards
 -
   name: visaelectron
   label: Visa Electron
