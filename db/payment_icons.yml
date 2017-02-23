@@ -210,3 +210,31 @@
   name: sezzle
   label: Sezzle
   group: other
+-
+  name: familymart
+  label: FamilyMart
+  group: convenience_stores
+-
+  name: seveneleven
+  label: 7-Eleven
+  group: convenience_stores
+-
+  name: lawson
+  label: Lawson
+  group: convenience_stores
+-
+  name: circlek
+  label: Circle K
+  group: convenience_stores
+-
+  name: ministop
+  label: Ministop
+  group: convenience_stores
+-
+  name: sunkus
+  label: Sunkus
+  group: convenience_stores
+-
+  name: dailyyamazaki
+  label: Daily Yamazaki
+  group: convenience_stores
