@@ -4,18 +4,18 @@
   group: credit_cards
 -
   name: master
-  label: MasterCard
+  label: Mastercard
   group: credit_cards
 -
   name: discover
   label: Discover
   group: credit_cards
 -
-  name: american-express
+  name: american_express
   label: American Express
   group: credit_cards
 -
-  name: diners-club
+  name: diners_club
   label: Diners Club
   group: credit_cards
 -
@@ -63,7 +63,7 @@
   label: Giropay
   group: bank_transfers
 -
-  name: google-wallet
+  name: google_wallet
   label: Google Wallet
   group: wallets
 -
@@ -72,7 +72,7 @@
   group: bank_transfers
 -
   name: paypal
-  label: Paypal
+  label: PayPal
   group: wallets
 -
   name: sofort
@@ -83,9 +83,9 @@
   label: Maestro
   group: bank_transfers
 -
-  name: unionpay
+  name: union_pay
   label: Union Pay
-  group: bank_transfers
+  group: credit_cards
 -
   name: visaelectron
   label: Visa Electron
@@ -122,7 +122,7 @@
   name: paysera
   label: Paysera
   group: wallets
--  
+-
   name: citadele
   label: Citadele
   group: bank_transfers
@@ -132,17 +132,17 @@
   group: bank_transfers
 -
   name: krediidipank
-  label: Krediidipank 
+  label: Krediidipank
   group: bank_transfers
 -
   name: lhv
-  label: LHV 
+  label: LHV
   group: bank_transfers
 -
   name: nordea
   label: Nordea
   group: bank_transfers
- - 
+-
   name: seb
   label: SEB
   group: bank_transfers
@@ -207,7 +207,12 @@
   label: PaySafeCard
   group: other
 
+
   -
   name: laybuy
   label: Lay-Buy Powered By PayPal
+  group: other
+-
+  name: sezzle
+  label: Sezzle
   group: other
