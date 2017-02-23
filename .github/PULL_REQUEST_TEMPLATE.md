@@ -1,5 +1,4 @@
 ** Checklist **
-- [ ] This PR includes no more than 5 new icons
 - [ ] All icons include `width="28" height="24"` in their attributes
 - [ ] All icons have solid white backgrounds
 - [ ] All icons have a corresponding entry in `db/payment_icons.yml`
