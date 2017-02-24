@@ -207,6 +207,10 @@
   label: PaySafeCard
   group: other
 -
+  name: laybuy
+  label: Lay-Buy Powered By PayPal
+  group: other
+-
   name: sezzle
   label: Sezzle
   group: other
