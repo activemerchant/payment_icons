@@ -242,3 +242,7 @@
   name: dailyyamazaki
   label: Daily Yamazaki
   group: convenience_stores
+-
+  name: paymark_online_eftpos
+  label: Paymark Online Eftpos
+  group: bank_transfers
