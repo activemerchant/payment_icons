@@ -1,0 +1,11 @@
+<%
+  pattern = File.join(__dir__, "../../images/payment_icons/*.svg")
+  icons = Dir.glob(pattern)
+  icons.each do |path|
+    brand = File.basename(path, '.svg')
+%>
+.payment-icon--<%= brand.dasherize %> {
+  background-image: image-url("payment_icons/<%= brand %>.png");
+  background-image: image-url("payment_icons/<%= brand %>.svg"), none;
+}
+<% end %>
