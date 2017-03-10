@@ -248,7 +248,7 @@
   group: other
 -
   name: collector_bank
-  label: Collector
+  label: Collector Bank
   group: other
 -
   name: trustly
