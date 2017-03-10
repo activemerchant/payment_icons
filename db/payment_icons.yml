@@ -242,3 +242,19 @@
   name: dailyyamazaki
   label: Daily Yamazaki
   group: convenience_stores
+-
+  name: mondido
+  label: Mondido
+  group: other
+-
+  name: collector_bank
+  label: Collector Bank
+  group: other
+-
+  name: trustly
+  label: Trustly
+  group: other
+-
+  name: invoice
+  label: Invoice
+  group: other
