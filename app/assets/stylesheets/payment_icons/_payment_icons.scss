@@ -1,0 +1,6 @@
+@each $svg-name, $class-name in payment-icons() {
+  .payment-icon--#{$class-name} {
+    background-image: image-url("payment_icons/#{$svg-name}.png");
+    background-image: image-url("payment_icons/#{$svg-name}.svg"), none;
+  }
+}
