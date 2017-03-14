@@ -258,3 +258,7 @@
   name: invoice
   label: Invoice
   group: other
+-
+  name: apple_pay
+  label: Apple Pay
+  group: wallets
