@@ -251,10 +251,6 @@
   label: Collector Bank
   group: other
 -
-  name: trustly
-  label: Trustly
-  group: other
--
   name: apple_pay
   label: Apple Pay
   group: wallets
