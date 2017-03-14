@@ -4,23 +4,27 @@
   group: credit_cards
 -
   name: master
-  label: MasterCard
+  label: Mastercard
   group: credit_cards
 -
   name: discover
   label: Discover
   group: credit_cards
 -
-  name: american-express
+  name: american_express
   label: American Express
   group: credit_cards
 -
-  name: diners-club
+  name: diners_club
   label: Diners Club
   group: credit_cards
 -
   name: jcb
   label: JCB
+  group: credit_cards
+-
+  name: rupay
+  label: RuPay
   group: credit_cards
 -
   name: bitcoin
@@ -59,7 +63,7 @@
   label: Giropay
   group: bank_transfers
 -
-  name: google-wallet
+  name: google_wallet
   label: Google Wallet
   group: wallets
 -
@@ -68,7 +72,7 @@
   group: bank_transfers
 -
   name: paypal
-  label: Paypal
+  label: PayPal
   group: wallets
 -
   name: sofort
@@ -99,6 +103,170 @@
   label: payD
   group: other
 -
+  name: airtel_money
+  label: Airtel Money
+  group: wallets
+-
+  name: freecharge
+  label: Freecharge
+  group: wallets
+-
+  name: ola_money
+  label: Ola Money
+  group: wallets
+-
+  name: paytm
+  label: Paytm
+  group: wallets
+-
+  name: mobikwik
+  label: MobiKwik
+  group: wallets
+-
+  name: payzapp
+  label: PayZapp
+  group: wallets
+-
+  name: netbanking
+  label: NetBanking
+  group: bank_transfers
+-
+  name: paysera
+  label: Paysera
+  group: wallets
+-
+  name: citadele
+  label: Citadele
+  group: bank_transfers
+-
+  name: danske_bank
+  label: Danske Bank
+  group: bank_transfers
+-
+  name: krediidipank
+  label: Krediidipank
+  group: bank_transfers
+-
+  name: lhv
+  label: LHV
+  group: bank_transfers
+-
+  name: nordea
+  label: Nordea
+  group: bank_transfers
+-
+  name: seb
+  label: SEB
+  group: bank_transfers
+-
+  name: swedbank
+  label: Swedbank
+  group: bank_transfers
+-
+  name: dnb
+  label: DNB
+  group: bank_transfers
+-
+  name: prepaysolutions
+  label: PrePaySolutions
+  group: other
+-
   name: masterpass
   label: MasterPass
+  group: other
+-
+  name: mobilepay
+  label: MobilePay
+  group: other
+-
+  name: viabill
+  label: ViaBill
+  group: other
+-
+  name: klarna
+  label: Klarna
+  group: other
+-
+  name: santander
+  label: Santander
+  group: other
+-
+  name: elv
+  label: ELV
+  group: bank_transfers
+-
+  name: ideal
+  label: iDEAL
+  group: other
+-
+  name: arvato
+  label: Arvato
+  group: other
+-
+  name: swish
+  label: Swish
+  group: other
+-
+  name: przelew24
+  label: Przelew24
+  group: bank_transfers
+-
+  name: epayments
+  label: ePayments
+  group: bank_transfers
+-
+  name: paysafecard
+  label: PaySafeCard
+  group: other
+-
+  name: laybuy
+  label: Lay-Buy Powered By PayPal
+  group: other
+-
+  name: sezzle
+  label: Sezzle
+  group: other
+-
+  name: familymart
+  label: FamilyMart
+  group: convenience_stores
+-
+  name: seveneleven
+  label: 7-Eleven
+  group: convenience_stores
+-
+  name: lawson
+  label: Lawson
+  group: convenience_stores
+-
+  name: circlek
+  label: Circle K
+  group: convenience_stores
+-
+  name: ministop
+  label: Ministop
+  group: convenience_stores
+-
+  name: sunkus
+  label: Sunkus
+  group: convenience_stores
+-
+  name: dailyyamazaki
+  label: Daily Yamazaki
+  group: convenience_stores
+-
+  name: mondido
+  label: Mondido
+  group: other
+-
+  name: collector_bank
+  label: Collector Bank
+  group: other
+-
+  name: trustly
+  label: Trustly
+  group: other
+-
+  name: invoice
+  label: Invoice
   group: other

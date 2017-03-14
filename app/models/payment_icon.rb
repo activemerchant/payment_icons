@@ -6,6 +6,7 @@ class PaymentIcon < FrozenRecord::Base
       cryptocurrencies: 'Digital currencies',
       bank_transfers: 'Bank transfers',
       wallets: 'Digital wallets',
+      convenience_stores: 'Convenience Stores',
       other: 'Other'
     }
 
@@ -31,5 +32,9 @@ class PaymentIcon < FrozenRecord::Base
 
   def self.wallets
     where(group: 'wallets')
+  end
+
+  def self.convenience_stores
+    where(group: 'convenience_stores')
   end
 end
