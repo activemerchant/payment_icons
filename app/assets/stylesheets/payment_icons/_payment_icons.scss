@@ -1,3 +1,19 @@
+$payment-icon--height: 24px;
+$duration--slowest: 0.5s;
+$easing--spring: cubic-bezier(0.3, 0, 0, 1);
+
+.payment-icon {
+  display: inline-block;
+  width: 38px;
+  height: $payment-icon--height;
+  transition: opacity $duration--slowest $easing--spring;
+  -webkit-backface-visibility: hidden;
+
+  .blank-slate & {
+    vertical-align: middle;
+  }
+}
+
 @each $svg-name, $class-name in payment-icons() {
   .payment-icon--#{$class-name} {
     background-image: image-url("payment_icons/#{$svg-name}.png");

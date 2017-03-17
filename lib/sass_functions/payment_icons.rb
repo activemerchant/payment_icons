@@ -1,17 +1,23 @@
 # frozen_string_literal: true
 require 'sass'
 
-module Sass::Script::Functions
-  include Sass::Script::Value::Helpers
+module SassFunctions
+  module PaymentIcons
+    def payment_icons
+      pattern = ::PaymentIcons::Engine.root.join('app', 'assets', 'images', 'payment_icons', '*.svg')
+      icons = Dir.glob(pattern).map do |icon_path|
+        icon_name = File.basename(icon_path, '.svg')
+        svg_name = Sass::Script::Value::String.new(icon_name)
+        class_name = Sass::Script::Value::String.new(icon_name.dasherize)
 
-  def payment_icons
-    pattern = ::PaymentIcons::Engine.root.join('app', 'assets', 'images', 'payment_icons', '*.svg')
-    icons = Dir.glob(pattern).map do |icon_path|
-      icon_name = File.basename(icon_path, '.svg')
+        Sass::Script::Value::List.new([svg_name, class_name], :space)
+      end
 
-      list(quoted_string(icon_name), quoted_string(icon_name.dasherize), :space)
+      Sass::Script::Value::List.new(icons, :space)
     end
-
-    list(icons, :space)
   end
+end
+
+module Sass::Script::Functions
+  include SassFunctions::PaymentIcons
 end
