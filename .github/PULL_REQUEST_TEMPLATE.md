@@ -1,6 +1,7 @@
 ** Checklist **
 - [ ] All icons include `width="38" height="24"` in their attributes
 - [ ] All icons have solid white backgrounds
+- [ ] All icons have a a `viewBox` attribute
 - [ ] All fonts have been converted to paths
 - [ ] All icons have a corresponding entry in `db/payment_icons.yml`
 - [ ] I am confident that all icons are clear and easy to read/understand
