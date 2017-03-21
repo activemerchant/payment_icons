@@ -266,3 +266,7 @@
   name: apple_pay
   label: Apple Pay
   group: wallets
+-
+  name: trustly
+  label: Trustly
+  group: other
