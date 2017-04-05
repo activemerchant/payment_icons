@@ -270,3 +270,27 @@
   name: trustly
   label: Trustly
   group: other
+-
+  name: ambank
+  label: AmBank
+  group: bank_transfers
+-
+  name: cimb
+  label: CIMB Bank
+  group: bank_transfers
+-
+  name: hongleongbank
+  label: Hong Leong Bank
+  group: bank_transfers
+-
+  name: maybank
+  label: Maybank
+  group: bank_transfers
+-
+  name: publicbank
+  label: Public Bank
+  group: bank_transfers
+-
+  name: rhbbank
+  label: RHB Bank
+  group: bank_transfers
