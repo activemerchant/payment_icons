@@ -27,6 +27,10 @@
   label: RuPay
   group: credit_cards
 -
+  name: cb
+  label: CB
+  group: credit_cards
+-
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
