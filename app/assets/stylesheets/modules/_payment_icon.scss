@@ -1,0 +1,5 @@
+$icon-size: 56px 36px;
+
+.ico-payment-method--bitcoin { background-image: asset-url("payment_icons/bitcoin.svg"); background-size: $icon-size }
+.ico-payment-method--litecoin { background-image: asset-url("payment_icons/litecoin.svg"); background-size: $icon-size }
+.ico-payment-method--dogecoin { background-image: asset-url("payment_icons/dogecoin.svg"); background-size: $icon-size }
