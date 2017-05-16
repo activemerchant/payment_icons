@@ -267,6 +267,10 @@
   label: Apple Pay
   group: wallets
 -
+  name: shopify_pay
+  label: Shopify Pay
+  group: other
+-
   name: trustly
   label: Trustly
   group: other
