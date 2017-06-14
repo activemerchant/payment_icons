@@ -298,3 +298,7 @@
   name: rhbbank
   label: RHB Bank
   group: bank_transfers
+-
+  name: paymark_online_eftpos
+  label: Paymark Online Eftpos
+  group: bank_transfers
