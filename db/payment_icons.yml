@@ -83,13 +83,25 @@
   label: Maestro
   group: bank_transfers
 -
-  name: union_pay
+  name: unionpay
   label: Union Pay
-  group: credit_cards
+  group: bank_transfers
 -
   name: visaelectron
   label: Visa Electron
   group: bank_transfers
+-
+  name: payfast_instant_eft
+  label: PayFast Instant EFT
+  group: bank_transfers
+-
+  name: mobicred
+  label: mobicred
+  group: other
+-
+  name: payd
+  label: payD
+  group: other
 -
   name: airtel_money
   label: Airtel Money
@@ -242,6 +254,50 @@
   name: dailyyamazaki
   label: Daily Yamazaki
   group: convenience_stores
+-
+  name: mondido
+  label: Mondido
+  group: other
+-
+  name: collector_bank
+  label: Collector Bank
+  group: other
+-
+  name: apple_pay
+  label: Apple Pay
+  group: wallets
+-
+  name: shopify_pay
+  label: Shopify Pay
+  group: other
+-
+  name: trustly
+  label: Trustly
+  group: other
+-
+  name: ambank
+  label: AmBank
+  group: bank_transfers
+-
+  name: cimb
+  label: CIMB Bank
+  group: bank_transfers
+-
+  name: hongleongbank
+  label: Hong Leong Bank
+  group: bank_transfers
+-
+  name: maybank
+  label: Maybank
+  group: bank_transfers
+-
+  name: publicbank
+  label: Public Bank
+  group: bank_transfers
+-
+  name: rhbbank
+  label: RHB Bank
+  group: bank_transfers
 -
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
