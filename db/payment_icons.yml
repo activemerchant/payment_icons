@@ -4,18 +4,18 @@
   group: credit_cards
 -
   name: master
-  label: MasterCard
+  label: Mastercard
   group: credit_cards
 -
   name: discover
   label: Discover
   group: credit_cards
 -
-  name: american-express
+  name: american_express
   label: American Express
   group: credit_cards
 -
-  name: diners-club
+  name: diners_club
   label: Diners Club
   group: credit_cards
 -
@@ -63,7 +63,7 @@
   label: Giropay
   group: bank_transfers
 -
-  name: google-wallet
+  name: google_wallet
   label: Google Wallet
   group: wallets
 -
@@ -72,7 +72,7 @@
   group: bank_transfers
 -
   name: paypal
-  label: Paypal
+  label: PayPal
   group: wallets
 -
   name: sofort
@@ -90,6 +90,18 @@
   name: visaelectron
   label: Visa Electron
   group: bank_transfers
+-
+  name: payfast_instant_eft
+  label: PayFast Instant EFT
+  group: bank_transfers
+-
+  name: mobicred
+  label: mobicred
+  group: other
+-
+  name: payd
+  label: payD
+  group: other
 -
   name: airtel_money
   label: Airtel Money
@@ -122,7 +134,7 @@
   name: paysera
   label: Paysera
   group: wallets
--  
+-
   name: citadele
   label: Citadele
   group: bank_transfers
@@ -132,17 +144,17 @@
   group: bank_transfers
 -
   name: krediidipank
-  label: Krediidipank 
+  label: Krediidipank
   group: bank_transfers
 -
   name: lhv
-  label: LHV 
+  label: LHV
   group: bank_transfers
 -
   name: nordea
   label: Nordea
   group: bank_transfers
- - 
+-
   name: seb
   label: SEB
   group: bank_transfers
@@ -207,10 +219,96 @@
   label: PaySafeCard
   group: other
 -
+
   name: postfinance-card
   label: PostFinance Card
   group: credit_cards
 -
   name: postfinance-e-finance
   label: PostFinance E-Finance
+  group: bank_transfers
+ -
+  
+  name: laybuy
+  label: Lay-Buy Powered By PayPal
+  group: other
+-
+  name: sezzle
+  label: Sezzle
+  group: other
+-
+  name: familymart
+  label: FamilyMart
+  group: convenience_stores
+-
+  name: seveneleven
+  label: 7-Eleven
+  group: convenience_stores
+-
+  name: lawson
+  label: Lawson
+  group: convenience_stores
+-
+  name: circlek
+  label: Circle K
+  group: convenience_stores
+-
+  name: ministop
+  label: Ministop
+  group: convenience_stores
+-
+  name: sunkus
+  label: Sunkus
+  group: convenience_stores
+-
+  name: dailyyamazaki
+  label: Daily Yamazaki
+  group: convenience_stores
+-
+  name: mondido
+  label: Mondido
+  group: other
+-
+  name: collector_bank
+  label: Collector Bank
+  group: other
+-
+  name: apple_pay
+  label: Apple Pay
+  group: wallets
+-
+  name: shopify_pay
+  label: Shopify Pay
+  group: other
+-
+  name: trustly
+  label: Trustly
+  group: other
+-
+  name: ambank
+  label: AmBank
+  group: bank_transfers
+-
+  name: cimb
+  label: CIMB Bank
+  group: bank_transfers
+-
+  name: hongleongbank
+  label: Hong Leong Bank
+  group: bank_transfers
+-
+  name: maybank
+  label: Maybank
+  group: bank_transfers
+-
+  name: publicbank
+  label: Public Bank
+  group: bank_transfers
+-
+  name: rhbbank
+  label: RHB Bank
+  group: bank_transfers
+-
+  name: paymark_online_eftpos
+  label: Paymark Online Eftpos
   group: bank_transfers
