@@ -27,6 +27,10 @@
   label: RuPay
   group: credit_cards
 -
+  name: ethereum
+  label: Ethereum
+  group: cryptocurrencies
+-
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
