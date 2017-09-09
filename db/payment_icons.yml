@@ -187,8 +187,16 @@
   label: ViaBill
   group: other
 -
-  name: klarna
-  label: Klarna
+  name: klarna_paynow
+  label: Klarna Pay Now
+  group: other
+-
+  name: klarna_paylater
+  label: Klarna Pay Later
+  group: other
+-
+  name: klarna_sliceit
+  label: Klarna Slice It
   group: other
 -
   name: santander
