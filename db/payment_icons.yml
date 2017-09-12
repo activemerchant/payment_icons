@@ -187,15 +187,15 @@
   label: ViaBill
   group: other
 -
-  name: klarna_paynow
+  name: klarna-pay-now
   label: Klarna Pay Now
   group: other
 -
-  name: klarna_paylater
+  name: klarna-pay-later
   label: Klarna Pay Later
   group: other
 -
-  name: klarna_sliceit
+  name: klarna-slice-it
   label: Klarna Slice It
   group: other
 -
