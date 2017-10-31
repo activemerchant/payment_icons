@@ -27,6 +27,10 @@
   label: RuPay
   group: credit_cards
 -
+  name: ethereum
+  label: Ethereum
+  group: cryptocurrencies
+-
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
@@ -183,8 +187,16 @@
   label: ViaBill
   group: other
 -
-  name: klarna
-  label: Klarna
+  name: klarna-pay-now
+  label: Klarna Pay Now
+  group: other
+-
+  name: klarna-pay-later
+  label: Klarna Pay Later
+  group: other
+-
+  name: klarna-slice-it
+  label: Klarna Slice It
   group: other
 -
   name: santander
@@ -267,6 +279,10 @@
   label: Apple Pay
   group: wallets
 -
+  name: shopify_pay
+  label: Shopify Pay
+  group: other
+-
   name: trustly
   label: Trustly
   group: other
@@ -293,4 +309,8 @@
 -
   name: rhbbank
   label: RHB Bank
+  group: bank_transfers
+-
+  name: paymark_online_eftpos
+  label: Paymark Online Eftpos
   group: bank_transfers
