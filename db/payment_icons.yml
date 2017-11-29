@@ -35,6 +35,10 @@
   label: Bitcoin
   group: cryptocurrencies
 -
+  name: monero
+  label: Monero
+  group: cryptocurrencies
+-
   name: dogecoin
   label: Dogecoin
   group: cryptocurrencies
