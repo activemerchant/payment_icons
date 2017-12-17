@@ -318,3 +318,7 @@
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
   group: bank_transfers
+-
+  name: esr_paymentslip_switzerland
+  label: ESR Paymentslip
+  group: other
