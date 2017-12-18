@@ -318,3 +318,7 @@
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
   group: bank_transfers
+-
+  name: mpesa-new
+  label: Mpesa
+  group: wallets
