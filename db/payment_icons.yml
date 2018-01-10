@@ -71,6 +71,10 @@
   label: Giropay
   group: bank_transfers
 -
+  name: google_pay
+  label: Google Pay
+  group: wallets
+-
   name: google_wallet
   label: Google Wallet
   group: wallets
