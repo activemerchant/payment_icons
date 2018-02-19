@@ -322,3 +322,15 @@
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
   group: bank_transfers
+-
+  name: elo
+  label: Elo
+  group: credit_cards
+-
+  name: hiper
+  label: Hiper
+  group: credit_cards
+-
+  name: hiper_card
+  label: Hiper Card
+  group: credit_cards
