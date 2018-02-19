@@ -330,3 +330,7 @@
   name: hyper
   label: Hiper
   group: credit_cards
+-
+  name: hyper_card
+  label: Hiper Card
+  group: credit_cards
