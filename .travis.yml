@@ -1,10 +1,16 @@
- language: ruby
- script: "bundle exec rake test"
- sudo: false
- cache: bundler
+language: ruby
+script: "bundle exec rake test"
+sudo: false
+cache: bundler
 
- rvm:
- - 2.2.3
+rvm:
+  - 2.2.3
+
+gemfile:
+  - gemfiles/rails-4-2.gemfile
+  - gemfiles/rails-5-0.gemfile
+  - gemfiles/rails-5-1.gemfile
+  - gemfiles/rails-5-2.gemfile
 
 notifications:
-  email: false
+email: false
