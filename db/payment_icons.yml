@@ -47,6 +47,10 @@
   label: Litecoin
   group: cryptocurrencies
 -
+  name: bitcoin_cash
+  label: Bitcoin Cash
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
