@@ -322,3 +322,7 @@
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
   group: bank_transfers
+-
+  name: credix
+  label: Credix
+  group: other
