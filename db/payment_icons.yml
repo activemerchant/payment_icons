@@ -243,6 +243,16 @@
   label: PaySafeCard
   group: other
 -
+
+  name: postfinance-card
+  label: PostFinance Card
+  group: credit_cards
+-
+  name: postfinance-e-finance
+  label: PostFinance E-Finance
+  group: bank_transfers
+ -
+  
   name: laybuy
   label: Lay-Buy Powered By PayPal
   group: other
