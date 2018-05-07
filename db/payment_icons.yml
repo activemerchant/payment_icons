@@ -330,3 +330,7 @@
   name: esr_paymentslip_switzerland
   label: ESR Paymentslip
   group: other
+-
+  name: twint
+  label: Twint
+  group: wallets
