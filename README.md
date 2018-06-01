@@ -21,7 +21,7 @@ Once the gem is part of your Rails project, the PaymentIcon [frozen record](http
 
 For example:
 
-```liquid
+```erb
 <% PaymentIcon.credit_cards.each do |card| %>
   <div>
     <%= image_tag card.path %>
