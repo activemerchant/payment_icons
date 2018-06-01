@@ -27,7 +27,8 @@ class PaymentIconTest < ActiveSupport::TestCase
     PaymentIcon.all.each do |icon|
       file = File.read(ICONS_DIRECTORY.join("#{icon.name}.svg")).freeze
       document = Nokogiri::XML.parse(file)
-      assert document.errors.blank?, message: "The '#{icon.name}' SVG file is invalid: #{document.errors}"
+      assert document.errors.blank?,
+        message: "The '#{icon.name}' SVG file is invalid: #{document.errors}. Please fix the errors, then optimize the file using SVGO."
     end
   end
 
