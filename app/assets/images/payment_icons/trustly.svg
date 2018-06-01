@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="38" height="24" viewBox="0 0 38 24" style="background-color:white" stroke-width="0">
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="24" viewBox="0 0 38 24" style="background-color:white" stroke-width="0" role="img">
+  <title>Trustly</title>
   <defs>
     <path id="a" d="M4 7h29.8v10.8H4z"/>
   </defs>
