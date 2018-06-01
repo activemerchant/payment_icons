@@ -1,3 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 38 24" width="38" height="24"><defs><path d="M0 0L38 0L38 24L0 24L0 0Z" id="a17aXbfHma"></path><path d="M0.69 0.61L37.5 0.61L37.5 23.67L0.69 23.67L0.69 0.61Z" id="d3tFTLW1MO"></path><path d="M9.46 19.7L37.5 19.7L37.5 23.67L9.46 23.67L9.46 19.7Z" id="e4tnJqoLg"></path><path d="M37.53 0.46L37.53 23.63L22.1 23.63L0.46 23.63L0.46 0.46L37.53 0.46Z" id="euVlrPG5c"></path><path d="M37.5 5.31L0.69 5.31" id="a5024qKwD"></path><path d="M23.57 19.7L23.57 5.31" id="a4iME7zOsA"></path><path d="M37.5 13.43L23.57 13.43" id="a2ipZ2vzyn"></path><path d="M2.66 11.66L11.07 11.66L11.07 13.87L2.66 13.87L2.66 11.66Z" id="ddfH4NPPf"></path><path d="M13.06 11.66L21.48 11.66L21.48 13.87L13.06 13.87L13.06 11.66Z" id="c3VBoIAICG"></path></defs><g><g><g><use xlink:href="#a17aXbfHma" opacity="1" fill="#ffffff" fill-opacity="1"></use></g><g><use xlink:href="#d3tFTLW1MO" opacity="1" fill="#ffca7e" fill-opacity="1"></use></g><g><use xlink:href="#e4tnJqoLg" opacity="1" fill="#ffffff" fill-opacity="1"></use></g><g><g><use xlink:href="#euVlrPG5c" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#a5024qKwD" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#a4iME7zOsA" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#a2ipZ2vzyn" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g><g><use xlink:href="#ddfH4NPPf" opacity="1" fill="#bd740b" fill-opacity="1"></use></g><g><use xlink:href="#c3VBoIAICG" opacity="1" fill="#bd740b" fill-opacity="1"></use></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 38 24" width="38" height="24" role="img">
+  <title>ESR Paymentslip</title><defs>
+    <path d="M0 0L38 0L38 24L0 24L0 0Z" id="a17aXbfHma"/>
+    <path d="M0.69 0.61L37.5 0.61L37.5 23.67L0.69 23.67L0.69 0.61Z" id="d3tFTLW1MO"/>
+    <path d="M9.46 19.7L37.5 19.7L37.5 23.67L9.46 23.67L9.46 19.7Z" id="e4tnJqoLg"/>
+    <path d="M37.53 0.46L37.53 23.63L22.1 23.63L0.46 23.63L0.46 0.46L37.53 0.46Z" id="euVlrPG5c"/>
+    <path d="M37.5 5.31L0.69 5.31" id="a5024qKwD"/>
+    <path d="M23.57 19.7L23.57 5.31" id="a4iME7zOsA"/>
+    <path d="M37.5 13.43L23.57 13.43" id="a2ipZ2vzyn"/>
+    <path d="M2.66 11.66L11.07 11.66L11.07 13.87L2.66 13.87L2.66 11.66Z" id="ddfH4NPPf"/>
+    <path d="M13.06 11.66L21.48 11.66L21.48 13.87L13.06 13.87L13.06 11.66Z" id="c3VBoIAICG"/>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <use xlink:href="#a17aXbfHma" opacity="1" fill="#ffffff" fill-opacity="1"/>
+      </g>
+      <g>
+        <use xlink:href="#d3tFTLW1MO" opacity="1" fill="#ffca7e" fill-opacity="1"/>
+      </g>
+      <g>
+        <use xlink:href="#e4tnJqoLg" opacity="1" fill="#ffffff" fill-opacity="1"/>
+      </g>
+      <g>
+        <g>
+          <use xlink:href="#euVlrPG5c" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <use xlink:href="#a5024qKwD" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <use xlink:href="#a4iME7zOsA" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <use xlink:href="#a2ipZ2vzyn" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"/>
+        </g>
+      </g>
+      <g>
+        <use xlink:href="#ddfH4NPPf" opacity="1" fill="#bd740b" fill-opacity="1"/>
+      </g>
+      <g>
+        <use xlink:href="#c3VBoIAICG" opacity="1" fill="#bd740b" fill-opacity="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

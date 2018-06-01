@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="38" height="24" viewBox="0 0 38 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(0.0667275,0,0,0.0667275,19,12)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="38" height="24" viewBox="0 0 38 24" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" role="img">
+    <title>Twint</title><g transform="matrix(0.0667275,0,0,0.0667275,19,12)">
         <g transform="matrix(1,0,0,1,-284.74,-107.905)">
             <path d="M569.48,7.92C569.48,3.549 565.931,0 561.56,0L7.92,0C3.549,0 0,3.549 0,7.92L0,207.89C0,212.261 3.549,215.81 7.92,215.81L561.56,215.81C565.931,215.81 569.48,212.261 569.48,207.89L569.48,7.92Z"/>
             <g transform="matrix(1,0,0,1,-136.2,-189.51)">
