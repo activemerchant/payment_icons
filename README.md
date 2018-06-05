@@ -38,9 +38,20 @@ To add a new payment method icon to this repository:
   
     - 38 by 24 pixels
     - Solid white background
-    - 1px solid grey border
+    - 1 pixel wide solid grey border
     - `role="img"` attribute on the root `<svg>` tag
-    - `<title>` tag containing the label of your icon
+    - `aria-labelledby` attribute on the root `<svg>` tag, equal to `pi-` + the name of your icon
+    - `<title>` tag containing the label of your icon, with an `id` attribute equal to `pi-` + the name of your icon
+
+    Here's a template to get started (don't forget to replace `your-icon`):
+
+    ```
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-your-icon">
+      <title id="pi-your-icon">Your Icon</title>
+      <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/>
+      <path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/>
+    </svg>
+    ```
 
 4. Edit `db/payment_icons.yml` file with the name, label and group of your icon. Valid group options are as follows:
 
@@ -55,7 +66,7 @@ To add a new payment method icon to this repository:
 
     ```
     $ npm install -g svgo
-    $ svgo /path/to/your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle}
+    $ svgo /path/to/your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs}
     ```
 
 5. Push your changes to your fork (`git push origin my_new_icon`)
