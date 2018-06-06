@@ -51,8 +51,11 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test "Every payment SVG meets accessibility requirements" do
+    ICON_ID_PREFIX = "pi-"
+
     PaymentIcon.all.each do |icon|
       document = Nokogiri::XML.parse(SVG_PAYMENT_TYPES[icon.name])
+      icon_id = ICON_ID_PREFIX + icon.name
 
       assert_equal 1, document.root.search('title').count,
         message: "The '#{icon.name}' SVG file should have a single <title> tag"
@@ -66,11 +69,20 @@ class PaymentIconTest < ActiveSupport::TestCase
       assert_equal icon.label, document.root.at('title').content,
         message: "The '#{icon.name}' SVG file does not have the appropriate <title> value"
 
+      assert_equal icon_id, document.root.at('title')['id'],
+        message: "The '#{icon.name}' SVG file does not have the appropriate 'id' value on the <title> tag"
+
       assert document.root.key?('role'),
         message: "The '#{icon.name}' SVG file should have a 'role' attribute on the root <svg> tag"
         
       assert_equal "img", document.root['role'],
         message: "The '#{icon.name}' SVG file should have a role='img' attribute on the root <svg> tag"
+
+      assert document.root.key?('aria-labelledby'),
+        message: "The '#{icon.name}' SVG file should have a 'aria-labelledby' attribute on the root <svg> node"
+
+      assert_equal icon_id, document.root['aria-labelledby'],
+        message: "The '#{icon.name}' SVG file should have a aria-labelledby='#{ICON_ID_PREFIX}#{icon.name}' attribute on the root <svg> node"
     end
   end
 end
