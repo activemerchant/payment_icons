@@ -26,6 +26,12 @@ class PaymentIconTest < ActiveSupport::TestCase
     end
   end
 
+  test 'Every payment icon record has a unique "name"' do
+    names = PaymentIcon.all.map(&:name)
+    duplicates = names.detect {|e| names.rindex(e) != names.index(e) }
+    assert !duplicates.present?, "The payment_icons.yml file contains duplicate records: #{duplicates}"
+  end
+
   test 'Every payment icon SVG has a valid XML tree' do
     PaymentIcon.all.each do |icon|
       document = Nokogiri::XML.parse(SVG_PAYMENT_TYPES[icon.name])
