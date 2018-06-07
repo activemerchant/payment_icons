@@ -33,56 +33,57 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test 'Every payment icon SVG has a valid XML tree' do
-    PaymentIcon.all.each do |icon|
-      document = Nokogiri::XML.parse(SVG_PAYMENT_TYPES[icon.name])
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
       assert document.errors.blank?,
-        message: "The '#{icon.name}' SVG file is invalid: #{document.errors}. Please fix the errors, then optimize the file using SVGO."
+        message: "The '#{payment_type}' SVG file is invalid: #{document.errors}. Please fix the errors, then optimize the file using SVGO."
     end
   end
 
   test 'Every payment icon SVG is 38x24 pixels' do
-    PaymentIcon.all.each do |icon|
-      document = Nokogiri::XML.parse(SVG_PAYMENT_TYPES[icon.name])
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
       assert_equal 38, document.root["width"].to_i,
-        message: "The '#{icon.name}' SVG file must be 38 pixels wide"
+        message: "The '#{payment_type}' SVG file must be 38 pixels wide"
       assert_equal 24, document.root["height"].to_i,
-        message: "The '#{icon.name}' SVG file must be 24 pixels high"
+        message: "The '#{payment_type}' SVG file must be 24 pixels high"
     end
   end
 
   test "Every payment SVG meets accessibility requirements" do
     ICON_ID_PREFIX = "pi-"
 
-    PaymentIcon.all.each do |icon|
-      document = Nokogiri::XML.parse(SVG_PAYMENT_TYPES[icon.name])
-      icon_id = ICON_ID_PREFIX + icon.name
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+      icon_id = ICON_ID_PREFIX + payment_type
 
       assert_equal 1, document.root.search('title').count,
-        message: "The '#{icon.name}' SVG file should have a single <title> tag"
+        message: "The '#{payment_type}' SVG file should have a single <title> tag"
 
       assert document.root.search('title').present?,
-        message: "The '#{icon.name}' SVG file should have a <title> tag as a child of the root <svg> tag"
+        message: "The '#{payment_type}' SVG file should have a <title> tag as a child of the root <svg> tag"
 
       assert_equal "title", document.root.first_element_child.name,
-        message: "The '#{icon.name}' SVG file should have a <title> tag as first child of the root <svg> tag"
-      
-      assert_equal icon.label, document.root.at('title').content,
-        message: "The '#{icon.name}' SVG file does not have the appropriate <title> value"
+        message: "The '#{payment_type}' SVG file should have a <title> tag as first child of the root <svg> tag"
+
+      expected_title = PaymentIcon.where(name: payment_type).present? ? PaymentIcon.where(name: payment_type).first.label : payment_type.titleize
+      assert_equal expected_title, document.root.at('title').content,
+        message: "The '#{payment_type}' SVG file does not have the appropriate <title> value"
 
       assert_equal icon_id, document.root.at('title')['id'],
-        message: "The '#{icon.name}' SVG file does not have the appropriate 'id' value on the <title> tag"
+        message: "The '#{payment_type}' SVG file does not have the appropriate 'id' value on the <title> tag"
 
       assert document.root.key?('role'),
-        message: "The '#{icon.name}' SVG file should have a 'role' attribute on the root <svg> tag"
-        
+        message: "The '#{payment_type}' SVG file should have a 'role' attribute on the root <svg> tag"
+
       assert_equal "img", document.root['role'],
-        message: "The '#{icon.name}' SVG file should have a role='img' attribute on the root <svg> tag"
+        message: "The '#{payment_type}' SVG file should have a role='img' attribute on the root <svg> tag"
 
       assert document.root.key?('aria-labelledby'),
-        message: "The '#{icon.name}' SVG file should have a 'aria-labelledby' attribute on the root <svg> node"
+        message: "The '#{payment_type}' SVG file should have a 'aria-labelledby' attribute on the root <svg> node"
 
       assert_equal icon_id, document.root['aria-labelledby'],
-        message: "The '#{icon.name}' SVG file should have a aria-labelledby='#{ICON_ID_PREFIX}#{icon.name}' attribute on the root <svg> node"
+        message: "The '#{payment_type}' SVG file should have a aria-labelledby='#{ICON_ID_PREFIX}#{payment_type}' attribute on the root <svg> node"
     end
   end
 end
