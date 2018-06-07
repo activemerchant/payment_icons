@@ -35,7 +35,7 @@ To add a new payment method icon to this repository:
 1. [Fork the repository](https://github.com/activemerchant/payment_icons/fork) and clone it
 2. Create a branch (`git checkout -b my_new_icon`)
 3. Add `your-icon.svg` to the `app/assets/images/payment_icons/` directory with the following specifications:
-  
+
     - 38 by 24 pixels
     - Solid white background
     - 1 pixel wide solid grey border
@@ -66,7 +66,7 @@ To add a new payment method icon to this repository:
 
     ```
     $ npm install -g svgo
-    $ svgo /path/to/your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs}
+    $ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
     ```
 
 5. Push your changes to your fork (`git push origin my_new_icon`)
