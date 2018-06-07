@@ -50,6 +50,14 @@ class PaymentIconTest < ActiveSupport::TestCase
     end
   end
 
+  test 'Every payment icon SVG has a viewBox attribute' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+      assert document.root.key?('viewBox'),
+        message: "The '#{payment_type}' SVG file should have a 'viewBox' attribute on the root <svg> tag"
+    end
+  end
+
   test "Every payment SVG meets accessibility requirements" do
     ICON_ID_PREFIX = "pi-"
 
