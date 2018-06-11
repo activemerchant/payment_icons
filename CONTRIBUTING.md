@@ -14,7 +14,7 @@ To add a new payment method icon to this repository:
     - `wallets`
 
 4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons).
-5. Optimize your icon using [SVGO](https://github.com/svg/svgo) - instructions below.
+5. Optimize your icon using [SVGO](https://jakearchibald.github.io/svgomg/) - instructions below.
 
     ```
     $ npm install -g svgo
@@ -42,7 +42,9 @@ The markup below will also make the icon accessible to assistive technology when
 - The root `<svg>` tag has a nested `<title>` tag with the following:
   - `id` attribute with the value `pi-` + the name of your icon, (same as the `aria-labelledby`)
   - Inner text containing the label of your icon
-- The `<svg>` must use vector graphics, i.e. `path`, `g`, etc. Nested `<image>` or `<img>` elements will not be accepted.
+- The `<svg>` must use vector graphics, i.e. `path`, `rect`, etc.
+  - Nested `<image>` or `<img>` elements will not be accepted.
+  - Embedded fonts or bitmaps will not be accepted.
 
 ### Appearance
 - Logos appear on a solid color background
