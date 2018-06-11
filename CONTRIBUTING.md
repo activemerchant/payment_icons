@@ -42,6 +42,7 @@ The markup below will also make the icon accessible to assistive technology when
 - The root `<svg>` tag has a nested `<title>` tag with the following:
   - `id` attribute with the value `pi-` + the name of your icon, (same as the `aria-labelledby`)
   - Inner text containing the label of your icon
+- The `<svg>` must use vector graphics, i.e. `path`, `g`, etc. Nested `<image>` or `<img>` elements will not be accepted.
 
 ### Appearance
 - Logos appear on a solid color background
