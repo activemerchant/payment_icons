@@ -30,9 +30,6 @@ To add a new payment method icon to this repository:
 
 The markup below will also make the icon accessible to assistive technology when used as an inline SVG. Icons are to follow a set of guidelines to provide consistency in appearance.
 
-### File
-- The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
-
 ### Markup
 - The root `<svg>` tag has the following attributes:
   - `viewBox="0 0 38 24"`
@@ -47,10 +44,17 @@ The markup below will also make the icon accessible to assistive technology when
   - Embedded fonts or bitmaps will not be accepted.
 
 ### Appearance
-- Logos appear on a solid color background
+- Logos appear on a solid color background.
   - Whenever possible, the background color should be white.
-- A 1 pixel wide solid grey border with 0.07% opacity surrounds the svg.
-  - This gives the icons a consistent shape on websites whose backgrounds match that of the icon.
+  - Whenever possible, the background color does not use a gradient fill.
+  - Transparent backgrounds will not be accepted.
+- Icons have a visible border to give them a consistent shape on pages whose backgrounds match that of the icon.
+  - Whenever possible, the border should be black with a 0.07% opacity.
+  - The border width must be 1px (pixel) thick.
+  - The border must have a 2px radius (outside stroke).
+
+### File
+- The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
 
 ### Template
 
