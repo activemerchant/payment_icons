@@ -27,6 +27,18 @@
   label: RuPay
   group: credit_cards
 -
+  name: elo
+  label: Elo
+  group: credit_cards
+-
+  name: hyper
+  label: Hyper
+  group: credit_cards
+-
+  name: hypercard
+  label: HyperCard
+  group: credit_cards
+-
   name: ethereum
   label: Ethereum
   group: cryptocurrencies
