@@ -327,6 +327,19 @@
   label: Paymark Online Eftpos
   group: bank_transfers
 -
+elo-hiper-hypercard
+  name: elo
+  label: Elo
+  group: credit_cards
+-
+  name: hyper
+  label: Hiper
+  group: credit_cards
+-
+  name: hyper_card
+  label: Hiper Card
+  group: credit_cards
+-
   name: esr_paymentslip_switzerland
   label: ESR Paymentslip
   group: other
