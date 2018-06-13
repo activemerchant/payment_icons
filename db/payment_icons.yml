@@ -334,3 +334,15 @@
   name: twint
   label: Twint
   group: wallets
+-
+  name: elo
+  label: Elo
+  group: credit_cards
+-
+  name: hyper
+  label: Hyper
+  group: credit_cards
+-
+  name: hypercard
+  label: Hypercard
+  group: credit_cards
