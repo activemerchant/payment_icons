@@ -107,6 +107,10 @@
   label: Visa Electron
   group: bank_transfers
 -
+  name: i_pay_secure_payments
+  label: i-Pay Secure Payments
+  group: bank_transfers
+
   name: payfast_instant_eft
   label: PayFast Instant EFT
   group: bank_transfers
