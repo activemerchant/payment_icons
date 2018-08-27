@@ -346,3 +346,23 @@
   name: hypercard
   label: Hypercard
   group: credit_cards
+-
+  name: fpx
+  label: FPX
+  group: bank_transfers
+-
+  name: atmbersama
+  label: ATM Bersama
+  group: bank_transfers
+-
+  name: bancnet
+  label: Banc Net
+  group: bank_transfers
+-
+  name: alipay
+  label: AliPay
+  group: wallets
+-
+  name: eghl
+  label: eGHL
+  group: other
