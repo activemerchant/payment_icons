@@ -1,4 +1,16 @@
 -
+  name: verified_by_visa
+  label: Verified by Visa
+  group: credit_cards
+-
+  name: mastercard_electronic
+  label: Mastercard Electronic
+  group: credit_cards
+-
+  name: mastercard_secure_code
+  label: Mastercard Secure Code
+  group: credit_cards
+-
   name: visa
   label: Visa
   group: credit_cards
