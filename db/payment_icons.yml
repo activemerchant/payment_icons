@@ -92,7 +92,7 @@
   group: wallets
 -
   name: sofort
-  label: Sofort
+  label: SOFORT
   group: bank_transfers
 -
   name: maestro
