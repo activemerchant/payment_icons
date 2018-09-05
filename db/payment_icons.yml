@@ -366,3 +366,7 @@
   name: eghl
   label: eGHL
   group: other
+-
+  name: unipay
+  label: UniPAY
+  group: wallets
