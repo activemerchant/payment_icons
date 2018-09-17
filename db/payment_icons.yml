@@ -370,3 +370,7 @@
   name: unipay
   label: UniPAY
   group: wallets
+-
+  name: op
+  label: OP
+  group: bank_transfers
