@@ -378,3 +378,11 @@
   name: unipay
   label: UniPAY
   group: wallets
+-
+  name: mash
+  label: Mash
+  group: other
+-
+  name: jousto
+  label: Jousto Lasku ja Osamaksu
+  group: other
