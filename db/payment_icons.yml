@@ -167,6 +167,10 @@
   label: LHV
   group: bank_transfers
 -
+  name: op
+  label: OP
+  group: bank_transfers
+-
   name: nordea
   label: Nordea
   group: bank_transfers
@@ -185,6 +189,10 @@
 -
   name: prepaysolutions
   label: PrePaySolutions
+  group: other
+-
+  name: pivo
+  label: Pivo
   group: other
 -
   name: masterpass
@@ -370,7 +378,3 @@
   name: unipay
   label: UniPAY
   group: wallets
--
-  name: op
-  label: OP
-  group: bank_transfers
