@@ -81,8 +81,14 @@ class PaymentIconTest < ActiveSupport::TestCase
       assert_equal icon_id, document.root.at('title')['id'],
         message: "The '#{payment_type}' SVG file does not have the appropriate 'id' value on the <title> tag"
 
-      assert_equal 1, document.xpath("//*[@id]").count,
-        message: "The '#{payment_type}' SVG file should contain a single 'id' attribute"
+      document.xpath("//*[@id]").each do |element|
+        actual_element_id = element.attr('id')
+        expected_element_id = "#{icon_id}-#{actual_element_id}"
+        expected_element_id_regex = /#{ICON_ID_PREFIX}(.*)/
+
+        assert_match expected_element_id_regex, actual_element_id,
+          message: "The '#{actual_element_id}' ID should be #{expected_element_id} (missing '#{ICON_ID_PREFIX}' prefix)"
+      end
 
       assert document.root.key?('role'),
         message: "The '#{payment_type}' SVG file should have a 'role' attribute on the root <svg> tag"
