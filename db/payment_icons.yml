@@ -91,6 +91,10 @@
   label: PayPal
   group: wallets
 -
+  name: venmo
+  label: Venmo
+  group: wallets
+-
   name: sofort
   label: SOFORT
   group: bank_transfers
