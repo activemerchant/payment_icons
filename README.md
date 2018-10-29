@@ -34,7 +34,11 @@ For information on adding or updating payment icons, see our [CONTRIBUTING.md](h
 
 ### Releases
 
-This information is for project maintainers. To create a new release:
+This information is for project maintainers: 
+
+Any updates that add new icons, or change the style of existing ones, are to be considered patches (i.e. `v1.0.X`).
+
+To create a new release:
 - Change version in `lib/<gem name>/version.rb`
 - Run `bundle install`
 - Commit the changes
