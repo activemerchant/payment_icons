@@ -40,4 +40,4 @@ This information is for project maintainers. To create a new release:
 - Commit the changes
 - `git tag -a v<version>`
 - `git push --tags origin master`
-- Head to the [ShipIt deploy pag](https://shipit.shopify.io/activemerchant/payment_icons/rubygems) and deploy your commit.
+- Head to the [ShipIt deploy page](https://shipit.shopify.io/activemerchant/payment_icons/rubygems) and deploy your commit.
