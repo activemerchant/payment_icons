@@ -31,3 +31,13 @@ For example:
 ## Contributing
 
 For information on adding or updating payment icons, see our [CONTRIBUTING.md](https://github.com/activemerchant/payment_icons/blob/master/CONTRIBUTING.md) file.
+
+### Releases
+
+This information is for project maintainers. To create a new release:
+- Change version in `lib/<gem name>/version.rb`
+- Run `bundle install`
+- Commit the changes
+- `git tag -a v<version>`
+- `git push --tags origin master`
+- Head to the [ShipIt deploy pag](https://shipit.shopify.io/activemerchant/payment_icons/rubygems) and deploy your commit.
