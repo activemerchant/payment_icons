@@ -207,6 +207,10 @@
   label: MobilePay
   group: other
 -
+  name: vipps
+  label: Vipps
+  group: other
+-
   name: viabill
   label: ViaBill
   group: other
