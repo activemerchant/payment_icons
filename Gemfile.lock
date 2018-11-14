@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.0.1)
+    payment_icons (1.0.2)
       frozen_record
       rails (>= 4.1, < 6.0)
       sass
