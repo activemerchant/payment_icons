@@ -390,7 +390,7 @@
   name: jousto
   label: Jousto Lasku ja Osamaksu
   group: other
-  -
+-
   name: mpesa
   label: MPESA
   group: other
