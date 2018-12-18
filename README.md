@@ -43,5 +43,8 @@ To create a new release:
 - Run `bundle install`
 - Commit the changes
 - `git tag -a v<version>`
+- If promoted, make a comment about this version bump. i.e. "Adds icons X and Y"
 - `git push --tags origin master`
 - Contact a maintainer in Shopify to release the new version via ShipIt.
+
+Once dployed via ShipIt, you will see a new release at https://rubygems.org/gems/payment_icons
