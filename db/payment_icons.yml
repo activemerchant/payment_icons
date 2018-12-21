@@ -390,3 +390,7 @@
   name: jousto
   label: Jousto Lasku ja Osamaksu
   group: other
+-
+  name: vipps
+  label: Vipps
+  group: other
