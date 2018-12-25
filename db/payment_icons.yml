@@ -51,6 +51,14 @@
   label: Bitcoin Cash
   group: cryptocurrencies
 -
+  name: dash
+  label: Dash
+  group: cryptocurrencies
+-
+  name: eos
+  label: EOS
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
