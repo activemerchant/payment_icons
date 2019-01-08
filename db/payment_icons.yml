@@ -394,3 +394,7 @@
   name: vipps
   label: Vipps
   group: other
+  
+  name: enets
+  label: eNETS
+  group: other
