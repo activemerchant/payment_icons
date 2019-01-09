@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'frozen_record'
-  s.add_dependency 'rails', '>= 4.1', '< 6.0'
+  s.add_dependency 'rails', '>= 5.0', '< 6.0'
   s.add_dependency 'sass'
 end

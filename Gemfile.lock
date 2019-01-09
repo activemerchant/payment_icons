@@ -3,7 +3,7 @@ PATH
   specs:
     payment_icons (1.0.5)
       frozen_record
-      rails (>= 4.1, < 6.0)
+      rails (>= 5.0, < 6.0)
       sass
 
 GEM
