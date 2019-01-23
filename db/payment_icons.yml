@@ -209,7 +209,7 @@
 -
   name: masterpass
   label: MasterPass
-  group: other
+  group: wallets
 -
   name: mobilepay
   label: MobilePay
