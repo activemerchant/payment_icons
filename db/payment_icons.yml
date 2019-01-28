@@ -208,7 +208,7 @@
   group: other
 -
   name: masterpass
-  label: MasterPass
+  label: Masterpass
   group: wallets
 -
   name: mobilepay
