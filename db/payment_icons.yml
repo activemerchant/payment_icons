@@ -406,3 +406,11 @@
   name: enets
   label: eNETS
   group: other
+  -
+  name: eft_secure
+  label: EFT Secure
+  group: bank_transfers
+    -
+  name: m-pesa
+  label: M-Pesa
+  group: other
