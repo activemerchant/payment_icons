@@ -402,7 +402,11 @@
   name: vipps
   label: Vipps
   group: other
-  
+-  
   name: enets
   label: eNETS
   group: other
+  
+  name: eft_secure
+  label: EFT Secure
+  group: bank_transfers
