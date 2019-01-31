@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.0.4)
+    payment_icons (1.0.6)
       frozen_record
-      rails (>= 4.1, < 6.0)
+      rails (>= 5.0, < 6.0)
       sass
 
 GEM
@@ -54,13 +54,13 @@ GEM
     builder (3.2.3)
     concurrent-ruby (1.1.4)
     crass (1.0.4)
-    erubi (1.7.1)
-    ffi (1.9.25)
+    erubi (1.8.0)
+    ffi (1.10.0)
     frozen_record (0.11.0)
       activemodel
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.2.0)
+    i18n (1.5.1)
       concurrent-ruby (~> 1.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
@@ -70,12 +70,12 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.2)
-    mimemagic (0.3.2)
+    mimemagic (0.3.3)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     nio4r (2.3.1)
-    nokogiri (1.9.1)
+    nokogiri (1.10.0)
       mini_portile2 (~> 2.4.0)
     rack (2.0.6)
     rack-test (1.1.0)
@@ -108,7 +108,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    sass (3.7.2)
+    sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -135,4 +135,4 @@ DEPENDENCIES
   payment_icons!
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
