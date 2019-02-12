@@ -208,7 +208,7 @@
   group: other
 -
   name: masterpass
-  label: MasterPass
+  label: Masterpass
   group: other
 -
   name: mobilepay
@@ -406,3 +406,7 @@
   name: enets
   label: eNETS
   group: other
+-   
+  name: eft_secure
+  label: EFT Secure
+  group: bank_transfers
