@@ -410,3 +410,7 @@
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
+- 
+  name: mpesa
+  label: M-Pesa
+  group: wallets
