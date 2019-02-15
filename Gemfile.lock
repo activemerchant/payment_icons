@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.0.6)
+    payment_icons (1.0.8)
       frozen_record
       rails (>= 5.0, < 6.0)
       sass
@@ -56,11 +56,11 @@ GEM
     crass (1.0.4)
     erubi (1.8.0)
     ffi (1.10.0)
-    frozen_record (0.11.0)
+    frozen_record (0.12.1)
       activemodel
-    globalid (0.4.1)
+    globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.5.1)
+    i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
@@ -75,7 +75,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     nio4r (2.3.1)
-    nokogiri (1.10.0)
+    nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     rack (2.0.6)
     rack-test (1.1.0)
