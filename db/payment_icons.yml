@@ -414,3 +414,31 @@
   name: mpesa
   label: M-Pesa
   group: wallets
+-   
+  name: mandiri_va
+  label: Mandiri VA
+  group: bank_transfers
+-   
+  name: bca_va
+  label: BCA VA
+  group: bank_transfers
+-   
+  name: bni_va
+  label: BNI VA
+  group: bank_transfers
+-   
+  name: bri_va
+  label: BRI VA
+  group: bank_transfers
+-   
+  name: permata_va
+  label: Permata VA
+  group: bank_transfers
+-   
+  name: alfamart
+  label: Alfamart
+  group: convenience_stores
+-   
+  name: ovo
+  label: OVO
+  group: wallets
