@@ -394,3 +394,7 @@
   name: vipps
   label: Vipps
   group: other
+-
+  name: krungsri
+  label: Krungsri
+  group: bank_transfers
