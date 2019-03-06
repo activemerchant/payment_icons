@@ -397,4 +397,4 @@
 -
   name: bankkasikornn
   label: Kasikorn Bank
-  group: other
+  group: bank_transfers
