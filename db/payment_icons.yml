@@ -394,3 +394,7 @@
   name: vipps
   label: Vipps
   group: other
+-
+  name: bankkasikornn
+  label: Kasikorn Bank
+  group: other
