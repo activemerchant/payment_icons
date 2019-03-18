@@ -3,7 +3,7 @@ PATH
   specs:
     payment_icons (1.0.8)
       frozen_record
-      rails (>= 5.0, < 6.0)
+      railties (>= 5.0, < 6.0)
       sass
 
 GEM
@@ -133,6 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   payment_icons!
+  rails (>= 5.0, < 6.0)
 
 BUNDLED WITH
    1.17.3
