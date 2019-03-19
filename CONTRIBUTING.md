@@ -53,6 +53,8 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Whenever possible, the border should be black with a 0.07% opacity.
   - The border width must be 1px (pixel) thick.
   - The border must have a 2px radius (outside stroke).
+- Icons are clear and easy to read/understand
+- Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
 
 ### File
 - The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
