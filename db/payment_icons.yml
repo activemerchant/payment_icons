@@ -406,6 +406,10 @@
   name: krungsri
   label: Krungsri
   group: bank_transfers
+-
+  name: siamcommercial
+  label: Siam Commercial
+  group: bank_transfers
 -  
   name: enets
   label: eNETS
