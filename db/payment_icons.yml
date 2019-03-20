@@ -394,3 +394,7 @@
   name: vipps
   label: Vipps
   group: other
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  group: bank_transfers
