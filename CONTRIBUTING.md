@@ -28,7 +28,7 @@ To add a new payment method icon to this repository:
 
 ## Guidelines for new icons
 
-The markup below will also make the icon accessible to assistive technology when used as an inline SVG. Icons are to follow a set of guidelines to provide consistency in appearance.
+All icon contributions must follow the guidelines below. The **markup** guidelines aim to make the inline SVG accessible to assistive technology; these are enforced by a [suite of automatic tests](https://github.com/activemerchant/payment_icons/blob/master/test/unit/payment_icon_test.rb). The **appearance** guidelines aim to provide consistency in the icons' appearance.
 
 ### Markup
 - The root `<svg>` tag has the following attributes:
@@ -42,6 +42,7 @@ The markup below will also make the icon accessible to assistive technology when
 - The `<svg>` must use vector graphics, i.e. `path`, `rect`, etc.
   - Nested `<image>` or `<img>` elements will not be accepted.
   - Embedded fonts or bitmaps will not be accepted.
+- All `id` attributes start with `pi-`.
 
 ### Appearance
 - Logos appear on a solid color background.
@@ -52,6 +53,8 @@ The markup below will also make the icon accessible to assistive technology when
   - Whenever possible, the border should be black with a 0.07% opacity.
   - The border width must be 1px (pixel) thick.
   - The border must have a 2px radius (outside stroke).
+- Icons are clear and easy to read/understand
+- Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
 
 ### File
 - The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
