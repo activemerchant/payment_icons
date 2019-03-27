@@ -407,6 +407,10 @@
   label: Bangkok Bank
   group: bank_transfers
 -
+  name: uob
+  label: UOB
+  group: bank_transfers
+-
   name: siamcommercial
   label: Siam Commercial
   group: bank_transfers
