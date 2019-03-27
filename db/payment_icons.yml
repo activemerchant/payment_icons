@@ -51,14 +51,6 @@
   label: Bitcoin Cash
   group: cryptocurrencies
 -
-  name: dash
-  label: Dash
-  group: cryptocurrencies
--
-  name: eos
-  label: EOS
-  group: cryptocurrencies
--
   name: amazon
   label: Amazon
   group: wallets
@@ -208,7 +200,7 @@
   group: other
 -
   name: masterpass
-  label: Masterpass
+  label: MasterPass
   group: other
 -
   name: mobilepay
@@ -404,25 +396,5 @@
   group: other
 -
   name: kasikorn
-  label: kasikorn
+  label: Kasikorn
   group: bank_transfers
--
-  name: uob
-  label: UOB
-  group: bank_transfers
--
-  name: siamcommercial
-  label: Siam Commercial
-  group: bank_transfers
--  
-  name: enets
-  label: eNETS
-  group: other
--   
-  name: eft_secure
-  label: EFT Secure
-  group: bank_transfers
-- 
-  name: mpesa
-  label: M-Pesa
-  group: wallets
