@@ -403,6 +403,10 @@
   label: Vipps
   group: other
 -
+  name: krungsri
+  label: Krungsri
+  group: bank_transfers
+-
   name: uob
   label: UOB
   group: bank_transfers
