@@ -48,4 +48,4 @@ To create a new release:
 - `git push --tags origin master`
 - Contact a maintainer in Shopify to release the new version via ShipIt.
 
-Once dployed via ShipIt, you will see a new release at https://rubygems.org/gems/payment_icons
+Once deployed via ShipIt, you will see a new release at https://rubygems.org/gems/payment_icons
