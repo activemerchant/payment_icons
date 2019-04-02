@@ -40,7 +40,7 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - `id` attribute with the value `pi-` + the name of your icon, (same as the `aria-labelledby`)
   - Inner text containing the label of your icon
 - The `<svg>` must use vector graphics, i.e. `path`, `rect`, etc.
-  - Nested `<image>` or `<img>` elements will not be accepted.
+  - Nested `<image>` or `<img>` elements will only be accepted if they contain base64-encoded PNG image data. Paths to image files will not be accepted.
   - Embedded fonts or bitmaps will not be accepted.
 - All `id` attributes start with `pi-`.
 
