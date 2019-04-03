@@ -103,4 +103,21 @@ class PaymentIconTest < ActiveSupport::TestCase
         message: "The '#{payment_type}' SVG file should have a aria-labelledby='#{ICON_ID_PREFIX}#{payment_type}' attribute on the root <svg> node"
     end
   end
+
+  test 'Payment icon SVGs with <img> or <image> tags base64-encode PNG image data' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      image_nodes = []
+      image_nodes << document.search("img")
+      image_nodes << document.search("image")
+      image_nodes.flatten!.uniq!
+
+      image_nodes.each do |image_node|
+        xlink_href_content = image_node['xlink:href']
+        error_message = "Expected image tag to contain base64 encoded PNG, found '#{xlink_href_content.truncate(50)}' instead"
+        assert xlink_href_content.start_with?('data:image/png;base64'), error_message
+      end
+    end
+  end
 end
