@@ -58,7 +58,7 @@ class PaymentIconTest < ActiveSupport::TestCase
     end
   end
 
-  test "Every payment SVG meets accessibility requirements" do
+  test "xEvery payment SVG meets accessibility requirements" do
     ICON_ID_PREFIX = "pi-"
 
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
