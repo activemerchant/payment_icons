@@ -50,7 +50,7 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Whenever possible, the background color does not use a gradient fill.
   - Transparent backgrounds will not be accepted.
 - Icons have a visible border to give them a consistent shape on pages whose backgrounds match that of the icon.
-  - Whenever possible, the border should be black with a 0.07% opacity.
+  - Whenever possible, the border should be black (hex color `#000`) with a 0.07% opacity.
   - The border width must be 1px (pixel) thick.
   - The border must have a 2px radius (outside stroke).
 - Icons are clear and easy to read/understand
@@ -66,7 +66,7 @@ The HTML below has the required markup detailed above. Don't forget to replace `
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-{your-icon}">
     <title id="pi-{your-icon}">{Your icon}</title>
-    <path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/>
+    <path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/>
     <path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/>
 </svg>
 ```
