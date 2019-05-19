@@ -414,3 +414,7 @@
   name: mpesa
   label: M-Pesa
   group: wallets
+- 
+  name: ovo
+  label: OVO
+  group: wallets
