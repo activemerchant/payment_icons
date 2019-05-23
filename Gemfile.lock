@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.2.1)
+    payment_icons (1.2.2)
       frozen_record
       railties (>= 5.0)
       sass
@@ -55,7 +55,7 @@ GEM
     concurrent-ruby (1.1.4)
     crass (1.0.4)
     erubi (1.8.0)
-    ffi (1.10.0)
+    ffi (1.11.1)
     frozen_record (0.14.0)
       activemodel
     globalid (0.4.2)
