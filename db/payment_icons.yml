@@ -436,3 +436,7 @@
   name: ovo
   label: OVO
   group: wallets
+-
+  name: generic
+  label: Generic
+  group: other
