@@ -436,3 +436,7 @@
   name: ovo
   label: OVO
   group: wallets
+- 
+  name: wechatpay
+  label: WeChat Pay
+  group: wallets
