@@ -219,6 +219,10 @@
   label: ViaBill
   group: other
 -
+  name: klarna
+  label: Klarna
+  group: other
+-
   name: klarna-pay-now
   label: Klarna Pay Now
   group: other
