@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.2.2)
+    payment_icons (1.2.3)
       frozen_record
       railties (>= 5.0)
       sass
