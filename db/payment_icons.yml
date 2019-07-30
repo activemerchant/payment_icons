@@ -444,3 +444,7 @@
   name: wechatpay
   label: WeChat Pay
   group: wallets
+-
+  name: spraypay
+  label: Spraypay
+  group: other
