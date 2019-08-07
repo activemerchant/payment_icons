@@ -448,3 +448,7 @@
   name: spraypay
   label: Spraypay
   group: other
+-
+  name: bancontact
+  label: Bancontact
+  group: other
