@@ -448,3 +448,71 @@
   name: spraypay
   label: Spraypay
   group: other
+-
+  name: pefect_money
+  label: Pefect_Money
+  group: wallects
+-
+  name: advcash
+  label: Advcash
+  group: wallects
+-
+  name: payeer
+  label: Payeer
+  group: wallects
+-
+  name: fasapay
+  label: Fasapay
+  group: wallects
+-
+  name: deutsche_bank
+  label: Deutsche_Bank
+  group: banks_transfers
+-
+  name: HSBC
+  label: HSBC
+  group: banks_transfers
+-
+  name: societe_generale
+  label: Societe_Generale
+  group: banks_transfers
+-
+  name: bnp_paribas
+  label: BNP_Paribas
+  group: banks_transfers
+-
+  name: credit_agricole
+  label: Credit_Agricole
+  group: banks_transfers
+-
+  name: SEPA
+  label: SEPA 
+  group: others
+-
+  name: USD
+  label: USD
+  group: others
+-
+  name: GBP
+  label: GBP
+  group: others
+-
+  name: EUR
+  label: EUR
+  group: others
+-
+  name: HKD
+  label: HKD 
+  group: others
+-
+  name: JPY
+  label: JPY
+  group: others
+-
+  name: SGD
+  label: SGD 
+  group: others
+-
+  name: IDR
+  label: IDR 
+  group: others
