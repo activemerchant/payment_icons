@@ -426,3 +426,16 @@
   name: mpesa
   label: M-Pesa
   group: wallets
+- 
+  name: cartasi
+  label: CartaSi
+  group: credit_cards
+- 
+  name: postepay
+  label: PostePay
+  group: credit_cards
+- 
+  name: carte_bancaire
+  label: Carte Bancaire
+  group: credit_cards
+
