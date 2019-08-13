@@ -450,7 +450,7 @@
   group: other
 -
   name: pefect_money
-  label: Pefect_Money
+  label: Pefect Money
   group: wallets
 -
   name: advcash
@@ -466,24 +466,24 @@
   group: wallets
 -
   name: deutsche_bank
-  label: Deutsche_Bank
-  group: banks_transfers
+  label: Deutsche Bank
+  group: bank_transfers
 -
   name: HSBC
   label: HSBC
-  group: banks_transfers
+  group: bank_transfers
 -
   name: societe_generale
-  label: Societe_Generale
-  group: banks_transfers
+  label: Societe Generale
+  group: bank_transfers
 -
   name: bnp_paribas
-  label: BNP_Paribas
-  group: banks_transfers
+  label: Bnp Paribas
+  group: bank_transfers
 -
   name: credit_agricole
-  label: Credit_Agricole
-  group: banks_transfers
+  label: Credit Agricole
+  group: bank_transfers
 -
   name: SEPA
   label: SEPA 
