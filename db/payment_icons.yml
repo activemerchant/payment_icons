@@ -516,3 +516,7 @@
   name: IDR
   label: IDR 
   group: others
+-
+  name: bancontact
+  label: Bancontact
+  group: other
