@@ -487,35 +487,35 @@
 -
   name: SEPA
   label: SEPA 
-  group: others
+  group: other
 -
   name: USD
   label: USD
-  group: others
+  group: other
 -
   name: GBP
   label: GBP
-  group: others
+  group: other
 -
   name: EUR
   label: EUR
-  group: others
+  group: other
 -
   name: HKD
   label: HKD 
-  group: others
+  group: other
 -
   name: JPY
   label: JPY
-  group: others
+  group: other
 -
   name: SGD
   label: SGD 
-  group: others
+  group: other
 -
   name: IDR
   label: IDR 
-  group: others
+  group: other
 -
   name: bancontact
   label: Bancontact
