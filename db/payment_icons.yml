@@ -451,19 +451,19 @@
 -
   name: pefect_money
   label: Pefect_Money
-  group: wallects
+  group: wallets
 -
   name: advcash
   label: Advcash
-  group: wallects
+  group: wallets
 -
   name: payeer
   label: Payeer
-  group: wallects
+  group: wallets
 -
   name: fasapay
   label: Fasapay
-  group: wallects
+  group: wallets
 -
   name: deutsche_bank
   label: Deutsche_Bank
