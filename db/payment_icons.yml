@@ -465,7 +465,7 @@
   label: Fasapay
   group: wallets
 -
-  name: deutsche_bank
+  name: deutschebank
   label: Deutsche Bank
   group: bank_transfers
 -
