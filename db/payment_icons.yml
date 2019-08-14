@@ -473,15 +473,15 @@
   label: HSBC
   group: bank_transfers
 -
-  name: societe_generale
+  name: societegenerale
   label: Societe Generale
   group: bank_transfers
 -
-  name: bnp_paribas
+  name: bnpparibas
   label: Bnp Paribas
   group: bank_transfers
 -
-  name: credit_agricole
+  name: creditagricole
   label: Credit Agricole
   group: bank_transfers
 -
