@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.2.3)
+    payment_icons (1.2.4)
       frozen_record
       railties (>= 5.0)
       sass
@@ -136,4 +136,4 @@ DEPENDENCIES
   rails (>= 5.0)
 
 BUNDLED WITH
-   1.17.3
+   2.0.2
