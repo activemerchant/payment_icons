@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require 'sass'
+require 'sassc'
 
 module SassFunctions
   module PaymentIcons
@@ -7,17 +7,17 @@ module SassFunctions
       pattern = ::PaymentIcons::Engine.root.join('app', 'assets', 'images', 'payment_icons', '*.svg')
       icons = Dir.glob(pattern).map do |icon_path|
         icon_name = File.basename(icon_path, '.svg')
-        svg_name = Sass::Script::Value::String.new(icon_name)
-        class_name = Sass::Script::Value::String.new(icon_name.dasherize)
+        svg_name = SassC::Script::Value::String.new(icon_name)
+        class_name = SassC::Script::Value::String.new(icon_name.dasherize)
 
-        Sass::Script::Value::List.new([svg_name, class_name], :space)
+        SassC::Script::Value::List.new([svg_name, class_name], separator: :space)
       end
 
-      Sass::Script::Value::List.new(icons, :space)
+      SassC::Script::Value::List.new(icons, separator: :space)
     end
   end
 end
 
-module Sass::Script::Functions
+module SassC::Script::Functions
   include SassFunctions::PaymentIcons
 end
