@@ -452,3 +452,7 @@
   name: bancontact
   label: Bancontact
   group: other
+-
+  name: in3
+  label: in3
+  group: other
