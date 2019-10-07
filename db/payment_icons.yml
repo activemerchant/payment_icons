@@ -460,3 +460,7 @@
   name: v_pay
   label: V PAY
   group: credit_cards
+-
+  name: ebucks
+  label: eBucks
+  group: other
