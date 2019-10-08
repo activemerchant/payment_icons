@@ -495,9 +495,6 @@
   label: eBucks
   group: other
 -
-  name: rcs
-  label: RCS
-  group: other-
   name: pagoefectivo
   label: PagoEfectivo
   group: other
@@ -836,4 +833,8 @@
 -
   name: qr_promptpay
   label: QR PromptPay
+  group: other
+-
+  name: rcs
+  label: RCS
   group: other
