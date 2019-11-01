@@ -36,6 +36,10 @@ For information on adding or updating payment icons, see our [CONTRIBUTING.md](h
 
 This information is for project maintainers: 
 
+Requirements
+- ruby version: 2.5.1
+- Bundler 2.0.2 (`gem install bundler:2.0.2`)
+
 Any updates that add new icons, or change the style of existing ones, are to be considered patches (i.e. `v1.0.X`).
 
 To create a new release:
