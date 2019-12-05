@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'frozen_record'
   s.add_dependency 'railties', '>= 5.0'
-  s.add_dependency 'sassc-rails'
+  s.add_dependency 'sassc-rails', '~>2.1.0'
 
   s.add_development_dependency('rails', '>= 5.0')
 end
