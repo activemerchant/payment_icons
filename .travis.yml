@@ -15,7 +15,7 @@ gemfile:
 
 matrix:
   exclude:
-    - rvm: 2.4.4
+    - rvm: 2.4.9
       gemfile: gemfiles/rails-edge.gemfile
 
 notifications:
