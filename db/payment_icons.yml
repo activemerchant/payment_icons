@@ -468,3 +468,11 @@
   name: pagoefectivo
   label: PagoEfectivo
   group: other
+-
+  name: ozow
+  label: Ozow
+  group: bank_transfers
+-
+  name: eps
+  label: EPS
+  group: bank_transfers
