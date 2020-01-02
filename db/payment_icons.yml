@@ -476,3 +476,11 @@
   name: eps
   label: EPS
   group: bank_transfers
+-
+  name: afterpay
+  label: Afterpay
+  group: other
+-
+  name: clearpay
+  label: Clearpay
+  group: other
