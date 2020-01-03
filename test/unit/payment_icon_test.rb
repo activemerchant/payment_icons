@@ -29,7 +29,7 @@ class PaymentIconTest < ActiveSupport::TestCase
   test 'Every payment icon record has a unique "name"' do
     names = PaymentIcon.all.map(&:name)
     duplicates = names.detect {|e| names.rindex(e) != names.index(e) }
-    assert !duplicates.present?, "The payment_icons.yml file contains duplicate records: #{duplicates}"
+    assert !duplicates.present?, "The payment_icons.json file contains duplicate records: #{duplicates}"
   end
 
   test 'Every payment icon SVG has a valid XML tree' do

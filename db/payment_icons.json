@@ -1,0 +1,607 @@
+[
+  {
+    "name": "visa",
+    "label": "Visa",
+    "group": "credit_cards"
+  },
+  {
+    "name": "master",
+    "label": "Mastercard",
+    "group": "credit_cards"
+  },
+  {
+    "name": "discover",
+    "label": "Discover",
+    "group": "credit_cards"
+  },
+  {
+    "name": "american_express",
+    "label": "American Express",
+    "group": "credit_cards"
+  },
+  {
+    "name": "diners_club",
+    "label": "Diners Club",
+    "group": "credit_cards"
+  },
+  {
+    "name": "jcb",
+    "label": "JCB",
+    "group": "credit_cards"
+  },
+  {
+    "name": "rupay",
+    "label": "RuPay",
+    "group": "credit_cards"
+  },
+  {
+    "name": "ethereum",
+    "label": "Ethereum",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "bitcoin",
+    "label": "Bitcoin",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "monero",
+    "label": "Monero",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "dogecoin",
+    "label": "Dogecoin",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "litecoin",
+    "label": "Litecoin",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "bitcoin_cash",
+    "label": "Bitcoin Cash",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "dash",
+    "label": "Dash",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "eos",
+    "label": "EOS",
+    "group": "cryptocurrencies"
+  },
+  {
+    "name": "amazon",
+    "label": "Amazon",
+    "group": "wallets"
+  },
+  {
+    "name": "boleto",
+    "label": "Boleto",
+    "group": "other"
+  },
+  {
+    "name": "dankort",
+    "label": "Dankort",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "dwolla",
+    "label": "Dwolla",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "forbrugsforeningen",
+    "label": "Forbrugsforeningen",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "giropay",
+    "label": "Giropay",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "google_pay",
+    "label": "Google Pay",
+    "group": "wallets"
+  },
+  {
+    "name": "google_wallet",
+    "label": "Google Wallet",
+    "group": "wallets"
+  },
+  {
+    "name": "laser",
+    "label": "Laser",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "paypal",
+    "label": "PayPal",
+    "group": "wallets"
+  },
+  {
+    "name": "venmo",
+    "label": "Venmo",
+    "group": "wallets"
+  },
+  {
+    "name": "sofort",
+    "label": "SOFORT",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "maestro",
+    "label": "Maestro",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "unionpay",
+    "label": "Union Pay",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "visaelectron",
+    "label": "Visa Electron",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "payfast_instant_eft",
+    "label": "PayFast Instant EFT",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "mobicred",
+    "label": "mobicred",
+    "group": "other"
+  },
+  {
+    "name": "payd",
+    "label": "payD",
+    "group": "other"
+  },
+  {
+    "name": "airtel_money",
+    "label": "Airtel Money",
+    "group": "wallets"
+  },
+  {
+    "name": "freecharge",
+    "label": "Freecharge",
+    "group": "wallets"
+  },
+  {
+    "name": "ola_money",
+    "label": "Ola Money",
+    "group": "wallets"
+  },
+  {
+    "name": "paytm",
+    "label": "Paytm",
+    "group": "wallets"
+  },
+  {
+    "name": "mobikwik",
+    "label": "MobiKwik",
+    "group": "wallets"
+  },
+  {
+    "name": "payzapp",
+    "label": "PayZapp",
+    "group": "wallets"
+  },
+  {
+    "name": "netbanking",
+    "label": "NetBanking",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "paysera",
+    "label": "Paysera",
+    "group": "wallets"
+  },
+  {
+    "name": "citadele",
+    "label": "Citadele",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "danske_bank",
+    "label": "Danske Bank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "krediidipank",
+    "label": "Krediidipank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "lhv",
+    "label": "LHV",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "op",
+    "label": "OP",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "nordea",
+    "label": "Nordea",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "seb",
+    "label": "SEB",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "swedbank",
+    "label": "Swedbank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "dnb",
+    "label": "DNB",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "prepaysolutions",
+    "label": "PrePaySolutions",
+    "group": "other"
+  },
+  {
+    "name": "pivo",
+    "label": "Pivo",
+    "group": "other"
+  },
+  {
+    "name": "masterpass",
+    "label": "Masterpass",
+    "group": "other"
+  },
+  {
+    "name": "mobilepay",
+    "label": "MobilePay",
+    "group": "other"
+  },
+  {
+    "name": "viabill",
+    "label": "ViaBill",
+    "group": "other"
+  },
+  {
+    "name": "klarna",
+    "label": "Klarna",
+    "group": "other"
+  },
+  {
+    "name": "klarna-pay-now",
+    "label": "Klarna Pay Now",
+    "group": "other"
+  },
+  {
+    "name": "klarna-pay-later",
+    "label": "Klarna Pay Later",
+    "group": "other"
+  },
+  {
+    "name": "klarna-slice-it",
+    "label": "Klarna Slice It",
+    "group": "other"
+  },
+  {
+    "name": "santander",
+    "label": "Santander",
+    "group": "other"
+  },
+  {
+    "name": "elv",
+    "label": "ELV",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "ideal",
+    "label": "iDEAL",
+    "group": "other"
+  },
+  {
+    "name": "interac",
+    "label": "Interac",
+    "group": "other"
+  },
+  {
+    "name": "arvato",
+    "label": "Arvato",
+    "group": "other"
+  },
+  {
+    "name": "swish",
+    "label": "Swish",
+    "group": "other"
+  },
+  {
+    "name": "przelew24",
+    "label": "Przelew24",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "epayments",
+    "label": "ePayments",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "paysafecard",
+    "label": "PaySafeCard",
+    "group": "other"
+  },
+  {
+    "name": "laybuy",
+    "label": "Lay-Buy Powered By PayPal",
+    "group": "other"
+  },
+  {
+    "name": "sezzle",
+    "label": "Sezzle",
+    "group": "other"
+  },
+  {
+    "name": "familymart",
+    "label": "FamilyMart",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "seveneleven",
+    "label": "7-Eleven",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "lawson",
+    "label": "Lawson",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "circlek",
+    "label": "Circle K",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "ministop",
+    "label": "Ministop",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "sunkus",
+    "label": "Sunkus",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "dailyyamazaki",
+    "label": "Daily Yamazaki",
+    "group": "convenience_stores"
+  },
+  {
+    "name": "mondido",
+    "label": "Mondido",
+    "group": "other"
+  },
+  {
+    "name": "collector_bank",
+    "label": "Collector Bank",
+    "group": "other"
+  },
+  {
+    "name": "apple_pay",
+    "label": "Apple Pay",
+    "group": "wallets"
+  },
+  {
+    "name": "shopify_pay",
+    "label": "Shopify Pay",
+    "group": "other"
+  },
+  {
+    "name": "trustly",
+    "label": "Trustly",
+    "group": "other"
+  },
+  {
+    "name": "ambank",
+    "label": "AmBank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "cimb",
+    "label": "CIMB Bank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "hongleongbank",
+    "label": "Hong Leong Bank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "maybank",
+    "label": "Maybank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "publicbank",
+    "label": "Public Bank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "rhbbank",
+    "label": "RHB Bank",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "paymark_online_eftpos",
+    "label": "Paymark Online Eftpos",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "esr_paymentslip_switzerland",
+    "label": "ESR Paymentslip",
+    "group": "other"
+  },
+  {
+    "name": "twint",
+    "label": "Twint",
+    "group": "wallets"
+  },
+  {
+    "name": "elo",
+    "label": "Elo",
+    "group": "credit_cards"
+  },
+  {
+    "name": "hyper",
+    "label": "Hyper",
+    "group": "credit_cards"
+  },
+  {
+    "name": "hypercard",
+    "label": "Hypercard",
+    "group": "credit_cards"
+  },
+  {
+    "name": "fpx",
+    "label": "FPX",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "atmbersama",
+    "label": "ATM Bersama",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "bancnet",
+    "label": "Banc Net",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "alipay",
+    "label": "AliPay",
+    "group": "wallets"
+  },
+  {
+    "name": "eghl",
+    "label": "eGHL",
+    "group": "other"
+  },
+  {
+    "name": "unipay",
+    "label": "UniPAY",
+    "group": "wallets"
+  },
+  {
+    "name": "mash",
+    "label": "Mash",
+    "group": "other"
+  },
+  {
+    "name": "jousto",
+    "label": "Jousto Lasku ja Osamaksu",
+    "group": "other"
+  },
+  {
+    "name": "vipps",
+    "label": "Vipps",
+    "group": "other"
+  },
+  {
+    "name": "krungsri",
+    "label": "Krungsri",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "uob",
+    "label": "UOB",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "siamcommercial",
+    "label": "Siam Commercial",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "enets",
+    "label": "eNETS",
+    "group": "other"
+  },
+  {
+    "name": "eft_secure",
+    "label": "EFT Secure",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "mpesa",
+    "label": "M-Pesa",
+    "group": "wallets"
+  },
+  {
+    "name": "ovo",
+    "label": "OVO",
+    "group": "wallets"
+  },
+  {
+    "name": "wechatpay",
+    "label": "WeChat Pay",
+    "group": "wallets"
+  },
+  {
+    "name": "spraypay",
+    "label": "Spraypay",
+    "group": "other"
+  },
+  {
+    "name": "bancontact",
+    "label": "Bancontact",
+    "group": "other"
+  },
+  {
+    "name": "in3",
+    "label": "in3",
+    "group": "other"
+  },
+  {
+    "name": "v_pay",
+    "label": "V PAY",
+    "group": "credit_cards"
+  },
+  {
+    "name": "ebucks",
+    "label": "eBucks",
+    "group": "other"
+  },
+  {
+    "name": "pagoefectivo",
+    "label": "PagoEfectivo",
+    "group": "other"
+  },
+  {
+    "name": "ozow",
+    "label": "Ozow",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "eps",
+    "label": "EPS",
+    "group": "bank_transfers"
+  },
+  {
+    "name": "afterpay",
+    "label": "Afterpay",
+    "group": "other"
+  },
+  {
+    "name": "clearpay",
+    "label": "Clearpay",
+    "group": "other"
+  }
+]
