@@ -1,5 +1,6 @@
 class PaymentIcon < FrozenRecord::Base
   self.base_path = File.expand_path('../../db/', __dir__)
+  self.backend = PaymentIcons::JsonBackend
 
   GROUPS = {
       credit_cards: 'Credit cards',

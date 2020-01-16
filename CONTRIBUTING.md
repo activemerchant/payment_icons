@@ -4,7 +4,7 @@ To add a new payment method icon to this repository:
 
 1. [Fork the repository](https://github.com/activemerchant/payment_icons/fork) and clone it
 2. Create a branch (`git checkout -b my_new_icon`)
-3. Edit `db/payment_icons.yml` file with the `name`, `label` and `group` of your icon. Valid group options are as follows:
+3. Edit `db/payment_icons.json` file with the `name`, `label` and `group` of your icon. Valid group options are as follows:
 
     - `bank_transfers`
     - `convenience_stores`
@@ -57,7 +57,7 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
 - Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
 
 ### File
-- The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
+- The name of the SVG must be the same as the `name` entered in `db/payment_icons.json`
 
 ### Template
 
