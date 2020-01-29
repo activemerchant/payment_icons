@@ -429,6 +429,10 @@
   label: eNETS
   group: other
 -
+  name: grabpay
+  label: GrabPay
+  group: wallets
+-
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
