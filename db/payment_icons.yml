@@ -322,7 +322,7 @@
   group: wallets
 -
   name: shopify_pay
-  label: Shopify Pay
+  label: Shop Pay
   group: other
 -
   name: trustly
@@ -440,11 +440,11 @@
   name: mpesa
   label: M-Pesa
   group: wallets
-- 
+-
   name: ovo
   label: OVO
   group: wallets
-- 
+-
   name: wechatpay
   label: WeChat Pay
   group: wallets
