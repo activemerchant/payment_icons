@@ -488,3 +488,7 @@
   name: clearpay
   label: Clearpay
   group: other
+-
+  name: ing-homepay
+  label: ING Home'Pay
+  group: bank_transfer
