@@ -51,6 +51,14 @@
   label: Bitcoin Cash
   group: cryptocurrencies
 -
+  name: bitpay_currency
+  label: BitPay Currency
+  group: cryptocurrencies
+-
+name: bitpay_mark
+  label: BitPay Mark
+  group: cryptocurrencies
+-
   name: dash
   label: Dash
   group: cryptocurrencies
