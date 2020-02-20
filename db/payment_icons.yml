@@ -59,6 +59,14 @@
   label: EOS
   group: cryptocurrencies
 -
+  name: dai
+  label: DAI
+  group: cryptocurrencies
+-
+  name: usdc
+  label: USDC
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
