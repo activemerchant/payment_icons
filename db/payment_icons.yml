@@ -491,4 +491,4 @@
 -
   name: ing-homepay
   label: ING Home'Pay
-  group: bank_transfer
+  group: bank_transfers
