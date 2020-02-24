@@ -496,3 +496,7 @@
   name: clearpay
   label: Clearpay
   group: other
+-
+  name: zapper
+  label: Zapper
+  group: other
