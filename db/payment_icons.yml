@@ -19,6 +19,10 @@
   label: Diners Club
   group: credit_cards
 -
+  name: cartes_bancaires
+  label: Cartes Bancaires
+  group: credit_cards
+-
   name: ing_homepay
   label: ING Homepay
   group: bank_transfers
