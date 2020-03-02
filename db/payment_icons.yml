@@ -83,6 +83,10 @@
   label: KBC/CBC
   group: bank_transfers
 -
+  name: sepa_bank_transfer
+  label: SEPA Bank Transfer
+  group: bank_transfers
+-
   name: dankort
   label: Dankort
   group: bank_transfers
