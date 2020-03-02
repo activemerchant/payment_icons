@@ -79,6 +79,10 @@
   label: Boleto
   group: other
 -
+  name: kbc_cbc
+  label: KBC/CBC
+  group: bank_transfers
+-
   name: sepa_bank_transfer
   label: SEPA Bank Transfer
   group: bank_transfers
