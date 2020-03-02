@@ -95,6 +95,10 @@
   label: Dankort
   group: bank_transfers
 -
+  name: belfius
+  label: Belfius
+  group: bank_transfers
+-
   name: dwolla
   label: Dwolla
   group: bank_transfers
