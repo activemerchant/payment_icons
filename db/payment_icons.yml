@@ -75,6 +75,10 @@
   label: Boleto
   group: other
 -
+ name: belfius
+  label: Belfius
+  group: bank_transfers
+-
   name: dankort
   label: Dankort
   group: bank_transfers
