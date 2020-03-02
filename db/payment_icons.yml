@@ -19,6 +19,10 @@
   label: Diners Club
   group: credit_cards
 -
+  name: ing_homepay
+  label: ING Homepay
+  group: bank_transfers
+-
   name: jcb
   label: JCB
   group: credit_cards
@@ -499,4 +503,8 @@
 -
   name: clearpay
   label: Clearpay
+  group: other
+-
+  name: zapper
+  label: Zapper
   group: other
