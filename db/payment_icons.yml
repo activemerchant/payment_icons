@@ -19,6 +19,14 @@
   label: Diners Club
   group: credit_cards
 -
+  name: cartes_bancaires
+  label: Cartes Bancaires
+  group: credit_cards
+-
+  name: ing_homepay
+  label: ING Homepay
+  group: bank_transfers
+-
   name: jcb
   label: JCB
   group: credit_cards
@@ -27,8 +35,16 @@
   label: RuPay
   group: credit_cards
 -
+  name: ethereum
+  label: Ethereum
+  group: cryptocurrencies
+-
   name: bitcoin
   label: Bitcoin
+  group: cryptocurrencies
+-
+  name: monero
+  label: Monero
   group: cryptocurrencies
 -
   name: dogecoin
@@ -39,6 +55,26 @@
   label: Litecoin
   group: cryptocurrencies
 -
+  name: bitcoin_cash
+  label: Bitcoin Cash
+  group: cryptocurrencies
+-
+  name: dash
+  label: Dash
+  group: cryptocurrencies
+-
+  name: eos
+  label: EOS
+  group: cryptocurrencies
+-
+  name: dai
+  label: DAI
+  group: cryptocurrencies
+-
+  name: usdc
+  label: USDC
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -47,8 +83,20 @@
   label: Boleto
   group: other
 -
+  name: kbc_cbc
+  label: KBC/CBC
+  group: bank_transfers
+-
+  name: sepa_bank_transfer
+  label: SEPA Bank Transfer
+  group: bank_transfers
+-
   name: dankort
   label: Dankort
+  group: bank_transfers
+-
+  name: belfius
+  label: Belfius
   group: bank_transfers
 -
   name: dwolla
@@ -63,6 +111,10 @@
   label: Giropay
   group: bank_transfers
 -
+  name: google_pay
+  label: Google Pay
+  group: wallets
+-
   name: google_wallet
   label: Google Wallet
   group: wallets
@@ -75,8 +127,12 @@
   label: PayPal
   group: wallets
 -
+  name: venmo
+  label: Venmo
+  group: wallets
+-
   name: sofort
-  label: Sofort
+  label: SOFORT
   group: bank_transfers
 -
   name: maestro
@@ -151,6 +207,10 @@
   label: LHV
   group: bank_transfers
 -
+  name: op
+  label: OP
+  group: bank_transfers
+-
   name: nordea
   label: Nordea
   group: bank_transfers
@@ -171,8 +231,12 @@
   label: PrePaySolutions
   group: other
 -
+  name: pivo
+  label: Pivo
+  group: other
+-
   name: masterpass
-  label: MasterPass
+  label: Masterpass
   group: other
 -
   name: mobilepay
@@ -187,6 +251,18 @@
   label: Klarna
   group: other
 -
+  name: klarna-pay-now
+  label: Klarna Pay Now
+  group: other
+-
+  name: klarna-pay-later
+  label: Klarna Pay Later
+  group: other
+-
+  name: klarna-slice-it
+  label: Klarna Slice It
+  group: other
+-
   name: santander
   label: Santander
   group: other
@@ -198,6 +274,12 @@
   name: ideal
   label: iDEAL
   group: other
+
+-
+  name: interac
+  label: Interac
+  group: other
+
 -
   name: arvato
   label: Arvato
@@ -268,7 +350,7 @@
   group: wallets
 -
   name: shopify_pay
-  label: Shopify Pay
+  label: Shop Pay
   group: other
 -
   name: trustly
@@ -302,3 +384,139 @@
   name: paymark_online_eftpos
   label: Paymark Online Eftpos
   group: bank_transfers
+-
+  name: esr_paymentslip_switzerland
+  label: ESR Paymentslip
+  group: other
+-
+  name: twint
+  label: Twint
+  group: wallets
+-
+  name: elo
+  label: Elo
+  group: credit_cards
+-
+  name: hyper
+  label: Hyper
+  group: credit_cards
+-
+  name: hypercard
+  label: Hypercard
+  group: credit_cards
+-
+  name: fpx
+  label: FPX
+  group: bank_transfers
+-
+  name: atmbersama
+  label: ATM Bersama
+  group: bank_transfers
+-
+  name: bancnet
+  label: Banc Net
+  group: bank_transfers
+-
+  name: alipay
+  label: AliPay
+  group: wallets
+-
+  name: eghl
+  label: eGHL
+  group: other
+-
+  name: unipay
+  label: UniPAY
+  group: wallets
+-
+  name: mash
+  label: Mash
+  group: other
+-
+  name: jousto
+  label: Jousto Lasku ja Osamaksu
+  group: other
+-
+  name: vipps
+  label: Vipps
+  group: other
+-
+  name: krungsri
+  label: Krungsri
+  group: bank_transfers
+-
+  name: uob
+  label: UOB
+  group: bank_transfers
+-
+  name: siamcommercial
+  label: Siam Commercial
+  group: bank_transfers
+-
+  name: enets
+  label: eNETS
+  group: other
+-
+  name: grabpay
+  label: GrabPay
+  group: wallets
+-
+  name: eft_secure
+  label: EFT Secure
+  group: bank_transfers
+-
+  name: mpesa
+  label: M-Pesa
+  group: wallets
+-
+  name: ovo
+  label: OVO
+  group: wallets
+-
+  name: wechatpay
+  label: WeChat Pay
+  group: wallets
+-
+  name: spraypay
+  label: Spraypay
+  group: other
+-
+  name: bancontact
+  label: Bancontact
+  group: other
+-
+  name: in3
+  label: in3
+  group: other
+-
+  name: v_pay
+  label: V PAY
+  group: credit_cards
+-
+  name: ebucks
+  label: eBucks
+  group: other
+-
+  name: pagoefectivo
+  label: PagoEfectivo
+  group: other
+-
+  name: ozow
+  label: Ozow
+  group: bank_transfers
+-
+  name: eps
+  label: EPS
+  group: bank_transfers
+-
+  name: afterpay
+  label: Afterpay
+  group: other
+-
+  name: clearpay
+  label: Clearpay
+  group: other
+-
+  name: zapper
+  label: Zapper
+  group: other

@@ -7,35 +7,50 @@ Payment Icons is a simple Ruby on Rails engine extracted from Shopify. Shopify s
 ### From Git
 You can check out the latest source from git:
 
-    git clone https://github.com/activemerchant/payment_icons.git
+```sh
+git clone https://github.com/activemerchant/payment_icons.git
+```
 
 ### From RubyGems
 
-Installation from RubyGems:
 Run `gem install payment_icons` in your console.
 
 If you'd like to add it to your existing Rails project, include `gem 'payment_icons'` in your Gemfile and run `bundle install`.
 
 Once the gem is part of your Rails project, the PaymentIcon [frozen record](https://github.com/byroot/frozen_record) model will be available anywhere in your application. You also have access to all the [icons](https://github.com/activemerchant/payment_icons/tree/master/app/assets/images/payment_icons) with the path `app/assets/images/payment_icons/<icon_name.svg>`.
+
 For example:
 
-    <% PaymentIcon.credit_cards.each do |card| %>
-      <div>
-        <%= image_tag card.path %>
-      </div>
-    <% end %>
-
+```erb
+<% PaymentIcon.credit_cards.each do |card| %>
+  <div>
+    <%= image_tag card.path %>
+  </div>
+<% end %>
+```
 ## Contributing
 
-If you'd like to add a new payment method icon to this repository,
+For information on adding or updating payment icons, see our [CONTRIBUTING.md](https://github.com/activemerchant/payment_icons/blob/master/CONTRIBUTING.md) file.
 
-1. [Fork it] (https://github.com/activemerchant/payment_icons/fork) and clone it.
-2. Create a branch (`git checkout -b my_new_icon`)
-3. Add `your-icon.svg` to the `app/assets/images/payment_icons/` directory with the following specifications:
-  * 38 by 24 pixels
-  * Solid white background
-4. Edit `db/payment_icons.yml` file with the name, label and group of your icon. Valid group options are credit_cards, cryptocurrencies, wallets, bank_transfers, convenience_stores, and other.
-5. Push your changes to your fork (`git push origin my_new_icon`)
-6. Open a [pull request](https://github.com/activemerchant/payment_icons/pulls) and one of our maintainers will review it.
+### Releases
 
-##### The trademarks and trade names provided in this library are those of their respective owners.
+This information is for project maintainers: 
+
+Requirements
+- ruby version: 2.5.1
+- Bundler 2.0.2 (`gem install bundler:2.0.2`)
+
+Any updates that add new icons, or change the style of existing ones, are to be considered patches (i.e. `v1.0.X`).
+
+To create a new release:
+- `git fetch --tags --force` to refresh tags
+- `git pull origin master` to pull latest changes to your local environment
+- Change version in `lib/<gem name>/version.rb`
+- Run `bundle install`
+- `git tag -a v<version>`
+- If prompted, make a comment about this version bump. i.e. "Adds icons X and Y"
+- Commit the changes: `git commit -m 'bump to <vesion>'`
+- `git push --tags origin master`
+- Contact a maintainer in Shopify to release the new version via ShipIt.
+
+Once deployed via ShipIt, you will see a new release at https://rubygems.org/gems/payment_icons
