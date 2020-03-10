@@ -520,3 +520,7 @@
   name: zapper
   label: Zapper
   group: other
+-
+  name: payconiq
+  label: Payconiq
+  group: other
