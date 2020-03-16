@@ -520,3 +520,8 @@
   name: zapper
   label: Zapper
   group: other
+-
+  name: coop
+  label: Coop
+  group: bank_transfers
+-
