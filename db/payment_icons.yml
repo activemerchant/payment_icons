@@ -524,3 +524,7 @@
   name: payconiq
   label: Payconiq
   group: other
+-
+  name: paidy
+  label: Paidy
+  group: other
