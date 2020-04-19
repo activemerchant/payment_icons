@@ -528,3 +528,7 @@
   name: paidy
   label: Paidy
   group: other
+-
+  name: stcpay
+  label: STCPay
+  group: wallets
