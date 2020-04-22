@@ -55,7 +55,7 @@
   label: BitPay Currency
   group: cryptocurrencies
 -
-name: bitpay_mark
+  name: bitpay_mark
   label: BitPay Mark
   group: cryptocurrencies
 -
