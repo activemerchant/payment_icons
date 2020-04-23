@@ -529,6 +529,10 @@
   label: Paidy
   group: other
 -
+  name: paynow
+  label: PayNow
+  group: other
+-
   name: bc_card
   label: BC Card
   group: credit_cards
