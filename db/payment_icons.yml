@@ -584,3 +584,7 @@
   name: toss
   label: Toss
   group: wallets
+- 
+  name: coop
+  label: Coop
+  group: bank_transfers
