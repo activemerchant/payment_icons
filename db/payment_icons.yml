@@ -521,7 +521,74 @@
   label: Zapper
   group: other
 -
+  name: payconiq
+  label: Payconiq
+  group: other
+-
+  name: paidy
+  label: Paidy
+  group: other
+-
+  name: paynow
+  label: PayNow
+  group: other
+-
+  name: bc_card
+  label: BC Card
+  group: credit_cards
+-
+  name: hana_card
+  label: Hana Card
+  group: credit_cards
+-
+  name: hyundai_card
+  label: Hyundai Card
+  group: credit_cards
+-
+  name: kb_card
+  label: KB Card
+  group: credit_cards
+-
+  name: lotte_card
+  label: Lotte Card
+  group: credit_cards
+-
+  name: nh_card
+  label: NH Card
+  group: credit_cards
+-
+  name: samsung_card
+  label: Samsung Card
+  group: credit_cards
+-
+  name: shinhan_card
+  label: Shinhan Card
+  group: credit_cards
+-
+  name: kakao_pay
+  label: Kakao Pay
+  group: wallets
+-
+  name: naver_pay
+  label: Naver Pay
+  group: wallets
+-
+  name: payco
+  label: Payco
+  group: wallets
+-
+  name: samsung_pay
+  label: Samsung Pay
+  group: wallets
+-
+  name: toss
+  label: Toss
+  group: wallets
+- 
+  name: coop
+  label: Coop
+  group: bank_transfers
+- 
   name: luminor
   label: Luminor
   group: bank_transfers
--
