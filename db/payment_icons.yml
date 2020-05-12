@@ -529,6 +529,10 @@
   label: Paidy
   group: other
 -
+  name: stcpay
+  label: Stcpay
+  group: wallets
+-
   name: paynow
   label: PayNow
   group: other
@@ -592,3 +596,4 @@
   name: luminor
   label: Luminor
   group: bank_transfers
+
