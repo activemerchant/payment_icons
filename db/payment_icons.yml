@@ -596,4 +596,15 @@
   name: luminor
   label: Luminor
   group: bank_transfers
-
+- 
+  name: bdo
+  label: BDO
+  group: bank_transfers
+- 
+  name: bpi
+  label: BPI
+  group: bank_transfers
+- 
+  name: gcash
+  label: GCash
+  group: wallets
