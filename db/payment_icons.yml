@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+- 
+  name: verve
+  label: Verve
+  group: credit_cards
