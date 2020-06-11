@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+- 
+  name: pago_facil
+  label: Pago Facil
+  group: other
