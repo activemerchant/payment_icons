@@ -614,19 +614,19 @@
   group: bank_transfers
 -
   name: webpay
-  label: Webpay
+  label: webpay
   group: bank_transfers
 - 
   name: abitab
   label: Abitab
-  group: convenience_stores
+  group: other
 - 
   name: baloto
   label: Baloto
-  group: convenience_stores
+  group: other
 -
   name: bancobrasil
-  label: Banco Brasil
+  label: Banco Do Brasil
   group: bank_transfers
 - 
   name: bcp
@@ -635,11 +635,11 @@
 - 
   name: davivienda
   label: Davivienda
-  group: convenience_stores
+  group: other
 - 
   name: efecty
   label: Efecty
-  group: convenience_stores
+  group: other
 - 
   name: interbank
   label: Interbank
@@ -650,35 +650,35 @@
   group: bank_transfers
 - 
   name: oca
-  label: Oca
+  label: OCA
   group: credit_cards
 - 
   name: oxxo
-  label: Oxxo
+  label: OXXO
   group: convenience_stores
 - 
   name: pagoexpress
-  label: Pago Express
-  group: convenience_stores
+  label: PagoExpress
+  group: other
 - 
   name: pagofacil
-  label: Pago Facil
-  group: convenience_stores
+  label: PagoFacil
+  group: other
 - 
   name: pse
   label: PSE
   group: bank_transfers
 - 
   name: rapipago
-  label: Rapipago
-  group: convenience_stores
+  label: RapiPago
+  group: other
 - 
   name: redpagos
-  label: Red Pagos
+  label: RedPagos
   group: convenience_stores
 - 
   name: servipag
-  label: Servipag
+  label: ServiPag
   group: other
 - 
   name: spei
