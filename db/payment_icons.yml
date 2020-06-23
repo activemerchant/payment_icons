@@ -608,3 +608,43 @@
   name: gcash
   label: GCash
   group: wallets
+-
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
+-
+  name: billink
+  label: Billink
+  group: other
+-
+  name: creditclick
+  label: CreditClick
+  group: other
+-
+  name: fashioncheque
+  label: Fashioncheque
+  group: other
+-
+  name: givacard
+  label: GivaCard
+  group: other
+-
+  name: nationale_bioscoopbon
+  label: Nationale Bioscoopbon
+  group: other
+-
+  name: podium_cadeaukaart
+  label: Podium Cadeaukaart
+  group: other
+-
+  name: vvv_cadeaukaart
+  label: VVV Cadeaukaart
+  group: other
+-
+  name: webshop_giftcard
+  label: Webshop Giftcard
+  group: other
+-
+  name: yourgift
+  label: YourGift
+  group: other
