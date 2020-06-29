@@ -641,10 +641,6 @@
   label: VVV Cadeaukaart
   group: other
 -
-  name: webshop_giftcard
-  label: Webshop Giftcard
-  group: other
--
   name: yourgift
   label: YourGift
   group: other
