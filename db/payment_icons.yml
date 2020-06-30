@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: vvv_cadeaukaart
-  label: VVV Cadeaukaart
+  name: webshop_giftcard
+  label: Webshop Giftcard
   group: other
