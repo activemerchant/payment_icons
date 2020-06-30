@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: nationale_bioscoopbon
-  label: Nationale Bioscoopbon
+  name: podium_cadeaukaart
+  label: Podium Cadeaukaart
   group: other
