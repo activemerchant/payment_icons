@@ -612,3 +612,7 @@
   name: afterpay_paynl_version
   label: Afterpay (Pay.nl version)
   group: other
+-
+  name: billink
+  label: Billink
+  group: other
