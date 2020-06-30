@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+-
+  name: nationale_bioscoopbon
+  label: Nationale Bioscoopbon
+  group: other
