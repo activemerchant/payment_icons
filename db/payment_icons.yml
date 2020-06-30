@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: creditclick
-  label: CreditClick
+  name: fashioncheque
+  label: Fashioncheque
   group: other
