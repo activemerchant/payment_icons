@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: fashioncheque
-  label: Fashioncheque
+  name: givacard
+  label: GivaCard
   group: other
