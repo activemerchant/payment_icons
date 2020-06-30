@@ -625,10 +625,6 @@
   label: Fashioncheque
   group: other
 -
-  name: givacard
-  label: GivaCard
-  group: other
--
   name: nationale_bioscoopbon
   label: Nationale Bioscoopbon
   group: other
