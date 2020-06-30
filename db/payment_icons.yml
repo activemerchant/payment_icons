@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: webshop_giftcard
-  label: Webshop Giftcard
+  name: yourgift
+  label: YourGift
   group: other
