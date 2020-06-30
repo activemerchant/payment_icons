@@ -616,3 +616,7 @@
   name: billink
   label: Billink
   group: other
+-
+  name: creditclick
+  label: CreditClick
+  group: other
