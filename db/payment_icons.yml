@@ -609,6 +609,6 @@
   label: GCash
   group: wallets
 -
-  name: givacard
-  label: GivaCard
+  name: nationale_bioscoopbon
+  label: Nationale Bioscoopbon
   group: other
