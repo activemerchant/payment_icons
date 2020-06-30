@@ -617,10 +617,6 @@
   label: Billink
   group: other
 -
-  name: creditclick
-  label: CreditClick
-  group: other
--
   name: fashioncheque
   label: Fashioncheque
   group: other
@@ -631,10 +627,6 @@
 -
   name: podium_cadeaukaart
   label: Podium Cadeaukaart
-  group: other
--
-  name: vvv_cadeaukaart
-  label: VVV Cadeaukaart
   group: other
 -
   name: yourgift
