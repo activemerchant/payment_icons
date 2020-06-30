@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+-
+  name: webshop_giftcard
+  label: Webshop Giftcard
+  group: other
