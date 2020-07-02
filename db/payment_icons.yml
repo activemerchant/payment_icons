@@ -622,7 +622,7 @@
   group: credit_cards
 -
   name: mada
-  label: Mada KSA
+  label: Mada
   group: credit_cards
 -
   name: kfast
