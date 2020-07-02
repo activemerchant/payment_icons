@@ -614,7 +614,7 @@
   group: credit_cards
 -
   name: benefit
-  label: Benefits
+  label: Benefit
   group: credit_cards
 -
   name: sadad
@@ -626,14 +626,14 @@
   group: credit_cards
 -
   name: kfast
-  label: K Fast
+  label: KFast
   group: credit_cards
 -
   name: knet
-  label: K Net
+  label: KNet
   group: credit_cards
 -
   name: uaevisa
-  label: UAE Visa
+  label: UAE Visa Credit Card
   group: credit_cards
 
