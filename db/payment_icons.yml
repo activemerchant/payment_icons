@@ -629,10 +629,6 @@
   label: KFast
   group: credit_cards
 -
-  name: knet
-  label: KNet
-  group: credit_cards
--
   name: uaevisa
   label: Visa UAE Credit Card
   group: credit_cards
