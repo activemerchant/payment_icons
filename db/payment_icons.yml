@@ -626,10 +626,14 @@
   group: credit_cards
 -
   name: kfast
-  label: KFast
+  label: K Fast
+  group: credit_cards
+-
+  name: knet
+  label: K Net
   group: credit_cards
 -
   name: uaevisa
-  label: Visa UAE Credit Card
+  label: UAE Visa
   group: credit_cards
 
