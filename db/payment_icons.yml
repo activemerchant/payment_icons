@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+-
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
