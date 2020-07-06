@@ -608,3 +608,80 @@
   name: gcash
   label: GCash
   group: wallets
+- 
+  name: upi
+  label: UPI
+  group: bank_transfers
+-
+  name: webpay
+  label: webpay
+  group: bank_transfers
+- 
+  name: abitab
+  label: Abitab
+  group: other
+- 
+  name: baloto
+  label: Baloto
+  group: other
+-
+  name: bancobrasil
+  label: Banco Do Brasil
+  group: bank_transfers
+- 
+  name: bcp
+  label: BCP
+  group: bank_transfers
+- 
+  name: davivienda
+  label: Davivienda
+  group: other
+- 
+  name: efecty
+  label: Efecty
+  group: other
+- 
+  name: interbank
+  label: Interbank
+  group: bank_transfers
+- 
+  name: itau
+  label: Itau
+  group: bank_transfers
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
+- 
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+- 
+  name: pagoexpress
+  label: PagoExpress
+  group: other
+- 
+  name: pagofacil
+  label: PagoFacil
+  group: other
+- 
+  name: pse
+  label: PSE
+  group: bank_transfers
+- 
+  name: rapipago
+  label: RapiPago
+  group: other
+- 
+  name: redpagos
+  label: RedPagos
+  group: convenience_stores
+- 
+  name: servipag
+  label: ServiPag
+  group: other
+- 
+  name: spei
+  label: SPEI
+  group: bank_transfers
+
