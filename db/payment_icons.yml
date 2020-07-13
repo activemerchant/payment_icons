@@ -636,4 +636,8 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
+- 
+  name: airteltigo
+  label: AirtelTigo
+  group: wallets
 
