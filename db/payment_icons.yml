@@ -653,8 +653,8 @@
   label: Tigo Pesa
   group: credit_cards
 -
-  name: dpo-vodaphonempesa
-  label: Vodaphone M-Pesa
+  name: dpo-visa
+  label: Visa
   group: credit_cards
 -
   name: dpo-xpay
