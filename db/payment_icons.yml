@@ -588,27 +588,27 @@
   name: toss
   label: Toss
   group: wallets
-- 
+-
   name: coop
   label: Coop
   group: bank_transfers
-- 
+-
   name: luminor
   label: Luminor
   group: bank_transfers
-- 
+-
   name: bdo
   label: BDO
   group: bank_transfers
-- 
+-
   name: bpi
   label: BPI
   group: bank_transfers
-- 
+-
   name: gcash
   label: GCash
   group: wallets
-- 
+-
   name: naps
   label: Naps
   group: credit_cards
@@ -636,4 +636,27 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
-
+-
+  name: dpo-airtelmoney
+  label: Airtel Money
+  group: credit_cards
+-
+  name: dpo-mtnmobilemoney
+  label: MTN Mobile Money
+  group: credit_cards
+-
+  name: dpo-orangemoney
+  label: Orange Money
+  group: credit_cards
+-
+  name: dpo-tigopesa
+  label: Tigo Pesa
+  group: credit_cards
+-
+  name: dpo-vodaphonempesa
+  label: Vodaphone M-Pesa
+  group: credit_cards
+-
+  name: dpo-xpay
+  label: Xpay
+  group: credit_cards
