@@ -609,6 +609,34 @@
   label: GCash
   group: wallets
 -
+  name: naps
+  label: Naps
+  group: credit_cards
+-
+  name: benefit
+  label: Benefit
+  group: credit_cards
+-
+  name: sadad
+  label: Sadad
+  group: credit_cards
+-
+  name: mada
+  label: Mada
+  group: credit_cards
+-
+  name: kfast
+  label: KFast
+  group: credit_cards
+-
+  name: knet
+  label: KNet
+  group: credit_cards
+-
+  name: uaevisa
+  label: UAE Visa Credit Card
+  group: credit_cards
+-
   name: dpo-airtelmoney
   label: Airtel Money
   group: credit_cards
