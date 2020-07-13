@@ -637,6 +637,6 @@
   label: UAE Visa Credit Card
   group: credit_cards
 -
-  name: ghmobilemoney_mtn
-  label: MTN Mobile Money
+  name: mtn
+  label: MTN
   group: other
