@@ -612,3 +612,7 @@
   name: tendopay
   label: TendoPay
   group: other
+-
+  name: coinsph
+  label: Coins.ph
+  group: wallets
