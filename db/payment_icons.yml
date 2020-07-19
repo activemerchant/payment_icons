@@ -608,3 +608,7 @@
   name: gcash
   label: GCash
   group: wallets
+- 
+  name: tendopay
+  label: TendoPay
+  group: other
