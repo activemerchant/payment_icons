@@ -637,3 +637,6 @@
   label: UAE Visa Credit Card
   group: credit_cards
 
+  name: mbway
+  label: MB WAY
+  group: others
