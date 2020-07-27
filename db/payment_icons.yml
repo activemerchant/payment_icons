@@ -636,4 +636,11 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
-
+-
+  name: postfinanance_card
+  label: PostFinance Card
+  group: bank_transfers
+-
+  name: postfinanance_efinance
+  label: PostFinance E-Finance
+  group: bank_transfers
