@@ -637,6 +637,26 @@
   label: UAE Visa Credit Card
   group: credit_cards
 -
- name: dpo-airtelmoney
- label: Airtel Money
- group: credit_cards
+  name: dpo-airtelmoney
+  label: Airtel Money
+  group: credit_cards
+-
+  name: dpo-mtnmobilemoney
+  label: MTN Mobile Money
+  group: credit_cards
+-
+  name: dpo-orangemoney
+  label: Orangemoney
+  group: credit_cards
+-
+  name: dpo-tigopesa
+  label: Tigopesa
+  group: credit_cards
+-
+  name: dpo-vodaphonempesa
+  label: Vodaphone Mpesa
+  group: credit_cards
+-
+  name: dpo-xpay
+  label: Xpay
+  group: credit_cards
