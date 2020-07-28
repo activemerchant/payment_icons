@@ -606,10 +606,6 @@
   name: gcash
   label: GCash
   group: wallets
-- 
-  name: abitab
-  label: Abitab
-  group: other
 -
   name: naps
   label: Naps
