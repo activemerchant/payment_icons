@@ -274,12 +274,10 @@
   name: ideal
   label: iDEAL
   group: other
-
 -
   name: interac
   label: Interac
   group: other
-
 -
   name: arvato
   label: Arvato
