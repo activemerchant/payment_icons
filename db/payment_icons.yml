@@ -586,23 +586,23 @@
   name: toss
   label: Toss
   group: wallets
-- 
+-
   name: coop
   label: Coop
   group: bank_transfers
-- 
+-
   name: luminor
   label: Luminor
   group: bank_transfers
-- 
+-
   name: bdo
   label: BDO
   group: bank_transfers
-- 
+-
   name: bpi
   label: BPI
   group: bank_transfers
-- 
+-
   name: gcash
   label: GCash
   group: wallets
@@ -710,3 +710,23 @@
   name: redpagos
   label: RedPagos
   group: convenience_stores
+-
+  name: line_pay
+  label: LINE Pay
+  group: wallets
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  group: wallets
+-
+  name: pay_easy
+  label: Pay Easy
+  group: wallets
+-
+  name: softbank
+  label: Softbank
+  group: other
+-
+  name: yahoo_mobile
+  label: Yahoo Mobile
+  group: other
