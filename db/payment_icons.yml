@@ -648,7 +648,7 @@
 -
   name: pay_easy
   label: Pay Easy
-  group: wallets
+  group: other
 -
   name: softbank
   label: Softbank
