@@ -3,3 +3,4 @@ source "https://rubygems.org"
 gemspec path: '..'
 
 gem 'rails', github: 'rails'
+gem 'frozen_record', '~> 0.19.0'
