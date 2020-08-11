@@ -636,6 +636,10 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
 
 -
   name: line_pay
@@ -657,3 +661,7 @@
   name: yahoo_mobile
   label: Yahoo Mobile
   group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
