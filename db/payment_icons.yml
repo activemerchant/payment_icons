@@ -636,6 +636,10 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
 
 -
   name: line_pay
