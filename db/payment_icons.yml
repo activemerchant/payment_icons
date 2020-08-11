@@ -665,3 +665,7 @@
   name: mtn_mobile_money
   label: MTN Mobile Money
   group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
