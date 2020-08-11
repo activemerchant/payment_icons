@@ -661,3 +661,7 @@
   name: yahoo_mobile
   label: Yahoo Mobile
   group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
