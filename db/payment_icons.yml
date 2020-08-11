@@ -657,3 +657,7 @@
   name: yahoo_mobile
   label: Yahoo Mobile
   group: other
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
