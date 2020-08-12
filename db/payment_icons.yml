@@ -636,6 +636,10 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
 
 -
   name: line_pay
@@ -648,7 +652,7 @@
 -
   name: pay_easy
   label: Pay Easy
-  group: wallets
+  group: other
 -
   name: softbank
   label: Softbank
@@ -681,3 +685,12 @@
   name: dpo-xpay
   label: Xpay
   group: credit_cards
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
+
