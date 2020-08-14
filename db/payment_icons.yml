@@ -711,6 +711,10 @@
   label: RedPagos
   group: convenience_stores
 -
+  name: fps
+  label: FPS
+  group: wallets
+-
   name: line_pay
   label: LINE Pay
   group: wallets
@@ -721,7 +725,7 @@
 -
   name: pay_easy
   label: Pay Easy
-  group: wallets
+  group: other
 -
   name: softbank
   label: Softbank
@@ -730,3 +734,11 @@
   name: yahoo_mobile
   label: Yahoo Mobile
   group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
