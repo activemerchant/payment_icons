@@ -43,6 +43,8 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Nested `<image>` or `<img>` elements will only be accepted if they contain base64-encoded PNG image data. Paths to image files will not be accepted.
   - Embedded fonts or bitmaps will not be accepted.
 - All `id` attributes start with `pi-`.
+- All styles should be inline. There should be no `<style>` tag unless it is absolutely necessary.
+- There should be no `class` attributes unless it is absolutely necessary.
 
 ### Appearance
 - Logos appear on a solid color background.
