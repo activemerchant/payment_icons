@@ -588,25 +588,86 @@
   name: toss
   label: Toss
   group: wallets
-- 
+-
   name: coop
   label: Coop
   group: bank_transfers
-- 
+-
   name: luminor
   label: Luminor
   group: bank_transfers
-- 
+-
   name: bdo
   label: BDO
   group: bank_transfers
-- 
+-
   name: bpi
   label: BPI
   group: bank_transfers
-- 
+-
   name: gcash
   label: GCash
+  group: wallets
+-
+  name: naps
+  label: Naps
+  group: credit_cards
+-
+  name: benefit
+  label: Benefit
+  group: credit_cards
+-
+  name: sadad
+  label: Sadad
+  group: credit_cards
+-
+  name: mada
+  label: Mada
+  group: credit_cards
+-
+  name: kfast
+  label: KFast
+  group: credit_cards
+-
+  name: knet
+  label: KNet
+  group: credit_cards
+-
+  name: uaevisa
+  label: UAE Visa Credit Card
+  group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
+
+-
+  name: line_pay
+  label: LINE Pay
+  group: wallets
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  group: wallets
+-
+  name: pay_easy
+  label: Pay Easy
+  group: other
+-
+  name: softbank
+  label: Softbank
+  group: other
+-
+  name: yahoo_mobile
+  label: Yahoo Mobile
+  group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
   group: wallets
 - 
   name: tendopay
