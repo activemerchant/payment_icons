@@ -640,7 +640,6 @@
   name: fps
   label: FPS
   group: wallets
-
 -
   name: line_pay
   label: LINE Pay
