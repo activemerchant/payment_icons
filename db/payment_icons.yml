@@ -636,4 +636,8 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
+-
+  name: mb
+  label: Multibanco
+  group: other
 
