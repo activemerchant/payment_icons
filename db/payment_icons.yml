@@ -676,3 +676,7 @@
   name: coinsph
   label: Coins.ph
   group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
