@@ -677,6 +677,10 @@
   label: Coins.ph
   group: wallets
 -
+  name: payu
+  label: PayU
+  group: other
+-
   name: postfinance_card
   label: PostFinance Card
   group: credit_cards
