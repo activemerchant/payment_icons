@@ -680,3 +680,7 @@
   name: mbway
   label: MB WAY
   group: other
+-
+  name: payu
+  label: PayU
+  group: other
