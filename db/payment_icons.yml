@@ -680,3 +680,7 @@
   name: payu
   label: PayU
   group: other
+-
+  name: multibanco
+  label: Multibanco
+  group: other
