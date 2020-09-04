@@ -696,3 +696,7 @@
   name: pay_pay
   label: PayPay
   group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
