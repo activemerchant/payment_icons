@@ -1,7 +1,8 @@
 language: ruby
 script: "bundle exec rake test"
-sudo: false
 cache: bundler
+dist: xenial
+os: linux
 
 rvm:
   - 2.5.1
@@ -12,11 +13,10 @@ gemfile:
   - gemfiles/rails-latest-release.gemfile
   - gemfiles/rails-edge.gemfile
 
-matrix:
+jobs:
   exclude:
     - rvm: 2.4.4
       gemfile: gemfiles/rails-edge.gemfile
 
-
 notifications:
-email: false
+  email: false
