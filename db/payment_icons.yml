@@ -697,8 +697,12 @@
   label: PayPay
   group: wallets
 -
+  name: blik
+  label: BLIK
+  group: other
+-
   name: latitude_buyers_edge_au
-  label: Latitude Buyer's Edge (AU)
+  label: Latitude Buyers Edge (AU)
   group: other
 -
   name: latitude_creditline_au
