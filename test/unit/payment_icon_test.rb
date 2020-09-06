@@ -120,4 +120,16 @@ class PaymentIconTest < ActiveSupport::TestCase
       end
     end
   end
+
+  test 'Payment icon SVGs do not contain <style> tags' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      style_nodes = []
+      style_nodes << document.search('style')
+      style_nodes.flatten!.uniq!
+
+      assert_predicate(style_nodes, :empty?, "Expected #{payment_type} SVG to not contain <style> tags.")
+    end
+  end
 end
