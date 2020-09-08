@@ -640,7 +640,6 @@
   name: fps
   label: FPS
   group: wallets
-
 -
   name: line_pay
   label: LINE Pay
@@ -692,5 +691,36 @@
 -
   name: airteltigo_mobile_money
   label: AirtelTigo Money
+  group: wallet
+- 
+  name: tendopay
+  label: TendoPay
+  group: other
+-
+  name: coinsph
+  label: Coins.ph
   group: wallets
-
+-
+  name: payu
+  label: PayU
+  group: other
+-
+  name: au
+  label: au
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
