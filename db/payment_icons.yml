@@ -661,7 +661,6 @@
   label: Yahoo Mobile
   group: other
 -
-<<<<<<<<< Temporary merge branch 1
   name: dpo-airtelmoney
   label: Airtel Money
   group: credit_cards
@@ -685,7 +684,7 @@
   name: dpo-xpay
   label: Xpay
   group: credit_cards
-=========
+-
   name: mtn_mobile_money
   label: MTN Mobile Money
   group: wallets
