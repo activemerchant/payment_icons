@@ -681,10 +681,6 @@
   label: PayU
   group: other
 -
-  name: au
-  label: au
-  group: other
--
   name: d_barai
   label: d Barai
   group: other
