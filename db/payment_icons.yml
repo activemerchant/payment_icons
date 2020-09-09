@@ -681,6 +681,26 @@
   label: PayU
   group: other
 -
+  name: au
+  label: au
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
+-
   name: postfinance_card
   label: PostFinance Card
   group: credit_cards
