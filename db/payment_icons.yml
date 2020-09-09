@@ -672,7 +672,7 @@
   name: airteltigo_mobile_money
   label: AirtelTigo Money
   group: wallets
-- 
+-
   name: tendopay
   label: TendoPay
   group: other
@@ -723,4 +723,8 @@
 -
   name: latitude_go_au
   label: Latitude GO (AU)
+  group: other
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
   group: other
