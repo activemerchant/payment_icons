@@ -19,6 +19,14 @@
   label: Diners Club
   group: credit_cards
 -
+  name: cartes_bancaires
+  label: Cartes Bancaires
+  group: credit_cards
+-
+  name: ing_homepay
+  label: ING Homepay
+  group: bank_transfers
+-
   name: jcb
   label: JCB
   group: credit_cards
@@ -59,6 +67,14 @@
   label: EOS
   group: cryptocurrencies
 -
+  name: dai
+  label: DAI
+  group: cryptocurrencies
+-
+  name: usdc
+  label: USDC
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -67,8 +83,20 @@
   label: Boleto
   group: other
 -
+  name: kbc_cbc
+  label: KBC/CBC
+  group: bank_transfers
+-
+  name: sepa_bank_transfer
+  label: SEPA Bank Transfer
+  group: bank_transfers
+-
   name: dankort
   label: Dankort
+  group: bank_transfers
+-
+  name: belfius
+  label: Belfius
   group: bank_transfers
 -
   name: dwolla
@@ -322,7 +350,7 @@
   group: wallets
 -
   name: shopify_pay
-  label: Shopify Pay
+  label: Shop Pay
   group: other
 -
   name: trustly
@@ -429,6 +457,10 @@
   label: eNETS
   group: other
 -
+  name: grabpay
+  label: GrabPay
+  group: wallets
+-
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
@@ -436,11 +468,11 @@
   name: mpesa
   label: M-Pesa
   group: wallets
-- 
+-
   name: ovo
   label: OVO
   group: wallets
-- 
+-
   name: wechatpay
   label: WeChat Pay
   group: wallets
@@ -465,9 +497,209 @@
   label: eBucks
   group: other
 -
+  name: pagoefectivo
+  label: PagoEfectivo
+  group: other
+-
   name: ozow
   label: Ozow
   group: bank_transfers
+-
+  name: eps
+  label: EPS
+  group: bank_transfers
+-
+  name: afterpay
+  label: Afterpay
+  group: other
+-
+  name: clearpay
+  label: Clearpay
+  group: other
+-
+  name: zapper
+  label: Zapper
+  group: other
+-
+  name: payconiq
+  label: Payconiq
+  group: other
+-
+  name: paidy
+  label: Paidy
+  group: other
+-
+  name: stcpay
+  label: Stcpay
+  group: wallets
+-
+  name: paynow
+  label: PayNow
+  group: other
+-
+  name: bc_card
+  label: BC Card
+  group: credit_cards
+-
+  name: hana_card
+  label: Hana Card
+  group: credit_cards
+-
+  name: hyundai_card
+  label: Hyundai Card
+  group: credit_cards
+-
+  name: kb_card
+  label: KB Card
+  group: credit_cards
+-
+  name: lotte_card
+  label: Lotte Card
+  group: credit_cards
+-
+  name: nh_card
+  label: NH Card
+  group: credit_cards
+-
+  name: samsung_card
+  label: Samsung Card
+  group: credit_cards
+-
+  name: shinhan_card
+  label: Shinhan Card
+  group: credit_cards
+-
+  name: kakao_pay
+  label: Kakao Pay
+  group: wallets
+-
+  name: naver_pay
+  label: Naver Pay
+  group: wallets
+-
+  name: payco
+  label: Payco
+  group: wallets
+-
+  name: samsung_pay
+  label: Samsung Pay
+  group: wallets
+-
+  name: toss
+  label: Toss
+  group: wallets
+-
+  name: coop
+  label: Coop
+  group: bank_transfers
+-
+  name: luminor
+  label: Luminor
+  group: bank_transfers
+-
+  name: bdo
+  label: BDO
+  group: bank_transfers
+-
+  name: bpi
+  label: BPI
+  group: bank_transfers
+-
+  name: gcash
+  label: GCash
+  group: wallets
+-
+  name: naps
+  label: Naps
+  group: credit_cards
+-
+  name: benefit
+  label: Benefit
+  group: credit_cards
+-
+  name: sadad
+  label: Sadad
+  group: credit_cards
+-
+  name: mada
+  label: Mada
+  group: credit_cards
+-
+  name: kfast
+  label: KFast
+  group: credit_cards
+-
+  name: knet
+  label: KNet
+  group: credit_cards
+-
+  name: uaevisa
+  label: UAE Visa Credit Card
+  group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
+-
+  name: line_pay
+  label: LINE Pay
+  group: wallets
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  group: wallets
+-
+  name: pay_easy
+  label: Pay Easy
+  group: other
+-
+  name: softbank
+  label: Softbank
+  group: other
+-
+  name: yahoo_mobile
+  label: Yahoo Mobile
+  group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
+-
+  name: tendopay
+  label: TendoPay
+  group: other
+-
+  name: coinsph
+  label: Coins.ph
+  group: wallets
+-
+  name: payu
+  label: PayU
+  group: other
+-
+  name: au
+  label: au
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
 -
   name: rcs
   label: RCS
