@@ -609,6 +609,10 @@
   label: GCash
   group: wallets
 -
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
+-
   name: naps
   label: Naps
   group: credit_cards
@@ -681,10 +685,6 @@
   label: PayU
   group: other
 -
-  name: au
-  label: au
-  group: other
--
   name: d_barai
   label: d Barai
   group: other
@@ -699,6 +699,10 @@
 -
   name: blik
   label: BLIK
+  group: other
+-
+  name: au_kantan_kessai
+  label: au Kantan Kessai
   group: other
 -
   name: latitude_creditline_au
