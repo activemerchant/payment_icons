@@ -701,10 +701,6 @@
   label: BLIK
   group: other
 -
-  name: latitude_buyers_edge_au
-  label: Latitude Buyers Edge (AU)
-  group: other
--
   name: latitude_creditline_au
   label: Latitude CreditLine (AU)
   group: other
