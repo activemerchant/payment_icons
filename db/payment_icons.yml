@@ -704,3 +704,7 @@
   name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
+-
+  name: ask
+  label: ASK
+  group: cryptocurrencies
