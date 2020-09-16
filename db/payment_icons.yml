@@ -704,3 +704,7 @@
   name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
+-
+  name: mb
+  label: Multibanco
+  group: other
