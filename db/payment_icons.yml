@@ -709,10 +709,6 @@
   label: Latitude CreditLine (AU)
   group: other
 -
-  name: latitude_creditline_nz
-  label: Latitude CreditLine (NZ)
-  group: other
--
   name: latitude_gem_au
   label: Latitude GEM (AU)
   group: other
