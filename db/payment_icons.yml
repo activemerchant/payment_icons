@@ -528,3 +528,7 @@
   name: publicbank_pbe
   label: Public Bank PBe
   group: bank_transfers
+-
+  name: rhbnow
+  label: RHB Now
+  group: bank_transfers
