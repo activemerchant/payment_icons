@@ -661,6 +661,10 @@
   label: Softbank
   group: other
 -
+  name: givacard
+  label: GivaCard
+  group: other
+-
   name: yahoo_mobile
   label: Yahoo Mobile
   group: other
