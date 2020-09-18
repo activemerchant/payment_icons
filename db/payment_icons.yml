@@ -488,3 +488,7 @@
   name: bankmuamalat
   label: Bank Muamalat
   group: bank_transfers
+-
+  name: bankrakyat
+  label: Bank Rakyat
+  group: bank_transfers
