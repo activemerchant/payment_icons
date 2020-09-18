@@ -520,3 +520,7 @@
   name: maybankm2u
   label: Maybank 2U
   group: bank_transfers
+-
+  name: ocbcbank
+  label: OCBC Bank
+  group: bank_transfers
