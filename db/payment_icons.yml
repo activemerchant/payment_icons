@@ -484,3 +484,7 @@
   name: bankislam
   label: Bank Islam
   group: bank_transfers
+-
+  name: bankmuamalat
+  label: Bank Muamalat
+  group: bank_transfers
