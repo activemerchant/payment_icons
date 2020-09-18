@@ -504,3 +504,7 @@
   name: deutschebank
   label: Deutsche Bank
   group: bank_transfers
+-
+  name: hongleongconnect
+  label: Hong Leong Connect
+  group: bank_transfers
