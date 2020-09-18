@@ -492,3 +492,7 @@
   name: bankrakyat
   label: Bank Rakyat
   group: bank_transfers
+-
+  name: bsn
+  label: BSN Bank
+  group: bank_transfers
