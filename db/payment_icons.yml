@@ -516,3 +516,7 @@
   name: kuwaitfinancehouse
   label: Kuwait Finance House
   group: bank_transfers
+-
+  name: maybankm2u
+  label: Maybank 2U
+  group: bank_transfers
