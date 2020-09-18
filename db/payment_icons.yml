@@ -524,3 +524,7 @@
   name: ocbcbank
   label: OCBC Bank
   group: bank_transfers
+-
+  name: publicbank_pbe
+  label: Public Bank PBe
+  group: bank_transfers
