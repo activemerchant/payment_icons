@@ -496,3 +496,7 @@
   name: bsn
   label: BSN Bank
   group: bank_transfers
+-
+  name: cimbclicks
+  label: CIMB Clicks
+  group: bank_transfers
