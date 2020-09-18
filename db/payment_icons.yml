@@ -588,27 +588,31 @@
   name: toss
   label: Toss
   group: wallets
-- 
+-
   name: coop
   label: Coop
   group: bank_transfers
-- 
+-
   name: luminor
   label: Luminor
   group: bank_transfers
-- 
+-
   name: bdo
   label: BDO
   group: bank_transfers
-- 
+-
   name: bpi
   label: BPI
   group: bank_transfers
-- 
+-
   name: gcash
   label: GCash
   group: wallets
-- 
+-
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
+-
   name: naps
   label: Naps
   group: credit_cards
@@ -636,4 +640,83 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
-
+-
+  name: fps
+  label: FPS
+  group: wallets
+-
+  name: line_pay
+  label: LINE Pay
+  group: wallets
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  group: wallets
+-
+  name: pay_easy
+  label: Pay Easy
+  group: other
+-
+  name: softbank
+  label: Softbank
+  group: other
+-
+  name: yahoo_mobile
+  label: Yahoo Mobile
+  group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
+- 
+  name: tendopay
+  label: TendoPay
+  group: other
+-
+  name: coinsph
+  label: Coins.ph
+  group: wallets
+-
+  name: payu
+  label: PayU
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
+-
+  name: au_kantan_kessai
+  label: au Kantan Kessai
+  group: other
+-
+  name: latitude_creditline_au
+  label: Latitude CreditLine (AU)
+  group: other
+-
+  name: latitude_gem_au
+  label: Latitude GEM (AU)
+  group: other
+-
+  name: latitude_gem_nz
+  label: Latitude GEM (NZ)
+  group: other
+-
+  name: latitude_go_au
+  label: Latitude GO (AU)
+  group: other
