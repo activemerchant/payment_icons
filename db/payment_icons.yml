@@ -472,3 +472,7 @@
   name: eps
   label: EPS
   group: bank_transfers
+-
+  name: affinbank
+  label: Affin Bank
+  group: bank_transfers
