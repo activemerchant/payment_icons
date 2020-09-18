@@ -508,3 +508,11 @@
   name: hongleongconnect
   label: Hong Leong Connect
   group: bank_transfers
+-
+  name: hsbc
+  label: HSBC Bank
+  group: bank_transfers
+-
+  name: kuwaitfinancehouse
+  label: Kuwait Finance House
+  group: bank_transfers
