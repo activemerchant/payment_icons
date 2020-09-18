@@ -681,6 +681,10 @@
   label: Coins.ph
   group: wallets
 -
+  name: podium_cadeaukaart
+  label: Podium Cadeaukaart
+  group: other
+-
   name: payu
   label: PayU
   group: other
@@ -701,7 +705,7 @@
   label: BLIK
   group: other
 -
-  name: au_kantan_kessai
+c  name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
 -
