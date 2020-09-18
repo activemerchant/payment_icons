@@ -500,3 +500,7 @@
   name: cimbclicks
   label: CIMB Clicks
   group: bank_transfers
+-
+  name: deutschebank
+  label: Deutsche Bank
+  group: bank_transfers
