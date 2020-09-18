@@ -701,6 +701,10 @@
   label: BLIK
   group: other
 -
+  name: vvv_cadeaukaart
+  label: VVV Cadeaukaart
+  group: other
+-
   name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
