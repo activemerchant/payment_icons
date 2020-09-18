@@ -705,7 +705,7 @@
   label: BLIK
   group: other
 -
-c  name: au_kantan_kessai
+  name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
 -
