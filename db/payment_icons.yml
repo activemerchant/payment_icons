@@ -476,3 +476,7 @@
   name: affinbank
   label: Affin Bank
   group: bank_transfers
+-
+  name: alliancebank
+  label: Alliance Bank
+  group: bank_transfers
