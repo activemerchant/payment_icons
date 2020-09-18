@@ -633,6 +633,10 @@
   label: KFast
   group: credit_cards
 -
+  name: yourgift
+  label: YourGift
+  group: other
+-
   name: knet
   label: KNet
   group: credit_cards
