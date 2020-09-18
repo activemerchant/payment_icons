@@ -720,3 +720,7 @@
   name: latitude_go_au
   label: Latitude GO (AU)
   group: other
+-
+  name: fasta
+  label: FASTA Instant credit
+  group: other
