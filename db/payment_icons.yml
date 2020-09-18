@@ -532,3 +532,7 @@
   name: rhbnow
   label: RHB Now
   group: bank_transfers
+-
+  name: standardchartered
+  label: Standard Chartered
+  group: bank_transfers
