@@ -480,3 +480,7 @@
   name: alliancebank
   label: Alliance Bank
   group: bank_transfers
+-
+  name: bankislam
+  label: Bank Islam
+  group: bank_transfers
