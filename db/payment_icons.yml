@@ -705,6 +705,10 @@
   label: au Kantan Kessai
   group: other
 -
+  name: mbway
+  label: MB WAY
+  group: other
+-
   name: latitude_creditline_au
   label: Latitude CreditLine (AU)
   group: other
