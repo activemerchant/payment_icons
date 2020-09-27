@@ -636,4 +636,7 @@
   name: uaevisa
   label: UAE Visa Credit Card
   group: credit_cards
-
+-
+  name: unionpay_quickpass
+  label: UnionPay QuickPass
+  group: wallets
