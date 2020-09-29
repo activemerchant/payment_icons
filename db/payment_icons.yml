@@ -672,7 +672,7 @@
   name: airteltigo_mobile_money
   label: AirtelTigo Money
   group: wallets
-- 
+-
   name: tendopay
   label: TendoPay
   group: other
@@ -705,6 +705,10 @@
   label: au Kantan Kessai
   group: other
 -
+  name: mbway
+  label: MB WAY
+  group: other
+-
   name: latitude_creditline_au
   label: Latitude CreditLine (AU)
   group: other
@@ -719,6 +723,10 @@
 -
   name: latitude_go_au
   label: Latitude GO (AU)
+  group: other
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
   group: other
 -
   name: postfinance_card
