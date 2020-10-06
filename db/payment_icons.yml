@@ -672,7 +672,7 @@
   name: airteltigo_mobile_money
   label: AirtelTigo Money
   group: wallets
-- 
+-
   name: tendopay
   label: TendoPay
   group: other
@@ -700,7 +700,7 @@
   name: blik
   label: BLIK
   group: other
--
+-  
   name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
@@ -728,3 +728,15 @@
   name: mb
   label: Multibanco
   group: other
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
+  group: other
+-
+  name: postfinance_card
+  label: PostFinance Card
+  group: credit_cards
+-
+  name: postfinance_efinance
+  label: PostFinance E-Finance
+  group: bank_transfers
