@@ -740,3 +740,7 @@
   name: postfinance_efinance
   label: PostFinance E-Finance
   group: bank_transfers
+-
+  name: alipay_cn
+  label: AliPay
+  group: other
