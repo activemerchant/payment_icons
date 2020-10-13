@@ -725,6 +725,10 @@
   label: Latitude GO (AU)
   group: other
 -
+  name: mb
+  label: Multibanco
+  group: other
+-
   name: bogus_app_coin
   label: BOGUS_APP_COIN
   group: other
