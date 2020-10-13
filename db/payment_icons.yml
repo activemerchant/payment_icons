@@ -650,6 +650,10 @@
   label: Pay Easy
   group: wallets
 -
+  name: merpay
+  label: merpay
+  group: wallets
+-
   name: softbank
   label: Softbank
   group: other
