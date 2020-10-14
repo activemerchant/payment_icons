@@ -651,7 +651,7 @@
   group: wallets
 -
   name: merpay
-  label: merpay
+  label: Merpay
   group: wallets
 -
   name: softbank
