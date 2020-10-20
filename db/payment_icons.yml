@@ -744,3 +744,7 @@
   name: alipay_cn
   label: AliPay
   group: other
+-
+  name: ask
+  label: ASK
+  group: cryptocurrencies
