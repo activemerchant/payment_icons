@@ -673,6 +673,10 @@
   label: MTN Mobile Money
   group: wallets
 -
+  name: fashioncheque
+  label: Fashioncheque
+  group: other
+-
   name: airteltigo_mobile_money
   label: AirtelTigo Money
   group: wallets
