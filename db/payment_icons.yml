@@ -712,7 +712,11 @@
   name: blik
   label: BLIK
   group: other
--  
+-
+  name: billink
+  label: Billink
+  group: other
+-
   name: au_kantan_kessai
   label: au Kantan Kessai
   group: other
