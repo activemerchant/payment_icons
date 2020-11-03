@@ -764,3 +764,7 @@
   name: ask
   label: ASK
   group: cryptocurrencies
+-
+  name: paymaya
+  label: Paymaya
+  group: wallets
