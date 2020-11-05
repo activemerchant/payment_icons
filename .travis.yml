@@ -14,10 +14,5 @@ gemfile:
   - gemfiles/rails-latest-release.gemfile
   - gemfiles/rails-edge.gemfile
 
-jobs:
-  exclude:
-    - rvm: 2.7.2
-      gemfile: gemfiles/rails-edge.gemfile
-
 notifications:
   email: false
