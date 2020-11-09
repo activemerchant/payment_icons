@@ -274,12 +274,10 @@
   name: ideal
   label: iDEAL
   group: other
-
 -
   name: interac
   label: Interac
   group: other
-
 -
   name: arvato
   label: Arvato
@@ -507,6 +505,70 @@
 -
   name: eps
   label: EPS
+  group: bank_transfers
+-
+  name: affinbank
+  label: Affin Bank
+  group: bank_transfers
+-
+  name: alliancebank
+  label: Alliance Bank
+  group: bank_transfers
+-
+  name: bankislam
+  label: Bank Islam
+  group: bank_transfers
+-
+  name: bankmuamalat
+  label: Bank Muamalat
+  group: bank_transfers
+-
+  name: bankrakyat
+  label: Bank Rakyat
+  group: bank_transfers
+-
+  name: bsn
+  label: BSN Bank
+  group: bank_transfers
+-
+  name: cimbclicks
+  label: CIMB Clicks
+  group: bank_transfers
+-
+  name: deutschebank
+  label: Deutsche Bank
+  group: bank_transfers
+-
+  name: hongleongconnect
+  label: Hong Leong Connect
+  group: bank_transfers
+-
+  name: hsbc
+  label: HSBC Bank
+  group: bank_transfers
+-
+  name: kuwaitfinancehouse
+  label: Kuwait Finance House
+  group: bank_transfers
+-
+  name: maybankm2u
+  label: Maybank 2U
+  group: bank_transfers
+-
+  name: ocbcbank
+  label: OCBC Bank
+  group: bank_transfers
+-
+  name: publicbank_pbe
+  label: Public Bank PBe
+  group: bank_transfers
+-
+  name: rhbnow
+  label: RHB Now
+  group: bank_transfers
+-
+  name: standardchartered
+  label: Standard Chartered
   group: bank_transfers
 -
   name: afterpay
