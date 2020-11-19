@@ -472,3 +472,27 @@
   name: eps
   label: EPS
   group: bank_transfers
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  group: bank_transfers
+-
+  name: cimbthai
+  label: CIMB Thai
+  group: bank_transfers
+-
+  name: kasikornbank
+  label: Kasikorn Bank
+  group: bank_transfers
+-
+  name: krungthaibank
+  label: Krung Thai Bank
+  group: bank_transfers
+-
+  name: thanachartbank
+  label: Thanachart Bank
+  group: bank_transfers
+-
+  name: uobthai
+  label: UOB Thai
+  group: bank_transfers
