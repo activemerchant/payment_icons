@@ -19,6 +19,14 @@
   label: Diners Club
   group: credit_cards
 -
+  name: cartes_bancaires
+  label: Cartes Bancaires
+  group: credit_cards
+-
+  name: ing_homepay
+  label: ING Homepay
+  group: bank_transfers
+-
   name: jcb
   label: JCB
   group: credit_cards
@@ -59,6 +67,14 @@
   label: EOS
   group: cryptocurrencies
 -
+  name: dai
+  label: DAI
+  group: cryptocurrencies
+-
+  name: usdc
+  label: USDC
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -67,8 +83,20 @@
   label: Boleto
   group: other
 -
+  name: kbc_cbc
+  label: KBC/CBC
+  group: bank_transfers
+-
+  name: sepa_bank_transfer
+  label: SEPA Bank Transfer
+  group: bank_transfers
+-
   name: dankort
   label: Dankort
+  group: bank_transfers
+-
+  name: belfius
+  label: Belfius
   group: bank_transfers
 -
   name: dwolla
@@ -246,12 +274,10 @@
   name: ideal
   label: iDEAL
   group: other
-
 -
   name: interac
   label: Interac
   group: other
-
 -
   name: arvato
   label: Arvato
@@ -322,7 +348,7 @@
   group: wallets
 -
   name: shopify_pay
-  label: Shopify Pay
+  label: Shop Pay
   group: other
 -
   name: trustly
@@ -429,6 +455,10 @@
   label: eNETS
   group: other
 -
+  name: grabpay
+  label: GrabPay
+  group: wallets
+-
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
@@ -436,11 +466,11 @@
   name: mpesa
   label: M-Pesa
   group: wallets
-- 
+-
   name: ovo
   label: OVO
   group: wallets
-- 
+-
   name: wechatpay
   label: WeChat Pay
   group: wallets
@@ -463,6 +493,10 @@
 -
   name: ebucks
   label: eBucks
+  group: other
+-
+  name: pagoefectivo
+  label: PagoEfectivo
   group: other
 -
   name: ozow
@@ -496,3 +530,327 @@
   name: uobthai
   label: UOB Thai
   group: bank_transfers
+-
+  name: affinbank
+  label: Affin Bank
+  group: bank_transfers
+-
+  name: alliancebank
+  label: Alliance Bank
+  group: bank_transfers
+-
+  name: bankislam
+  label: Bank Islam
+  group: bank_transfers
+-
+  name: bankmuamalat
+  label: Bank Muamalat
+  group: bank_transfers
+-
+  name: bankrakyat
+  label: Bank Rakyat
+  group: bank_transfers
+-
+  name: bsn
+  label: BSN Bank
+  group: bank_transfers
+-
+  name: cimbclicks
+  label: CIMB Clicks
+  group: bank_transfers
+-
+  name: deutschebank
+  label: Deutsche Bank
+  group: bank_transfers
+-
+  name: hongleongconnect
+  label: Hong Leong Connect
+  group: bank_transfers
+-
+  name: hsbc
+  label: HSBC Bank
+  group: bank_transfers
+-
+  name: kuwaitfinancehouse
+  label: Kuwait Finance House
+  group: bank_transfers
+-
+  name: maybankm2u
+  label: Maybank 2U
+  group: bank_transfers
+-
+  name: ocbcbank
+  label: OCBC Bank
+  group: bank_transfers
+-
+  name: publicbank_pbe
+  label: Public Bank PBe
+  group: bank_transfers
+-
+  name: rhbnow
+  label: RHB Now
+  group: bank_transfers
+-
+  name: standardchartered
+  label: Standard Chartered
+  group: bank_transfers
+-
+  name: afterpay
+  label: Afterpay
+  group: other
+-
+  name: clearpay
+  label: Clearpay
+  group: other
+-
+  name: zapper
+  label: Zapper
+  group: other
+-
+  name: payconiq
+  label: Payconiq
+  group: other
+-
+  name: paidy
+  label: Paidy
+  group: other
+-
+  name: stcpay
+  label: Stcpay
+  group: wallets
+-
+  name: paynow
+  label: PayNow
+  group: other
+-
+  name: bc_card
+  label: BC Card
+  group: credit_cards
+-
+  name: hana_card
+  label: Hana Card
+  group: credit_cards
+-
+  name: hyundai_card
+  label: Hyundai Card
+  group: credit_cards
+-
+  name: kb_card
+  label: KB Card
+  group: credit_cards
+-
+  name: lotte_card
+  label: Lotte Card
+  group: credit_cards
+-
+  name: nh_card
+  label: NH Card
+  group: credit_cards
+-
+  name: samsung_card
+  label: Samsung Card
+  group: credit_cards
+-
+  name: shinhan_card
+  label: Shinhan Card
+  group: credit_cards
+-
+  name: kakao_pay
+  label: Kakao Pay
+  group: wallets
+-
+  name: naver_pay
+  label: Naver Pay
+  group: wallets
+-
+  name: payco
+  label: Payco
+  group: wallets
+-
+  name: samsung_pay
+  label: Samsung Pay
+  group: wallets
+-
+  name: toss
+  label: Toss
+  group: wallets
+-
+  name: coop
+  label: Coop
+  group: bank_transfers
+-
+  name: luminor
+  label: Luminor
+  group: bank_transfers
+-
+  name: bdo
+  label: BDO
+  group: bank_transfers
+-
+  name: bpi
+  label: BPI
+  group: bank_transfers
+-
+  name: gcash
+  label: GCash
+  group: wallets
+-
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
+-
+  name: naps
+  label: Naps
+  group: credit_cards
+-
+  name: benefit
+  label: Benefit
+  group: credit_cards
+-
+  name: sadad
+  label: Sadad
+  group: credit_cards
+-
+  name: mada
+  label: Mada
+  group: credit_cards
+-
+  name: kfast
+  label: KFast
+  group: credit_cards
+-
+  name: knet
+  label: KNet
+  group: credit_cards
+-
+  name: uaevisa
+  label: UAE Visa Credit Card
+  group: credit_cards
+-
+  name: fps
+  label: FPS
+  group: wallets
+-
+  name: line_pay
+  label: LINE Pay
+  group: wallets
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  group: wallets
+-
+  name: pay_easy
+  label: Pay Easy
+  group: other
+-
+  name: merpay
+  label: Merpay
+  group: wallets
+-
+  name: softbank
+  label: Softbank
+  group: other
+-
+  name: givacard
+  label: GivaCard
+  group: other
+-
+  name: yahoo_mobile
+  label: Yahoo Mobile
+  group: other
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  group: wallets
+-
+  name: fashioncheque
+  label: Fashioncheque
+  group: other
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
+-
+  name: tendopay
+  label: TendoPay
+  group: other
+-
+  name: coinsph
+  label: Coins.ph
+  group: wallets
+-
+  name: payu
+  label: PayU
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
+-
+  name: billink
+  label: Billink
+  group: other
+-
+  name: au_kantan_kessai
+  label: au Kantan Kessai
+  group: other
+-
+  name: mbway
+  label: MB WAY
+  group: other
+-
+  name: latitude_creditline_au
+  label: Latitude CreditLine (AU)
+  group: other
+-
+  name: latitude_gem_au
+  label: Latitude GEM (AU)
+  group: other
+-
+  name: latitude_gem_nz
+  label: Latitude GEM (NZ)
+  group: other
+-
+  name: latitude_go_au
+  label: Latitude GO (AU)
+  group: other
+-
+  name: mb
+  label: Multibanco
+  group: other
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
+  group: other
+-
+  name: postfinance_card
+  label: PostFinance Card
+  group: credit_cards
+-
+  name: postfinance_efinance
+  label: PostFinance E-Finance
+  group: bank_transfers
+-
+  name: alipay_cn
+  label: AliPay
+  group: other
+-
+  name: ask
+  label: ASK
+  group: cryptocurrencies
+-
+  name: paymaya
+  label: Paymaya
+  group: wallets
