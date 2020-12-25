@@ -830,3 +830,7 @@
   name: paymaya
   label: Paymaya
   group: wallets
+-
+  name: qr_promptpay
+  label: QR PromptPay
+  group: other
