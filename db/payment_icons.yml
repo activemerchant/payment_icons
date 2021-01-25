@@ -838,3 +838,63 @@
   name: rcs
   label: RCS
   group: other
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  group: bank_transfers
+-
+  name: cimbthai
+  label: CIMB Thai
+  group: bank_transfers
+-
+  name: kasikornbank
+  label: Kasikorn Bank
+  group: bank_transfers
+-
+  name: krungthaibank
+  label: Krung Thai Bank
+  group: bank_transfers
+-
+  name: thanachartbank
+  label: Thanachart Bank
+  group: bank_transfers
+-
+  name: uobthai
+  label: UOB Thai
+  group: bank_transfers
+-
+  name: bigc
+  label: Big C
+  group: wallets
+-
+  name: boost
+  label: Boost
+  group: wallets
+-
+  name: dokuwallet
+  label: Doku Wallet
+  group: wallets
+-
+  name: ecpay
+  label: EC Pay
+  group: wallets
+-
+  name: maybankqrpay
+  label: Maybank QR Pay
+  group: wallets
+-
+  name: mcash
+  label: M Cash
+  group: wallets
+-
+  name: rabbitlinepay
+  label: Rabbit Line Pay
+  group: wallets
+-
+  name: tescolotus
+  label: Tesco Lotus
+  group: wallets
+-
+  name: touchngo
+  label: Touch n Go
+  group: wallets
