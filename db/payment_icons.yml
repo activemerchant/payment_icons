@@ -843,10 +843,6 @@
   label: Bangkok Bank
   group: bank_transfers
 -
-  name: cimbthai
-  label: CIMB Thai
-  group: bank_transfers
--
   name: kasikornbank
   label: Kasikorn Bank
   group: bank_transfers
@@ -869,10 +865,6 @@
 -
   name: boost
   label: Boost
-  group: wallets
--
-  name: dokuwallet
-  label: Doku Wallet
   group: wallets
 -
   name: ecpay
