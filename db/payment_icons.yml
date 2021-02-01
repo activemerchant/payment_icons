@@ -890,3 +890,7 @@
   name: touchngo
   label: Touch n Go
   group: wallets
+-
+  name: payme
+  label: PayMe
+  group: wallets
