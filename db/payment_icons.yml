@@ -880,7 +880,7 @@
   group: wallets
 -
   name: rabbitlinepay
-  label: Rabbit Line Pay
+  label: Rabbit LINE Pay
   group: wallets
 -
   name: tescolotus
