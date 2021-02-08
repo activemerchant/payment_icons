@@ -26,11 +26,15 @@ jobs:
           - gemfiles/rails-latest-release.gemfile
           - gemfiles/rails-edge.gemfile
         exclude:
+          - version: 2.5
+            gemfile: gemfiles/rails-edge.gemfile
+          - version: 2.6
+            gemfile: gemfiles/rails-edge.gemfile
           - version: 3.0
             gemfile: gemfiles/rails-5-0.gemfile
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Set up Ruby ${{ matrix.version }}
         uses: ruby/setup-ruby@v1
         with:
