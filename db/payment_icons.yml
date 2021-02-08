@@ -415,10 +415,6 @@
   label: Banc Net
   group: bank_transfers
 -
-  name: alipay
-  label: AliPay
-  group: wallets
--
   name: eghl
   label: eGHL
   group: other
