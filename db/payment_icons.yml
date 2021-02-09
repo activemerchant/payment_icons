@@ -815,7 +815,7 @@
   label: PostFinance E-Finance
   group: bank_transfers
 -
-  name: alipay_cn
+  name: alipay
   label: AliPay
   group: other
 -
