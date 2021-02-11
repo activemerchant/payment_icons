@@ -842,7 +842,3 @@
   name: rcs
   label: RCS
   group: other
--
-  name: nets_easy
-  label: Nets Easy
-  group: other
