@@ -127,6 +127,10 @@
   label: PayPal
   group: wallets
 -
+  name: ratepay
+  label: RatePay
+  group: wallets  
+-
   name: venmo
   label: Venmo
   group: wallets
@@ -241,7 +245,7 @@
 -
   name: mobilepay
   label: MobilePay
-  group: other
+  group: wallets
 -
   name: viabill
   label: ViaBill
@@ -285,7 +289,7 @@
 -
   name: swish
   label: Swish
-  group: other
+  group: bank_transfers
 -
   name: przelew24
   label: Przelew24
@@ -437,7 +441,7 @@
 -
   name: vipps
   label: Vipps
-  group: other
+  group: wallets
 -
   name: krungsri
   label: Krungsri
@@ -837,4 +841,8 @@
 -
   name: rcs
   label: RCS
+  group: other
+-
+  name: nets_easy
+  label: Nets Easy
   group: other
