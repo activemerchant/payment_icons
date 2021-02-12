@@ -28,7 +28,7 @@ To add a new payment method icon to this repository:
 
 ## Guidelines for new icons
 
-All icon contributions must follow the guidelines below. The **markup** guidelines aim to make the inline SVG accessible to assistive technology; these are enforced by a [suite of automatic tests](https://github.com/activemerchant/payment_icons/blob/master/test/unit/payment_icon_test.rb). The **appearance** guidelines aim to provide consistency in the icons' appearance.
+All icon contributions must follow the guidelines below. The **markup** guidelines aim to make the inline SVG accessible to assistive technology; these are enforced by a [suite of automatic tests](https://github.com/activemerchant/payment_icons/blob/master/test/unit/payment_icon_test.rb). The **appearance** guidelines aim to provide consistency in the icons' appearance. Duplicate icons will not be accepted.
 
 ### Markup
 - The root `<svg>` tag has the following attributes:
