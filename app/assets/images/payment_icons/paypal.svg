@@ -4,7 +4,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px"
 	 height="24px" viewBox="0 0 38 24" enable-background="new 0 0 38 24" xml:space="preserve" aria-labelledby="pi-paypal">
 	   <title id="pi-paypal">Paypal</title>
-<g id="Layer_3">
+<g id="pi-paypal-Layer_3">
 	<g>
 		<g>
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M0.25,16.928V3.33c0-0.053,0-0.104,0-0.154
@@ -17,7 +17,7 @@
 		</g>
 	</g>
 </g>
-<g id="Layer_1">
+<g id="pi-paypal-Layer_1">
 	<g>
 		<g>
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#253B80" d="M16.821,11.271l-0.677,4.153h-2.744

@@ -4,7 +4,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px"
 	 height="24px" viewBox="0 0 38 24" enable-background="new 0 0 38 24" xml:space="preserve" aria-labelledby="pi-dankort">
 	   <title id="pi-dankort">Dankort</title>
-<g id="Layer_3">
+<g id="pi-dankort-Layer_3">
 	<g>
 		<g>
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M0.25,16.094V3.175c0-0.05,0-0.099,0-0.146
@@ -17,7 +17,7 @@
 		</g>
 	</g>
 </g>
-<g id="Layer_1">
+<g id="pi-dankort-Layer_1">
 	<g>
 		<path fill-rule="evenodd" clip-rule="evenodd" fill="#E31F28" d="M15.786,8.936c0.218,0.196,0.275,0.485,0.172,0.868
 			c-0.126,0.441-0.289,0.75-0.491,0.925c-0.234,0.213-0.595,0.319-1.08,0.319h-3.476l0.858-2.374h3.141

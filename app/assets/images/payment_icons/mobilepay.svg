@@ -4,7 +4,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px"
 	 height="24px" viewBox="0 0 38 24" enable-background="new 0 0 38 24" xml:space="preserve" aria-labelledby="pi-mobilepay">
 	  <title id="pi-mobilepay">Mobilepay</title>
-<g id="Layer_3">
+<g id="pi-mobilepay-Layer_3">
 	<g>
 		<g>
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M0.25,16.928V3.33c0-0.053,0-0.104,0-0.154
@@ -17,7 +17,7 @@
 		</g>
 	</g>
 </g>
-<g id="Layer_1">
+<g id="pi-mobilepay-Layer_1">
 	<g>
 		<path fill-rule="evenodd" clip-rule="evenodd" fill="#5A78FF" d="M17.621,3.231l-4.571,1.89c-0.141,0.05-0.245,0.155-0.315,0.315
 			c-0.06,0.16-0.06,0.31,0,0.45l4.377,10.56c0.05,0.159,0.155,0.27,0.315,0.33c0.149,0.06,0.294,0.055,0.435-0.016l4.587-1.89
