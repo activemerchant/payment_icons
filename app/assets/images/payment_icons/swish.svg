@@ -1,77 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px"
-	 height="24px" viewBox="0 0 38 24" enable-background="new 0 0 38 24" xml:space="preserve" aria-labelledby="pi-swish" role="img">
-	 <title id="pi-swish">Swish</title>
-<g id="pi-swish-Layer_3">
-	<g>
+<svg xmlns="http://www.w3.org/2000/svg" width="38px" height="24px" viewBox="0 0 38 24" role="img" aria-labelledby="pi-swish">
+	<title id="pi-swish">Swish</title>
+	<g id="pi-swish-background_swish">
 		<g>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M0.25,16.928V3.33c0-0.053,0-0.104,0-0.154
-				c0-1.95,0.93-2.925,2.789-2.925h31.995c1.812,0.038,2.717,1.013,2.717,2.925v13.65c0,1.95-0.945,2.925-2.838,2.925H3.039
-				C1.215,19.75,0.285,18.81,0.25,16.928z"/>
-			
-				<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" d="
-				M34.164,0.25H2.969c-1.813,0-2.719,0.927-2.719,2.779c0,0.048,0,0.097,0,0.146v12.918v0.731c0,1.949,0.922,2.925,2.766,2.925
-				h31.875c1.906,0,2.859-0.976,2.859-2.925V3.175c0-1.95-0.953-2.925-2.859-2.925H34.164z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M36,24H2c-1.333,0-2-0.7-2-2V2c0-1.333,0.7-2,2-2h34
+				c1.333,0,2,0.7,2,2v20C38,23.333,37.333,24,36,24z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" stroke-opacity="0.07" d="M36,24c1.333,0,2-0.7,2-2V2c0-1.333-0.7-2-2-2H2C0.7,0,0,0.7,0,2v20c0,1.333,0.7,2,2,2H36z"/>
 		</g>
 	</g>
-</g>
-<g id="pi-swish-Layer_1">
-	<g>
+	<g id="pi-swish-icon_swish">
 		<g>
-			
-				<radialGradient id="pi-swish-SVGID_1_" cx="67.2461" cy="11.3984" r="32.561" gradientTransform="matrix(0.2569 0 0 0.2572 5.8979 2.5529)" gradientUnits="userSpaceOnUse">
-				<stop  offset="0" style="stop-color:#FDD626"/>
-				<stop  offset="0.3647" style="stop-color:#F17345"/>
-				<stop  offset="0.6627" style="stop-color:#F00912"/>
-				<stop  offset="0.8784" style="stop-color:#EE0920"/>
-				<stop  offset="1" style="stop-color:#E30767"/>
-			</radialGradient>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M25.691,13.461c0.025-0.267,0.038-0.532,0.038-0.798
-				c0-0.18-0.008-0.356-0.025-0.527c-0.009-0.197-0.025-0.391-0.051-0.579c-0.231-1.595-0.942-2.989-2.133-4.181
-				c-0.462-0.472-0.954-0.867-1.477-1.184l1.644-2.058c0.215,0.163,0.42,0.348,0.617,0.553c0.573,0.566,1.036,1.179,1.387,1.84
-				c0.539,1.046,0.809,2.2,0.809,3.46c0,0.377-0.021,0.75-0.063,1.119C26.316,11.938,26.068,12.724,25.691,13.461z"/>
-			
-				<radialGradient id="pi-swish-SVGID_2_" cx="65.1953" cy="16.1484" r="47.4227" gradientTransform="matrix(0.2569 0 0 0.2571 5.8979 2.555)" gradientUnits="userSpaceOnUse">
-				<stop  offset="0" style="stop-color:#FDD626"/>
-				<stop  offset="0.3137" style="stop-color:#EB5253"/>
-				<stop  offset="0.5059" style="stop-color:#EB4F65"/>
-				<stop  offset="0.6392" style="stop-color:#E739CB"/>
-				<stop  offset="0.8" style="stop-color:#9E16EC"/>
-				<stop  offset="1" style="stop-color:#5702F0"/>
-			</radialGradient>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" d="M22.044,6.192c0.522,0.317,1.015,0.712,1.477,1.184
-				c1.19,1.192,1.901,2.585,2.133,4.181c0.025,0.188,0.042,0.382,0.051,0.579c0.018,0.171,0.025,0.348,0.025,0.527
-				c0,0.266-0.013,0.531-0.038,0.798c-0.359,0.651-0.822,1.27-1.387,1.853C22.841,16.771,21.072,17.5,19,17.5
-				c-1.053,0-2.024-0.192-2.915-0.579c0.625,0.215,1.297,0.322,2.017,0.322c1.712,0,3.176-0.604,4.392-1.814
-				c0.403-0.411,0.741-0.849,1.015-1.312c0.034-0.069,0.068-0.133,0.104-0.193c0.471-0.875,0.706-1.84,0.706-2.895
-				c0-1.724-0.608-3.195-1.824-4.413C22.348,6.471,22.198,6.33,22.044,6.192z"/>
-			
-				<radialGradient id="pi-swish-SVGID_3_" cx="35.2002" cy="39.6484" r="46.7687" gradientTransform="matrix(0.2569 0 0 0.2571 5.8979 2.5599)" gradientUnits="userSpaceOnUse">
-				<stop  offset="0" style="stop-color:#424EE9"/>
-				<stop  offset="0.3922" style="stop-color:#58C9BE"/>
-				<stop  offset="0.7647" style="stop-color:#6CD82E"/>
-				<stop  offset="1" style="stop-color:#E5DB2A"/>
-			</radialGradient>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" d="M15.957,13.782c-0.472-0.3-0.917-0.665-1.336-1.094
-				c-1.242-1.243-1.957-2.701-2.146-4.374c-0.017-0.129-0.025-0.257-0.025-0.386c-0.017-0.171-0.025-0.347-0.025-0.527
-				c0-0.412,0.03-0.81,0.09-1.196c0.316-0.541,0.711-1.046,1.182-1.518C15.16,3.229,16.929,2.5,19,2.5
-				c1.147,0,2.2,0.219,3.159,0.656c-0.685-0.249-1.421-0.373-2.208-0.373c-1.722,0-3.19,0.604-4.405,1.813
-				c-0.402,0.412-0.741,0.85-1.015,1.313c-0.061,0.111-0.12,0.228-0.18,0.347c-0.42,0.832-0.63,1.75-0.63,2.753
-				c0,1.715,0.608,3.182,1.824,4.4C15.683,13.538,15.819,13.662,15.957,13.782z"/>
-			
-				<radialGradient id="pi-swish-SVGID_4_" cx="35.751" cy="46.3984" r="33.7722" gradientTransform="matrix(0.2569 0 0 0.2571 5.8979 2.5606)" gradientUnits="userSpaceOnUse">
-				<stop  offset="0.0863" style="stop-color:#424EE9"/>
-				<stop  offset="0.4471" style="stop-color:#58C9BE"/>
-				<stop  offset="0.7098" style="stop-color:#59CAB5"/>
-				<stop  offset="1" style="stop-color:#8CE785"/>
-			</radialGradient>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_4_)" d="M12.515,6.205c-0.06,0.386-0.09,0.785-0.09,1.196
-				c0,0.18,0.009,0.356,0.025,0.527c0,0.129,0.009,0.257,0.025,0.386c0.188,1.672,0.903,3.13,2.146,4.374
-				c0.419,0.429,0.864,0.794,1.336,1.094L14.3,15.854c-0.205-0.172-0.407-0.352-0.604-0.54c-0.497-0.515-0.908-1.055-1.233-1.621
-				c-0.642-1.098-0.963-2.333-0.963-3.705c0-0.231,0.009-0.459,0.025-0.682C11.62,8.173,11.949,7.14,12.515,6.205z"/>
+			<g>
+				<radialGradient id="pi-swish-SVGID_1_" cx="22.9004" cy="8.5" r="12.9875" gradientTransform="matrix(1 0 0 1.001 0 -0.0082)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#FDD626"/>
+					<stop  offset="0.3137" style="stop-color:#EB5253"/>
+					<stop  offset="0.5059" style="stop-color:#EB4F65"/>
+					<stop  offset="0.6392" style="stop-color:#E739CB"/>
+					<stop  offset="0.8" style="stop-color:#9E16EC"/>
+					<stop  offset="1" style="stop-color:#5702F0"/>
+				</radialGradient>
+				<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#pi-swish-SVGID_1_)" d="M22.25,7.95c0.566,0.333,1.1,0.767,1.6,1.3
+					c1.233,1.233,1.983,2.7,2.25,4.4c0.034,0.233,0.051,0.449,0.051,0.649c0.033,0.2,0.05,0.384,0.05,0.55
+					c0,0.267-0.017,0.551-0.05,0.851c-0.4,0.7-0.9,1.35-1.5,1.95C23.083,19.217,21.2,20,19,20c-1.1,0-2.133-0.2-3.1-0.6
+					c0.667,0.233,1.367,0.35,2.1,0.35c1.866,0,3.434-0.634,4.7-1.9c0.434-0.466,0.8-0.949,1.1-1.449
+					c0.033-0.067,0.066-0.134,0.101-0.2c0.533-0.934,0.8-1.95,0.8-3.05c0-1.867-0.667-3.45-2-4.75
+					C22.566,8.267,22.417,8.117,22.25,7.95z"/>
+				
+					<radialGradient id="pi-swish-SVGID_2_" cx="23.4502" cy="7.2002" r="8.925" gradientTransform="matrix(1 0 0 1.0014 0 -0.0101)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#FDD626"/>
+					<stop  offset="0.3647" style="stop-color:#F17345"/>
+					<stop  offset="0.6627" style="stop-color:#F00912"/>
+					<stop  offset="0.8784" style="stop-color:#EE0920"/>
+					<stop  offset="1" style="stop-color:#E30767"/>
+				</radialGradient>
+				<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#pi-swish-SVGID_2_)" d="M26.15,15.7c0.033-0.3,0.05-0.584,0.05-0.851
+					c0-0.166-0.017-0.35-0.05-0.55c0-0.2-0.017-0.416-0.051-0.649c-0.267-1.7-1.017-3.167-2.25-4.4c-0.5-0.533-1.033-0.967-1.6-1.3
+					L24,5.8c0.2,0.167,0.417,0.35,0.65,0.55c0.633,0.6,1.133,1.267,1.5,2C26.717,9.45,27,10.667,27,12c0,0.4-0.017,0.8-0.05,1.2
+					C26.783,14.066,26.517,14.9,26.15,15.7z"/>
+				
+					<radialGradient id="pi-swish-SVGID_3_" cx="14.7998" cy="16.7998" r="9.25" gradientTransform="matrix(1 0 0 1.0014 0 -0.0227)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0.0863" style="stop-color:#424EE9"/>
+					<stop  offset="0.4471" style="stop-color:#58C9BE"/>
+					<stop  offset="0.7098" style="stop-color:#59CAB5"/>
+					<stop  offset="1" style="stop-color:#8CE785"/>
+				</radialGradient>
+				<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#pi-swish-SVGID_3_)" d="M12.1,7.95C12.033,8.383,12,8.817,12,9.25
+					c0,0.167,0,0.367,0,0.6c0,0.1,0.017,0.217,0.05,0.35c0.167,1.767,0.934,3.333,2.3,4.7c0.433,0.466,0.9,0.85,1.4,1.149l-1.8,2.2
+					c-0.2-0.167-0.4-0.366-0.6-0.6c-0.533-0.534-0.967-1.101-1.3-1.7C11.35,14.783,11,13.467,11,12c0-0.233,0.017-0.483,0.05-0.75
+					C11.15,10.05,11.5,8.95,12.1,7.95z"/>
+				
+					<radialGradient id="pi-swish-SVGID_4_" cx="14.6499" cy="14.9502" r="12.8125" gradientTransform="matrix(1 0 0 1.001 0 -0.0146)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#424EE9"/>
+					<stop  offset="0.3922" style="stop-color:#58C9BE"/>
+					<stop  offset="0.7647" style="stop-color:#6CD82E"/>
+					<stop  offset="1" style="stop-color:#E5DB2A"/>
+				</radialGradient>
+				<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#pi-swish-SVGID_4_)" d="M15.75,16.05c-0.5-0.3-0.967-0.684-1.4-1.149
+					c-1.367-1.367-2.133-2.934-2.3-4.7C12.017,10.067,12,9.95,12,9.85c0-0.233,0-0.434,0-0.6c0-0.433,0.033-0.867,0.1-1.3
+					c0.333-0.567,0.75-1.1,1.25-1.6C14.917,4.783,16.8,4,19,4c1.233,0,2.35,0.233,3.35,0.7C21.65,4.467,20.866,4.35,20,4.35
+					c-1.8,0-3.367,0.633-4.7,1.9c-0.433,0.433-0.783,0.9-1.05,1.4C14.183,7.783,14.1,7.9,14,8c-0.4,0.9-0.6,1.883-0.6,2.95
+					c0,1.833,0.633,3.399,1.9,4.7C15.433,15.783,15.583,15.917,15.75,16.05z"/>
+			</g>
 		</g>
 	</g>
-</g>
 </svg>
