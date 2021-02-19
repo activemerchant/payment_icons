@@ -890,3 +890,15 @@
   name: payme
   label: PayMe
   group: wallets
+-
+  name: truemoneywallet
+  label: True Money Wallet
+  group: wallets
+-
+  name: dokuwallet
+  label: Doku Wallet
+  group: wallets
+-
+  name: cimbthai
+  label: CIMB Thai
+  group: bank_transfers
