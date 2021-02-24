@@ -890,3 +890,7 @@
   name: payme
   label: PayMe
   group: wallets
+-
+  name: payflex
+  label: Payflex
+  group: credit_cards
