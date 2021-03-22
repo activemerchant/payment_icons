@@ -44,7 +44,8 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Embedded fonts or bitmaps will not be accepted.
 - All `id` attributes start with `pi-`.
 - All styles should be inline. There should be no `<style>`.
-- There should be no `class` attributes.
+- `base64` encoded images are not allowed.
+- `class` attributes are not allowed.
 
 ### Appearance
 - Logos appear on a solid color background.
