@@ -931,8 +931,8 @@
   label: Mandiri
   group: bank_transfers
 -
-  name: permatabank
-  label: Permata Bank
+  name: permata
+  label: Permata
   group: bank_transfers
 -
   name: bri_direct_debit
