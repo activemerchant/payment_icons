@@ -894,3 +894,47 @@
   name: payflex
   label: Payflex
   group: credit_cards
+-
+  name: alfamart
+  label: Alfamart
+  group: convenience_stores
+-
+  name: indomaret
+  label: Indomaret
+  group: convenience_stores
+-
+  name: dana
+  label: Dana
+  group: wallets
+-
+  name: linkaja
+  label: LinkAja
+  group: wallets
+-
+  name: shopeepay
+  label: ShopeePay
+  group: wallets
+-
+  name: bca
+  label: BCA
+  group: bank_transfers
+-
+  name: bni
+  label: BNI
+  group: bank_transfers
+-
+  name: bri
+  label: BRI
+  group: bank_transfers
+-
+  name: mandiri
+  label: Mandiri
+  group: bank_transfers
+-
+  name: permata
+  label: Permata
+  group: bank_transfers
+-
+  name: bri_direct_debit
+  label: BRI Direct Debit
+  group: other
