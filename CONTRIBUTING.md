@@ -14,10 +14,10 @@ To add a new payment method icon to this repository:
     - `wallets`
 
 4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons).
-5. Optimize your icon using [SVGO](https://jakearchibald.github.io/svgomg/) - instructions below.
+5. Optimize your icon using [SVGO](https://github.com/svg/svgo) (`v1.x.x`) - instructions below.
 
     ```
-    $ npm install -g svgo
+    $ npm install -g svgo@1.3.2
     $ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
     ```
 
