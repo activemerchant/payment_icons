@@ -53,7 +53,7 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Whenever possible, the background color does not use a gradient fill.
   - Transparent backgrounds will not be accepted.
 - Icons have a visible border to give them a consistent shape on pages whose backgrounds match that of the icon.
-  - Whenever possible, the border should be black (hex color `#000`) with a 0.07% opacity.
+  - Whenever possible, the border should be black (hex color `#000`) with a 7% opacity (`0.07`).
   - The border width must be 1px (pixel) thick.
   - The border must have a 2px radius (outside stroke).
 - Icons are clear and easy to read/understand
