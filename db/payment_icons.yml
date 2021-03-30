@@ -819,6 +819,10 @@
   label: AliPay
   group: other
 -
+  name: alipay_hk
+  label: AliPay HK
+  group: other
+-
   name: ask
   label: ASK
   group: cryptocurrencies
