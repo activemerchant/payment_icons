@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - '**'
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Ruby ${{ matrix.version }} ${{ matrix.gemfile }}
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: ${{ matrix.gemfile }}
+    strategy:
+      matrix:
+        version:
+          - 2.5
+          - 2.6
+          - 2.7
+          - 3.0
+        gemfile:
+          - gemfiles/rails-5-0.gemfile
+          - gemfiles/rails-latest-release.gemfile
+          - gemfiles/rails-edge.gemfile
+        exclude:
+          - version: 2.5
+            gemfile: gemfiles/rails-edge.gemfile
+          - version: 2.6
+            gemfile: gemfiles/rails-edge.gemfile
+          - version: 3.0
+            gemfile: gemfiles/rails-5-0.gemfile
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby ${{ matrix.version }}
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.version }}
+          bundler-cache: true
+
+      - name: Test
+        run: bundle exec rake test
