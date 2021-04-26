@@ -946,7 +946,7 @@
   name: satispay
   label: Satispay
   group: wallets
-
-name: archarge
-label: Archarge
-group: credit_cards
+-
+  name: archarge
+  label: Archarge
+  group: credit_cards
