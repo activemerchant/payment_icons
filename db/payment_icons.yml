@@ -950,3 +950,7 @@
   name: archarge
   label: Archarge
   group: credit_cards
+-
+  name: qrph
+  label: QR Ph
+  group: other
