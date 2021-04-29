@@ -947,8 +947,8 @@
   label: Satispay
   group: wallets
 -
-  name: archarge
-  label: Archarge
+  name: arhaus
+  label: arhaus
   group: credit_cards
 -
   name: qrph
