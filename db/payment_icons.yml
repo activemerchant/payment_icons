@@ -419,10 +419,6 @@
   label: Banc Net
   group: bank_transfers
 -
-  name: alipay
-  label: AliPay
-  group: wallets
--
   name: eghl
   label: eGHL
   group: other
@@ -823,8 +819,12 @@
   label: PostFinance E-Finance
   group: bank_transfers
 -
-  name: alipay_cn
+  name: alipay
   label: AliPay
+  group: other
+-
+  name: alipay_hk
+  label: AliPay HK
   group: other
 -
   name: ask
@@ -841,4 +841,116 @@
 -
   name: rcs
   label: RCS
+  group: other
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  group: bank_transfers
+-
+  name: kasikornbank
+  label: Kasikorn Bank
+  group: bank_transfers
+-
+  name: krungthaibank
+  label: Krung Thai Bank
+  group: bank_transfers
+-
+  name: thanachartbank
+  label: Thanachart Bank
+  group: bank_transfers
+-
+  name: uobthai
+  label: UOB Thai
+  group: bank_transfers
+-
+  name: bigc
+  label: Big C
+  group: wallets
+-
+  name: boost
+  label: Boost
+  group: wallets
+-
+  name: ecpay
+  label: EC Pay
+  group: wallets
+-
+  name: maybankqrpay
+  label: Maybank QR Pay
+  group: wallets
+-
+  name: mcash
+  label: M Cash
+  group: wallets
+-
+  name: rabbitlinepay
+  label: Rabbit Line Pay
+  group: wallets
+-
+  name: tescolotus
+  label: Tesco Lotus
+  group: wallets
+-
+  name: touchngo
+  label: Touch n Go
+  group: wallets
+-
+  name: payme
+  label: PayMe
+  group: wallets
+-
+  name: payflex
+  label: Payflex
+  group: credit_cards
+-
+  name: alfamart
+  label: Alfamart
+  group: convenience_stores
+-
+  name: indomaret
+  label: Indomaret
+  group: convenience_stores
+-
+  name: dana
+  label: Dana
+  group: wallets
+-
+  name: linkaja
+  label: LinkAja
+  group: wallets
+-
+  name: shopeepay
+  label: ShopeePay
+  group: wallets
+-
+  name: bca
+  label: BCA
+  group: bank_transfers
+-
+  name: bni
+  label: BNI
+  group: bank_transfers
+-
+  name: bri
+  label: BRI
+  group: bank_transfers
+-
+  name: mandiri
+  label: Mandiri
+  group: bank_transfers
+-
+  name: permata
+  label: Permata
+  group: bank_transfers
+-
+  name: bri_direct_debit
+  label: BRI Direct Debit
+  group: other
+-
+  name: satispay
+  label: Satispay
+  group: wallets
+-
+  name: qrph
+  label: QR Ph
   group: other
