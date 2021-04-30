@@ -950,7 +950,3 @@
   name: arhaus
   label: arhaus
   group: credit_cards
--
-  name: qrph
-  label: QR Ph
-  group: other
