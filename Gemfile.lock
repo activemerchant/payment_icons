@@ -75,7 +75,7 @@ GEM
     dedup (0.1.3)
     erubi (1.10.0)
     ffi (1.15.0)
-    frozen_record (0.22.0)
+    frozen_record (0.22.1)
       activemodel
       dedup
     globalid (0.4.2)
