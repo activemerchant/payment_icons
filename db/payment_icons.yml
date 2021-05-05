@@ -946,7 +946,12 @@
   name: satispay
   label: Satispay
   group: wallets
--
+- 
   name: qrph
   label: QR Ph
   group: other
+- 
+  name: arhaus
+  label: arhaus
+  group: credit_cards
+  
