@@ -285,8 +285,12 @@
 -
   name: swish
   label: Swish
-  group: other
+  group: bank_transfers
 -
+  name: ratepay
+  label: RatePay
+  group: wallets  
+ -
   name: przelew24
   label: Przelew24
   group: bank_transfers
@@ -433,7 +437,7 @@
 -
   name: vipps
   label: Vipps
-  group: other
+  group: wallets
 -
   name: krungsri
   label: Krungsri
