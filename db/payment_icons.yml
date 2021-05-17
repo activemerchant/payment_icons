@@ -943,10 +943,6 @@
   label: BRI Direct Debit
   group: other
 -
-  name: ubp
-  label: UBP
-  group: other
--
   name: satispay
   label: Satispay
   group: wallets
@@ -958,4 +954,8 @@
   name: arhaus
   label: Arhaus
   group: credit_cards
+-
+  name: ubp
+  label: UBP
+  group: bank_transfers
   
