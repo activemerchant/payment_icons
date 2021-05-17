@@ -943,6 +943,10 @@
   label: BRI Direct Debit
   group: other
 -
+  name: ubp
+  label: UBP
+  group: other
+-
   name: satispay
   label: Satispay
   group: wallets
