@@ -954,4 +954,7 @@
   name: arhaus
   label: Arhaus
   group: credit_cards
-  
+- 
+  name: octopus
+  label: Octopus
+  group: wallets
