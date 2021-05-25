@@ -956,6 +956,6 @@
   group: credit_cards
 -
   name: ubp
-  label: UBP
+  label: UBP X
   group: bank_transfers
   
