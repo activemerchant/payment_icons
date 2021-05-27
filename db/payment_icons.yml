@@ -959,6 +959,6 @@
   label: UBP
   group: bank_transfers
 -
-  name: farmlands_card
+  name: farmlands
   label: Farmlands Card
   group: credit_cards
