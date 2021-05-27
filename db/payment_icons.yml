@@ -290,7 +290,7 @@
   name: ratepay
   label: RatePay
   group: wallets  
- -
+-
   name: przelew24
   label: Przelew24
   group: bank_transfers
