@@ -958,4 +958,7 @@
   name: ubp
   label: UBP
   group: bank_transfers
-  
+-
+  name: axs
+  label: AXS
+  group: bank_transfers
