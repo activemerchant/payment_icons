@@ -958,4 +958,7 @@
   name: ubp
   label: UBP
   group: bank_transfers
-  
+-
+  name: sam
+  label: SAM
+  group: other
