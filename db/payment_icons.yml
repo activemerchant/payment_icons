@@ -962,4 +962,7 @@
   name: ubp
   label: UBP
   group: bank_transfers
-  
+-
+  name: farmlands
+  label: Farmlands Card
+  group: credit_cards
