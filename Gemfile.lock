@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.6.4)
+    payment_icons (1.6.5)
       frozen_record
       railties (>= 5.0)
       sassc-rails
@@ -90,10 +90,10 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.0.3)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     nio4r (2.5.7)
-    nokogiri (1.11.4)
+    nokogiri (1.11.6)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pry (0.14.1)
