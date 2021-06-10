@@ -962,7 +962,11 @@
   name: ubp
   label: UBP
   group: bank_transfers
-- 
+-
   name: qris
   label: QRIS
+  group: other
+- 
+  name: axs
+  label: AXS
   group: other
