@@ -966,6 +966,10 @@
   name: qris
   label: QRIS
   group: other
+- 
+  name: axs
+  label: AXS
+  group: other
 -
   name: sam
   label: SAM
