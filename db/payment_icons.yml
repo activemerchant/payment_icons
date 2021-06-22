@@ -731,8 +731,8 @@
   label: GivaCard
   group: other
 -
-  name: yahoo_mobile
-  label: Yahoo Mobile
+  name: ymobile
+  label: Y!Mobile
   group: other
 -
   name: mtn_mobile_money
