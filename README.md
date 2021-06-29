@@ -1,3 +1,5 @@
+# 🛑🙅‍♂️ Adding new icons is currently paused. We hope to update here soon on how we can resume contributions. 🙅‍♂️🛑
+
 # Payment Icons
 
 [![Build Status](https://github.com/activemerchant/payment_icons/workflows/CI/badge.svg?branch=master)](https://github.com/activemerchant/payment_icons/actions?query=workflow%3ACI)
