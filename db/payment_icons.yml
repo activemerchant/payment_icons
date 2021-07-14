@@ -974,3 +974,7 @@
   name: sam
   label: SAM
   group: other
+-
+  name: facebook_pay
+  label: Facebook Pay
+  group: wallets
