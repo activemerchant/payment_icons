@@ -978,3 +978,7 @@
   name: facebook_pay
   label: Facebook Pay
   group: wallets
+-
+  name: kueskipay
+  label: Kueski Pay
+  group: other
