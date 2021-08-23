@@ -962,3 +962,23 @@
   name: farmlands
   label: Farmlands Card
   group: credit_cards
+  
+  name: qris
+  label: QRIS
+  group: other
+- 
+  name: axs
+  label: AXS
+  group: other
+-
+  name: sam
+  label: SAM
+  group: other
+-
+  name: facebook_pay
+  label: Facebook Pay
+  group: wallets
+-
+  name: kueskipay
+  label: Kueski Pay
+  group: other
