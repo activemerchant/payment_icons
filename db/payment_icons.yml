@@ -285,7 +285,11 @@
 -
   name: swish
   label: Swish
-  group: other
+  group: bank_transfers
+-
+  name: ratepay
+  label: RatePay
+  group: wallets  
 -
   name: przelew24
   label: Przelew24
@@ -433,7 +437,7 @@
 -
   name: vipps
   label: Vipps
-  group: other
+  group: wallets
 -
   name: krungsri
   label: Krungsri
@@ -727,8 +731,8 @@
   label: GivaCard
   group: other
 -
-  name: yahoo_mobile
-  label: Yahoo Mobile
+  name: ymobile
+  label: Y!Mobile
   group: other
 -
   name: mtn_mobile_money
