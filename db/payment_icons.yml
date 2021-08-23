@@ -958,11 +958,7 @@
   name: ubp
   label: UBP
   group: bank_transfers
--
-  name: farmlands
-  label: Farmlands Card
-  group: credit_cards
-  
+- 
   name: qris
   label: QRIS
   group: other
@@ -982,3 +978,7 @@
   name: kueskipay
   label: Kueski Pay
   group: other
+-
+  name: farmlands
+  label: Farmlands Card
+  group: credit_cards
