@@ -986,3 +986,7 @@
   name: kueskipay
   label: Kueski Pay
   group: other
+-
+  name: billease
+  label: BillEase
+  group: other
