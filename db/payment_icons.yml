@@ -994,3 +994,7 @@
   name: nelo
   label: Nelo
   group: other
+-
+  name: affirm
+  label: Affirm
+  group: other
