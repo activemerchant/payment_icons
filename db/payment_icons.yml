@@ -998,23 +998,23 @@
   name: vvv_giftcard
   label: VVV Cadeaukaart
   group: other
-  -
+-
   name: kunstencultuurcadeaukaart
   label: Kunst & Cultuur Cadeaukaart
   group: other
-  -
+-
   name: nationalebioscoopbon
   label: Nationale Bioscoopbon
   group: other
-  -
+-
   name: nationaleentertainmentcard
   label: Nationale EntertainmentCard
   group: other
-  -
+-
   name: podiumcadeaukaart
   label: Podium Cadeaukaart
   group: other
-  -
+-
   name: webshopgiftcard
   label: Webshop Giftcard
   group: other
