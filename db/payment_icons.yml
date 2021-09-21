@@ -996,7 +996,7 @@
   group: other
 -
   name: vvv_giftcard
-  label: VVV Cadeaukaart
+  label: VVV Giftcard
   group: other
 -
   name: kunstencultuurcadeaukaart
@@ -1004,11 +1004,11 @@
   group: other
 -
   name: nationalebioscoopbon
-  label: Nationale Bioscoopbon
+  label: Nationale Bioscoop Bon
   group: other
 -
   name: nationaleentertainmentcard
-  label: Nationale EntertainmentCard
+  label: Nationale Entertainment Card
   group: other
 -
   name: podiumcadeaukaart
