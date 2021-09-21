@@ -994,3 +994,7 @@
   name: nelo
   label: Nelo
   group: other
+-
+  name: billease
+  label: BillEase
+  group: other
