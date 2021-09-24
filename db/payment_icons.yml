@@ -998,3 +998,7 @@
   name: billease
   label: BillEase
   group: other
+-
+  name: affirm
+  label: Affirm
+  group: other
