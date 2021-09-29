@@ -995,6 +995,30 @@
   label: Nelo
   group: other
 -
+  name: vvv_giftcard
+  label: VVV Giftcard
+  group: other
+-
+  name: kunstencultuurcadeaukaart
+  label: Kunst en Cultuur Cadeaukaart
+  group: other
+-
+  name: nationalebioscoopbon
+  label: Nationale Bioscoop Bon
+  group: other
+-
+  name: nationaleentertainmentcard
+  label: Nationale Entertainment Card
+  group: other
+-
+  name: podiumcadeaukaart
+  label: Podium Cadeaukaart
+  group: other
+-
+  name: webshopgiftcard
+  label: Webshop Giftcard
+  group: other
+-
   name: billease
   label: BillEase
   group: other
