@@ -120,4 +120,11 @@ class PaymentIconTest < ActiveSupport::TestCase
       end
     end
   end
+
+  test 'Payment icon SVGs are a single line' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      error_message = "The '#{payment_type}' SVG file should contain a single line of markup, optionally terminated by an empty line"
+      assert svg.lines.count == 1 || (svg.lines.count == 2 && svg.lines[1] == ''), error_message
+    end
+  end
 end
