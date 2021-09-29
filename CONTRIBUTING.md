@@ -17,8 +17,8 @@ To add a new payment method icon to this repository:
 5. Optimize your icon using [SVGO](https://github.com/svg/svgo) (`v1.x.x`) - instructions below.
 
     ```
-    $ npm install -g svgo@1.3.2
-    $ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
+    npm install -g svgo@1.3.2
+    svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
     ```
 
 5. Push your changes to your fork (`git push origin my_new_icon`)
