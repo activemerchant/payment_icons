@@ -1026,3 +1026,7 @@
   name: affirm
   label: Affirm
   group: other
+-
+  name: zip
+  label: Zip
+  group: other
