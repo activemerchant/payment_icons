@@ -1030,3 +1030,7 @@
   name: splitit
   label: Splitit
   group: other
+-
+  name: zip
+  label: Zip
+  group: other
