@@ -75,7 +75,7 @@ GEM
     dedup (0.1.4)
     erubi (1.10.0)
     ffi (1.15.4)
-    frozen_record (0.22.2)
+    frozen_record (0.23.0)
       activemodel
       dedup
     globalid (0.5.2)
@@ -152,7 +152,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
