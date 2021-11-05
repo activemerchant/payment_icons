@@ -267,6 +267,10 @@
   label: Santander
   group: other
 -
+  name: flexiti
+  label: Flexiti
+  group: other
+-
   name: elv
   label: ELV
   group: bank_transfers
