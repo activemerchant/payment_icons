@@ -1042,3 +1042,7 @@
   name: synchrony
   label: Synchrony
   group: credit_cards
+-
+  name: truemoney_pay
+  label: TrueMoney Pay
+  group: wallets
