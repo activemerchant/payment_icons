@@ -1046,3 +1046,7 @@
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
+-
+  name: gmo-postpay
+  label: GMO PostPay
+  group: other
