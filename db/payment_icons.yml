@@ -1050,3 +1050,11 @@
   name: gmo-postpay
   label: GMO PostPay
   group: other
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+  group: other
