@@ -1050,3 +1050,7 @@
   name: gmo-postpay
   label: GMO PostPay
   group: other
+-
+  name: gift-card
+  label: Gift Card
+  group: other
