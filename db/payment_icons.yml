@@ -1051,6 +1051,10 @@
   label: GMO PostPay
   group: other
 -
+  name: gift-card
+  label: Gift Card
+  group: other
+-
   name: directpay
   label: DirectPay
   group: bank_transfers
