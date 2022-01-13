@@ -1051,6 +1051,10 @@
   label: GMO PostPay
   group: other
 -
+  name: addi
+  label: ADDI
+  group: other
+-
   name: gift-card
   label: Gift Card
   group: other
