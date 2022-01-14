@@ -1058,3 +1058,11 @@
   name: directpay
   label: DirectPay
   group: bank_transfers
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+  group: other
