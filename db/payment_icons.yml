@@ -1054,3 +1054,11 @@
   name: gift-card
   label: Gift Card
   group: other
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+  group: other
