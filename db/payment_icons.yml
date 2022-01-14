@@ -1055,6 +1055,17 @@
   label: Gift Card
   group: other
 -
+  name: directpay
+  label: DirectPay
+  group: bank_transfers
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+-
   name: addi
   label: ADDI
   group: other
