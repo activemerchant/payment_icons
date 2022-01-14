@@ -1055,6 +1055,10 @@
   label: Gift Card
   group: other
 -
+  name: directpay
+  label: DirectPay
+  group: bank_transfers
+-
   name: latitudepay
   label: LatitudePay
   group: other
