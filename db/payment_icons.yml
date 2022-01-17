@@ -1045,19 +1045,23 @@
 -
   name: satisfi
   label: SatisFi
-  group: credit_cards
+  group: other
 -
-  name: checkoutfinance
+  name: checkout_finance
   label: Checkout Finance
-  group: credit_cards
+  group: other
 -
-  name: echelon
+  name: echelon_financing
   label: Echelon Finance
-  group: credit_cards
+  group: other
 -
-  name: acima
+  name: acima_leasing
   label: Acima Leasing
-  group: credit_cards
+  group: other
+-
+  name: synchrony_pay
+  label: Synchrony Pay
+  group: other
 -
   name: truemoney_pay
   label: TrueMoney Pay
