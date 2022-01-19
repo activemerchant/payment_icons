@@ -1074,3 +1074,7 @@
   name: addi
   label: ADDI
   group: other
+-
+  name: mode
+  label: Mode
+  group: wallets
