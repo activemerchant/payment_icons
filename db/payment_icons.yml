@@ -1065,6 +1065,7 @@
 -
   name: genoapay
   label: Genoapay
+  group: other
 -
   name: addi
   label: ADDI
