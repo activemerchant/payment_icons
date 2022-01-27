@@ -1066,3 +1066,7 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: saastopankki
+  label: Säästöpankki
+  group: bank_transfers
