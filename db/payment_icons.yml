@@ -347,8 +347,8 @@
   label: Mondido
   group: other
 -
-  name: collector_bank
-  label: Collector Bank
+  name: walley
+  label: Walley
   group: other
 -
   name: apple_pay
