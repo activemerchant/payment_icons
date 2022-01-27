@@ -1066,3 +1066,7 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: aktia
+  label: Aktia
+  group: bank_transfers
