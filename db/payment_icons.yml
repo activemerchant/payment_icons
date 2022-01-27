@@ -1066,3 +1066,7 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: siirto
+  label: Siirto
+  group: other
