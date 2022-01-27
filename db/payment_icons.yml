@@ -1066,3 +1066,7 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: s-pankki
+  label: S Pankki
+  group: bank_transfers
