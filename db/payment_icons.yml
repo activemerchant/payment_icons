@@ -347,8 +347,8 @@
   label: Mondido
   group: other
 -
-  name: walley
-  label: Walley
+  name: collector_bank
+  label: Collector Bank
   group: other
 -
   name: apple_pay
@@ -1065,4 +1065,8 @@
 -
   name: genoapay
   label: Genoapay
+  group: other
+-
+  name: walley
+  label: Walley
   group: other
