@@ -1054,3 +1054,7 @@
   name: gift-card
   label: Gift Card
   group: other
+-
+  name: epospay
+  label: EPOS Kantan Kessai
+  group: other
