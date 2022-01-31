@@ -1058,3 +1058,19 @@
   name: epospay
   label: EPOS Kantan Kessai
   group: other
+-
+  name: poli
+  label: POLi
+  group: bank_transfers
+-
+  name: directpay
+  label: DirectPay
+  group: bank_transfers
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+  group: other
