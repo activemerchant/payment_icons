@@ -1055,6 +1055,10 @@
   label: Gift Card
   group: other
 -
+  name: epospay
+  label: EPOS Kantan Kessai
+  group: other
+-
   name: poli
   label: POLi
   group: bank_transfers
@@ -1073,6 +1077,10 @@
 -
   name: walley
   label: Walley
+  group: other
+-
+  name: atone
+  label: Atone
   group: other
 -
   name: addi
