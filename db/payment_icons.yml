@@ -1075,6 +1075,10 @@
   label: Genoapay
   group: other
 -
+  name: atone
+  label: Atone
+  group: other
+-
   name: addi
   label: ADDI
   group: other
