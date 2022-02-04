@@ -475,6 +475,10 @@
   label: OVO
   group: wallets
 -
+  name: mode
+  label: Mode
+  group: wallets
+-
   name: wechatpay
   label: WeChat Pay
   group: wallets
