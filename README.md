@@ -1,6 +1,3 @@
-# 🛑 New icon contributions are not being accepted. 🙇‍♂️
-Please feel free to read up on [shopify.dev/apps/payments](https://shopify.dev/apps/payments) and/or reach out on the [developer forums](https://community.shopify.com/c/App-Partner-Platform/ct-p/appdev).
-
 # Payment Icons
 
 [![Build Status](https://github.com/activemerchant/payment_icons/workflows/CI/badge.svg?branch=master)](https://github.com/activemerchant/payment_icons/actions?query=workflow%3ACI)
