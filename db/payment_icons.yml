@@ -1099,6 +1099,10 @@
   label: Genoapay
   group: other
 -
+  name: aktia
+  label: Aktia
+  group: bank_transfers
+-
   name: saastopankki
   label: Säästöpankki
   group: bank_transfers
@@ -1118,4 +1122,3 @@
   name: addi
   label: ADDI
   group: other
-
