@@ -81,13 +81,13 @@ GEM
     dedup (0.1.4)
     digest (3.1.0)
     erubi (1.10.0)
-    ffi (1.15.4)
+    ffi (1.15.5)
     frozen_record (0.23.0)
       activemodel
       dedup
     globalid (1.0.0)
       activesupport (>= 5.0)
-    i18n (1.8.11)
+    i18n (1.9.1)
       concurrent-ruby (~> 1.0)
     io-wait (0.2.1)
     loofah (2.13.0)
@@ -116,7 +116,7 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.0)
+    nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
     pry (0.14.1)
@@ -177,7 +177,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.5.3)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   ruby
