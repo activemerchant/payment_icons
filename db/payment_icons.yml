@@ -475,6 +475,10 @@
   label: OVO
   group: wallets
 -
+  name: mode
+  label: Mode
+  group: wallets
+-
   name: wechatpay
   label: WeChat Pay
   group: wallets
@@ -1043,6 +1047,26 @@
   label: Synchrony
   group: credit_cards
 -
+  name: satisfi
+  label: SatisFi
+  group: other
+-
+  name: checkout_finance
+  label: Checkout Finance
+  group: other
+-
+  name: echelon_financing
+  label: Echelon Finance
+  group: other
+-
+  name: acima_leasing
+  label: Acima Leasing
+  group: other
+-
+  name: synchrony_pay
+  label: Synchrony Pay
+  group: other
+-
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
@@ -1055,6 +1079,14 @@
   label: Gift Card
   group: other
 -
+  name: epospay
+  label: EPOS Kantan Kessai
+  group: other
+-
+  name: poli
+  label: POLi
+  group: bank_transfers
+-
   name: directpay
   label: DirectPay
   group: bank_transfers
@@ -1066,6 +1098,46 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: pop-pankki
+  label: POP Pankki
+  group: bank_transfers
+-
+  name: aktia
+  label: Aktia
+  group: bank_transfers
+-
+  name: saastopankki
+  label: Säästöpankki
+  group: bank_transfers
+-
+  name: s-pankki
+  label: S Pankki
+  group: bank_transfers
+-
+  name: walley
+  label: Walley
+  group: other
+-
+  name: atone
+  label: Atone
+  group: other
+-
+  name: addi
+  label: ADDI
+  group: other
+-
+  name: omasp
+  label: OmaSp
+  group: bank_transfers
+-
+  name: handelsbanken
+  label: Handelsbanken
+  group: bank_transfers
+-
+  name: alandsbanken
+  label: Ålandsbanken
+  group: bank_transfers
 -
   name: siirto
   label: Siirto
