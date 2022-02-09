@@ -1134,3 +1134,7 @@
   name: handelsbanken
   label: Handelsbanken
   group: bank_transfers
+-
+  name: alandsbanken
+  label: Ålandsbanken
+  group: bank_transfers
