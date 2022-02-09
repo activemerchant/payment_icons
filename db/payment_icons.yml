@@ -1138,3 +1138,7 @@
   name: alandsbanken
   label: Ålandsbanken
   group: bank_transfers
+-
+  name: siirto
+  label: Siirto
+  group: other
