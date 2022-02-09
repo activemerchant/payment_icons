@@ -1130,3 +1130,7 @@
   name: omasp
   label: OmaSp
   group: bank_transfers
+-
+  name: handelsbanken
+  label: Handelsbanken
+  group: bank_transfers
