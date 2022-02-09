@@ -1126,3 +1126,7 @@
   name: addi
   label: ADDI
   group: other
+-
+  name: omasp
+  label: OmaSp
+  group: bank_transfers
