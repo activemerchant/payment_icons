@@ -1066,3 +1066,7 @@
   name: genoapay
   label: Genoapay
   group: other
+-
+  name: atobaraidotcom
+  label: Atobaraidotcom
+  group: other
