@@ -523,6 +523,10 @@
   label: Alliance Bank
   group: bank_transfers
 -
+  name: atobaraidotcom
+  label: Atobaraidotcom
+  group: other
+-
   name: bankislam
   label: Bank Islam
   group: bank_transfers
