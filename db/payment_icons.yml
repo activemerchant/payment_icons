@@ -1142,3 +1142,7 @@
   name: siirto
   label: Siirto
   group: other
+-
+  name: scalapay
+  label: Scalapay
+  group: other
