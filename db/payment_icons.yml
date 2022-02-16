@@ -293,7 +293,7 @@
 -
   name: ratepay
   label: RatePay
-  group: wallets  
+  group: wallets
 -
   name: przelew24
   label: Przelew24
@@ -962,11 +962,11 @@
   name: satispay
   label: Satispay
   group: wallets
-- 
+-
   name: qrph
   label: QR Ph
   group: other
-- 
+-
   name: arhaus
   label: Arhaus
   group: credit_cards
@@ -974,7 +974,7 @@
   name: ubp
   label: UBP
   group: bank_transfers
-- 
+-
   name: farmlands
   label: Farmlands Card
   group: credit_cards
@@ -982,7 +982,7 @@
   name: qris
   label: QRIS
   group: other
-- 
+-
   name: axs
   label: AXS
   group: other
