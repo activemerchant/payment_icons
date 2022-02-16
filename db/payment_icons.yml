@@ -591,6 +591,10 @@
   label: Clearpay
   group: other
 -
+  name: smartpay
+  label: Smartpay
+  group: other
+-
   name: zapper
   label: Zapper
   group: other
