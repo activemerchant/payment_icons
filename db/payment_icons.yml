@@ -1042,6 +1042,10 @@
   name: affirm
   label: Affirm
   group: other
+
+   name: snap-finance
+  label: snap-finance
+  group: other
 -
   name: splitit
   label: Splitit
