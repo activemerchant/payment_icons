@@ -82,6 +82,7 @@ GEM
     digest (3.1.0)
     erubi (1.10.0)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw32)
     frozen_record (0.23.0)
       activemodel
       dedup
@@ -119,6 +120,8 @@ GEM
     nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
+    nokogiri (1.13.1-x64-mingw32)
+      racc (~> 1.4)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -155,6 +158,8 @@ GEM
     rake (13.0.6)
     sassc (2.4.0)
       ffi (~> 1.9)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -181,6 +186,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   payment_icons!
