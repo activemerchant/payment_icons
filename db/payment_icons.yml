@@ -1151,6 +1151,6 @@
   label: Siirto
   group: other
   -
-  name: snap-checkout
+  name: snap_checkout
   label: Snap Checkout
   group: other
