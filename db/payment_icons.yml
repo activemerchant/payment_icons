@@ -1150,3 +1150,7 @@
   name: siirto
   label: Siirto
   group: other
+  -
+  name: snap-checkout
+  label: Snap Checkout
+  group: other
