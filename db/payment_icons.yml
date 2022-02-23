@@ -919,6 +919,14 @@
   label: Alfamart
   group: convenience_stores
 -
+  name: alfamidi
+  label: Alfamidi
+  group: convenience_stores
+-
+  name: dandan
+  label: Dandan
+  group: convenience_stores
+-
   name: indomaret
   label: Indomaret
   group: convenience_stores
@@ -933,6 +941,10 @@
 -
   name: shopeepay
   label: ShopeePay
+  group: wallets
+-
+  name: gopay
+  label: Gopay
   group: wallets
 -
   name: bca
@@ -957,6 +969,26 @@
 -
   name: bri_direct_debit
   label: BRI Direct Debit
+  group: other
+-
+  name: octo_clicks
+  label: Octo Clicks
+  group: other
+-
+  name: brimo
+  label: BRI Direct Debit
+  group: other
+-
+  name: danamon_online
+  label: Danamon Direct Debit
+  group: other
+-
+  name: bca_klikpay
+  label: BCA Klikpay
+  group: other
+-
+  name: akulaku
+  label: Akulaku Cardless Credit
   group: other
 -
   name: satispay
