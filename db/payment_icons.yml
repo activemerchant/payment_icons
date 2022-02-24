@@ -1154,3 +1154,7 @@
   name: scalapay
   label: Scalapay
   group: other
+-
+  name: maxima
+  label: Maxima
+  group: other
