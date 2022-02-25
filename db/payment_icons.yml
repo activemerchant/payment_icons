@@ -1154,3 +1154,7 @@
   name: scalapay
   label: Scalapay
   group: other
+-
+  name: perlas_finance
+  label: Perlas finance
+  group: other
