@@ -1154,3 +1154,7 @@
   name: scalapay
   label: Scalapay
   group: other
+-
+  name: revolut
+  label: Revolut
+  group: bank_transfers
