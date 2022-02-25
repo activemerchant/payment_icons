@@ -1154,3 +1154,7 @@
   name: scalapay
   label: Scalapay
   group: other
+-
+  name: n26
+  label: N26
+  group: bank_transfers
