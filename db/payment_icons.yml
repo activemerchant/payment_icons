@@ -1154,3 +1154,7 @@
   name: scalapay
   label: Scalapay
   group: other
+-
+  name: siauliu_bankas
+  label: Šiaulių bankas
+  group: bank_transfers
