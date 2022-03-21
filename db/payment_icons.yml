@@ -1158,3 +1158,7 @@
   name: snap_checkout
   label: Snap Checkout
   group: other
+-
+  name: octopus
+  label: Octopus
+  group: wallets
