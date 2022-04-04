@@ -975,6 +975,10 @@
   label: Arhaus
   group: credit_cards
 -
+  name: general_financing
+  label: General financing
+  group: other
+-
   name: ubp
   label: UBP
   group: bank_transfers
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: general_financing
-  label: General financing
+  name: snap_checkout
+  label: Snap Checkout
   group: other
