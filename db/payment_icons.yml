@@ -1087,6 +1087,10 @@
   label: Gift Card
   group: other
 -
+  name: siauliu_bankas
+  label: Šiaulių bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: siauliu_bankas
-  label: Šiaulių bankas
-  group: bank_transfers
+  name: snap_checkout
+  label: Snap Checkout
+  group: other
