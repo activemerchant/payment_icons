@@ -1,4 +1,0 @@
-# Please keep these lines sorted alphabetically.
-# Wildcards can work in unexpected ways.  https://help.github.com/articles/about-codeowners/
-
-app/assets/images/ @activemerchant/designers

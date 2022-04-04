@@ -1154,8 +1154,11 @@
   name: scalapay
   label: Scalapay
   group: other
-
 -
   name: aplazo
   label: Aplazo
+  group: other
+-
+  name: snap_checkout
+  label: Snap Checkout
   group: other
