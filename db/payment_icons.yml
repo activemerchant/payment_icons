@@ -1063,6 +1063,10 @@
   label: Checkout Finance
   group: other
 -
+  name: n26
+  label: N26
+  group: bank_transfers
+-
   name: echelon_financing
   label: Echelon Finance
   group: other
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: n26
-  label: N26
-  group: bank_transfers
+  name: snap_checkout
+  label: Snap Checkout
+  group: other
