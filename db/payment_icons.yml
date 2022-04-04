@@ -919,6 +919,10 @@
   label: Payflex
   group: credit_cards
 -
+  name: maxima
+  label: Maxima
+  group: other
+-
   name: alfamart
   label: Alfamart
   group: convenience_stores
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: maxima
-  label: Maxima
+  name: snap_checkout
+  label: Snap Checkout
   group: other
