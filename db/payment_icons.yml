@@ -1039,6 +1039,10 @@
   label: BillEase
   group: other
 -
+  name: lku
+  label: LKU
+  group: other
+-
   name: affirm
   label: Affirm
   group: other
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: lku
-  label: LKU
+  name: snap_checkout
+  label: Snap Checkout
   group: other
