@@ -1095,6 +1095,10 @@
   label: POLi
   group: bank_transfers
 -
+  name: perlas_finance
+  label: Perlas finance
+  group: other
+-
   name: directpay
   label: DirectPay
   group: bank_transfers
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: perlas_finance
-  label: Perlas finance
+  name: snap_checkout
+  label: Snap Checkout
   group: other
