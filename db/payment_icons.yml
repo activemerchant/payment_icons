@@ -119,6 +119,10 @@
   label: Google Wallet
   group: wallets
 -
+  name: opay
+  label: OPAY
+  group: other
+-
   name: laser
   label: Laser
   group: bank_transfers
@@ -1155,6 +1159,6 @@
   label: Scalapay
   group: other
 -
-  name: opay
-  label: OPAY
+  name: snap_checkout
+  label: Snap Checkout
   group: other
