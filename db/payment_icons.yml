@@ -119,6 +119,10 @@
   label: Google Wallet
   group: wallets
 -
+  name: opay
+  label: OPAY
+  group: other
+-
   name: laser
   label: Laser
   group: bank_transfers
