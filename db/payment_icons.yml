@@ -1103,6 +1103,10 @@
   label: POLi
   group: bank_transfers
 -
+  name: perlas_finance
+  label: Perlas finance
+  group: other
+-
   name: directpay
   label: DirectPay
   group: bank_transfers
