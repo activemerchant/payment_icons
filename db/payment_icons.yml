@@ -1071,6 +1071,10 @@
   label: Checkout Finance
   group: other
 -
+  name: n26
+  label: N26
+  group: bank_transfers
+-
   name: echelon_financing
   label: Echelon Finance
   group: other
