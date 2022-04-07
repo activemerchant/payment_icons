@@ -1119,6 +1119,10 @@
   label: POP Pankki
   group: bank_transfers
 -
+  name: revolut
+  label: Revolut
+  group: bank_transfers
+-
   name: aktia
   label: Aktia
   group: bank_transfers
