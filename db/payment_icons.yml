@@ -979,6 +979,10 @@
   label: Arhaus
   group: credit_cards
 -
+  name: general_financing
+  label: General financing
+  group: other
+-
   name: ubp
   label: UBP
   group: bank_transfers
