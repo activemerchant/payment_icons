@@ -1043,6 +1043,10 @@
   label: BillEase
   group: other
 -
+  name: lku
+  label: LKU
+  group: other
+-
   name: affirm
   label: Affirm
   group: other
