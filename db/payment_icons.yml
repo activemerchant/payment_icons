@@ -123,6 +123,10 @@
   label: Google Wallet
   group: wallets
 -
+  name: opay
+  label: OPAY
+  group: other
+-
   name: laser
   label: Laser
   group: bank_transfers
@@ -923,6 +927,10 @@
   label: Payflex
   group: credit_cards
 -
+  name: maxima
+  label: Maxima
+  group: other
+-
   name: alfamart
   label: Alfamart
   group: convenience_stores
@@ -978,6 +986,10 @@
   name: arhaus
   label: Arhaus
   group: credit_cards
+-
+  name: general_financing
+  label: General financing
+  group: other
 -
   name: ubp
   label: UBP
@@ -1043,6 +1055,10 @@
   label: BillEase
   group: other
 -
+  name: lku
+  label: LKU
+  group: other
+-
   name: affirm
   label: Affirm
   group: other
@@ -1066,6 +1082,10 @@
   name: checkout_finance
   label: Checkout Finance
   group: other
+-
+  name: n26
+  label: N26
+  group: bank_transfers
 -
   name: echelon_financing
   label: Echelon Finance
@@ -1091,6 +1111,10 @@
   label: Gift Card
   group: other
 -
+  name: siauliu_bankas
+  label: Šiaulių bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1098,6 +1122,10 @@
   name: poli
   label: POLi
   group: bank_transfers
+-
+  name: perlas_finance
+  label: Perlas finance
+  group: other
 -
   name: directpay
   label: DirectPay
@@ -1113,6 +1141,10 @@
 -
   name: pop-pankki
   label: POP Pankki
+  group: bank_transfers
+-
+  name: revolut
+  label: Revolut
   group: bank_transfers
 -
   name: aktia
@@ -1157,6 +1189,10 @@
 -
   name: scalapay
   label: Scalapay
+  group: other
+-
+  name: paybylink
+  label: Pay By Link
   group: other
 -
   name: snap_checkout
