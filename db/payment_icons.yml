@@ -1194,3 +1194,7 @@
   name: snap_checkout
   label: Snap Checkout
   group: other
+-
+  name: cleverpay
+  label: CleverPay
+  group: other
