@@ -32,6 +32,12 @@ class PaymentIconTest < ActiveSupport::TestCase
     assert !duplicates.present?, "The payment_icons.yml file contains duplicate records: #{duplicates}"
   end
 
+  test 'Every payment icon’s name only contains lowercase a through z' do
+    names = PaymentIcon.all.map(&:name)
+    invalid_names = names.select { |name| !name.match?(/\A[a-z]*\z/) }
+    assert_empty(invalid_names, "The payment_icons.yml file contains invalid names: #{invalid_names}")
+  end
+
   test 'Every payment icon SVG has a valid XML tree' do
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       document = Nokogiri::XML.parse(svg)
