@@ -983,7 +983,7 @@
   label: BRI Direct Debit
   group: other
 -
-  name: octo_clicks
+  name: octoclicks
   label: Octo Clicks
   group: other
 -
@@ -991,11 +991,11 @@
   label: BRI Direct Debit
   group: other
 -
-  name: danamon_online
+  name: danamononline
   label: Danamon Direct Debit
   group: other
 -
-  name: bca_klikpay
+  name: bcaklikpay
   label: BCA Klikpay
   group: other
 -
@@ -1015,7 +1015,7 @@
   label: Arhaus
   group: credit_cards
 -
-  name: general_financing
+  name: generalfinancing
   label: General financing
   group: other
 -
@@ -1139,7 +1139,7 @@
   label: Gift Card
   group: other
 -
-  name: siauliu_bankas
+  name: siauliubankas
   label: Šiaulių bankas
   group: bank_transfers
 -
@@ -1151,7 +1151,7 @@
   label: POLi
   group: bank_transfers
 -
-  name: perlas_finance
+  name: perlasfinance
   label: Perlas finance
   group: other
 -
