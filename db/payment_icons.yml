@@ -1187,10 +1187,18 @@
   label: Scalapay
   group: other
 -
+  name: paybylink
+  label: Pay By Link
+  group: other
+-
   name: snap_checkout
   label: Snap Checkout
   group: other
-
+-
   name: anyday
   label: Anyday
+  group: other
+-
+  name: cleverpay
+  label: CleverPay
   group: other
