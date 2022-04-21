@@ -931,6 +931,14 @@
   label: Alfamart
   group: convenience_stores
 -
+  name: alfamidi
+  label: Alfamidi
+  group: convenience_stores
+-
+  name: dandan
+  label: DanDan
+  group: convenience_stores
+-
   name: indomaret
   label: Indomaret
   group: convenience_stores
@@ -945,6 +953,10 @@
 -
   name: shopeepay
   label: ShopeePay
+  group: wallets
+-
+  name: gopay
+  label: Gopay
   group: wallets
 -
   name: bca
@@ -971,6 +983,26 @@
   label: BRI Direct Debit
   group: other
 -
+  name: octoclicks
+  label: Octo Clicks
+  group: other
+-
+  name: brimo
+  label: BRI Direct Debit
+  group: other
+-
+  name: danamononline
+  label: Danamon Direct Debit
+  group: other
+-
+  name: bcaklikpay
+  label: BCA Klikpay
+  group: other
+-
+  name: akulaku
+  label: Akulaku Cardless Credit
+  group: other
+-
   name: satispay
   label: Satispay
   group: wallets
@@ -983,7 +1015,7 @@
   label: Arhaus
   group: credit_cards
 -
-  name: general_financing
+  name: generalfinancing
   label: General financing
   group: other
 -
@@ -1107,7 +1139,7 @@
   label: Gift Card
   group: other
 -
-  name: siauliu_bankas
+  name: siauliubankas
   label: Šiaulių bankas
   group: bank_transfers
 -
@@ -1119,7 +1151,7 @@
   label: POLi
   group: bank_transfers
 -
-  name: perlas_finance
+  name: perlasfinance
   label: Perlas finance
   group: other
 -
@@ -1197,4 +1229,16 @@
 -
   name: wegetfinancing
   label: WeGetFinancing
+  group: other
+-
+  name: anyday
+  label: Anyday
+  group: other
+-
+  name: cleverpay
+  label: CleverPay
+  group: other
+-
+  name: payid
+  label: PayID
   group: other
