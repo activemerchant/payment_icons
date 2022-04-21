@@ -1227,10 +1227,6 @@
   label: Snap Checkout
   group: other
 -
-<<<<<<< HEAD
-  name: np_atobarai
-  label: NP Atobarai
-=======
   name: anyday
   label: Anyday
   group: other
@@ -1241,5 +1237,4 @@
 -
   name: payid
   label: PayID
->>>>>>> b2ebb1241bc8bb7da0d2a196c7576696d7a0bfe4
   group: other
