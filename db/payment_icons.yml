@@ -1234,3 +1234,7 @@
   name: cleverpay
   label: CleverPay
   group: other
+-
+  name: payid
+  label: PayID
+  group: other
