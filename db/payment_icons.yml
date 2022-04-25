@@ -103,6 +103,10 @@
   label: Dwolla
   group: bank_transfers
 -
+  name: tensile
+  label: Tensile
+  group: bank_transfers
+-
   name: forbrugsforeningen
   label: Forbrugsforeningen
   group: bank_transfers
