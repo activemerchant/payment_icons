@@ -1231,6 +1231,10 @@
   label: UPI
   group: other
 -
+  name: wegetfinancing
+  label: WeGetFinancing
+  group: other
+-
   name: anyday
   label: Anyday
   group: other
