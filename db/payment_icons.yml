@@ -859,6 +859,10 @@
   label: Paymaya
   group: wallets
 -
+  name: maya_bank
+  label: Maya Bank
+  group: bank_transfers
+-
   name: qr_promptpay
   label: QR PromptPay
   group: other
