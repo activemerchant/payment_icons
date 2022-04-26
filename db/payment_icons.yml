@@ -75,7 +75,7 @@
   label: USDC
   group: cryptocurrencies
 -
-  name: solana_pay
+  name: solanapay
   label: Solana Pay
   group: cryptocurrencies
 -
