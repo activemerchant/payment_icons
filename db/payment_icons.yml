@@ -75,6 +75,10 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: solanapay
+  label: Solana Pay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -1233,6 +1237,46 @@
 -
   name: upi
   label: UPI
+  group: other
+-
+  name: sveaeramaksu
+  label: Svea Erämaksu
+  group: other
+-
+  name: sveapartpayment
+  label: Svea Part Payment
+  group: other
+-
+  name: sveadelbetalning
+  label: Svea Delbetalning
+  group: other
+-
+  name: svealasku
+  label: Svea Lasku
+  group: other
+-
+  name: sveainvoice
+  label: Svea Invoice
+  group: other
+-
+  name: sveafaktura
+  label: Svea Faktura
+  group: other
+-
+  name: sveayrityslasku
+  label: Svea Yrityslasku
+  group: other
+-
+  name: sveab2binvoice
+  label: Svea B2B Invoice
+  group: other
+- 
+  name: sveab2bfaktura
+  label: Svea B2B Faktura
+  group: other
+-
+  name: pix
+  label: Pix
   group: other
 -
   name: wegetfinancing
