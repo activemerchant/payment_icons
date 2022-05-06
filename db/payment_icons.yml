@@ -103,6 +103,10 @@
   label: Belfius
   group: bank_transfers
 -
+  name: banked
+  label: Banked
+  group: bank_transfers
+-
   name: dwolla
   label: Dwolla
   group: bank_transfers
