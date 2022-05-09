@@ -79,6 +79,10 @@
   label: ApeCoin
   group: cryptocurrencies
 -
+  name: solanapay
+  label: Solana Pay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -107,6 +111,10 @@
   label: Dwolla
   group: bank_transfers
 -
+  name: tensile
+  label: Tensile
+  group: bank_transfers
+-
   name: forbrugsforeningen
   label: Forbrugsforeningen
   group: bank_transfers
@@ -122,6 +130,10 @@
   name: google_wallet
   label: Google Wallet
   group: wallets
+-
+  name: opay
+  label: OPAY
+  group: other
 -
   name: laser
   label: Laser
@@ -923,8 +935,20 @@
   label: Payflex
   group: credit_cards
 -
+  name: maxima
+  label: Maxima
+  group: other
+-
   name: alfamart
   label: Alfamart
+  group: convenience_stores
+-
+  name: alfamidi
+  label: Alfamidi
+  group: convenience_stores
+-
+  name: dandan
+  label: DanDan
   group: convenience_stores
 -
   name: indomaret
@@ -941,6 +965,10 @@
 -
   name: shopeepay
   label: ShopeePay
+  group: wallets
+-
+  name: gopay
+  label: Gopay
   group: wallets
 -
   name: bca
@@ -967,6 +995,26 @@
   label: BRI Direct Debit
   group: other
 -
+  name: octoclicks
+  label: Octo Clicks
+  group: other
+-
+  name: brimo
+  label: BRI Direct Debit
+  group: other
+-
+  name: danamononline
+  label: Danamon Direct Debit
+  group: other
+-
+  name: bcaklikpay
+  label: BCA Klikpay
+  group: other
+-
+  name: akulaku
+  label: Akulaku Cardless Credit
+  group: other
+-
   name: satispay
   label: Satispay
   group: wallets
@@ -978,6 +1026,10 @@
   name: arhaus
   label: Arhaus
   group: credit_cards
+-
+  name: generalfinancing
+  label: General financing
+  group: other
 -
   name: ubp
   label: UBP
@@ -1043,6 +1095,10 @@
   label: BillEase
   group: other
 -
+  name: lku
+  label: LKU
+  group: other
+-
   name: affirm
   label: Affirm
   group: other
@@ -1066,6 +1122,10 @@
   name: checkout_finance
   label: Checkout Finance
   group: other
+-
+  name: n26
+  label: N26
+  group: bank_transfers
 -
   name: echelon_financing
   label: Echelon Finance
@@ -1091,6 +1151,10 @@
   label: Gift Card
   group: other
 -
+  name: siauliubankas
+  label: Šiaulių bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1098,6 +1162,10 @@
   name: poli
   label: POLi
   group: bank_transfers
+-
+  name: perlasfinance
+  label: Perlas finance
+  group: other
 -
   name: directpay
   label: DirectPay
@@ -1113,6 +1181,10 @@
 -
   name: pop-pankki
   label: POP Pankki
+  group: bank_transfers
+-
+  name: revolut
+  label: Revolut
   group: bank_transfers
 -
   name: aktia
@@ -1159,6 +1231,66 @@
   label: Scalapay
   group: other
 -
+  name: paybylink
+  label: Pay By Link
+  group: other
+-
   name: snap_checkout
   label: Snap Checkout
+  group: other
+-
+  name: sveaeramaksu
+  label: Svea Erämaksu
+  group: other
+-
+  name: sveapartpayment
+  label: Svea Part Payment
+  group: other
+-
+  name: sveadelbetalning
+  label: Svea Delbetalning
+  group: other
+-
+  name: svealasku
+  label: Svea Lasku
+  group: other
+-
+  name: sveainvoice
+  label: Svea Invoice
+  group: other
+-
+  name: sveafaktura
+  label: Svea Faktura
+  group: other
+-
+  name: sveayrityslasku
+  label: Svea Yrityslasku
+  group: other
+-
+  name: sveab2binvoice
+  label: Svea B2B Invoice
+  group: other
+- 
+  name: sveab2bfaktura
+  label: Svea B2B Faktura
+  group: other
+-
+  name: pix
+  label: Pix
+  group: other
+-
+  name: wegetfinancing
+  label: WeGetFinancing
+  group: other
+-
+  name: anyday
+  label: Anyday
+  group: other
+-
+  name: cleverpay
+  label: CleverPay
+  group: other
+-
+  name: payid
+  label: PayID
   group: other
