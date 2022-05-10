@@ -1290,3 +1290,8 @@
   name: payid
   label: PayID
   group: other
+-
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+
