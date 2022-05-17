@@ -75,6 +75,10 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: solanapay
+  label: Solana Pay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -101,6 +105,10 @@
 -
   name: dwolla
   label: Dwolla
+  group: bank_transfers
+-
+  name: tensile
+  label: Tensile
   group: bank_transfers
 -
   name: forbrugsforeningen
@@ -983,7 +991,7 @@
   label: BRI Direct Debit
   group: other
 -
-  name: octo_clicks
+  name: octoclicks
   label: Octo Clicks
   group: other
 -
@@ -991,11 +999,11 @@
   label: BRI Direct Debit
   group: other
 -
-  name: danamon_online
+  name: danamononline
   label: Danamon Direct Debit
   group: other
 -
-  name: bca_klikpay
+  name: bcaklikpay
   label: BCA Klikpay
   group: other
 -
@@ -1015,7 +1023,7 @@
   label: Arhaus
   group: credit_cards
 -
-  name: general_financing
+  name: generalfinancing
   label: General financing
   group: other
 -
@@ -1139,7 +1147,7 @@
   label: Gift Card
   group: other
 -
-  name: siauliu_bankas
+  name: siauliubankas
   label: Šiaulių bankas
   group: bank_transfers
 -
@@ -1151,7 +1159,7 @@
   label: POLi
   group: bank_transfers
 -
-  name: perlas_finance
+  name: perlasfinance
   label: Perlas finance
   group: other
 -
@@ -1231,10 +1239,58 @@
   label: Fairstone Payments
   group: other
 -
+  name: sveaeramaksu
+  label: Svea Erämaksu
+  group: other
+-
+  name: sveapartpayment
+  label: Svea Part Payment
+  group: other
+-
+  name: sveadelbetalning
+  label: Svea Delbetalning
+  group: other
+-
+  name: svealasku
+  label: Svea Lasku
+  group: other
+-
+  name: sveainvoice
+  label: Svea Invoice
+  group: other
+-
+  name: sveafaktura
+  label: Svea Faktura
+  group: other
+-
+  name: sveayrityslasku
+  label: Svea Yrityslasku
+  group: other
+-
+  name: sveab2binvoice
+  label: Svea B2B Invoice
+  group: other
+- 
+  name: sveab2bfaktura
+  label: Svea B2B Faktura
+  group: other
+-
+  name: pix
+  label: Pix
+  group: other
+-
+  name: wegetfinancing
+  label: WeGetFinancing
+  group: other
+-
   name: anyday
   label: Anyday
   group: other
 -
   name: cleverpay
   label: CleverPay
+  group: other
+-
+  name: payid
+  label: PayID
   group: other
