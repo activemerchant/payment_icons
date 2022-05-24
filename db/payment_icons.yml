@@ -1298,3 +1298,7 @@
   name: payto
   label: PayTo
   group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
