@@ -1298,3 +1298,7 @@
   name: payto
   label: PayTo
   group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
