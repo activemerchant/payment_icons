@@ -1298,3 +1298,15 @@
   name: payto
   label: PayTo
   group: other
+-
+  name: bnb-chain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
