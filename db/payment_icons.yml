@@ -1298,3 +1298,7 @@
   name: payto
   label: PayTo
   group: other
+-
+  name: zinia
+  label: Zinia
+  group: other
