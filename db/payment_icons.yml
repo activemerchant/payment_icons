@@ -863,7 +863,7 @@
   label: Paymaya
   group: wallets
 -
-  name: maya_bank
+  name: mayabank
   label: Maya Bank
   group: bank_transfers
 -
@@ -1302,3 +1302,7 @@
   name: fortiva
   label: Fortiva
   group: other
+- 
+  name: fintecture
+  label: Fintecture
+  group: bank_transfers
