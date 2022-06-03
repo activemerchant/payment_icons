@@ -1270,7 +1270,7 @@
   name: sveab2binvoice
   label: Svea B2B Invoice
   group: other
-- 
+-
   name: sveab2bfaktura
   label: Svea B2B Faktura
   group: other
@@ -1298,7 +1298,11 @@
   name: payto
   label: PayTo
   group: other
-- 
+-
   name: fintecture
   label: Fintecture
   group: bank_transfers
+-
+  name: dropp
+  label: Dropp
+  group: wallets
