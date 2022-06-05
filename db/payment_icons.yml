@@ -1302,3 +1302,7 @@
   name: fintecture
   label: Fintecture
   group: bank_transfers
+-
+  name: kredivo
+  label: Kredivo
+  group: other
