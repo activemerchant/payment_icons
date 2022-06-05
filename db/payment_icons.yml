@@ -1306,3 +1306,11 @@
   name: helloclever
   label: Hello Clever
   group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
