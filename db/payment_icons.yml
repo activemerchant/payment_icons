@@ -1314,3 +1314,7 @@
   name: kredivo
   label: Kredivo
   group: other
+-
+  name: fortiva
+  label: Fortiva
+  group: other
