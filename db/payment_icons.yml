@@ -1302,6 +1302,10 @@
   name: fintecture
   label: Fintecture
   group: bank_transfers
+- 
+  name: helloclever
+  label: Hello Clever
+  group: other
 -
   name: palawa
   label: Palawa
