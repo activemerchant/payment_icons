@@ -1303,6 +1303,14 @@
   label: Fintecture
   group: bank_transfers
 -
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
+-
   name: bsi
   label: BSI
   group: bank_transfers
