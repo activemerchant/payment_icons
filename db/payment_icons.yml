@@ -1318,3 +1318,7 @@
   name: kredivo
   label: Kredivo
   group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
