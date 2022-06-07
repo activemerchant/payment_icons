@@ -1306,3 +1306,7 @@
   name: atome
   label: Atome
   group: wallets
+-
+  name: skrill
+  label: Skrill
+  group: credit_cards
