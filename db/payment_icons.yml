@@ -79,6 +79,18 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: bnb-chain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -257,6 +269,10 @@
 -
   name: viabill
   label: ViaBill
+  group: other
+-
+  name: divido
+  label: Divido
   group: other
 -
   name: klarna
@@ -1318,3 +1334,7 @@
   name: tandym-payment
   label: Tandym Payment
   group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
