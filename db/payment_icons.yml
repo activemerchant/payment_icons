@@ -679,6 +679,10 @@
   label: Kakao Pay
   group: wallets
 -
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  group: other
+-
   name: naver_pay
   label: Naver Pay
   group: wallets
