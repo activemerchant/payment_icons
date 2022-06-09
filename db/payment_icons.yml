@@ -79,6 +79,18 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: bnb-chain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -257,6 +269,10 @@
 -
   name: viabill
   label: ViaBill
+  group: other
+-
+  name: divido
+  label: Divido
   group: other
 -
   name: klarna
@@ -662,6 +678,10 @@
   name: kakao_pay
   label: Kakao Pay
   group: wallets
+-
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  group: other
 -
   name: naver_pay
   label: Naver Pay
@@ -1306,4 +1326,19 @@
   name: fintecture
   label: Fintecture
   group: bank_transfers
-
+- 
+  name: helloclever
+  label: Hello Clever
+  group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
