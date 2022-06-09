@@ -1354,3 +1354,8 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: lydia
+  label: Lydia
+  group: wallets
+
