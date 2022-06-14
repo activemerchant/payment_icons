@@ -1322,6 +1322,10 @@
   name: payto
   label: PayTo
   group: other
+-
+  name: fortiva
+  label: Fortiva
+  group: other
 - 
   name: fintecture
   label: Fintecture
