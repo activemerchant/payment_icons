@@ -1346,3 +1346,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: creditkey
+  label: Credit Key
+  group: other
