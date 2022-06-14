@@ -1315,12 +1315,20 @@
   label: PayID
   group: other
 -
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+-
   name: payto
   label: PayTo
   group: other
 -
   name: zinia
   label: Zinia
+  group: other
+-
+  name: fortiva
+  label: Fortiva
   group: other
 - 
   name: fintecture
