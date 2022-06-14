@@ -1315,6 +1315,10 @@
   label: PayID
   group: other
 -
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+-
   name: payto
   label: PayTo
   group: other
