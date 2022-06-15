@@ -79,7 +79,7 @@
   label: Solana Pay
   group: cryptocurrencies
 -
-  name: bnb-chain
+  name: bnbchain
   label: BNB Chain
   group: cryptocurrencies
 -
@@ -1294,7 +1294,7 @@
   name: sveab2binvoice
   label: Svea B2B Invoice
   group: other
-- 
+-
   name: sveab2bfaktura
   label: Svea B2B Faktura
   group: other
@@ -1330,11 +1330,11 @@
   name: fortiva
   label: Fortiva
   group: other
-- 
+-
   name: fintecture
   label: Fintecture
   group: bank_transfers
-- 
+-
   name: helloclever
   label: Hello Clever
   group: other
