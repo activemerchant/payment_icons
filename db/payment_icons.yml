@@ -1259,6 +1259,10 @@
   label: Snap Checkout
   group: other
 -
+  name: upi
+  label: UPI
+  group: other
+-
   name: sveaeramaksu
   label: Svea Erämaksu
   group: other
