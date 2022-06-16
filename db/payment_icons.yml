@@ -1350,3 +1350,8 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: creditclick_paynl_version
+  label: CreditClick (Pay.nl version)
+  group: other
+  
