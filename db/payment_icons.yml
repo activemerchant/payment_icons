@@ -1352,6 +1352,6 @@
   group: bank_transfers
 -
   name: creditclick_paynl_version
-  label: CreditClick (Pay.nl version)
+  label: CreditClick (PAY. version)
   group: other
   
