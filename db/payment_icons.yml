@@ -1350,3 +1350,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: oxxo
+  label: OXXO
+  group: other
