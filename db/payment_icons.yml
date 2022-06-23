@@ -1175,6 +1175,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinos-bankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
