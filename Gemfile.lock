@@ -82,7 +82,7 @@ GEM
     digest (3.1.0)
     erubi (1.10.0)
     ffi (1.15.5)
-    frozen_record (0.23.0)
+    frozen_record (0.24.1)
       activemodel
       dedup
     globalid (1.0.0)
@@ -121,7 +121,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (7.0.3)
