@@ -1075,6 +1075,10 @@
   label: Facebook Pay
   group: wallets
 -
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
   name: kueskipay
   label: Kueski Pay
   group: other
