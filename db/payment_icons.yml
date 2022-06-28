@@ -1354,3 +1354,11 @@
   name: bsi
   label: BSI
   group: bank_transfers
+  
+  name: sveaOstukonto
+  label: Ostukonto
+  group: other
+  
+  name: sveaCreditAccount
+  label: Credit account
+  group: other
