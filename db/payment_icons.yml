@@ -1354,3 +1354,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: paybybank
+  label: Pay by Bank
+  group: other
