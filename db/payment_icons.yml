@@ -1263,7 +1263,7 @@
   label: Snap Checkout
   group: other
 -
-  name: fairstone_payments
+  name: fairstonepayments
   label: Fairstone Payments
   group: other
 -
