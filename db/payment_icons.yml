@@ -273,7 +273,7 @@
 -
   name: novuna
   label: Novuna
-  group: bank_transfers
+  group: other
 -
   name: divido
   label: Divido
