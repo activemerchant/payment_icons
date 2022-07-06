@@ -271,6 +271,10 @@
   label: ViaBill
   group: other
 -
+  name: novuna
+  label: Novuna
+  group: bank_transfers
+-
   name: divido
   label: Divido
   group: other
