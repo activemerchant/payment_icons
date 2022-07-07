@@ -1327,6 +1327,10 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other 
+-
   name: grailpay
   label: GrailPay
   group: bank_transfers
