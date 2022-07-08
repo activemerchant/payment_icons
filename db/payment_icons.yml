@@ -1374,3 +1374,15 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: clave_telered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpe_movil
+  label: Sinpe Móvil
+  group: bank_transfers
