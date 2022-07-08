@@ -1338,3 +1338,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: credix
+  label: credix
+  group: credit_cards
