@@ -1338,3 +1338,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: sinpe_movil
+  label: sinpe_movil
+  group: credit_cards
