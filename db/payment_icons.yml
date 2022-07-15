@@ -1378,3 +1378,7 @@
   name: bsi
   label: BSI
   group: bank_transfers
+-
+  name: dropp
+  label: Dropp
+  group: wallets
