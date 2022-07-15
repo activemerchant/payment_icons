@@ -1386,3 +1386,7 @@
   name: dropp
   label: Dropp
   group: wallets
+
+  name: biercheque_paynl_version
+  label: Biercheque (PAY. version)
+  group: other
