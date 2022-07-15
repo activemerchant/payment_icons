@@ -1379,6 +1379,10 @@
   label: BSI
   group: bank_transfers
 -
+  name: creditclick_paynl_version
+  label: CreditClick (PAY. version)
+  group: other
+-
   name: dropp
   label: Dropp
   group: wallets
