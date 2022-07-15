@@ -1266,7 +1266,7 @@
   name: sveab2binvoice
   label: Svea B2B Invoice
   group: other
-- 
+-
   name: sveab2bfaktura
   label: Svea B2B Faktura
   group: other
@@ -1289,4 +1289,8 @@
 -
   name: payid
   label: PayID
+  group: other
+-
+  name: cebuana
+  label: Cebuana
   group: other
