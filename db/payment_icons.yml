@@ -271,6 +271,10 @@
   label: ViaBill
   group: other
 -
+  name: novuna
+  label: Novuna
+  group: other
+-
   name: divido
   label: Divido
   group: other
@@ -1075,6 +1079,10 @@
   label: Facebook Pay
   group: wallets
 -
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
   name: kueskipay
   label: Kueski Pay
   group: other
@@ -1175,6 +1183,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinos-bankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1259,6 +1271,10 @@
   label: Snap Checkout
   group: other
 -
+  name: fairstonepayments
+  label: Fairstone Payments
+  group: other
+-
   name: upi
   label: UPI
   group: other
@@ -1319,12 +1335,20 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other 
+-
   name: grailpay
   label: GrailPay
   group: bank_transfers
 -
   name: payto
   label: PayTo
+  group: other
+-
+  name: zinia
+  label: Zinia
   group: other
 -
   name: fortiva
@@ -1346,11 +1370,23 @@
   name: kredivo
   label: Kredivo
   group: other
+- 
+  name: tandym-payment
+  label: Tandym Payment
+  group: other
+-
+  name: paytomorrow
+  label: PayTomorrow
+  group: other
 -
   name: bsi
   label: BSI
   group: bank_transfers
 -
-  name: paytomorrow
-  label: PayTomorrow
+  name: creditclick_paynl_version
+  label: CreditClick (PAY. version)
   group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
