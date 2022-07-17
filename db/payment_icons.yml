@@ -1374,3 +1374,8 @@
   name: bsi
   label: BSI
   group: bank_transfers
+
+-
+  name: uob-ezpay
+  label: UOB EzPay
+  group: other
