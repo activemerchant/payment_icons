@@ -79,6 +79,18 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: bnbchain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -257,6 +269,14 @@
 -
   name: viabill
   label: ViaBill
+  group: other
+-
+  name: novuna
+  label: Novuna
+  group: other
+-
+  name: divido
+  label: Divido
   group: other
 -
   name: klarna
@@ -663,6 +683,10 @@
   label: Kakao Pay
   group: wallets
 -
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  group: other
+-
   name: naver_pay
   label: Naver Pay
   group: wallets
@@ -1055,6 +1079,10 @@
   label: Facebook Pay
   group: wallets
 -
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
   name: kueskipay
   label: Kueski Pay
   group: other
@@ -1155,6 +1183,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinos-bankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1239,6 +1271,14 @@
   label: Snap Checkout
   group: other
 -
+  name: fairstonepayments
+  label: Fairstone Payments
+  group: other
+-
+  name: upi
+  label: UPI
+  group: other
+-
   name: sveaeramaksu
   label: Svea Erämaksu
   group: other
@@ -1270,7 +1310,7 @@
   name: sveab2binvoice
   label: Svea B2B Invoice
   group: other
-- 
+-
   name: sveab2bfaktura
   label: Svea B2B Faktura
   group: other
@@ -1295,14 +1335,31 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other 
+-
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+-
   name: payto
   label: PayTo
   group: other
-- 
+-
+  name: zinia
+  label: Zinia
+  group: other
+-
+  name: fortiva
+  label: Fortiva
+  group: other
+-
   name: fintecture
   label: Fintecture
   group: bank_transfers
 -
+
   name: atome
   label: Atome
   group: wallets
@@ -1362,3 +1419,32 @@
   name: cherry_credits
   label: Cherry Credits
   group: wallets
+
+  name: helloclever
+  label: Hello Clever
+  group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
+- 
+  name: tandym-payment
+  label: Tandym Payment
+  group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
+-
+  name: creditclick_paynl_version
+  label: CreditClick (PAY. version)
+  group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
+
