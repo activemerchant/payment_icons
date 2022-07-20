@@ -1386,3 +1386,7 @@
   name: dropp
   label: Dropp
   group: wallets
+-
+  name: coppel-pay
+  label: Coppel Pay
+  group: wallets
