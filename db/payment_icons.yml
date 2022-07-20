@@ -1386,3 +1386,7 @@
   name: dropp
   label: Dropp
   group: wallets
+-
+  name: link-pay
+  label: Link Pay
+  group: bank_transfers
