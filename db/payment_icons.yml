@@ -1394,3 +1394,7 @@
   name: dropp
   label: Dropp
   group: wallets
+-
+  name: cebuana
+  label: Cebuana
+  group: other
