@@ -1398,3 +1398,11 @@
   name: cebuana
   label: Cebuana
   group: other
+-
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
+  group: other
