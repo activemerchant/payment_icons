@@ -339,7 +339,7 @@
   label: PaySafeCard
   group: other
 -
-  name: laybuy-gateway
+  name: laybuy
   label: Lay-Buy Powered By PayPal
   group: other
 -
@@ -1379,7 +1379,7 @@
   label: BSI
   group: bank_transfers
 -
-  name: laybuy
+  name: laybuy_heart
   label: Laybuy
   group: other
 -
