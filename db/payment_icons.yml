@@ -279,6 +279,10 @@
   label: Divido
   group: other
 -
+  name: duologi
+  label: Duologi
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
