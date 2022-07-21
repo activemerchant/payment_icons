@@ -279,6 +279,10 @@
   label: Divido
   group: other
 -
+  name: duologi
+  label: Duologi
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
@@ -1337,7 +1341,7 @@
 -
   name: uangme
   label: UangMe
-  group: other 
+  group: other
 -
   name: grailpay
   label: GrailPay
@@ -1370,7 +1374,7 @@
   name: kredivo
   label: Kredivo
   group: other
-- 
+-
   name: tandym-payment
   label: Tandym Payment
   group: other
@@ -1379,9 +1383,9 @@
   label: BSI
   group: bank_transfers
 -
-  name: uob-ezpay
-  label: UOB EzPay
-  group: other
+  name: lydia
+  label: Lydia
+  group: wallets
 -
   name: creditclick_paynl_version
   label: CreditClick (PAY. version)
@@ -1390,3 +1394,11 @@
   name: dropp
   label: Dropp
   group: wallets
+-
+  name: cebuana
+  label: Cebuana
+  group: other
+-
+  name: uob-ezpay
+  label: UOB EzPay
+  group: other
