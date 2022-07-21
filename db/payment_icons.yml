@@ -271,6 +271,10 @@
   label: ViaBill
   group: other
 -
+  name: novuna
+  label: Novuna
+  group: other
+-
   name: divido
   label: Divido
   group: other
@@ -335,7 +339,7 @@
   label: PaySafeCard
   group: other
 -
-  name: laybuy
+  name: laybuy-gateway
   label: Lay-Buy Powered By PayPal
   group: other
 -
@@ -1179,6 +1183,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinos-bankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1327,12 +1335,20 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other
+-
   name: grailpay
   label: GrailPay
   group: bank_transfers
 -
   name: payto
   label: PayTo
+  group: other
+-
+  name: zinia
+  label: Zinia
   group: other
 -
   name: fortiva
@@ -1355,10 +1371,26 @@
   label: Kredivo
   group: other
 -
+  name: tandym-payment
+  label: Tandym Payment
+  group: other
+-
   name: bsi
   label: BSI
   group: bank_transfers
 -
-  name: heart
+  name: laybuy
   label: Laybuy
   group: other
+-
+  name: lydia
+  label: Lydia
+  group: wallets
+-
+  name: creditclick_paynl_version
+  label: CreditClick (PAY. version)
+  group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
