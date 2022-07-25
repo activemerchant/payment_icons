@@ -1359,6 +1359,10 @@
   label: Hello Clever
   group: other
 -
+  name: palawa
+  label: Palawa
+  group: other
+-
   name: palawan
   label: Palawan
   group: other
