@@ -1371,6 +1371,10 @@
   label: Palawa
   group: other
 -
+  name: palawan
+  label: Palawan
+  group: other
+-
   name: kredivo
   label: Kredivo
   group: other
