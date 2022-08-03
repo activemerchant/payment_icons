@@ -1,4 +1,9 @@
+## ⚠️ Only Shopify Partners team approved icons may be reviewed/merged ⚠️
+Please read more on [shopify.dev/apps/payments](https://shopify.dev/apps/payments) and/or reach out on the [developer forums](https://community.shopify.com/c/App-Partner-Platform/ct-p/appdev).
+
 # Payment Icons
+
+[![Build Status](https://github.com/activemerchant/payment_icons/workflows/CI/badge.svg?branch=master)](https://github.com/activemerchant/payment_icons/actions?query=workflow%3ACI)
 
 Payment Icons is a simple Ruby on Rails engine extracted from Shopify. Shopify supports multiple payment methods through gems like Active Merchant and Offsite Payments. This has lead to an accumulation of icons for various payment methods. This gem provides easy access to those icons and helpful methods to integrate them into any Ruby on Rails app.
 
