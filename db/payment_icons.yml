@@ -1267,6 +1267,10 @@
   label: Scalapay
   group: other
 -
+  name: aplazo
+  label: Aplazo
+  group: other
+- 
   name: paybylink
   label: Pay By Link
   group: other
