@@ -1400,5 +1400,5 @@
   group: other
 -
   name: link-pay
-  label: Link Pay
+  label: LinkPay
   group: bank_transfers
