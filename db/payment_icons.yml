@@ -1395,6 +1395,10 @@
   label: BSI
   group: bank_transfers
 -
+  name: laybuy_heart
+  label: Laybuy
+  group: other
+-
   name: lydia
   label: Lydia
   group: wallets
