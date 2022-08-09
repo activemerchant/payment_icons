@@ -1387,6 +1387,10 @@
   label: Tandym Payment
   group: other
 -
+  name: paytomorrow
+  label: PayTomorrow
+  group: other
+-
   name: bsi
   label: BSI
   group: bank_transfers
