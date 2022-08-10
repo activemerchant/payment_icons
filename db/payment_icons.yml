@@ -271,8 +271,16 @@
   label: ViaBill
   group: other
 -
+  name: novuna
+  label: Novuna
+  group: other
+-
   name: divido
   label: Divido
+  group: other
+-
+  name: duologi
+  label: Duologi
   group: other
 -
   name: klarna
@@ -883,6 +891,10 @@
   label: Paymaya
   group: wallets
 -
+  name: maya
+  label: Maya
+  group: wallets
+-
   name: mayabank
   label: Maya Bank
   group: bank_transfers
@@ -1075,6 +1087,10 @@
   label: Facebook Pay
   group: wallets
 -
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
   name: kueskipay
   label: Kueski Pay
   group: other
@@ -1175,6 +1191,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinos-bankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1251,12 +1271,20 @@
   label: Scalapay
   group: other
 -
+  name: aplazo
+  label: Aplazo
+  group: other
+- 
   name: paybylink
   label: Pay By Link
   group: other
 -
   name: snap_checkout
   label: Snap Checkout
+  group: other
+-
+  name: fairstonepayments
+  label: Fairstone Payments
   group: other
 -
   name: upi
@@ -1319,12 +1347,20 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other
+-
   name: grailpay
   label: GrailPay
   group: bank_transfers
 -
   name: payto
   label: PayTo
+  group: other
+-
+  name: zinia
+  label: Zinia
   group: other
 -
   name: fortiva
@@ -1343,14 +1379,45 @@
   label: Palawa
   group: other
 -
+  name: palawan
+  label: Palawan
+  group: other
+-
   name: kredivo
   label: Kredivo
+  group: other
+-
+  name: tandym-payment
+  label: Tandym Payment
+  group: other
+-
+  name: paytomorrow
+  label: PayTomorrow
   group: other
 -
   name: bsi
   label: BSI
   group: bank_transfers
 -
+  name: laybuy_heart
+  label: Laybuy
+  group: other
+-
+  name: lydia
+  label: Lydia
+  group: wallets
+-
+  name: creditclick_paynl_version
+  label: CreditClick (PAY. version)
+  group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
+-
+  name: cebuana
+  label: Cebuana
+- 
   name: oxxo
-  label: OXXO
+  label: OXXO 
   group: other
