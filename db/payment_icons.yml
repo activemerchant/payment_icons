@@ -1418,3 +1418,7 @@
   name: cebuana
   label: Cebuana
   group: other
+-
+  name: futurepay
+  label: FuturePay MyTab
+  group: other
