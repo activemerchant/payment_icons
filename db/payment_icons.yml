@@ -863,6 +863,10 @@
   label: Multibanco
   group: other
 -
+  name: multibanco
+  label: Multibanco
+  group: other
+-
   name: bogus_app_coin
   label: BOGUS_APP_COIN
   group: other
@@ -1274,7 +1278,7 @@
   name: aplazo
   label: Aplazo
   group: other
-- 
+-
   name: paybylink
   label: Pay By Link
   group: other
