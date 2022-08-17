@@ -1419,6 +1419,10 @@
   label: Lydia
   group: wallets
 -
+  name: atome
+  label: Atome
+  group: other
+-
   name: creditclick_paynl_version
   label: CreditClick (PAY. version)
   group: other
