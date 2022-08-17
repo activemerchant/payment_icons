@@ -891,6 +891,10 @@
   label: Paymaya
   group: wallets
 -
+  name: maya
+  label: Maya
+  group: wallets
+-
   name: mayabank
   label: Maya Bank
   group: bank_transfers
@@ -1267,6 +1271,10 @@
   label: Scalapay
   group: other
 -
+  name: aplazo
+  label: Aplazo
+  group: other
+-
   name: paybylink
   label: Pay By Link
   group: other
@@ -1371,6 +1379,10 @@
   label: Palawa
   group: other
 -
+  name: palawan
+  label: Palawan
+  group: other
+-
   name: kredivo
   label: Kredivo
   group: other
@@ -1379,13 +1391,37 @@
   label: Tandym Payment
   group: other
 -
+  name: paytomorrow
+  label: PayTomorrow
+  group: other
+-
   name: bsi
   label: BSI
   group: bank_transfers
 -
+  name: clave_telered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpe_movil
+  label: Sinpe Móvil
+  group: bank_transfers
+-
+  name: laybuy_heart
+  label: Laybuy
+  group: other
+-
   name: lydia
   label: Lydia
   group: wallets
+-
+  name: atome
+  label: Atome
+  group: other
 -
   name: creditclick_paynl_version
   label: CreditClick (PAY. version)
@@ -1402,3 +1438,11 @@
   name: swissbilling
   label: swissbilling
   group: other
+-
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
+  name: link-pay
+  label: LinkPay
+  group: bank_transfers
