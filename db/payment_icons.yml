@@ -1431,6 +1431,10 @@
   label: Cebuana
   group: other
 -
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
   name: link-pay
   label: LinkPay
   group: bank_transfers
