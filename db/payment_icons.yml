@@ -1095,6 +1095,14 @@
   label: Bread
   group: other
 -
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
+  group: other
+-
   name: nelo
   label: Nelo
   group: other
@@ -1397,12 +1405,4 @@
 -
   name: cebuana
   label: Cebuana
-  group: other
--
-  name: breadpay
-  label: Bread Pay
-  group: other
--
-  name: payplan
-  label: PayPlan by RBC
   group: other
