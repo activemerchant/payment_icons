@@ -1418,3 +1418,7 @@
   name: cebuana
   label: Cebuana
   group: other
+-
+  name: link-pay
+  label: LinkPay
+  group: bank_transfers
