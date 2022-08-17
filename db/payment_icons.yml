@@ -1274,7 +1274,7 @@
   name: aplazo
   label: Aplazo
   group: other
-- 
+-
   name: paybylink
   label: Pay By Link
   group: other
@@ -1399,6 +1399,18 @@
   label: BSI
   group: bank_transfers
 -
+  name: clave_telered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpe_movil
+  label: Sinpe Móvil
+  group: bank_transfers
+-
   name: laybuy_heart
   label: Laybuy
   group: other
@@ -1406,6 +1418,10 @@
   name: lydia
   label: Lydia
   group: wallets
+-
+  name: atome
+  label: Atome
+  group: other
 -
   name: creditclick_paynl_version
   label: CreditClick (PAY. version)
@@ -1422,3 +1438,11 @@
   name: futurepay
   label: FuturePay MyTab
   group: other
+-
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
+  name: link-pay
+  label: LinkPay
+  group: bank_transfers
