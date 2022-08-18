@@ -1191,7 +1191,7 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
-  name: medicinos-bankas
+  name: medicinosbankas
   label: Medicinos bankas
   group: bank_transfers
 -
@@ -1387,7 +1387,7 @@
   label: Kredivo
   group: other
 -
-  name: tandym-payment
+  name: tandympayment
   label: Tandym Payment
   group: other
 -
@@ -1399,7 +1399,7 @@
   label: BSI
   group: bank_transfers
 -
-  name: clave_telered
+  name: clavetelered
   label: Clave
   group: credit_cards
 -
@@ -1407,11 +1407,11 @@
   label: Credix
   group: credit_cards
 -
-  name: sinpe_movil
+  name: sinpemovil
   label: Sinpe Móvil
   group: bank_transfers
 -
-  name: laybuy_heart
+  name: laybuyheart
   label: Laybuy
   group: other
 -
@@ -1423,7 +1423,7 @@
   label: Atome
   group: other
 -
-  name: creditclick_paynl_version
+  name: creditclickpaynlversion
   label: CreditClick (PAY. version)
   group: other
 -
@@ -1439,6 +1439,6 @@
   label: SwiftPay
   group: other
 -
-  name: link-pay
+  name: linkpay
   label: LinkPay
   group: bank_transfers
