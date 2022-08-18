@@ -15,10 +15,6 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency 'frozen_record'
-  s.add_dependency 'railties', '>= 5.0'
-  s.add_dependency 'sassc-rails'
-  
   if s.respond_to?(:metadata)
     s.metadata["allowed_push_host"] = 'https://rubygems.org'
   end
