@@ -311,6 +311,10 @@
   label: ELV
   group: bank_transfers
 -
+  name: astrapay
+  label: AstraPay
+  group: other
+-
   name: ideal
   label: iDEAL
   group: other
