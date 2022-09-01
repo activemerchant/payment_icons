@@ -643,6 +643,10 @@
   label: Paidy
   group: other
 -
+  name: twig_pay
+  label: Twig Pay
+  group: other
+-
   name: stcpay
   label: Stcpay
   group: wallets
@@ -1099,6 +1103,14 @@
   label: Bread
   group: other
 -
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
+  group: other
+-
   name: nelo
   label: Nelo
   group: other
@@ -1191,7 +1203,7 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
-  name: medicinos-bankas
+  name: medicinosbankas
   label: Medicinos bankas
   group: bank_transfers
 -
@@ -1274,7 +1286,7 @@
   name: aplazo
   label: Aplazo
   group: other
-- 
+-
   name: paybylink
   label: Pay By Link
   group: other
@@ -1436,6 +1448,10 @@
   label: Hello Clever
   group: other
 -
+  name: creditkey
+  label: Credit Key
+  group: other
+-
   name: palawa
   label: Palawa
   group: other
@@ -1448,7 +1464,7 @@
   label: Kredivo
   group: other
 -
-  name: tandym-payment
+  name: tandympayment
   label: Tandym Payment
   group: other
 -
@@ -1460,7 +1476,19 @@
   label: BSI
   group: bank_transfers
 -
-  name: laybuy_heart
+  name: clavetelered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpemovil
+  label: Sinpe Móvil
+  group: bank_transfers
+-
+  name: laybuyheart
   label: Laybuy
   group: other
 -
@@ -1468,7 +1496,11 @@
   label: Lydia
   group: wallets
 -
-  name: creditclick_paynl_version
+  name: atome
+  label: Atome
+  group: other
+-
+  name: creditclickpaynlversion
   label: CreditClick (PAY. version)
   group: other
 -
@@ -1479,3 +1511,11 @@
   name: cebuana
   label: Cebuana
   group: other
+-
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
+  name: linkpay
+  label: LinkPay
+  group: bank_transfers
