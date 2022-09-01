@@ -1387,6 +1387,10 @@
   label: Hello Clever
   group: other
 -
+  name: creditkey
+  label: Credit Key
+  group: other
+-
   name: palawa
   label: Palawa
   group: other
