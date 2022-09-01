@@ -643,6 +643,10 @@
   label: Paidy
   group: other
 -
+  name: twig_pay
+  label: Twig Pay
+  group: other
+-
   name: stcpay
   label: Stcpay
   group: wallets
