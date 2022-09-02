@@ -91,10 +91,6 @@
   label: DePay
   group: cryptocurrencies
 -
-  name: ape
-  label: ApeCoin
-  group: cryptocurrencies
--
   name: busd
   label: Binance USD
   group: cryptocurrencies
