@@ -91,6 +91,10 @@
   label: DePay
   group: cryptocurrencies
 -
+  name: bitpay
+  label: BitPay
+  group: wallets
+-
   name: amazon
   label: Amazon
   group: wallets
