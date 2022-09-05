@@ -1458,3 +1458,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: rcbc_direct_debit
+  label: RCBC Direct Debit
+  group: other
