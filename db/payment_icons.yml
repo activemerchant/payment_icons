@@ -1458,3 +1458,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: aftee
+  label: AFTEE
+  group: other
