@@ -91,6 +91,30 @@
   label: DePay
   group: cryptocurrencies
 -
+  name: busd
+  label: Binance USD
+  group: cryptocurrencies
+-
+  name: gusd
+  label: Gemini Dollar
+  group: cryptocurrencies
+-
+  name: shib
+  label: Shiba Inu
+  group: cryptocurrencies
+-
+  name: usdp
+  label: Pax Dollar
+  group: cryptocurrencies
+-
+  name: wbtc
+  label: Wrapped Bitcoin
+  group: cryptocurrencies
+-
+  name: xrp
+  label: XRP
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
