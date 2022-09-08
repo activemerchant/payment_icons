@@ -18,11 +18,14 @@ Gem::Specification.new do |s|
   s.add_dependency 'frozen_record'
   s.add_dependency 'railties', '>= 5.0'
   s.add_dependency 'sassc-rails'
-  
+
   if s.respond_to?(:metadata)
     s.metadata["allowed_push_host"] = 'https://rubygems.org'
   end
 
   s.add_development_dependency('rails', '>= 5.0')
   s.add_development_dependency('pry')
+  s.add_development_dependency('imgkit')
+  s.add_development_dependency('wkhtmltoimage-binary')
+  s.add_development_dependency('rexml')
 end

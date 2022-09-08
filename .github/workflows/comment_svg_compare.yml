@@ -1,0 +1,24 @@
+name: Comment all svgs
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+
+permissions:
+  pull-requests: write
+jobs:
+  comment:
+    name: Comment
+    runs-on: shopify-ubuntu-latest
+    steps:
+      - name: Create image
+        shell: bash
+        run: echo "##[set-output name=image;]$(bundle exec rake app:render:new_icons)"
+        id: image
+
+      - name: Comment on PR
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          msg: 'This is what the svg look like ${{ steps.image.outputs.image }}'
+          check_for_duplicate_msg: true
