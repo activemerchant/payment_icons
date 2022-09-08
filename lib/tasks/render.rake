@@ -32,8 +32,6 @@ namespace :render do
     html += '</body></html>'
 
     kit = IMGKit.new(html)
-    file = kit.to_file('file.png')
-
-    file
+    puts file = kit.to_png
   end
 end

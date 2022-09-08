@@ -1482,3 +1482,11 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: r_test
+  label: RTest
+  group: other
+-
+  name: rr_test
+  label: RRTest
+  group: other
