@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: aeropay
+  label: Aeropay
+  group: bank_transfers
