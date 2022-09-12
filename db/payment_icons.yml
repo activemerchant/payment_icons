@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: fashion_giftcard_paynl_version
+  label: Fashion Giftcard (PAY. version)
+  group: other
