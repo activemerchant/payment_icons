@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: przelewy24_paynl_version
+  label: Przelewy24 (PAY. version)
+  group: other
