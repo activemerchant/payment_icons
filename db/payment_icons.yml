@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: alipay_paynl_version
+  label: Alipay (PAY. version)
+  group: other
