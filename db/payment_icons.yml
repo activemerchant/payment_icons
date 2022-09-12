@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: vvv_cadeaukaart_paynl_version
+  label: VVV Cadeaukaart (PAY. version)
+  group: other
