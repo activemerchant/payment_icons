@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: gezondheidsbon_paynl_version
+  label: GezondheidsBon (PAY. version)
+  group: other
