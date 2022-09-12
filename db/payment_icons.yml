@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: wechat_paynl_version
+  label: WeChat (PAY. version)
+  group: other
