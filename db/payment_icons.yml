@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: paysafecard_paynl_version
+  label: Paysafecard (PAY. version)
+  group: other
