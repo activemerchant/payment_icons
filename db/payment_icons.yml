@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: spei
+  label: SPEI
+  group: bank_transfers
