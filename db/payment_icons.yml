@@ -1482,3 +1482,7 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: oxxo
+  label: Oxxo
+  group: convenience_stores
