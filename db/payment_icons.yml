@@ -1534,3 +1534,7 @@
   name: aftee
   label: AFTEE
   group: other
+-
+  name: bill
+  label: Bill
+  group: convenience_stores
