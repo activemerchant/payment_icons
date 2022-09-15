@@ -75,6 +75,10 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: apecoin
+  label: ApeCoin
+  group: cryptocurrencies
+-
   name: solanapay
   label: Solana Pay
   group: cryptocurrencies
