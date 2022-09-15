@@ -1484,6 +1484,5 @@
   group: bank_transfers
 -  
   name: riverty_paynl_version
-  label: Riverty
+  label: Riverty (PAY. version)
   group: other
-  
