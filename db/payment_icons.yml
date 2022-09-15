@@ -1482,3 +1482,8 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-  
+  name: riverty_paynl_version
+  label: Riverty
+  group: other
+  
