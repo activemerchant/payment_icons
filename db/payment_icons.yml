@@ -1499,6 +1499,10 @@
   label: LinkPay
   group: bank_transfers
 -
+  name: paysafecard_paynl_version
+  label: Paysafecard (PAY. version)
+  group: other
+-
   name: gezondheidsbon_paynl_version
   label: GezondheidsBon (PAY. version)
   group: other
