@@ -1483,6 +1483,10 @@
   label: Cebuana
   group: other
 -
+  name: biercheque_paynl_version
+  label: Biercheque (PAY. version)
+  group: other
+-
   name: swiftpay
   label: SwiftPay
   group: other
