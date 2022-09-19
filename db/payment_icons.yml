@@ -675,7 +675,7 @@
   label: Paidy
   group: other
 -
-  name: twig_pay
+  name: twigpay
   label: Twig Pay
   group: other
 -
@@ -1487,7 +1487,7 @@
   label: Cebuana
   group: other
 -
-  name: biercheque_paynl_version
+  name: bierchequepaynlversion
   label: Biercheque (PAY. version)
   group: other
 -
@@ -1498,39 +1498,39 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
--  
-  name: riverty_paynl_version
+-
+  name: rivertypaynlversion
   label: Riverty (PAY. version)
   group: other
 -
-  name: wechat_paynl_version
+  name: wechatpaynlversion
   label: WeChat (PAY. version)
   group: other
 -
-  name: vvv_cadeaukaart_paynl_version
+  name: vvvcadeaukaartpaynlversion
   label: VVV Cadeaukaart (PAY. version)
   group: other
 -
-  name: przelewy24_paynl_version
+  name: przelewy24paynlversion
   label: Przelewy24 (PAY. version)
   group: other
 -
-  name: paysafecard_paynl_version
+  name: paysafecardpaynlversion
   label: Paysafecard (PAY. version)
   group: other
 -
-  name: gezondheidsbon_paynl_version
+  name: gezondheidsbonpaynlversion
   label: GezondheidsBon (PAY. version)
   group: other
 -
-  name: fashion_giftcard_paynl_version
+  name: fashiongiftcardpaynlversion
   label: Fashion Giftcard (PAY. version)
   group: other
 -
-  name: alipay_paynl_version
+  name: alipaypaynlversion
   label: Alipay (PAY. version)
   group: other
--  
+-
   name: aftee
   label: AFTEE
   group: other
