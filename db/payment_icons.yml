@@ -1534,3 +1534,11 @@
   name: aftee
   label: AFTEE
   group: other
+-
+  name: sveaOstukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveaCreditAccount
+  label: Svea Credit account
+  group: other
