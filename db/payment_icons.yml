@@ -1534,3 +1534,7 @@
   name: aftee
   label: AFTEE
   group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
