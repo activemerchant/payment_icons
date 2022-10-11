@@ -75,6 +75,10 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: apecoin
+  label: ApeCoin
+  group: cryptocurrencies
+-
   name: solanapay
   label: Solana Pay
   group: cryptocurrencies
@@ -89,6 +93,30 @@
 -
   name: depay
   label: DePay
+  group: cryptocurrencies
+-
+  name: busd
+  label: Binance USD
+  group: cryptocurrencies
+-
+  name: gusd
+  label: Gemini Dollar
+  group: cryptocurrencies
+-
+  name: shib
+  label: Shiba Inu
+  group: cryptocurrencies
+-
+  name: usdp
+  label: Pax Dollar
+  group: cryptocurrencies
+-
+  name: wbtc
+  label: Wrapped Bitcoin
+  group: cryptocurrencies
+-
+  name: xrp
+  label: XRP
   group: cryptocurrencies
 -
   name: amazon
@@ -310,6 +338,10 @@
   name: elv
   label: ELV
   group: bank_transfers
+-
+  name: astrapay
+  label: AstraPay
+  group: other
 -
   name: ideal
   label: iDEAL
@@ -641,6 +673,10 @@
 -
   name: paidy
   label: Paidy
+  group: other
+-
+  name: twigpay
+  label: Twig Pay
   group: other
 -
   name: stcpay
@@ -1099,6 +1135,14 @@
   label: Bread
   group: other
 -
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
+  group: other
+-
   name: nelo
   label: Nelo
   group: other
@@ -1147,6 +1191,10 @@
   label: Zip
   group: other
 -
+  name: humm
+  label: Humm
+  group: other
+-
   name: synchrony
   label: Synchrony
   group: credit_cards
@@ -1191,7 +1239,7 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
-  name: medicinos-bankas
+  name: medicinosbankas
   label: Medicinos bankas
   group: bank_transfers
 -
@@ -1375,6 +1423,10 @@
   label: Hello Clever
   group: other
 -
+  name: creditkey
+  label: Credit Key
+  group: other
+-
   name: palawa
   label: Palawa
   group: other
@@ -1387,7 +1439,7 @@
   label: Kredivo
   group: other
 -
-  name: tandym-payment
+  name: tandympayment
   label: Tandym Payment
   group: other
 -
@@ -1399,7 +1451,7 @@
   label: BSI
   group: bank_transfers
 -
-  name: clave_telered
+  name: clavetelered
   label: Clave
   group: credit_cards
 -
@@ -1407,11 +1459,11 @@
   label: Credix
   group: credit_cards
 -
-  name: sinpe_movil
+  name: sinpemovil
   label: Sinpe Móvil
   group: bank_transfers
 -
-  name: laybuy_heart
+  name: laybuyheart
   label: Laybuy
   group: other
 -
@@ -1423,7 +1475,7 @@
   label: Atome
   group: other
 -
-  name: creditclick_paynl_version
+  name: creditclickpaynlversion
   label: CreditClick (PAY. version)
   group: other
 -
@@ -1439,10 +1491,50 @@
   label: swissbilling
   group: other
 -
+  name: bierchequepaynlversion
+  label: Biercheque (PAY. version)
+  group: other
+-
   name: swiftpay
   label: SwiftPay
   group: other
 -
-  name: link-pay
+  name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: rivertypaynlversion
+  label: Riverty (PAY. version)
+  group: other
+-
+  name: wechatpaynlversion
+  label: WeChat (PAY. version)
+  group: other
+-
+  name: vvvcadeaukaartpaynlversion
+  label: VVV Cadeaukaart (PAY. version)
+  group: other
+-
+  name: przelewytwofourpaynlversion
+  label: Przelewy24 (PAY. version)
+  group: other
+-
+  name: paysafecardpaynlversion
+  label: Paysafecard (PAY. version)
+  group: other
+-
+  name: gezondheidsbonpaynlversion
+  label: GezondheidsBon (PAY. version)
+  group: other
+-
+  name: fashiongiftcardpaynlversion
+  label: Fashion Giftcard (PAY. version)
+  group: other
+-
+  name: alipaypaynlversion
+  label: Alipay (PAY. version)
+  group: other
+-
+  name: aftee
+  label: AFTEE
+  group: other
