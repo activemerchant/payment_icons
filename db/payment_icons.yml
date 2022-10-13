@@ -1542,3 +1542,7 @@
   name: oxxo
   label: OXXO
   group: convenience_stores
+-  
+  name: spei
+  label: SPEI
+  group: bank_transfers
