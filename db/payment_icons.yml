@@ -1487,6 +1487,10 @@
   label: Cebuana
   group: other
 -
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
   name: bierchequepaynlversion
   label: Biercheque (PAY. version)
   group: other
@@ -1511,7 +1515,7 @@
   label: VVV Cadeaukaart (PAY. version)
   group: other
 -
-  name: przelewy24paynlversion
+  name: przelewytwofourpaynlversion
   label: Przelewy24 (PAY. version)
   group: other
 -
@@ -1535,6 +1539,10 @@
   label: AFTEE
   group: other
 -
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-  
   name: spei
   label: SPEI
   group: bank_transfers
