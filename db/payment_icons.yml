@@ -1487,6 +1487,10 @@
   label: Cebuana
   group: other
 -
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
   name: bierchequepaynlversion
   label: Biercheque (PAY. version)
   group: other
@@ -1538,3 +1542,15 @@
   name: openpay
   label: Openpay
   group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-  
+  name: spei
+  label: SPEI
+  group: bank_transfers
+-
+  name: bbvacie
+  label: BBVA CIE
+  group: convenience_stores
