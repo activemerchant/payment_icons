@@ -1550,3 +1550,11 @@
   name: bbvacie
   label: BBVA CIE
   group: convenience_stores
+-
+  name: yape_dark
+  label: Yape (dark)
+  group: other
+-
+  name: yape_light
+  label: Yape (light)
+  group: other
