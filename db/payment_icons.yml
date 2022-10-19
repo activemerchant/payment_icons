@@ -1550,6 +1550,7 @@
   name: bbvacie
   label: BBVA CIE
   group: convenience_stores
+-
   name: sveaOstukonto
   label: Svea Ostukonto
   group: other
