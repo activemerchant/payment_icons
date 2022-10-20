@@ -868,7 +868,7 @@
   group: other
 -
   name: billink
-  label: Billink
+  label: Billink (PAY. version)
   group: other
 -
   name: au_kantan_kessai
@@ -1542,7 +1542,7 @@
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
