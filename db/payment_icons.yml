@@ -1551,8 +1551,14 @@
   label: BBVA CIE
   group: convenience_stores
 -
+  name: sveaOstukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveaCreditAccount
+  label: Svea Credit account
+  group: other
+-
   name: rcbc_direct_debit
   label: RCBC Direct Debit
   group: other
-
-
