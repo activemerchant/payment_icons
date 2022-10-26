@@ -1542,7 +1542,7 @@
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
@@ -1557,4 +1557,8 @@
 -
   name: sveaCreditAccount
   label: Svea Credit account
+  group: other
+-
+  name: bizum
+  label: Bizum
   group: other
