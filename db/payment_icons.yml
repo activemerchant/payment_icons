@@ -1439,6 +1439,14 @@
   label: Kredivo
   group: other
 -
+  name: uob-ezpay
+  label: UOB EZPay
+  group: other
+-
+  name: akulaku-paylater
+  label: Akulaku PayLater
+  group: other
+-
   name: tandympayment
   label: Tandym Payment
   group: other
