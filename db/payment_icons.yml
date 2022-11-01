@@ -1558,3 +1558,7 @@
   name: sveaCreditAccount
   label: Svea Credit account
   group: other
+-
+  name: sbpl
+  label: ShopBack - Powered by Hoolah
+  group: other
