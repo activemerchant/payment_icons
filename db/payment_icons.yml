@@ -1543,6 +1543,10 @@
   label: finloup
   group: credit_cards
 -
+  name: billink_method
+  label: Billink 
+  group: other
+-
   name: oxxo
   label: OXXO
   group: convenience_stores
