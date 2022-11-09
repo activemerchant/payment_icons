@@ -1,4 +1,6 @@
 require 'test_helper'
+require 'pry'
+require 'payment_icon_name_shitlist'
 
 class PaymentIconTest < ActiveSupport::TestCase
 
@@ -125,6 +127,14 @@ class PaymentIconTest < ActiveSupport::TestCase
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       error_message = "The '#{payment_type}' SVG file should contain a single line of markup, optionally terminated by an empty line"
       assert svg.lines.count == 1 || (svg.lines.count == 2 && svg.lines[1] == ''), error_message
+    end
+  end
+
+  test 'Payment icon name contains alpha characters only' do
+    shitlist_exempted_names = PaymentIconNameShitlist.exempted
+    PaymentIcon.all.each do |icon|
+      next if shitlist_exempted_names.include?(icon.name)
+      assert_match /^[a-z]+$/, icon.name, "#{icon.name} contains non-alpha character"
     end
   end
 end
