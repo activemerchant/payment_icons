@@ -1563,6 +1563,10 @@
   label: Svea Credit account
   group: other
 -
+  name: inbank
+  label: inbank
+  group: other
+-
   name: bill
   label: Bill
   group: other
