@@ -659,7 +659,7 @@
   label: Clearpay
   group: other
 -
-  name: cash_app_pay
+  name: cashapppay
   label: Cash App Pay
   group: other
 -
@@ -1546,7 +1546,7 @@
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
