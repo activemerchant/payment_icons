@@ -1539,6 +1539,10 @@
   label: AFTEE
   group: other
 -
+  name: billink_method
+  label: Billink 
+  group: other
+-
   name: oxxo
   label: OXXO
   group: convenience_stores
@@ -1561,4 +1565,8 @@
 -
   name: rcbc_direct_debit
   label: RCBC Direct Debit
+  group: other
+-
+  name: inbank
+  label: inbank
   group: other
