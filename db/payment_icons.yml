@@ -1566,3 +1566,7 @@
   name: swissbilling
   label: swissbilling
   group: other
+-
+  name: inbank
+  label: inbank
+  group: other
