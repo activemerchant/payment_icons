@@ -1539,6 +1539,10 @@
   label: AFTEE
   group: other
 -
+  name: billink_method
+  label: Billink 
+  group: other
+-
   name: oxxo
   label: OXXO
   group: convenience_stores
@@ -1559,6 +1563,10 @@
   label: Svea Credit account
   group: other
 -
-name: coppel-pay
-label: Coppel Pay
-group: wallets
+  name: inbank
+  label: inbank
+  group: other 
+-
+  name: coppel-pay
+  label: Coppel Pay
+  group: wallets
