@@ -1567,6 +1567,6 @@
   label: inbank
   group: other 
 -
-  name: coppel-pay
+  name: coppelpay
   label: Coppel Pay
   group: wallets
