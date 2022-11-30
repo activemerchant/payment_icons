@@ -1566,3 +1566,8 @@
   name: bizum
   label: Bizum
   group: other
+-
+  name: inbank
+  label: inbank
+  group: other 
+
