@@ -1540,7 +1540,7 @@
   group: other
 -
   name: billink_method
-  label: Billink 
+  label: Billink
   group: other
 -
   name: oxxo
@@ -1563,7 +1563,7 @@
   label: Svea Credit account
   group: other
 -
-  name: rcbc_direct_debit
+  name: rcbcDirectDebit
   label: RCBC Direct Debit
   group: other
 -
