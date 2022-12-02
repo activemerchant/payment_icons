@@ -1487,6 +1487,10 @@
   label: Cebuana
   group: other
 -
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
   name: bierchequepaynlversion
   label: Biercheque (PAY. version)
   group: other
@@ -1538,3 +1542,33 @@
   name: bss
   label: BSS
   group: bank_transfers
+-
+  name: billink_method
+  label: Billink 
+  group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-  
+  name: spei
+  label: SPEI
+  group: 
+  
+  
+-
+  name: bbvacie
+  label: BBVA CIE
+  group: convenience_stores
+-
+  name: sveaOstukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveaCreditAccount
+  label: Svea Credit account
+  group: other
+-
+  name: inbank
+  label: inbank
+  group: other
