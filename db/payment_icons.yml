@@ -1563,8 +1563,8 @@
   label: Svea Credit account
   group: other
 -
-  name: rcbcDirectDebit
-  label: RCBC Direct Debit
+  name: rcbc
+  label: RCBC
   group: other
 -
   name: inbank
