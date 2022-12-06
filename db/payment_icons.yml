@@ -1563,6 +1563,10 @@
   label: Svea Credit account
   group: other
 -
+  name: inbank
+  label: inbank
+  group: other 
+-
   name: sbpl
   label: ShopBack - Powered by Hoolah
   group: other
