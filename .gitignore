@@ -7,3 +7,4 @@ test/dummy/tmp/
 test/dummy/.sass-cache
 gemfiles/*.lock
 .DS_Store
+.vscode/
