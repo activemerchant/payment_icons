@@ -75,6 +75,10 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: apecoin
+  label: ApeCoin
+  group: cryptocurrencies
+-
   name: solanapay
   label: Solana Pay
   group: cryptocurrencies
@@ -334,6 +338,10 @@
   name: elv
   label: ELV
   group: bank_transfers
+-
+  name: astrapay
+  label: AstraPay
+  group: other
 -
   name: ideal
   label: iDEAL
@@ -667,7 +675,7 @@
   label: Paidy
   group: other
 -
-  name: twig_pay
+  name: twigpay
   label: Twig Pay
   group: other
 -
@@ -1183,6 +1191,10 @@
   label: Zip
   group: other
 -
+  name: humm
+  label: Humm
+  group: other
+-
   name: synchrony
   label: Synchrony
   group: credit_cards
@@ -1475,6 +1487,14 @@
   label: Cebuana
   group: other
 -
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
+  name: bierchequepaynlversion
+  label: Biercheque (PAY. version)
+  group: other
+-
   name: swiftpay
   label: SwiftPay
   group: other
@@ -1482,6 +1502,70 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: rivertypaynlversion
+  label: Riverty (PAY. version)
+  group: other
+-
+  name: wechatpaynlversion
+  label: WeChat (PAY. version)
+  group: other
+-
+  name: vvvcadeaukaartpaynlversion
+  label: VVV Cadeaukaart (PAY. version)
+  group: other
+-
+  name: przelewytwofourpaynlversion
+  label: Przelewy24 (PAY. version)
+  group: other
+-
+  name: paysafecardpaynlversion
+  label: Paysafecard (PAY. version)
+  group: other
+-
+  name: gezondheidsbonpaynlversion
+  label: GezondheidsBon (PAY. version)
+  group: other
+-
+  name: fashiongiftcardpaynlversion
+  label: Fashion Giftcard (PAY. version)
+  group: other
+-
+  name: alipaypaynlversion
+  label: Alipay (PAY. version)
+  group: other
+-
+  name: aftee
+  label: AFTEE
+  group: other
+-
+  name: billink_method
+  label: Billink 
+  group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-  
+  name: spei
+  label: SPEI
+  group: bank_transfers
+-
+  name: bbvacie
+  label: BBVA CIE
+  group: convenience_stores
+-
+  name: sveaOstukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveaCreditAccount
+  label: Svea Credit account
+  group: other
+-
+  name: inbank
+  label: inbank
+  group: other 
 -
   name: aeropay
   label: Aeropay
