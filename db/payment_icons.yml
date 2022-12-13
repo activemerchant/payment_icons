@@ -1544,13 +1544,13 @@
   group: credit_cards
 -
   name: billink_method
-  label: Billink 
+  label: Billink
   group: other
 -
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
@@ -1565,6 +1565,10 @@
 -
   name: sveaCreditAccount
   label: Svea Credit account
+  group: other
+-
+  name: rcbc
+  label: RCBC
   group: other
 -
   name: inbank
