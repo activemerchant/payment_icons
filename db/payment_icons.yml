@@ -1620,7 +1620,7 @@
   group: other 
 -
   name: urpay
-  label: urpay
+  label: Urpay
   group: wallets 
 -
   name: hypercash
@@ -1634,7 +1634,6 @@
   name: spotii
   label: Spotii
   group: other 
-
 -
   name: tamara
   label: Tamara
@@ -1646,7 +1645,7 @@
 -
   name: careempay
   label: Careem Pay
-  group: wallets
+  group: wallets 
 -
   name: billie
   label: Billie
