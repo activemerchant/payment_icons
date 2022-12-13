@@ -1595,6 +1595,10 @@
   label: inbank
   group: other 
 -
+  name: sbpl
+  label: ShopBack - Powered by Hoolah
+  group: other
+-
   name: coppelpay
   label: Coppel Pay
   group: wallets
