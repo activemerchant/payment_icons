@@ -1539,14 +1539,18 @@
   label: AFTEE
   group: other
 -
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
   name: billink_method
-  label: Billink 
+  label: Billink
   group: other
 -
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
@@ -1554,6 +1558,10 @@
   name: bbvacie
   label: BBVA CIE
   group: convenience_stores
+-
+  name: alma
+  label: Alma
+  group: other
 -
   name: sveaOstukonto
   label: Svea Ostukonto
@@ -1563,6 +1571,10 @@
   label: Svea Credit account
   group: other
 -
+  name: rcbc
+  label: RCBC
+  group: other
+-
   name: inbank
   label: inbank
   group: other 
@@ -1570,3 +1582,7 @@
   name: coppelpay
   label: Coppel Pay
   group: wallets
+-
+  name: sequra
+  label: SeQura
+  group: other
