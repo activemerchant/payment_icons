@@ -1583,6 +1583,10 @@
   label: Svea Credit account
   group: other
 -
+  name: swissbilling
+  label: swissbilling
+  group: other
+-
   name: bizum
   label: Bizum
   group: other
@@ -1598,6 +1602,10 @@
   name: billie
   label: Billie
   group: other 
+-
+  name: sbpl
+  label: ShopBack - Powered by Hoolah
+  group: other
 -
   name: coppelpay
   label: Coppel Pay
