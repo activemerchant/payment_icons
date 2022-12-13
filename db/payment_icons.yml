@@ -1588,7 +1588,7 @@
   group: other 
 -
   name: urpay
-  label: urpay
+  label: Urpay
   group: wallets 
 -
   name: hypercash
