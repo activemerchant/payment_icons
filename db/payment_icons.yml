@@ -659,6 +659,10 @@
   label: Clearpay
   group: other
 -
+  name: cashapppay
+  label: Cash App Pay
+  group: other
+-
   name: smartpay
   label: Smartpay
   group: other
@@ -1439,6 +1443,14 @@
   label: Kredivo
   group: other
 -
+  name: uobezpay
+  label: UOB EZPay
+  group: other
+-
+  name: akulakupaylater
+  label: Akulaku PayLater
+  group: other
+-
   name: tandympayment
   label: Tandym Payment
   group: other
@@ -1539,14 +1551,18 @@
   label: AFTEE
   group: other
 -
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
   name: billink_method
-  label: Billink 
+  label: Billink
   group: other
 -
   name: oxxo
   label: OXXO
   group: convenience_stores
--  
+-
   name: spei
   label: SPEI
   group: bank_transfers
@@ -1554,6 +1570,10 @@
   name: bbvacie
   label: BBVA CIE
   group: convenience_stores
+-
+  name: alma
+  label: Alma
+  group: other
 -
   name: sveaOstukonto
   label: Svea Ostukonto
@@ -1563,10 +1583,22 @@
   label: Svea Credit account
   group: other
 -
+  name: rcbc
+  label: RCBC
+  group: other
+-
   name: inbank
   label: inbank
   group: other 
 -
   name: sbpl
   label: ShopBack - Powered by Hoolah
+  group: other
+-
+  name: coppelpay
+  label: Coppel Pay
+  group: wallets
+-
+  name: sequra
+  label: SeQura
   group: other
