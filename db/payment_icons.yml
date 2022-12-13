@@ -1583,6 +1583,10 @@
   label: Svea Credit account
   group: other
 -
+  name: bizum
+  label: Bizum
+  group: other
+-
   name: rcbc
   label: RCBC
   group: other
@@ -1598,3 +1602,4 @@
   name: sequra
   label: SeQura
   group: other
+
