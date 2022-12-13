@@ -1559,6 +1559,10 @@
   label: BBVA CIE
   group: convenience_stores
 -
+  name: alma
+  label: Alma
+  group: other
+-
   name: sveaOstukonto
   label: Svea Ostukonto
   group: other
