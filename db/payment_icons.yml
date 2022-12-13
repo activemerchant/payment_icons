@@ -659,6 +659,10 @@
   label: Clearpay
   group: other
 -
+  name: cashapppay
+  label: Cash App Pay
+  group: other
+-
   name: smartpay
   label: Smartpay
   group: other
