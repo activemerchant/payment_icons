@@ -1591,6 +1591,10 @@
   label: inbank
   group: other 
 -
+  name: coppelpay
+  label: Coppel Pay
+  group: wallets
+-
   name: sequra
   label: SeQura
   group: other
