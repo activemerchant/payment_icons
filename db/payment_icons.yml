@@ -1539,6 +1539,10 @@
   label: AFTEE
   group: other
 -
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
   name: billink_method
   label: Billink
   group: other
@@ -1569,4 +1573,8 @@
 -
   name: inbank
   label: inbank
+  group: other 
+-
+  name: sequra
+  label: SeQura
   group: other
