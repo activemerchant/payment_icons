@@ -1599,6 +1599,54 @@
   label: inbank
   group: other 
 -
+  name: zoodpay
+  label: ZoodPay
+  group: other 
+-
+  name: valu
+  label: VaLU
+  group: other 
+-
+  name: tabby
+  label: Tabby
+  group: other 
+-
+  name: cliq
+  label: CliQ
+  group: wallets 
+-
+  name: postpay
+  label: Postpay
+  group: other 
+-
+  name: urpay
+  label: Urpay
+  group: wallets 
+-
+  name: hypercash
+  label: Hypercash
+  group: other
+-
+  name: fawry
+  label: Fawry
+  group: other 
+-
+  name: spotii
+  label: Spotii
+  group: other 
+-
+  name: tamara
+  label: Tamara
+  group: other 
+-
+  name: aqsat
+  label: AQSAT
+  group: other 
+-
+  name: careempay
+  label: Careem Pay
+  group: wallets 
+-
   name: billie
   label: Billie
   group: other 
