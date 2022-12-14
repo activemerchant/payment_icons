@@ -1662,3 +1662,7 @@
   name: sequra
   label: SeQura
   group: other
+-
+  name: aeropay
+  label: Aeropay
+  group: bank_transfers
