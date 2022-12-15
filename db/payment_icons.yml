@@ -1666,3 +1666,8 @@
   name: aeropay
   label: Aeropay
   group: bank_transfers
+-
+  name: catch
+  label: Catch
+  group: other
+
