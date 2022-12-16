@@ -1670,4 +1670,7 @@
   name: catch
   label: Catch
   group: other
-
+-
+  name: gmo-banktransfer
+  label: GMO Bank Transfer
+  group: other
