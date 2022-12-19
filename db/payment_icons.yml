@@ -1555,7 +1555,7 @@
   label: finloup
   group: credit_cards
 -
-  name: billink_method
+  name: billinkmethod
   label: Billink
   group: other
 -
@@ -1575,11 +1575,11 @@
   label: Alma
   group: other
 -
-  name: sveaOstukonto
+  name: sveaostukonto
   label: Svea Ostukonto
   group: other
 -
-  name: sveaCreditAccount
+  name: sveacreditaccount
   label: Svea Credit account
   group: other
 -
