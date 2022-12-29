@@ -1670,4 +1670,8 @@
   name: catch
   label: Catch
   group: other
+-
+  name: trevipay
+  label: TreviPay
+  group: other
 
