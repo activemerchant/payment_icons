@@ -40,6 +40,7 @@ jobs:
         with:
           ruby-version: ${{ matrix.version }}
           bundler-cache: true
+          rubygems: latest
 
       - name: Test
         run: bundle exec rake test
