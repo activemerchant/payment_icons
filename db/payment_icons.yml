@@ -1667,7 +1667,7 @@
   label: Aeropay
   group: bank_transfers
 -
-  name: catch
+  name: catchpayments
   label: Catch
   group: other
 
