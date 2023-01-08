@@ -1543,6 +1543,14 @@
   label: Openpay
   group: other
 -
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
+  name: billinkmethod
+  label: Billink
+  group: other
+-
   name: oxxo
   label: OXXO
   group: convenience_stores
