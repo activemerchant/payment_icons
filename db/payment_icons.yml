@@ -1539,10 +1539,6 @@
   label: AFTEE
   group: other
 -
-  name: openpay
-  label: Openpay
-  group: other
--
   name: finloup
   label: finloup
   group: credit_cards
@@ -1562,3 +1558,7 @@
   name: bbvacie
   label: BBVA CIE
   group: convenience_stores
+-
+  name: openpay
+  label: Openpay
+  group: other
