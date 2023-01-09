@@ -1670,3 +1670,8 @@
   name: catchpayments
   label: Catch
   group: other
+-
+  name: openpay
+  label: Openpay
+  group: other
+  
