@@ -659,6 +659,10 @@
   label: Clearpay
   group: other
 -
+  name: cashapppay
+  label: Cash App Pay
+  group: other
+-
   name: smartpay
   label: Smartpay
   group: other
@@ -1439,6 +1443,14 @@
   label: Kredivo
   group: other
 -
+  name: uobezpay
+  label: UOB EZPay
+  group: other
+-
+  name: akulakupaylater
+  label: Akulaku PayLater
+  group: other
+-
   name: tandympayment
   label: Tandym Payment
   group: other
@@ -1487,6 +1499,10 @@
   label: Cebuana
   group: other
 -
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
   name: bierchequepaynlversion
   label: Biercheque (PAY. version)
   group: other
@@ -1533,6 +1549,126 @@
 -
   name: aftee
   label: AFTEE
+  group: other
+-
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
+  name: billinkmethod
+  label: Billink
+  group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-
+  name: spei
+  label: SPEI
+  group: bank_transfers
+-
+  name: bbvacie
+  label: BBVA CIE
+  group: convenience_stores
+-
+  name: alma
+  label: Alma
+  group: other
+-
+  name: sveaostukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveacreditaccount
+  label: Svea Credit account
+  group: other
+-
+  name: swissbilling
+  label: swissbilling
+  group: other
+-
+  name: bizum
+  label: Bizum
+  group: other
+-
+  name: rcbc
+  label: RCBC
+  group: other
+-
+  name: inbank
+  label: inbank
+  group: other
+-
+  name: zoodpay
+  label: ZoodPay
+  group: other
+-
+  name: valu
+  label: VaLU
+  group: other
+-
+  name: tabby
+  label: Tabby
+  group: other
+-
+  name: cliq
+  label: CliQ
+  group: wallets
+-
+  name: postpay
+  label: Postpay
+  group: other
+-
+  name: urpay
+  label: Urpay
+  group: wallets
+-
+  name: hypercash
+  label: Hypercash
+  group: other
+-
+  name: fawry
+  label: Fawry
+  group: other
+-
+  name: spotii
+  label: Spotii
+  group: other
+-
+  name: tamara
+  label: Tamara
+  group: other
+-
+  name: aqsat
+  label: AQSAT
+  group: other
+-
+  name: careempay
+  label: Careem Pay
+  group: wallets
+-
+  name: billie
+  label: Billie
+  group: other
+-
+  name: sbpl
+  label: ShopBack - Powered by Hoolah
+  group: other
+-
+  name: coppelpay
+  label: Coppel Pay
+  group: wallets
+-
+  name: sequra
+  label: SeQura
+  group: other
+-
+  name: aeropay
+  label: Aeropay
+  group: bank_transfers
+-
+  name: catchpayments
+  label: Catch
   group: other
 -
   name: lbc
