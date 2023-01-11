@@ -1670,4 +1670,7 @@
   name: catchpayments
   label: Catch
   group: other
-
+-
+  name: paypo
+  label: PayPo
+  group: other
