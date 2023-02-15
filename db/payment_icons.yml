@@ -1670,4 +1670,7 @@
   name: catchpayments
   label: Catch
   group: other
-
+-
+  name: pay by bank
+  label: Pay By Bank
+  group: bank_transfers
