@@ -1670,4 +1670,8 @@
   name: catchpayments
   label: Catch
   group: other
+-
+  name: skrill_digital_wallet
+  label: Skrill Digital Wallet
+  group: wallets
 
