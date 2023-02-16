@@ -1565,9 +1565,7 @@
 -
   name: spei
   label: SPEI
-  group: 
-  
-  
+  group:
 -
   name: bbvacie
   label: BBVA CIE
