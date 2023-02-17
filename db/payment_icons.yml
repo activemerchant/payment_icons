@@ -1698,3 +1698,7 @@
   name: trevipay
   label: TreviPay
   group: other
+-
+  name: paypo
+  label: PayPo
+  group: other
