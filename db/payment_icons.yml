@@ -1558,7 +1558,7 @@
   name: zalopay
   label: ZaloPay
   group: wallets
--  
+-
   name: finloup
   label: finloup
   group: credit_cards
@@ -1614,7 +1614,7 @@
   name: ivy
   label: Ivy
   group: other
-- 
+-
   name: zoodpay
   label: ZoodPay
   group: other
@@ -1691,7 +1691,7 @@
   label: BSS
   group: bank_transfers
 -
-  name: gmo-banktransfer
+  name: gmobanktransfer
   label: GMO Bank Transfer
   group: other
 -
