@@ -1702,3 +1702,7 @@
   name: paypo
   label: PayPo
   group: other
+-
+  name: younitedpay
+  label: Younited Pay
+  group: other
