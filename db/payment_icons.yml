@@ -1551,6 +1551,14 @@
   label: AFTEE
   group: other
 -
+  name: momopay
+  label: MoMoPay
+  group: wallets
+-
+  name: zalopay
+  label: ZaloPay
+  group: wallets
+-  
   name: finloup
   label: finloup
   group: credit_cards
@@ -1670,4 +1678,3 @@
   name: catchpayments
   label: Catch
   group: other
-
