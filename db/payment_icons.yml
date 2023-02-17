@@ -1691,7 +1691,7 @@
   label: BSS
   group: bank_transfers
 -
-  name: gmo-banktransfer
+  name: gmobanktransfer
   label: GMO Bank Transfer
   group: other
 -
