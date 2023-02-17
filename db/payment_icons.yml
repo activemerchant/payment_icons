@@ -1611,6 +1611,10 @@
   label: inbank
   group: other
 -
+  name: ivy
+  label: Ivy
+  group: other
+- 
   name: zoodpay
   label: ZoodPay
   group: other
