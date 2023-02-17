@@ -1694,3 +1694,7 @@
   name: gmo-banktransfer
   label: GMO Bank Transfer
   group: other
+-
+  name: trevipay
+  label: TreviPay
+  group: other
