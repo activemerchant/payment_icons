@@ -48,6 +48,7 @@ Requirements
 Any updates that add new icons, or change the style of existing ones, are to be considered patches (i.e. `v1.0.X`).
 
 To create a new release:
+- `git checkout master` to get back to master branch
 - `git fetch --tags --force` to refresh tags
 - `git pull origin master` to pull latest changes to your local environment
 - Change version in `lib/<gem name>/version.rb`
