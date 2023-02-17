@@ -1678,3 +1678,7 @@
   name: catchpayments
   label: Catch
   group: other
+-
+  name: bss
+  label: BSS
+  group: bank_transfers
