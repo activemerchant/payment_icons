@@ -51,11 +51,11 @@ To create a new release:
 - `git checkout master` to get back to master branch
 - `git fetch --tags --force` to refresh tags
 - `git pull origin master` to pull latest changes to your local environment
-- Change version in `lib/<gem name>/version.rb`
-- Run `bundle install`
-- `git tag -a v<version>`
-- If prompted, make a comment about this version bump. i.e. "Adds icons X and Y"
+- Change version in `lib/payment_icons/version.rb`. Normally a patch version bump is enough. Otherwise, see https://semver.org/.
+- Run `bundle install`, which should update the `Gemfile.lock` `payment_icons` version
 - Commit the changes: `git commit -m 'Bump to <version>'`
+- `git tag -a v<version>`
+  - If prompted, make a comment about this version bump. i.e. "Adds icons X and Y"
 - `git push --tags origin master`
 - Contact a maintainer in Shopify to release the new version via ShipIt.
 
