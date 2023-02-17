@@ -1551,6 +1551,14 @@
   label: AFTEE
   group: other
 -
+  name: momopay
+  label: MoMoPay
+  group: wallets
+-
+  name: zalopay
+  label: ZaloPay
+  group: wallets
+-  
   name: finloup
   label: finloup
   group: credit_cards
@@ -1583,6 +1591,10 @@
   label: Svea Credit account
   group: other
 -
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  group: other
+-
   name: swissbilling
   label: swissbilling
   group: other
@@ -1597,31 +1609,35 @@
 -
   name: inbank
   label: inbank
-  group: other 
+  group: other
 -
+  name: ivy
+  label: Ivy
+  group: other
+- 
   name: zoodpay
   label: ZoodPay
-  group: other 
+  group: other
 -
   name: valu
   label: VaLU
-  group: other 
+  group: other
 -
   name: tabby
   label: Tabby
-  group: other 
+  group: other
 -
   name: cliq
   label: CliQ
-  group: wallets 
+  group: wallets
 -
   name: postpay
   label: Postpay
-  group: other 
+  group: other
 -
   name: urpay
   label: Urpay
-  group: wallets 
+  group: wallets
 -
   name: hypercash
   label: Hypercash
@@ -1629,27 +1645,27 @@
 -
   name: fawry
   label: Fawry
-  group: other 
+  group: other
 -
   name: spotii
   label: Spotii
-  group: other 
+  group: other
 -
   name: tamara
   label: Tamara
-  group: other 
+  group: other
 -
   name: aqsat
   label: AQSAT
-  group: other 
+  group: other
 -
   name: careempay
   label: Careem Pay
-  group: wallets 
+  group: wallets
 -
   name: billie
   label: Billie
-  group: other 
+  group: other
 -
   name: sbpl
   label: ShopBack - Powered by Hoolah
@@ -1667,11 +1683,18 @@
   label: Aeropay
   group: bank_transfers
 -
-  name: catch
+  name: catchpayments
   label: Catch
+  group: other
+-
+  name: bss
+  label: BSS
+  group: bank_transfers
+-
+  name: gmo-banktransfer
+  label: GMO Bank Transfer
   group: other
 -
   name: trevipay
   label: TreviPay
   group: other
-
