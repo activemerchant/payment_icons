@@ -1591,6 +1591,10 @@
   label: Svea Credit account
   group: other
 -
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  group: other
+-
   name: swissbilling
   label: swissbilling
   group: other
