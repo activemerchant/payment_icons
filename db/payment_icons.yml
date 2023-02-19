@@ -1551,6 +1551,14 @@
   label: AFTEE
   group: other
 -
+  name: momopay
+  label: MoMoPay
+  group: wallets
+-
+  name: zalopay
+  label: ZaloPay
+  group: wallets
+-  
   name: finloup
   label: finloup
   group: credit_cards
@@ -1583,6 +1591,10 @@
   label: Svea Credit account
   group: other
 -
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  group: other
+-
   name: swissbilling
   label: swissbilling
   group: other
@@ -1599,6 +1611,10 @@
   label: inbank
   group: other
 -
+  name: ivy
+  label: Ivy
+  group: other
+- 
   name: zoodpay
   label: ZoodPay
   group: other
@@ -1669,6 +1685,26 @@
 -
   name: catchpayments
   label: Catch
+  group: other
+-
+  name: bss
+  label: BSS
+  group: bank_transfers
+-
+  name: gmobanktransfer
+  label: GMO Bank Transfer
+  group: other
+-
+  name: trevipay
+  label: TreviPay
+  group: other
+-
+  name: paypo
+  label: PayPo
+  group: other
+-
+  name: younitedpay
+  label: Younited Pay
   group: other
 -
   name: mokka
