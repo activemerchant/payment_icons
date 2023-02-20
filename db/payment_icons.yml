@@ -1687,14 +1687,6 @@
   label: Catch
   group: other
 -
-  name: meeza
-  label: Meeza
-  group: other
--
-  name: myfatoorah-white
-  label: MyFatoorah White
-  group: other
--
   name: myfatoorah
   label: MyFatoorah
   group: other
