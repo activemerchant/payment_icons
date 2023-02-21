@@ -1671,6 +1671,6 @@
   label: Catch
   group: other
 -
-  name: pay by bank
+  name: paybybank
   label: Pay By Bank
   group: bank_transfers
