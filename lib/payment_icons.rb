@@ -1,7 +1,3 @@
-require 'payment_icons/engine'
-require 'frozen_record'
-require 'sass_functions/payment_icons'
-
 module PaymentIcons
   extend self
   def svgs
