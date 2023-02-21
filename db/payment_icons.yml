@@ -1690,6 +1690,10 @@
   name: myfatoorah
   label: MyFatoorah
   group: other
+-
+  name: meeza
+  label: Meeza
+  group: other
 -  
   name: bss
   label: BSS
