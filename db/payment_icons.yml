@@ -1707,6 +1707,6 @@
   label: Younited Pay
   group: other
 -
-name: tabit
-label: Tabit
-group: wallets
+  name: tabit
+  label: Tabit
+  group: wallets
