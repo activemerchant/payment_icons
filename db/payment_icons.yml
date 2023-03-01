@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: skeps
+  label: Skeps
+  group: other
