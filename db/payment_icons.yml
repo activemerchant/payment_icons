@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: carte_bleue
+  label: Carte Bleue
+  group: other
