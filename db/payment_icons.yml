@@ -1707,6 +1707,6 @@
   label: Younited Pay
   group: other
 -
-  name: carte_bleue
+  name: cartebleue
   label: Carte Bleue
   group: other
