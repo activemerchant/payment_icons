@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: cartasi
+  label: CartaSi
+  group: credit_cards
