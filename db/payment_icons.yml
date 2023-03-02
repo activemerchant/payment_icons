@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: postepay
+  label: PostePay
+  group: other
