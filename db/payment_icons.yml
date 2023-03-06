@@ -1709,4 +1709,4 @@
 -
   name: postepay
   label: PostePay
-  group: other
+  group: credit_cards
