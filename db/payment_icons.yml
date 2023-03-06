@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: offlinebanktransfer
+  label: Offline Bank Transfer
+  group: bank_transfers
