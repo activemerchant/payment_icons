@@ -1706,3 +1706,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: przelewy24
+  label: Przelewy24
+  group: bank_transfers
