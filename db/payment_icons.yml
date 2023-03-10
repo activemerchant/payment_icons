@@ -1687,6 +1687,10 @@
   label: Catch
   group: other
 -
+  name: openpay
+  label: Openpay
+  group: other
+-  
   name: lbc
   label: LBC
   group: convenience_stores
