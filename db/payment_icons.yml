@@ -1718,3 +1718,7 @@
   name: tabit
   label: Tabit
   group: wallets
+-
+  name: etika
+  label: etika
+  group: other 
