@@ -1690,7 +1690,7 @@
   name: catchpayments
   label: Catch
   group: other
--
+-  
   name: openpay
   label: Openpay
   group: other
@@ -1730,3 +1730,12 @@
   name: mokka
   label: Mokka
   group: other
+-
+  name: myfatoorah
+  label: MyFatoorah
+  group: other
+-
+  name: meeza
+  label: Meeza
+  group: other
+
