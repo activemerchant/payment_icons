@@ -1738,4 +1738,7 @@
   name: meeza
   label: Meeza
   group: other
-
+-
+  name: paysafecash
+  label: Paysafecash
+  group: other
