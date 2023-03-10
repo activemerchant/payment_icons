@@ -1183,6 +1183,10 @@
   label: LKU
   group: other
 -
+  name: rietumu
+  label: Rietumu
+  group: bank_transfers
+-
   name: affirm
   label: Affirm
   group: other
