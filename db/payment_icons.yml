@@ -1714,3 +1714,7 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: tabit
+  label: Tabit
+  group: wallets
