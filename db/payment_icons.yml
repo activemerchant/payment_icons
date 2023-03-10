@@ -1687,6 +1687,10 @@
   label: Catch
   group: other
 -
+  name: lbc
+  label: LBC
+  group: convenience_stores
+-
   name: bss
   label: BSS
   group: bank_transfers
