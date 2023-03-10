@@ -1699,6 +1699,10 @@
   label: LBC
   group: convenience_stores
 -
+  name: atrato
+  label: Atrato
+  group: other
+-
   name: bss
   label: BSS
   group: bank_transfers
