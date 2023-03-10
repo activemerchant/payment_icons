@@ -1687,9 +1687,13 @@
   label: Catch
   group: other
 -
-  name: etika
-  label: etika
+  name: openpay
+  label: Openpay
   group: other
+-  
+  name: lbc
+  label: LBC
+  group: convenience_stores
 -
   name: bss
   label: BSS
@@ -1710,3 +1714,11 @@
   name: younitedpay
   label: Younited Pay
   group: other
+-
+  name: tabit
+  label: Tabit
+  group: wallets
+-
+  name: etika
+  label: etika
+  group: other 
