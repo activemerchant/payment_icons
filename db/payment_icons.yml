@@ -411,6 +411,10 @@
   label: Daily Yamazaki
   group: convenience_stores
 -
+  name: seicomart
+  label: Seicomart
+  group: convenience_stores
+-
   name: mondido
   label: Mondido
   group: other
