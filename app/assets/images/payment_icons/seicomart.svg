@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-seicomart.svg"><title id="pi-seicomart">Seicomart</title>
+<path d="M35,0H3A3,3,0,0,0,0,3V21a3,3,0,0,0,3,3H35a3,3,0,0,0,3-3V3A3,3,0,0,0,35,0Z" opacity=".07"/><path fill="#fff" d="M35,.9a2,2,0,0,1,2,2v18a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V2.9a2,2,0,0,1,2-2H35"/>
 
   <rect fill="#f08500" y="7.3" width="38" height="9.41"/>
   <g>
@@ -24,4 +25,5 @@
       <path fill="none" d="m31.02,9.76c-.07,0-.13.06-.13.13s.06.13.13.13c.07,0,.13-.06.13-.13s-.06-.13-.13-.13Z"/>
     </g>
   </g>
+
 </svg>
