@@ -1754,3 +1754,7 @@
   name: skrilldigitalwallet
   label: Skrill Digital Wallet
   group: wallets
+- 
+  name: gokwik-cash-on-delivery
+  label: GoKwik Cash on Delivery
+  group: other
