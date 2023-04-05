@@ -1755,6 +1755,22 @@
   label: Skrill Digital Wallet
   group: wallets
 -
+  name: pei
+  label: Pei
+  group: other
+-
+  name: rapidtransfer
+  label: Rapid Transfer
+  group: bank_transfers
+-
+  name: neteller
+  label: NETELLER
+  group: wallets
+-
+  name: cetelem
+  label: Cetelem
+  group: other
+-
   name: paid
   label: Paid
-  group: other
+  group: other  
