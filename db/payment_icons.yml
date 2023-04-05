@@ -1766,3 +1766,7 @@
   name: neteller
   label: NETELLER
   group: wallets
+-
+  name: cetelem
+  label: Cetelem
+  group: other
