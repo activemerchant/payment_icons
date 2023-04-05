@@ -1183,6 +1183,10 @@
   label: LKU
   group: other
 -
+  name: rietumu
+  label: Rietumu
+  group: bank_transfers
+-
   name: affirm
   label: Affirm
   group: other
@@ -1551,6 +1555,14 @@
   label: AFTEE
   group: other
 -
+  name: momopay
+  label: MoMoPay
+  group: wallets
+-
+  name: zalopay
+  label: ZaloPay
+  group: wallets
+-  
   name: finloup
   label: finloup
   group: credit_cards
@@ -1583,6 +1595,10 @@
   label: Svea Credit account
   group: other
 -
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  group: other
+-
   name: swissbilling
   label: swissbilling
   group: other
@@ -1599,6 +1615,10 @@
   label: inbank
   group: other
 -
+  name: ivy
+  label: Ivy
+  group: other
+- 
   name: zoodpay
   label: ZoodPay
   group: other
@@ -1669,6 +1689,74 @@
 -
   name: catchpayments
   label: Catch
+  group: other
+-  
+  name: openpay
+  label: Openpay
+  group: other
+-  
+  name: lbc
+  label: LBC
+  group: convenience_stores
+-
+  name: atrato
+  label: Atrato
+  group: other
+-
+  name: bss
+  label: BSS
+  group: bank_transfers
+-
+  name: gmobanktransfer
+  label: GMO Bank Transfer
+  group: other
+-
+  name: trevipay
+  label: TreviPay
+  group: other
+-
+  name: paypo
+  label: PayPo
+  group: other
+-
+  name: younitedpay
+  label: Younited Pay
+  group: other
+-
+  name: tabit
+  label: Tabit
+  group: wallets
+-
+  name: etika
+  label: etika
+  group: other 
+-
+  name: mokka
+  label: Mokka
+  group: other
+-
+  name: myfatoorah
+  label: MyFatoorah
+  group: other
+-
+  name: meeza
+  label: Meeza
+  group: other
+-
+  name: paysafecash
+  label: Paysafecash
+  group: other
+-
+  name: tbibank
+  label: tbi bank
+  group: other
+-
+  name: skrilldigitalwallet
+  label: Skrill Digital Wallet
+  group: wallets
+-
+  name: pei
+  label: Pei
   group: other
 -
   name: paybybank
