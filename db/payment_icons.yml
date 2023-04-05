@@ -1762,3 +1762,7 @@
   name: rapidtransfer
   label: Rapid Transfer
   group: bank_transfers
+-
+  name: neteller
+  label: NETELLER
+  group: wallets
