@@ -1754,3 +1754,7 @@
   name: skrilldigitalwallet
   label: Skrill Digital Wallet
   group: wallets
+-
+  name: cash
+  label: Cash on Delivery
+  group: cash
