@@ -1774,3 +1774,7 @@
   name: paid
   label: Paid
   group: other  
+-
+  name: paid
+  label: Paid
+  group: other  
