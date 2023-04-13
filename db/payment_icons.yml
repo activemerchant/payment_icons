@@ -1775,10 +1775,10 @@
   label: Paid
   group: other
 
-  name: sikafsa
+  name: sika_fsa
   label: Sika FSA
   group: other
 
-  name: sikahsa
+  name: sika_hsa
   label: Sika HSA
   group: other
