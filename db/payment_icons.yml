@@ -1779,7 +1779,7 @@
   label: Paid
   group: other
 -
-  name: super_payments
+  name: superpayments
   label: Super Payments
   group: bank_transfers
 
