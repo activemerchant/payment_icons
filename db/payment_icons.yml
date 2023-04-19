@@ -1741,7 +1741,7 @@
 -
   name: meeza
   label: Meeza
-  group: other
+  group: credit_cards
 -
   name: paysafecash
   label: Paysafecash
