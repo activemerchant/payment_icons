@@ -1756,7 +1756,7 @@
   group: wallets
 -
   name: cash
-  label: Cash on Delivery
+  label: Cash
   group: other
 -
   name: pei
