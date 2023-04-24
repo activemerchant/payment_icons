@@ -1771,8 +1771,8 @@
   label: Cetelem
   group: other
 -
-  name: paid
-  label: Paid
+  name: duitnow
+  label: DuitNow
   group: other  
 -
   name: paid
