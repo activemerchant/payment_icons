@@ -1755,6 +1755,10 @@
   label: Skrill Digital Wallet
   group: wallets
 -
+  name: cash
+  label: Cash
+  group: other
+-
   name: pei
   label: Pei
   group: other
@@ -1774,11 +1778,23 @@
   name: paid
   label: Paid
   group: other
-
+-
   name: sikafsa
   label: Sika FSA
   group: other
-
+-
   name: sikahsa
   label: Sika HSA
+  group: other
+-  
+  name: citipay
+  label: Citi Pay
+  group: other 
+-  
+  name: freedompay
+  label: FreedomPay
+  group: other 
+-
+  name: skeps
+  label: Skeps
   group: other
