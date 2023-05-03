@@ -1777,7 +1777,15 @@
 -
   name: paid
   label: Paid
-  group: other  
+  group: other 
+-  
+  name: citipay
+  label: Citi Pay
+  group: other 
+-  
+  name: freedompay
+  label: FreedomPay
+  group: other 
 -
   name: skeps
   label: Skeps
