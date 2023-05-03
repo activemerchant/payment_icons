@@ -1777,7 +1777,15 @@
 -
   name: paid
   label: Paid
-  group: other 
+  group: other
+-
+  name: sikafsa
+  label: Sika FSA
+  group: other
+-
+  name: sikahsa
+  label: Sika HSA
+  group: other
 -  
   name: citipay
   label: Citi Pay
