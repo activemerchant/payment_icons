@@ -1786,14 +1786,18 @@
   name: sikahsa
   label: Sika HSA
   group: other
--  
+-
   name: citipay
   label: Citi Pay
-  group: other 
--  
+  group: other
+-
   name: freedompay
   label: FreedomPay
-  group: other 
+  group: other
+-
+  name: clerq
+  label: Clerq
+  group: bank_transfers
 -
   name: skeps
   label: Skeps
