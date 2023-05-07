@@ -1741,7 +1741,7 @@
 -
   name: meeza
   label: Meeza
-  group: other
+  group: credit_cards
 -
   name: paysafecash
   label: Paysafecash
@@ -1754,6 +1754,10 @@
   name: skrilldigitalwallet
   label: Skrill Digital Wallet
   group: wallets
+-
+  name: cash
+  label: Cash
+  group: other
 -
   name: pei
   label: Pei
@@ -1777,4 +1781,28 @@
 -
   name: directa24
   label: Directa24
-  group: other  
+  group: other
+-
+  name: sikafsa
+  label: Sika FSA
+  group: other
+-
+  name: sikahsa
+  label: Sika HSA
+  group: other
+-
+  name: citipay
+  label: Citi Pay
+  group: other
+-
+  name: freedompay
+  label: FreedomPay
+  group: other
+-
+  name: clerq
+  label: Clerq
+  group: bank_transfers
+-
+  name: skeps
+  label: Skeps
+  group: other
