@@ -1802,3 +1802,7 @@
   name: skeps
   label: Skeps
   group: other
+-
+  name: boodil
+  label: Boodil
+  group: bank_transfers
