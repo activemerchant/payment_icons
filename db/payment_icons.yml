@@ -1802,3 +1802,11 @@
   name: skeps
   label: Skeps
   group: other
+-
+  name: np_atobarai
+  label: Np Atobarai
+  group: other
+-
+  name: np_kakebarai
+  label: Np Kakebarai
+  group: other
