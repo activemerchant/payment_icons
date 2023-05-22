@@ -1802,3 +1802,7 @@
   name: skeps
   label: Skeps
   group: other
+
+  name: happypay
+  label: Happy Pay
+  group: other
