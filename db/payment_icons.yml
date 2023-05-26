@@ -1807,10 +1807,6 @@
   label: Payoo
   group: wallets
 -
-  name: qrcode
-  label: QrCode
-  group: othe
--
-  name: atm
-  label: ATM
-  group: bank_transfers
+  name: payoo_qr
+  label: Payoo Qr
+  group: other
