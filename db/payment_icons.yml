@@ -1802,3 +1802,7 @@
   name: skeps
   label: Skeps
   group: other
+-
+  name: ewalletsouthkorea
+  label: E-wallet South Korea
+  group: wallets
