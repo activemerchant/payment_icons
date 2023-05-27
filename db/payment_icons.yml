@@ -1801,4 +1801,8 @@
 -
   name: skeps
   label: Skeps
-  group: other
+  group: othergit 
+-
+  name: ewalletphilippines
+  label: E-wallet Philippines
+  group: wallets
