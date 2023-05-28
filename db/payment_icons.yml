@@ -1351,9 +1351,9 @@
 - name: skeps
   label: Skeps
   group: other
-- name: np atobarai
+- name: npatobarai
   label: Np Atobarai
   group: other
-- name: np kakebarai
+- name: npkakebarai
   label: Np Kakebarai
   group: other
