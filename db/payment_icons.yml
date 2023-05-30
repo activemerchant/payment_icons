@@ -1807,6 +1807,6 @@
   label: Payoo
   group: wallets
 -
-  name: payoo_qr
+  name: payooqr
   label: Payoo Qr
   group: other
