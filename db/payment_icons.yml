@@ -1822,3 +1822,7 @@
   name: boodil
   label: Boodil
   group: bank_transfers
+-
+  name: mach
+  label: Mach
+  group: wallets
