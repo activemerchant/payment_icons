@@ -1826,3 +1826,7 @@
   name: mach
   label: Mach
   group: wallets
+-
+  name: happypay
+  label: Happy Pay
+  group: other
