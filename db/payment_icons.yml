@@ -1830,3 +1830,11 @@
   name: happypay
   label: Happy Pay
   group: other
+-
+  name: payoo
+  label: Payoo
+  group: wallets
+-
+  name: payooqr
+  label: Payoo Qr
+  group: other
