@@ -1781,7 +1781,7 @@
 -
   name: paid
   label: Paid
-  group: other  
+  group: other
 -
   name: directa24
   label: Directa24
@@ -1841,4 +1841,8 @@
 -
   name: payooqr
   label: Payoo Qr
+  group: other
+-
+  name: homecredit
+  label: Home Credit
   group: other
