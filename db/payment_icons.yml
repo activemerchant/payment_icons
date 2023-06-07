@@ -79,6 +79,10 @@
   label: ApeCoin
   group: cryptocurrencies
 -
+  name: solana
+  label: Solana
+  group: cryptocurrencies
+-
   name: solanapay
   label: Solana Pay
   group: cryptocurrencies
