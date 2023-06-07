@@ -1777,6 +1777,10 @@
 -
   name: paid
   label: Paid
+  group: other  
+-
+  name: directa24
+  label: Directa24
   group: other
 -
   name: superpayments
