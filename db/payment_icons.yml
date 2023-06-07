@@ -1802,8 +1802,11 @@
   name: skeps
   label: Skeps
   group: other
-
 -
   name: mybank
   label: mybank
   group: bank_transfers
+-
+  name: ewalletindonesia
+  label: E-wallet Indonesia
+  group: wallets
