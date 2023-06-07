@@ -1562,7 +1562,7 @@
   name: zalopay
   label: ZaloPay
   group: wallets
--  
+-
   name: finloup
   label: finloup
   group: credit_cards
@@ -1618,7 +1618,7 @@
   name: ivy
   label: Ivy
   group: other
-- 
+-
   name: zoodpay
   label: ZoodPay
   group: other
@@ -1690,11 +1690,11 @@
   name: catchpayments
   label: Catch
   group: other
--  
+-
   name: openpay
   label: Openpay
   group: other
--  
+-
   name: lbc
   label: LBC
   group: convenience_stores
@@ -1729,7 +1729,7 @@
 -
   name: etika
   label: etika
-  group: other 
+  group: other
 -
   name: mokka
   label: Mokka
@@ -1777,7 +1777,15 @@
 -
   name: paid
   label: Paid
+  group: other  
+-
+  name: directa24
+  label: Directa24
   group: other
+-
+  name: superpayments
+  label: Super Payments
+  group: bank_transfers
 -
   name: sikafsa
   label: Sika FSA
@@ -1802,7 +1810,23 @@
   name: skeps
   label: Skeps
   group: other
-
+-
+  name: mybank
+  label: mybank
+  group: bank_transfers
+-
+  name: ewalletindonesia
+  label: E-wallet Indonesia
+  group: wallets
+-
+  name: boodil
+  label: Boodil
+  group: bank_transfers
+-
+  name: mach
+  label: Mach
+  group: wallets
+-
   name: happypay
   label: Happy Pay
   group: other
