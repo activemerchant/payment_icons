@@ -1779,6 +1779,10 @@
   label: Paid
   group: other
 -
+  name: superpayments
+  label: Super Payments
+  group: bank_transfers
+-
   name: sikafsa
   label: Sika FSA
   group: other
