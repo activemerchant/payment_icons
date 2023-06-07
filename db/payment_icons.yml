@@ -1818,3 +1818,7 @@
   name: ewalletindonesia
   label: E-wallet Indonesia
   group: wallets
+-
+  name: boodil
+  label: Boodil
+  group: bank_transfers
