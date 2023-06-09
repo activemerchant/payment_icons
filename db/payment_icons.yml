@@ -1846,3 +1846,15 @@
   name: homecredit
   label: Home Credit
   group: other
+-
+  name: jko
+  label: Jko
+  group: other
+-
+  name: zingala
+  label: Zingala
+  group: other
+-
+  name: transfer
+  label: Transfer
+  group: other
