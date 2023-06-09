@@ -1803,10 +1803,10 @@
   label: Skeps
   group: other
 -
-  name: np_atobarai
+  name: npatobarai
   label: Np Atobarai
   group: other
 -
-  name: np_kakebarai
+  name: npkakebarai
   label: Np Kakebarai
   group: other
