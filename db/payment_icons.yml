@@ -1815,6 +1815,10 @@
   label: Skeps
   group: other
 -
+  name: payjustnow
+  label: PayJustNow
+  group: other
+-
   name: mybank
   label: mybank
   group: bank_transfers
