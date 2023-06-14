@@ -1859,6 +1859,6 @@
   label: Zingala
   group: other
 -
-  name: transfer
-  label: Transfer
+  name: hitrustpay_transfer
+  label: Hitrustpay_Transfer
   group: other
