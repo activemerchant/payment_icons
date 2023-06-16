@@ -1850,3 +1850,8 @@
   name: homecredit
   label: Home Credit
   group: other
+-
+  name: aupay
+  label: au PAY
+  group: wallets
+
