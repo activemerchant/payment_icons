@@ -1771,6 +1771,10 @@
   label: Cetelem
   group: other
 -
+  name: sympl
+  label: Sympl
+  group: other    
+-
   name: paid
   label: Paid
   group: other  
