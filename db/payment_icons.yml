@@ -1850,3 +1850,7 @@
   name: homecredit
   label: Home Credit
   group: other
+-
+  name: mercadopago
+  label: Mercado Pago
+  group: wallets
