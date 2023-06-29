@@ -367,8 +367,8 @@
   label: RatePay
   group: wallets
 -
-  name: przelew24
-  label: Przelew24
+  name: przelewy24
+  label: Przelewy24
   group: bank_transfers
 -
   name: epayments
