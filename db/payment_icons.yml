@@ -1767,6 +1767,10 @@
   label: Pei
   group: other
 -
+  name: paybybank
+  label: Pay By Bank
+  group: bank_transfers
+-
   name: rapidtransfer
   label: Rapid Transfer
   group: bank_transfers
@@ -1778,6 +1782,10 @@
   name: cetelem
   label: Cetelem
   group: other
+-
+  name: sympl
+  label: Sympl
+  group: other    
 -
   name: paid
   label: Paid
@@ -1815,6 +1823,10 @@
   label: Skeps
   group: other
 -
+  name: payjustnow
+  label: PayJustNow
+  group: other
+-
   name: mybank
   label: mybank
   group: bank_transfers
@@ -1846,6 +1858,10 @@
   name: homecredit
   label: Home Credit
   group: other
+-
+  name: aupay
+  label: au PAY
+  group: wallets
 -
   name: dappmx
   label: Dapp
