@@ -1767,6 +1767,10 @@
   label: Pei
   group: other
 -
+  name: paybybank
+  label: Pay By Bank
+  group: bank_transfers
+-
   name: rapidtransfer
   label: Rapid Transfer
   group: bank_transfers
@@ -1850,3 +1854,4 @@
   name: homecredit
   label: Home Credit
   group: other
+
