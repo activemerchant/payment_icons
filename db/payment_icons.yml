@@ -1885,8 +1885,8 @@
 -
   name: paycash
   label: PayCash
-  group: Other
+  group: other
 -
   name: yappy
   label: yappy
-  group: Other
+  group: other
