@@ -1450,3 +1450,27 @@
   name: linkpay
   label: LinkPay
   group: bank_transfers
+-
+  name: tasacero
+  label: Tasa Cero
+  group: credit_cards
+-
+  name: minicuotas
+  label: Minicuotas
+  group: credit_cards
+-
+  name: cuotas
+  label: Cuotas
+  group: credit_cards
+-
+  name: ibexpay
+  label: IBEXPAY
+  group: cryptocurrencies
+-
+  name: paycash
+  label: PayCash
+  group: Other
+-
+  name: yappy
+  label: yappy
+  group: Other
