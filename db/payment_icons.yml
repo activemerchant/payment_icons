@@ -1866,3 +1866,7 @@
   name: dappmx
   label: Dapp
   group: wallets
+
+- name: mercadopago
+  label: Mercado Pago
+  group: wallets
