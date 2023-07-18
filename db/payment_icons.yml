@@ -1867,6 +1867,6 @@
   label: Dapp
   group: wallets
 -
-  name: iwocapay-pay-later
+  name: iwocapaypaylater
   label: iwocaPay Pay Later
   group: other
