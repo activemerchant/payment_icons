@@ -1871,6 +1871,10 @@
   label: Hitrustpay Transfer
   group: other
 -
+  name: easywallet
+  label: Easywallet
+  group: other
+-
   name: aupay
   label: au PAY
   group: wallets
