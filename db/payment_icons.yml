@@ -1862,3 +1862,11 @@
   name: hitrustpaytransfer
   label: Hitrustpay Transfer
   group: other
+-
+  name: aupay
+  label: au PAY
+  group: wallets
+-
+  name: dappmx
+  label: Dapp
+  group: wallets
