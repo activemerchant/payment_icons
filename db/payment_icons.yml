@@ -1946,3 +1946,11 @@
   name: decadeaukaart
   label: De cadeau kaart
   group: other
+-
+  name: aupay
+  label: au PAY
+  group: wallets
+-
+  name: dappmx
+  label: Dapp
+  group: wallets
