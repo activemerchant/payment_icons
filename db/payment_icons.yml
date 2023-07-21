@@ -1802,3 +1802,7 @@
   name: skeps
   label: Skeps
   group: other
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
