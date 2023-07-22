@@ -1866,3 +1866,7 @@
   name: dappmx
   label: Dapp
   group: wallets
+-
+  name: offlinebanktransferlatinamerica
+  label: Offline Bank Transfer Latin America
+  group: bank_transfers
