@@ -1866,3 +1866,7 @@
   name: dappmx
   label: Dapp
   group: wallets
+-
+  name: edenredpaynlversion
+  label: Edenred (Pay. version)
+  group: other
