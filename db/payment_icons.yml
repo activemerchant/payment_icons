@@ -1870,3 +1870,11 @@
   name: dappmx
   label: Dapp
   group: wallets
+-
+  name: npatobarai
+  label: Np Atobarai
+  group: other
+-
+  name: npkakebarai
+  label: Np Kakebarai
+  group: other
