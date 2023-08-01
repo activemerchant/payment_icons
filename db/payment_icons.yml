@@ -1926,3 +1926,7 @@
   name: offlinebanktransferlatinamerica
   label: Offline Bank Transfer Latin America
   group: bank_transfers
+-
+  name: cashinvoicelatinamerica
+  label: Cash/Invoice Latin America
+  group: other
