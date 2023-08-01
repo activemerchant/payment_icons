@@ -1914,3 +1914,7 @@
   name: mercadopago
   label: Mercado Pago
   group: wallets
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
