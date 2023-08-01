@@ -1783,6 +1783,10 @@
   label: Cetelem
   group: other
 -
+  name: duitnow
+  label: DuitNow
+  group: other  
+- 
   name: sympl
   label: Sympl
   group: other    
