@@ -367,8 +367,8 @@
   label: RatePay
   group: wallets
 -
-  name: przelew24
-  label: Przelew24
+  name: przelewy24
+  label: Przelewy24
   group: bank_transfers
 -
   name: epayments
@@ -1783,6 +1783,10 @@
   label: Cetelem
   group: other
 -
+  name: duitnow
+  label: DuitNow
+  group: other  
+- 
   name: sympl
   label: Sympl
   group: other    
@@ -1866,6 +1870,58 @@
   name: dappmx
   label: Dapp
   group: wallets
+-
+  name: npatobarai
+  label: Np Atobarai
+  group: other
+-
+  name: npkakebarai
+  label: Np Kakebarai
+  group: other
+-
+  name: ewalletphilippines
+  label: E-wallet Philippines
+  group: wallets
+-
+  name: ewalletsouthkorea
+  label: E-wallet South Korea
+  group: wallets
+-
+  name: tasacero
+  label: Tasa Cero
+  group: credit_cards
+-
+  name: minicuotas
+  label: Minicuotas
+  group: credit_cards
+-
+  name: cuotas
+  label: Cuotas
+  group: credit_cards
+-
+  name: ibexpay
+  label: IBEXPAY
+  group: cryptocurrencies
+-
+  name: paycash
+  label: PayCash
+  group: other
+-
+  name: yappy
+  label: yappy
+  group: other
+-
+  name: mercadopago
+  label: Mercado Pago
+  group: wallets
+-
+  name: iwocapaypaylater
+  label: iwocaPay Pay Later
+  group: other
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
 -
   name: offlinebanktransferlatinamerica
   label: Offline Bank Transfer Latin America
