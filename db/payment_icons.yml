@@ -1910,3 +1910,7 @@
   name: yappy
   label: yappy
   group: other
+-
+  name: mercadopago
+  label: Mercado Pago
+  group: wallets
