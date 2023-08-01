@@ -1922,3 +1922,7 @@
   name: directbanktransferlatinamerica
   label: Direct Bank Transfer Latin America
   group: bank_transfers
+-
+  name: offlinebanktransferlatinamerica
+  label: Offline Bank Transfer Latin America
+  group: bank_transfers
