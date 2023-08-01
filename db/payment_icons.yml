@@ -1886,3 +1886,27 @@
   name: ewalletsouthkorea
   label: E-wallet South Korea
   group: wallets
+-
+  name: tasacero
+  label: Tasa Cero
+  group: credit_cards
+-
+  name: minicuotas
+  label: Minicuotas
+  group: credit_cards
+-
+  name: cuotas
+  label: Cuotas
+  group: credit_cards
+-
+  name: ibexpay
+  label: IBEXPAY
+  group: cryptocurrencies
+-
+  name: paycash
+  label: PayCash
+  group: other
+-
+  name: yappy
+  label: yappy
+  group: other
