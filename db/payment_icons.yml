@@ -1783,6 +1783,10 @@
   label: Cetelem
   group: other
 -
+  name: duitnow
+  label: DuitNow
+  group: other  
+- 
   name: sympl
   label: Sympl
   group: other    
@@ -1866,6 +1870,14 @@
   name: dappmx
   label: Dapp
   group: wallets
+-
+  name: npatobarai
+  label: Np Atobarai
+  group: other
+-
+  name: npkakebarai
+  label: Np Kakebarai
+  group: other
 -
   name: ewalletphilippines
   label: E-wallet Philippines
