@@ -1932,5 +1932,5 @@
   group: other
 -
   name: generic
-  label: Generic Payment Method
+  label: Generic
   group: other
