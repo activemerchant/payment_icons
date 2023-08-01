@@ -1918,3 +1918,7 @@
   name: iwocapaypaylater
   label: iwocaPay Pay Later
   group: other
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
