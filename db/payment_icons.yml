@@ -1858,9 +1858,9 @@
   name: homecredit
   label: Home Credit
   group: other
-  -
+-
   name: pse
-  label: Pagos electrónicos seguros (PSE)
+  label: Pagos Electrónicos Seguros (PSE)
   group: bank_transfers
 -
   name: aupay
