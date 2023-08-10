@@ -1811,6 +1811,10 @@
   label: Sika HSA
   group: other
 -
+  name: sika
+  label: Sika
+  group: other
+-
   name: citipay
   label: Citi Pay
   group: other
