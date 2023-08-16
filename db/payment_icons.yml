@@ -1938,3 +1938,7 @@
   name: generic
   label: Generic
   group: other
+-
+  name: decadeaukaart
+  label: De cadeau kaart
+  group: other
