@@ -79,6 +79,18 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: bnbchain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -257,6 +269,18 @@
 -
   name: viabill
   label: ViaBill
+  group: other
+-
+  name: novuna
+  label: Novuna
+  group: other
+-
+  name: divido
+  label: Divido
+  group: other
+-
+  name: duologi
+  label: Duologi
   group: other
 -
   name: klarna
@@ -619,6 +643,10 @@
   label: Paidy
   group: other
 -
+  name: twig_pay
+  label: Twig Pay
+  group: other
+-
   name: stcpay
   label: Stcpay
   group: wallets
@@ -662,6 +690,10 @@
   name: kakao_pay
   label: Kakao Pay
   group: wallets
+-
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  group: other
 -
   name: naver_pay
   label: Naver Pay
@@ -863,6 +895,10 @@
   label: Paymaya
   group: wallets
 -
+  name: maya
+  label: Maya
+  group: wallets
+-
   name: mayabank
   label: Maya Bank
   group: bank_transfers
@@ -1055,12 +1091,24 @@
   label: Facebook Pay
   group: wallets
 -
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
   name: kueskipay
   label: Kueski Pay
   group: other
 -
   name: bread
   label: Bread
+  group: other
+-
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
   group: other
 -
   name: nelo
@@ -1155,6 +1203,10 @@
   label: Šiaulių bankas
   group: bank_transfers
 -
+  name: medicinosbankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
   name: epospay
   label: EPOS Kantan Kessai
   group: other
@@ -1231,12 +1283,24 @@
   label: Scalapay
   group: other
 -
+  name: aplazo
+  label: Aplazo
+  group: other
+-
   name: paybylink
   label: Pay By Link
   group: other
 -
   name: snap_checkout
   label: Snap Checkout
+  group: other
+-
+  name: fairstonepayments
+  label: Fairstone Payments
+  group: other
+-
+  name: upi
+  label: UPI
   group: other
 -
   name: sveaeramaksu
@@ -1270,7 +1334,7 @@
   name: sveab2binvoice
   label: Svea B2B Invoice
   group: other
-- 
+-
   name: sveab2bfaktura
   label: Svea B2B Faktura
   group: other
@@ -1295,14 +1359,31 @@
   label: PayID
   group: other
 -
+  name: uangme
+  label: UangMe
+  group: other
+-
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+-
   name: payto
   label: PayTo
   group: other
-- 
+-
+  name: zinia
+  label: Zinia
+  group: other
+-
+  name: fortiva
+  label: Fortiva
+  group: other
+-
   name: fintecture
   label: Fintecture
   group: bank_transfers
 -
+
   name: atome
   label: Atome
   group: wallets
@@ -1362,3 +1443,79 @@
   name: cherry_credits
   label: Cherry Credits
   group: wallets
+
+  name: helloclever
+  label: Hello Clever
+  group: other
+-
+  name: creditkey
+  label: Credit Key
+  group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: palawan
+  label: Palawan
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
+-
+  name: tandympayment
+  label: Tandym Payment
+  group: other
+-
+  name: paytomorrow
+  label: PayTomorrow
+  group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
+-
+  name: clavetelered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpemovil
+  label: Sinpe Móvil
+  group: bank_transfers
+-
+  name: laybuyheart
+  label: Laybuy
+  group: other
+-
+  name: lydia
+  label: Lydia
+  group: wallets
+-
+  name: atome
+  label: Atome
+  group: other
+-
+  name: creditclickpaynlversion
+  label: CreditClick (PAY. version)
+  group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
+-
+  name: cebuana
+  label: Cebuana
+  group: other
+-
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
+  name: linkpay
+  label: LinkPay
+  group: bank_transfers
