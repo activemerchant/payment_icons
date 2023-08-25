@@ -1931,6 +1931,10 @@
   label: Cash/Invoice Latin America
   group: other
 -
+  name: finshark
+  label: Finshark Open Banking
+  group: other
+-
   name: generic
   label: Generic
   group: other
