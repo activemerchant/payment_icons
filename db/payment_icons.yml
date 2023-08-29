@@ -667,6 +667,10 @@
   label: Clearpay
   group: other
 -
+  name: pbb
+  label: Pay by Bank.
+  group: bank_transfers
+-
   name: cashapppay
   label: Cash App Pay
   group: other
