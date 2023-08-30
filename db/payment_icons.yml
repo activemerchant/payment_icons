@@ -667,8 +667,8 @@
   label: Clearpay
   group: other
 -
-  name: pbb
-  label: Pay by Bank.
+  name: waave_paybybank
+  label: Waave Pay by Bank
   group: bank_transfers
 -
   name: cashapppay
