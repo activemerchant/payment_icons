@@ -667,7 +667,7 @@
   label: Clearpay
   group: other
 -
-  name: waave_paybybank
+  name: waavepaybybank
   label: Waave Pay by Bank
   group: bank_transfers
 -
