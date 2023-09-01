@@ -1935,6 +1935,6 @@
   label: Generic
   group: other
 -
-  name: slice-fnbo
+  name: slicefnbo
   label: Slice by FNBO
   group: other
