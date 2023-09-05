@@ -1935,6 +1935,6 @@
   label: Generic
   group: other
 -
-  name: gmo-virtualaccount
+  name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
