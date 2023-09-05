@@ -1616,7 +1616,7 @@
   group: other
 -
   name: inbank
-  label: inbank
+  label: Inbank
   group: other
 -
   name: ivy
