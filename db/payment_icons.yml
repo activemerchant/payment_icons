@@ -415,10 +415,6 @@
   label: Daily Yamazaki
   group: convenience_stores
 -
-  name: seicomart
-  label: Seicomart
-  group: convenience_stores
--
   name: mondido
   label: Mondido
   group: other
@@ -666,10 +662,6 @@
   name: clearpay
   label: Clearpay
   group: other
--
-  name: waavepaybybank
-  label: Waave Pay by Bank
-  group: bank_transfers
 -
   name: cashapppay
   label: Cash App Pay
@@ -1793,11 +1785,11 @@
 -
   name: duitnow
   label: DuitNow
-  group: other  
-- 
+  group: other
+-
   name: sympl
   label: Sympl
-  group: other    
+  group: other
 -
   name: paid
   label: Paid
@@ -1817,10 +1809,6 @@
 -
   name: sikahsa
   label: Sika HSA
-  group: other
--
-  name: sika
-  label: Sika
   group: other
 -
   name: citipay
@@ -1955,14 +1943,6 @@
   label: De cadeau kaart
   group: other
 -
-  name: easywallet
-  label: Easywallet
+  name: kasssh
+  label: Kasssh
   group: other
--
-  name: aupay
-  label: au PAY
-  group: wallets
--
-  name: dappmx
-  label: Dapp
-  group: wallets
