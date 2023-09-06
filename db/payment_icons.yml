@@ -1883,6 +1883,10 @@
   label: Easywallet
   group: other
 -
+  name: pse
+  label: Pagos Electrónicos Seguros (PSE)
+  group: bank_transfers
+-
   name: aupay
   label: au PAY
   group: wallets
