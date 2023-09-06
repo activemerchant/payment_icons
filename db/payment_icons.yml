@@ -1966,3 +1966,7 @@
   name: edenred
   label: Edenred
   group: other
+-
+  name: kasssh
+  label: Kasssh
+  group: other
