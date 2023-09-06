@@ -1867,6 +1867,22 @@
   label: Home Credit
   group: other
 -
+  name: jko
+  label: Jko
+  group: other
+-
+  name: zingala
+  label: Zingala
+  group: other
+-
+  name: hitrustpaytransfer
+  label: Hitrustpay Transfer
+  group: other
+-
+  name: easywallet
+  label: Easywallet
+  group: other
+-
   name: aupay
   label: au PAY
   group: wallets
