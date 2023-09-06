@@ -1962,3 +1962,7 @@
   name: slicefnbo
   label: Slice by FNBO
   group: other
+-
+  name: edenred
+  label: Edenred
+  group: other
