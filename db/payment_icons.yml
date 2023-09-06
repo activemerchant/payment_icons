@@ -1959,6 +1959,10 @@
   label: Cash/Invoice Latin America
   group: other
 -
+  name: twoinvoice
+  label: Two Business Invoice
+  group: other
+-
   name: generic
   label: Generic
   group: other
