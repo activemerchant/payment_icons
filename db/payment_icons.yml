@@ -1974,3 +1974,7 @@
   name: kasssh
   label: Kasssh
   group: other
+-
+  name: decadeaukaart
+  label: De cadeau kaart
+  group: other
