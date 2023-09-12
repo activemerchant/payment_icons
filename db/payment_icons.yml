@@ -1986,3 +1986,15 @@
   name: decadeaukaart
   label: De cadeau kaart
   group: other
+-
+  name: onlinebanking
+  label: Online Banking
+  group: bank_transfers
+-
+  name: storecredit
+  label: Store Credit
+  group: other
+-
+  name: wallet
+  label: Wallet
+  group: wallets
