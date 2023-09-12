@@ -1986,3 +1986,11 @@
   name: decadeaukaart
   label: De cadeau kaart
   group: other
+-
+  name: glbepaypal
+  label: Global-E Paypal
+  group: other
+- 
+  name: glbeplus
+  label: Global-E Plus
+  group: other
