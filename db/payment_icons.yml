@@ -1987,6 +1987,6 @@
   label: De cadeau kaart
   group: other
 -
-  name: zulily_credit_card
+  name: zulilycreditcard
   label: Zulily Credit Card
   group: credit_cards
