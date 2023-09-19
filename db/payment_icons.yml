@@ -1971,6 +1971,10 @@
   label: Generic
   group: other
 -
+  name: gmovirtualaccount
+  label: GMO VirtualAccount
+  group: bank_transfers
+- 
   name: slicefnbo
   label: Slice by FNBO
   group: other
