@@ -415,6 +415,10 @@
   label: Daily Yamazaki
   group: convenience_stores
 -
+  name: seicomart
+  label: Seicomart
+  group: convenience_stores
+-
   name: mondido
   label: Mondido
   group: other
@@ -662,6 +666,10 @@
   name: clearpay
   label: Clearpay
   group: other
+-
+  name: waavepaybybank
+  label: Waave Pay by Bank
+  group: bank_transfers
 -
   name: cashapppay
   label: Cash App Pay
@@ -1811,6 +1819,10 @@
   label: Sika HSA
   group: other
 -
+  name: sika
+  label: Sika
+  group: other
+-
   name: citipay
   label: Citi Pay
   group: other
@@ -1862,6 +1874,26 @@
   name: homecredit
   label: Home Credit
   group: other
+-
+  name: jko
+  label: Jko
+  group: other
+-
+  name: zingala
+  label: Zingala
+  group: other
+-
+  name: hitrustpaytransfer
+  label: Hitrustpay Transfer
+  group: other
+-
+  name: easywallet
+  label: Easywallet
+  group: other
+-
+  name: pse
+  label: Pagos Electrónicos Seguros (PSE)
+  group: bank_transfers
 -
   name: aupay
   label: au PAY
@@ -1931,10 +1963,30 @@
   label: Cash/Invoice Latin America
   group: other
 -
+  name: twoinvoice
+  label: Two Business Invoice
+  group: other
+-
   name: generic
   label: Generic
   group: other
 -
   name: huistuincadeau
   label: Huis & Tuin Cadeau
+  group: other
+-
+  name: slicefnbo
+  label: Slice by FNBO
+  group: other
+-
+  name: edenred
+  label: Edenred
+  group: other
+-
+  name: kasssh
+  label: Kasssh
+  group: other
+-
+  name: decadeaukaart
+  label: De cadeau kaart
   group: other
