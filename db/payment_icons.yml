@@ -103,6 +103,30 @@
   label: DePay
   group: cryptocurrencies
 -
+  name: fantom
+  label: Fantom
+  group: cryptocurrencies
+-
+  name: gnosis
+  label: Gnosis
+  group: cryptocurrencies
+-
+  name: avalanche
+  label: Avalanche
+  group: cryptocurrencies
+-
+  name: arbitrum
+  label: Arbitrum
+  group: cryptocurrencies
+-
+  name: optimism
+  label: Optimism
+  group: cryptocurrencies
+-
+  name: base
+  label: Base
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
