@@ -1994,3 +1994,15 @@
   name: zulilycreditcard
   label: Zulily Credit Card
   group: credit_cards
+-
+  name: onlinebanking
+  label: Online Banking
+  group: bank_transfers
+-
+  name: storecredit
+  label: Store Credit
+  group: other
+-
+  name: wallet
+  label: Wallet
+  group: wallets
