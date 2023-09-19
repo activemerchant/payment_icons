@@ -376,7 +376,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: PaySafeCard
+  label: Paysafecard
   group: other
 -
   name: laybuy
@@ -1624,7 +1624,7 @@
   group: other
 -
   name: inbank
-  label: inbank
+  label: Inbank
   group: other
 -
   name: ivy
@@ -1971,6 +1971,10 @@
   label: Generic
   group: other
 -
+  name: gmovirtualaccount
+  label: GMO VirtualAccount
+  group: bank_transfers
+- 
   name: slicefnbo
   label: Slice by FNBO
   group: other
@@ -1986,6 +1990,22 @@
   name: decadeaukaart
   label: De cadeau kaart
   group: other
+-
+  name: zulilycreditcard
+  label: Zulily Credit Card
+  group: credit_cards
+-
+  name: onlinebanking
+  label: Online Banking
+  group: bank_transfers
+-
+  name: storecredit
+  label: Store Credit
+  group: other
+-
+  name: wallet
+  label: Wallet
+  group: wallets
 -
   name: glbepaypal
   label: Global-E Paypal
