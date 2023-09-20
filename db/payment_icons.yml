@@ -1,4 +1,8 @@
 -
+  name: acuotaz
+  label: acuotaz
+  group: other
+-
   name: visa
   label: Visa
   group: credit_cards
@@ -97,6 +101,30 @@
 -
   name: depay
   label: DePay
+  group: cryptocurrencies
+-
+  name: fantom
+  label: Fantom
+  group: cryptocurrencies
+-
+  name: gnosis
+  label: Gnosis
+  group: cryptocurrencies
+-
+  name: avalanche
+  label: Avalanche
+  group: cryptocurrencies
+-
+  name: arbitrum
+  label: Arbitrum
+  group: cryptocurrencies
+-
+  name: optimism
+  label: Optimism
+  group: cryptocurrencies
+-
+  name: base
+  label: Base
   group: cryptocurrencies
 -
   name: busd
@@ -376,7 +404,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: PaySafeCard
+  label: Paysafecard
   group: other
 -
   name: laybuy
@@ -1624,7 +1652,7 @@
   group: other
 -
   name: inbank
-  label: inbank
+  label: Inbank
   group: other
 -
   name: ivy
@@ -1975,6 +2003,10 @@
   label: Huis & Tuin Cadeau
   group: other
 -
+  name: gmovirtualaccount
+  label: GMO VirtualAccount
+  group: bank_transfers
+- 
   name: slicefnbo
   label: Slice by FNBO
   group: other
@@ -1989,4 +2021,28 @@
 -
   name: decadeaukaart
   label: De cadeau kaart
+  group: other
+-
+  name: zulilycreditcard
+  label: Zulily Credit Card
+  group: credit_cards
+-
+  name: onlinebanking
+  label: Online Banking
+  group: bank_transfers
+-
+  name: storecredit
+  label: Store Credit
+  group: other
+-
+  name: wallet
+  label: Wallet
+  group: wallets
+-
+  name: glbepaypal
+  label: Global-E Paypal
+  group: other
+- 
+  name: glbeplus
+  label: Global-E Plus
   group: other

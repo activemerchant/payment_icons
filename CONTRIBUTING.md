@@ -59,6 +59,9 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
 - Icons are clear and easy to read/understand
 - Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
 
+### Name
+- The name entered in `db/payment_icons.yml` must be lowercase alpha characters only.
+
 ### File
 - The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
 
