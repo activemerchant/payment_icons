@@ -2042,3 +2042,11 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+-
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: raty_pekao
+  label: Raty Pekao
+  group: other
