@@ -1999,6 +1999,10 @@
   label: Generic
   group: other
 -
+  name: huistuincadeau
+  label: Huis & Tuin Cadeau
+  group: other
+-
   name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
