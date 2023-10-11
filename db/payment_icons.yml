@@ -2042,3 +2042,19 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+- 
+  name: juice
+  label: Juice
+  group: bank_transfers
+- 
+  name: mytmoney
+  label: MyT Money
+  group: bank_transfers
+- 
+  name: Pop
+  label: Bank One
+  group: bank_transfers
+- 
+  name: blink
+  label: Emtel
+  group: bank_transfers
