@@ -2042,3 +2042,7 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+-
+  name: fam
+  label: Fam
+  group: bank_transfers
