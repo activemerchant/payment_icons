@@ -2046,3 +2046,7 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+-
+  name: lunchcheck
+  label: Lunch-Check
+  group: other
