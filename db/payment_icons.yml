@@ -2050,3 +2050,7 @@
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: paybybank_cashback
+  label: Pay by Bank (1.5% cashback)
+  group: bank_transfers
