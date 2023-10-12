@@ -1999,6 +1999,10 @@
   label: Generic
   group: other
 -
+  name: huistuincadeau
+  label: Huis & Tuin Cadeau
+  group: other
+-
   name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
@@ -2049,4 +2053,8 @@
 -
   name: ratypekao
   label: Raty Pekao
+  group: other
+-
+  name: lunchcheck
+  label: Lunch-Check
   group: other
