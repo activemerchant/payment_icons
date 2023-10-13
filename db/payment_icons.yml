@@ -2050,3 +2050,7 @@
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: pay_by_bank
+  label: Pay by Bank
+  group: bank_transfers
