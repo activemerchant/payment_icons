@@ -1999,6 +1999,10 @@
   label: Generic
   group: other
 -
+  name: huistuincadeau
+  label: Huis & Tuin Cadeau
+  group: other
+-
   name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
@@ -2041,6 +2045,10 @@
 - 
   name: glbeplus
   label: Global-E Plus
+  group: other
+-
+  name: lunchcheck
+  label: Lunch-Check
   group: other
 -
   name: fam
