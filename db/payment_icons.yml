@@ -2050,3 +2050,7 @@
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: pfpay
+  label: PostFinance Pay
+  group: other
