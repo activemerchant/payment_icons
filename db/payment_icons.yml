@@ -2050,3 +2050,11 @@
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: jenius
+  label: Jenius
+  group: bank_transfers
+-
+  name: chinabank
+  label: Chinabank
+  group: bank_transfers
