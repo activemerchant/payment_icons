@@ -2046,13 +2046,11 @@
   name: glbeplus
   label: Global-E Plus
   group: other
-<<<<<<< HEAD
 - 
   name: qasitli
   label: Qasitli
-=======
+  group: other
 -
   name: lunchcheck
   label: Lunch-Check
->>>>>>> f285c3f38991cdf9a704bca1525ad655f68ef379
   group: other
