@@ -571,8 +571,8 @@
   label: EFT Secure
   group: bank_transfers
 -
-  name: mpesa
   label: M-Pesa
+  name: mpesa
   group: wallets
 -
   name: ovo
@@ -2051,6 +2051,6 @@
   label: Lunch-Check
   group: other
 -
-  name: pay_by_bank
+  name: paybybankus
   label: Pay by Bank
   group: bank_transfers
