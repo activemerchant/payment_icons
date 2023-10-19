@@ -339,6 +339,10 @@
   label: Divido
   group: other
 -
+  name: oney
+  label: Oney
+  group: other
+-
   name: duologi
   label: Duologi
   group: other
