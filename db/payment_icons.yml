@@ -2050,3 +2050,7 @@
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: timepayment
+  label: TimePayment
+  group: wallets
