@@ -1712,7 +1712,7 @@
   group: other
 -
   name: sbpl
-  label: ShopBack - Powered by Hoolah
+  label: ShopBack
   group: other
 -
   name: coppelpay
