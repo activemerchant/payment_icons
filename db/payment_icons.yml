@@ -1527,3 +1527,7 @@
   name: apple-pay
   label: Apple Pay
   group: wallets
+-
+  name: octopus
+  label: Octopus
+  group: wallets
