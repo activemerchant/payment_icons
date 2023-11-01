@@ -2046,6 +2046,10 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+- 
+  name: qasitli
+  label: Qasitli
+  group: other
 -
   name: tpay
   label: Tpay
