@@ -575,8 +575,8 @@
   label: EFT Secure
   group: bank_transfers
 -
-  label: M-Pesa
   name: mpesa
+  label: M-Pesa
   group: wallets
 -
   name: ovo
