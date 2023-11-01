@@ -2086,3 +2086,7 @@
   name: timepayment
   label: TimePayment
   group: wallets
+-
+  name: koin
+  label: Koin
+  group: other  
