@@ -2071,6 +2071,10 @@
   label: Lunch-Check
   group: other
 -
+  name: paybybankus
+  label: Pay by Bank
+  group: bank_transfers
+-
   name: fam
   label: Fam
   group: bank_transfers
