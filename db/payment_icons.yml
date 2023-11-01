@@ -2078,3 +2078,7 @@
   name: chinabank
   label: Chinabank
   group: bank_transfers  
+-
+  name: timepayment
+  label: TimePayment
+  group: wallets
