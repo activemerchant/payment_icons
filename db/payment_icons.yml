@@ -339,6 +339,10 @@
   label: Divido
   group: other
 -
+  name: oney
+  label: Oney
+  group: other
+-
   name: duologi
   label: Duologi
   group: other
@@ -2046,10 +2050,34 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+- 
+  name: qasitli
+  label: Qasitli
+  group: other
+-
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: ratypekao
+  label: Raty Pekao
+  group: other
 -
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: fam
+  label: Fam
+  group: bank_transfers
+-
+  name: jenius
+  label: Jenius
+  group: bank_transfers
+-
+  name: chinabank
+  label: Chinabank
+  group: bank_transfers  
 -
   name: timepayment
   label: TimePayment
