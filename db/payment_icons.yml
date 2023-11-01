@@ -2066,3 +2066,11 @@
   name: fam
   label: Fam
   group: bank_transfers
+-
+  name: jenius
+  label: Jenius
+  group: bank_transfers
+-
+  name: chinabank
+  label: Chinabank
+  group: bank_transfers  
