@@ -1671,6 +1671,10 @@
   label: VaLU
   group: other
 -
+  name: omannet
+  label: OmanNet
+  group: credit_cards
+-
   name: tabby
   label: Tabby
   group: other
