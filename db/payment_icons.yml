@@ -1932,11 +1932,11 @@
   group: wallets
 -
   name: npatobarai
-  label: Np Atobarai
+  label: NP後払い
   group: other
 -
   name: npkakebarai
-  label: Np Kakebarai
+  label: NP掛け払い
   group: other
 -
   name: ewalletphilippines
