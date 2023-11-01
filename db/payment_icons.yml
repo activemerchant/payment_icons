@@ -2047,6 +2047,14 @@
   label: Global-E Plus
   group: other
 -
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: ratypekao
+  label: Raty Pekao
+  group: other
+-
   name: lunchcheck
   label: Lunch-Check
   group: other
