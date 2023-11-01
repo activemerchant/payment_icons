@@ -2046,10 +2046,26 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+- 
+  name: qasitli
+  label: Qasitli
+  group: other
+-
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: ratypekao
+  label: Raty Pekao
+  group: other
 -
   name: lunchcheck
   label: Lunch-Check
   group: other
+-
+  name: fam
+  label: Fam
+  group: bank_transfers
 -
   name: jenius
   label: Jenius
@@ -2057,4 +2073,4 @@
 -
   name: chinabank
   label: Chinabank
-  group: bank_transfers
+  group: bank_transfers  
