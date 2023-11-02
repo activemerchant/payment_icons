@@ -339,6 +339,10 @@
   label: Divido
   group: other
 -
+  name: oney
+  label: Oney
+  group: other
+-
   name: duologi
   label: Duologi
   group: other
@@ -1667,6 +1671,10 @@
   label: VaLU
   group: other
 -
+  name: omannet
+  label: OmanNet
+  group: credit_cards
+-
   name: tabby
   label: Tabby
   group: other
@@ -1712,7 +1720,7 @@
   group: other
 -
   name: sbpl
-  label: ShopBack - Powered by Hoolah
+  label: ShopBack
   group: other
 -
   name: coppelpay
@@ -1932,11 +1940,11 @@
   group: wallets
 -
   name: npatobarai
-  label: Np Atobarai
+  label: NP後払い
   group: other
 -
   name: npkakebarai
-  label: Np Kakebarai
+  label: NP掛け払い
   group: other
 -
   name: ewalletphilippines
@@ -2046,6 +2054,18 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+- 
+  name: qasitli
+  label: Qasitli
+  group: other
+-
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: ratypekao
+  label: Raty Pekao
+  group: other
 -
   name: lunchcheck
   label: Lunch-Check
@@ -2054,3 +2074,31 @@
   name: octopus
   label: Octopus
   group: wallets
+-
+  name: paybybankus
+  label: Pay by Bank
+  group: bank_transfers
+-
+  name: fam
+  label: Fam
+  group: bank_transfers
+-
+  name: jenius
+  label: Jenius
+  group: bank_transfers
+-
+  name: chinabank
+  label: Chinabank
+  group: bank_transfers  
+-
+  name: timepayment
+  label: TimePayment
+  group: wallets
+-
+  name: koin
+  label: Koin
+  group: other
+-
+  name: underpay
+  label: Underpay
+  group: bank_transfers
