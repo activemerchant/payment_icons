@@ -5,10 +5,10 @@
     <g clip-path="url(#pi-oca-oca)">
         <path opacity="0.07" d="M35 0H3C1.3 0 0 1.3 0 3V21C0 22.7 1.4 24 3 24H35C36.7 24 38 22.7 38 21V3C38 1.3 36.6 0 35 0Z" fill="black"/>
         <path d="M30.3684 1H34C35.6568 1 37 2.34315 37 4V20C37 21.6569 35.6568 23 34 23H30.3684V1Z" fill="#FCFEFC"/>
-        <rect x="1" y="1" width="35.0526" height="22" rx="3" fill="url(#pattern0)"/>
+        <rect x="1" y="1" width="35.0526" height="22" rx="3" fill="url(#pi-oca-a)"/>
     </g>
     <defs>
-        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <pattern id="pi-oca-a" patternContentUnits="objectBoundingBox" width="1" height="1">
             <use xlink:href="#image0_6_37521" transform="matrix(0.005 0 0 0.00791667 0 -0.25)"/>
         </pattern>
         <clipPath id="pi-oca-oca">
