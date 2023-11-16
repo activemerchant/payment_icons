@@ -2098,3 +2098,8 @@
   name: underpay
   label: Underpay
   group: bank_transfers
+-
+  name: mercadocredito
+  label: MercadoCredito
+  group: wallets
+
