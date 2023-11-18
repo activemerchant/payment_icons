@@ -575,8 +575,8 @@
   label: PagoEfectivo
   group: other
 -
-  name: ozow
-  label: Ozow
+  name: pay_by_eft
+  label: pay by EFT
   group: bank_transfers
 -
   name: eps
