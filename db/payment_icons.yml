@@ -575,7 +575,7 @@
   label: PagoEfectivo
   group: other
 -
-  name: pay_by_eft
+  name: pay-by-eft
   label: pay by EFT
   group: bank_transfers
 -
