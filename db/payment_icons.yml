@@ -2098,3 +2098,7 @@
   name: underpay
   label: Underpay
   group: bank_transfers
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
