@@ -2071,6 +2071,10 @@
   label: Lunch-Check
   group: other
 -
+  name: octopus
+  label: Octopus
+  group: wallets
+-
   name: paybybankus
   label: Pay by Bank
   group: bank_transfers
@@ -2099,6 +2103,18 @@
   label: Underpay
   group: bank_transfers
 -
-  name: floatpayments
-  label: Float Payments
+  name: pfpay
+  label: PostFinance Pay
   group: other
+-
+  name: sveacheckout
+  label: Svea Checkout
+  group: other
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Credito
+  group: wallets
