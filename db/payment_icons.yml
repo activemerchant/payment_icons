@@ -2122,3 +2122,7 @@
   name: sepadirectdebit
   label: SEPA Direct Debit
   group: other
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
