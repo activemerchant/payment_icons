@@ -2118,3 +2118,7 @@
   name: mercadocredito
   label: Mercado Credito
   group: wallets
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
