@@ -2110,3 +2110,7 @@
   name: sveacheckout
   label: Svea Checkout
   group: other
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
