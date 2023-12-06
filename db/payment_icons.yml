@@ -2071,6 +2071,10 @@
   label: Lunch-Check
   group: other
 -
+  name: octopus
+  label: Octopus
+  group: wallets
+-
   name: paybybankus
   label: Pay by Bank
   group: bank_transfers
