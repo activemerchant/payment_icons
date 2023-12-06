@@ -2114,3 +2114,7 @@
   name: oca
   label: OCA
   group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Credito
+  group: wallets
