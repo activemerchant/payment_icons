@@ -2122,3 +2122,7 @@
   name: floatpayments
   label: Float Payments
   group: other
+-
+  name: todopay
+  label: Todopay
+  group: other
