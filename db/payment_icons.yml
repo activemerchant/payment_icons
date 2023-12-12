@@ -2138,3 +2138,7 @@
   name: clip
   label: Clip
   group: other
+
+- name: simplepay
+  label: Simple Pay
+  group: other
