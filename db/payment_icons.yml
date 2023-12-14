@@ -2106,3 +2106,23 @@
   name: dcep
   label: DCEP
   group: wallets
+-
+  name: pfpay
+  label: PostFinance Pay
+  group: other
+-
+  name: sveacheckout
+  label: Svea Checkout
+  group: other
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Credito
+  group: wallets
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
