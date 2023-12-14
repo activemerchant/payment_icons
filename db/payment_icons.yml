@@ -2102,3 +2102,7 @@
   name: underpay
   label: Underpay
   group: bank_transfers
+-
+  name: dcep
+  label: DCEP
+  group: wallets
