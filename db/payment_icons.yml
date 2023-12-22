@@ -1675,6 +1675,11 @@
   label: OmanNet
   group: credit_cards
 -
+  name: cashew
+  label: cashew
+  group: other
+
+-
   name: tabby
   label: Tabby
   group: other
