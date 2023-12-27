@@ -2122,31 +2122,6 @@
   name: floatpayments
   label: Float Payments
   group: other
--
-  name: truelayer
-  label: TrueLayer
-  group: bank_transfers
--
-  name: ada
-  label: Cardano
-  group: cryptocurrencies
--
-  name: sepadirectdebit
-  label: SEPA Direct Debit
-  group: other
-- 
-  name: simplepay
-  label: Simple Pay
-  group: other
--
-  name: clip
-  label: Clip
-  group: other
--
-  name: todopay
-  label: Todopay
-  group: other
-
 - 
   name: taly
   label: Taly
