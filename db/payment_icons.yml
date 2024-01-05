@@ -2122,3 +2122,7 @@
   name: floatpayments
   label: Float Payments
   group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
