@@ -2126,3 +2126,7 @@
   name: truelayer
   label: TrueLayer
   group: bank_transfers
+-
+  name: ada
+  label: Cardano
+  group: cryptocurrencies
