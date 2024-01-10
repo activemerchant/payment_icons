@@ -2134,4 +2134,7 @@
   name: sepadirectdebit
   label: SEPA Direct Debit
   group: other
-
+-
+  name: clip
+  label: Clip
+  group: other
