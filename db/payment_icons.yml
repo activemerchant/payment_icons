@@ -2130,3 +2130,8 @@
   name: ada
   label: Cardano
   group: cryptocurrencies
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  group: other
+
