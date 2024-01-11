@@ -2055,10 +2055,6 @@
   label: DCEP
   group: wallets 
 -
-  name: acuotaz
-  label: acuotaz
-  group: other
--
   name: visa
   label: Visa
   group: credit_cards
