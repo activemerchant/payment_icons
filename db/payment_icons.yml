@@ -665,3 +665,11 @@
   name: mtn_mobile_money
   label: MTN Mobile Money
   group: wallets
+-
+  name: orange_mobile_money
+  label: Orange Mobile Money
+  group: wallets
+
+
+
+
