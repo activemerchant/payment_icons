@@ -879,6 +879,10 @@
   label: MTN Mobile Money
   group: wallets
 -
+  name: orange_mobile_money
+  label: Orange Mobile Money
+  group: wallets
+-
   name: fashioncheque
   label: Fashioncheque
   group: other
@@ -1841,11 +1845,11 @@
 -
   name: duitnow
   label: DuitNow
-  group: other  
-- 
+  group: other
+-
   name: sympl
   label: Sympl
-  group: other    
+  group: other
 -
   name: paid
   label: Paid
@@ -2026,7 +2030,7 @@
   name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
-- 
+-
   name: slicefnbo
   label: Slice by FNBO
   group: other
@@ -2062,11 +2066,11 @@
   name: glbepaypal
   label: Global-E Paypal
   group: other
-- 
+-
   name: glbeplus
   label: Global-E Plus
   group: other
-- 
+-
   name: qasitli
   label: Qasitli
   group: other
@@ -2101,7 +2105,7 @@
 -
   name: chinabank
   label: Chinabank
-  group: bank_transfers  
+  group: bank_transfers
 -
   name: timepayment
   label: TimePayment
@@ -2122,7 +2126,7 @@
   name: sveacheckout
   label: Svea Checkout
   group: other
-- 
+-
   name: oca
   label: OCA
   group: credit_cards
