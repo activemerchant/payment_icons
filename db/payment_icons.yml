@@ -2134,6 +2134,10 @@
   name: sepadirectdebit
   label: SEPA Direct Debit
   group: other
+- 
+  name: simplepay
+  label: Simple Pay
+  group: other
 -
   name: clip
   label: Clip
