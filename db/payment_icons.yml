@@ -2146,11 +2146,6 @@
   name: todopay
   label: Todopay
   group: other
-
-- 
-  name: taly
-  label: Taly
-  group: other
 - 
   name: taly
   label: Taly
