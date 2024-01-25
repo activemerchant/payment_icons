@@ -2146,3 +2146,7 @@
   name: todopay
   label: Todopay
   group: other
+-
+  name: resolvepay
+  label: Resolve Pay
+  group: other
