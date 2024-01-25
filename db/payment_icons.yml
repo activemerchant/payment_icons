@@ -2166,6 +2166,10 @@
   label: Todopay
   group: other
 -
+  name: resolvepay
+  label: Resolve Pay
+  group: other
+-
   name: taly
   label: Taly
   group: other
