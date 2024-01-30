@@ -2146,3 +2146,7 @@
   name: todopay
   label: Todopay
   group: other
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
