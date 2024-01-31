@@ -2,6 +2,5 @@
 
 module PaymentIcons
   class Category < Record
-
   end
 end

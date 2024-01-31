@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-require 'test_helper'
+require "test_helper"
 
 module PaymentIcons
   class PaymentMethodTest < ActiveSupport::TestCase
-
     test "Every records are valid" do
       PaymentMethod.all.each do |payment_method|
         assert_predicate(payment_method.name, :present?)

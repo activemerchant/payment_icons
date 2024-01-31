@@ -2,7 +2,6 @@
 
 module PaymentIcons
   class PaymentMethod < Record
-
     class UnknownIconVariationError < StandardError
       def initialize(variation_name)
         super("#{variation_name} doesn't exist")
@@ -17,7 +16,7 @@ module PaymentIcons
       path = "payment_icons/#{name}/#{variation_name}.svg"
       File.read("#{Engine::IMAGES_DIRECTORY}/#{variation_name}.svg")
       path
-    rescue Errno::ENOENT => e
+    rescue Errno::ENOENT
       raise UnknownIconVariationError, variation_name
     end
 

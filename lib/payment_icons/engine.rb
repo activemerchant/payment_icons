@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module PaymentIcons
   class Engine < ::Rails::Engine
     isolate_namespace PaymentIcons
