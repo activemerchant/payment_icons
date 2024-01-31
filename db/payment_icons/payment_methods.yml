@@ -1,0 +1,2718 @@
+-
+  name: acuotaz
+  label: acuotaz
+  categories: []
+-
+  name: visa
+  label: Visa
+  categories: [
+    credit_card
+  ]
+-
+  name: master
+  label: Mastercard
+  categories: [
+    credit_card
+  ]
+-
+  name: discover
+  label: Discover
+  categories: [
+    credit_card
+  ]
+-
+  name: american_express
+  label: American Express
+  categories: [
+    credit_card
+  ]
+-
+  name: diners_club
+  label: Diners Club
+  categories: [
+    credit_card
+  ]
+-
+  name: cartes_bancaires
+  label: Cartes Bancaires
+  categories: [
+    credit_card
+  ]
+-
+  name: ing_homepay
+  label: ING Homepay
+  categories: [
+    banking
+  ]
+-
+  name: jcb
+  label: JCB
+  categories: [
+    credit_card
+  ]
+-
+  name: rupay
+  label: RuPay
+  categories: [
+    credit_card
+  ]
+-
+  name: ethereum
+  label: Ethereum
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: bitcoin
+  label: Bitcoin
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: monero
+  label: Monero
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: dogecoin
+  label: Dogecoin
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: litecoin
+  label: Litecoin
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: bitcoin_cash
+  label: Bitcoin Cash
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: dash
+  label: Dash
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: eos
+  label: EOS
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: dai
+  label: DAI
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: usdc
+  label: USDC
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: apecoin
+  label: ApeCoin
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: solana
+  label: Solana
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: solanapay
+  label: Solana Pay
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: bnbchain
+  label: BNB Chain
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: polygon
+  label: Polygon
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: depay
+  label: DePay
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: fantom
+  label: Fantom
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: gnosis
+  label: Gnosis
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: avalanche
+  label: Avalanche
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: arbitrum
+  label: Arbitrum
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: optimism
+  label: Optimism
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: base
+  label: Base
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: busd
+  label: Binance USD
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: gusd
+  label: Gemini Dollar
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: shib
+  label: Shiba Inu
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: usdp
+  label: Pax Dollar
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: wbtc
+  label: Wrapped Bitcoin
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: xrp
+  label: XRP
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: amazon
+  label: Amazon
+  categories: [
+    wallet
+  ]
+-
+  name: boleto
+  label: Boleto
+  categories: []
+-
+  name: kbc_cbc
+  label: KBC/CBC
+  categories: [
+    banking
+  ]
+-
+  name: sepa_bank_transfer
+  label: SEPA Bank Transfer
+  categories: [
+    banking
+  ]
+-
+  name: dankort
+  label: Dankort
+  categories: [
+    banking
+  ]
+-
+  name: belfius
+  label: Belfius
+  categories: [
+    banking
+  ]
+-
+  name: dwolla
+  label: Dwolla
+  categories: [
+    banking
+  ]
+-
+  name: tensile
+  label: Tensile
+  categories: [
+    banking
+  ]
+-
+  name: forbrugsforeningen
+  label: Forbrugsforeningen
+  categories: [
+    banking
+  ]
+-
+  name: giropay
+  label: Giropay
+  categories: [
+    banking
+  ]
+-
+  name: google_pay
+  label: Google Pay
+  categories: [
+    wallet
+  ]
+-
+  name: google_wallet
+  label: Google Wallet
+  categories: [
+    wallet
+  ]
+-
+  name: opay
+  label: OPAY
+  categories: []
+-
+  name: laser
+  label: Laser
+  categories: [
+    banking
+  ]
+-
+  name: paypal
+  label: PayPal
+  categories: [
+    wallet
+  ]
+-
+  name: venmo
+  label: Venmo
+  categories: [
+    wallet
+  ]
+-
+  name: sofort
+  label: SOFORT
+  categories: [
+    banking
+  ]
+-
+  name: maestro
+  label: Maestro
+  categories: [
+    banking
+  ]
+-
+  name: unionpay
+  label: Union Pay
+  categories: [
+    banking
+  ]
+-
+  name: visaelectron
+  label: Visa Electron
+  categories: [
+    banking
+  ]
+-
+  name: payfast_instant_eft
+  label: PayFast Instant EFT
+  categories: [
+    banking
+  ]
+-
+  name: mobicred
+  label: mobicred
+  categories: []
+-
+  name: payd
+  label: payD
+  categories: []
+-
+  name: airtel_money
+  label: Airtel Money
+  categories: [
+    wallet
+  ]
+-
+  name: freecharge
+  label: Freecharge
+  categories: [
+    wallet
+  ]
+-
+  name: ola_money
+  label: Ola Money
+  categories: [
+    wallet
+  ]
+-
+  name: paytm
+  label: Paytm
+  categories: [
+    wallet
+  ]
+-
+  name: mobikwik
+  label: MobiKwik
+  categories: [
+    wallet
+  ]
+-
+  name: payzapp
+  label: PayZapp
+  categories: [
+    wallet
+  ]
+-
+  name: netbanking
+  label: NetBanking
+  categories: [
+    banking
+  ]
+-
+  name: paysera
+  label: Paysera
+  categories: [
+    wallet
+  ]
+-
+  name: citadele
+  label: Citadele
+  categories: [
+    banking
+  ]
+-
+  name: danske_bank
+  label: Danske Bank
+  categories: [
+    banking
+  ]
+-
+  name: krediidipank
+  label: Krediidipank
+  categories: [
+    banking
+  ]
+-
+  name: lhv
+  label: LHV
+  categories: [
+    banking
+  ]
+-
+  name: op
+  label: OP
+  categories: [
+    banking
+  ]
+-
+  name: nordea
+  label: Nordea
+  categories: [
+    banking
+  ]
+-
+  name: seb
+  label: SEB
+  categories: [
+    banking
+  ]
+-
+  name: swedbank
+  label: Swedbank
+  categories: [
+    banking
+  ]
+-
+  name: dnb
+  label: DNB
+  categories: [
+    banking
+  ]
+-
+  name: prepaysolutions
+  label: PrePaySolutions
+  categories: []
+-
+  name: pivo
+  label: Pivo
+  categories: []
+-
+  name: masterpass
+  label: Masterpass
+  categories: []
+-
+  name: mobilepay
+  label: MobilePay
+  categories: []
+-
+  name: viabill
+  label: ViaBill
+  categories: []
+-
+  name: novuna
+  label: Novuna
+  categories: []
+-
+  name: divido
+  label: Divido
+  categories: []
+-
+  name: oney
+  label: Oney
+  categories: []
+-
+  name: duologi
+  label: Duologi
+  categories: []
+-
+  name: klarna
+  label: Klarna
+  categories: []
+-
+  name: klarna-pay-now
+  label: Klarna Pay Now
+  categories: []
+-
+  name: klarna-pay-later
+  label: Klarna Pay Later
+  categories: []
+-
+  name: klarna-slice-it
+  label: Klarna Slice It
+  categories: []
+-
+  name: santander
+  label: Santander
+  categories: []
+-
+  name: flexiti
+  label: Flexiti
+  categories: []
+-
+  name: elv
+  label: ELV
+  categories: [
+    banking
+  ]
+-
+  name: astrapay
+  label: AstraPay
+  categories: []
+-
+  name: ideal
+  label: iDEAL
+  categories: []
+-
+  name: interac
+  label: Interac
+  categories: []
+-
+  name: arvato
+  label: Arvato
+  categories: []
+-
+  name: swish
+  label: Swish
+  categories: [
+    banking
+  ]
+-
+  name: ratepay
+  label: RatePay
+  categories: [
+    wallet
+  ]
+-
+  name: przelewy24
+  label: Przelewy24
+  categories: [
+    banking
+  ]
+-
+  name: epayments
+  label: ePayments
+  categories: [
+    banking
+  ]
+-
+  name: paysafecard
+  label: Paysafecard
+  categories: []
+-
+  name: laybuy
+  label: Lay-Buy Powered By PayPal
+  categories: []
+-
+  name: sezzle
+  label: Sezzle
+  categories: []
+-
+  name: familymart
+  label: FamilyMart
+  categories: [
+    convenience_store
+  ]
+-
+  name: seveneleven
+  label: 7-Eleven
+  categories: [
+    convenience_store
+  ]
+-
+  name: lawson
+  label: Lawson
+  categories: [
+    convenience_store
+  ]
+-
+  name: circlek
+  label: Circle K
+  categories: [
+    convenience_store
+  ]
+-
+  name: ministop
+  label: Ministop
+  categories: [
+    convenience_store
+  ]
+-
+  name: sunkus
+  label: Sunkus
+  categories: [
+    convenience_store
+  ]
+-
+  name: dailyyamazaki
+  label: Daily Yamazaki
+  categories: [
+    convenience_store
+  ]
+-
+  name: seicomart
+  label: Seicomart
+  categories: [
+    convenience_store
+  ]
+-
+  name: mondido
+  label: Mondido
+  categories: []
+-
+  name: collector_bank
+  label: Collector Bank
+  categories: []
+-
+  name: apple_pay
+  label: Apple Pay
+  categories: [
+    wallet
+  ]
+-
+  name: shopify_pay
+  label: Shop Pay
+  categories: []
+-
+  name: trustly
+  label: Trustly
+  categories: []
+-
+  name: ambank
+  label: AmBank
+  categories: [
+    banking
+  ]
+-
+  name: cimb
+  label: CIMB Bank
+  categories: [
+    banking
+  ]
+-
+  name: hongleongbank
+  label: Hong Leong Bank
+  categories: [
+    banking
+  ]
+-
+  name: maybank
+  label: Maybank
+  categories: [
+    banking
+  ]
+-
+  name: publicbank
+  label: Public Bank
+  categories: [
+    banking
+  ]
+-
+  name: rhbbank
+  label: RHB Bank
+  categories: [
+    banking
+  ]
+-
+  name: paymark_online_eftpos
+  label: Paymark Online Eftpos
+  categories: [
+    banking
+  ]
+-
+  name: esr_paymentslip_switzerland
+  label: ESR Paymentslip
+  categories: []
+-
+  name: twint
+  label: Twint
+  categories: [
+    wallet
+  ]
+-
+  name: elo
+  label: Elo
+  categories: [
+    credit_card
+  ]
+-
+  name: hyper
+  label: Hyper
+  categories: [
+    credit_card
+  ]
+-
+  name: hypercard
+  label: Hypercard
+  categories: [
+    credit_card
+  ]
+-
+  name: fpx
+  label: FPX
+  categories: [
+    banking
+  ]
+-
+  name: atmbersama
+  label: ATM Bersama
+  categories: [
+    banking
+  ]
+-
+  name: bancnet
+  label: Banc Net
+  categories: [
+    banking
+  ]
+-
+  name: eghl
+  label: eGHL
+  categories: []
+-
+  name: unipay
+  label: UniPAY
+  categories: [
+    wallet
+  ]
+-
+  name: mash
+  label: Mash
+  categories: []
+-
+  name: jousto
+  label: Jousto Lasku ja Osamaksu
+  categories: []
+-
+  name: vipps
+  label: Vipps
+  categories: [
+    wallet
+  ]
+-
+  name: krungsri
+  label: Krungsri
+  categories: [
+    banking
+  ]
+-
+  name: uob
+  label: UOB
+  categories: [
+    banking
+  ]
+-
+  name: siamcommercial
+  label: Siam Commercial
+  categories: [
+    banking
+  ]
+-
+  name: enets
+  label: eNETS
+  categories: []
+-
+  name: grabpay
+  label: GrabPay
+  categories: [
+    wallet
+  ]
+-
+  name: eft_secure
+  label: EFT Secure
+  categories: [
+    banking
+  ]
+-
+  name: mpesa
+  label: M-Pesa
+  categories: [
+    wallet
+  ]
+-
+  name: ovo
+  label: OVO
+  categories: [
+    wallet
+  ]
+-
+  name: mode
+  label: Mode
+  categories: [
+    wallet
+  ]
+-
+  name: wechatpay
+  label: WeChat Pay
+  categories: [
+    wallet
+  ]
+-
+  name: spraypay
+  label: Spraypay
+  categories: []
+-
+  name: bancontact
+  label: Bancontact
+  categories: []
+-
+  name: in3
+  label: in3
+  categories: []
+-
+  name: v_pay
+  label: V PAY
+  categories: [
+    credit_card
+  ]
+-
+  name: ebucks
+  label: eBucks
+  categories: []
+-
+  name: pagoefectivo
+  label: PagoEfectivo
+  categories: []
+-
+  name: ozow
+  label: Ozow
+  categories: [
+    banking
+  ]
+-
+  name: eps
+  label: EPS
+  categories: [
+    banking
+  ]
+-
+  name: affinbank
+  label: Affin Bank
+  categories: [
+    banking
+  ]
+-
+  name: alliancebank
+  label: Alliance Bank
+  categories: [
+    banking
+  ]
+-
+  name: atobaraidotcom
+  label: Atobaraidotcom
+  categories: []
+-
+  name: bankislam
+  label: Bank Islam
+  categories: [
+    banking
+  ]
+-
+  name: bankmuamalat
+  label: Bank Muamalat
+  categories: [
+    banking
+  ]
+-
+  name: bankrakyat
+  label: Bank Rakyat
+  categories: [
+    banking
+  ]
+-
+  name: bsn
+  label: BSN Bank
+  categories: [
+    banking
+  ]
+-
+  name: cimbclicks
+  label: CIMB Clicks
+  categories: [
+    banking
+  ]
+-
+  name: deutschebank
+  label: Deutsche Bank
+  categories: [
+    banking
+  ]
+-
+  name: hongleongconnect
+  label: Hong Leong Connect
+  categories: [
+    banking
+  ]
+-
+  name: hsbc
+  label: HSBC Bank
+  categories: [
+    banking
+  ]
+-
+  name: kuwaitfinancehouse
+  label: Kuwait Finance House
+  categories: [
+    banking
+  ]
+-
+  name: maybankm2u
+  label: Maybank 2U
+  categories: [
+    banking
+  ]
+-
+  name: ocbcbank
+  label: OCBC Bank
+  categories: [
+    banking
+  ]
+-
+  name: publicbank_pbe
+  label: Public Bank PBe
+  categories: [
+    banking
+  ]
+-
+  name: rhbnow
+  label: RHB Now
+  categories: [
+    banking
+  ]
+-
+  name: standardchartered
+  label: Standard Chartered
+  categories: [
+    banking
+  ]
+-
+  name: afterpay
+  label: Afterpay
+  categories: []
+-
+  name: clearpay
+  label: Clearpay
+  categories: []
+-
+  name: waavepaybybank
+  label: Waave Pay by Bank
+  categories: [
+    banking
+  ]
+-
+  name: cashapppay
+  label: Cash App Pay
+  categories: []
+-
+  name: smartpay
+  label: Smartpay
+  categories: []
+-
+  name: zapper
+  label: Zapper
+  categories: []
+-
+  name: payconiq
+  label: Payconiq
+  categories: []
+-
+  name: paidy
+  label: Paidy
+  categories: []
+-
+  name: twigpay
+  label: Twig Pay
+  categories: []
+-
+  name: stcpay
+  label: Stcpay
+  categories: [
+    wallet
+  ]
+-
+  name: paynow
+  label: PayNow
+  categories: []
+-
+  name: bc_card
+  label: BC Card
+  categories: [
+    credit_card
+  ]
+-
+  name: hana_card
+  label: Hana Card
+  categories: [
+    credit_card
+  ]
+-
+  name: hyundai_card
+  label: Hyundai Card
+  categories: [
+    credit_card
+  ]
+-
+  name: kb_card
+  label: KB Card
+  categories: [
+    credit_card
+  ]
+-
+  name: lotte_card
+  label: Lotte Card
+  categories: [
+    credit_card
+  ]
+-
+  name: nh_card
+  label: NH Card
+  categories: [
+    credit_card
+  ]
+-
+  name: samsung_card
+  label: Samsung Card
+  categories: [
+    credit_card
+  ]
+-
+  name: shinhan_card
+  label: Shinhan Card
+  categories: [
+    credit_card
+  ]
+-
+  name: kakao_pay
+  label: Kakao Pay
+  categories: [
+    wallet
+  ]
+-
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  categories: []
+-
+  name: naver_pay
+  label: Naver Pay
+  categories: [
+    wallet
+  ]
+-
+  name: payco
+  label: Payco
+  categories: [
+    wallet
+  ]
+-
+  name: samsung_pay
+  label: Samsung Pay
+  categories: [
+    wallet
+  ]
+-
+  name: toss
+  label: Toss
+  categories: [
+    wallet
+  ]
+-
+  name: coop
+  label: Coop
+  categories: [
+    banking
+  ]
+-
+  name: luminor
+  label: Luminor
+  categories: [
+    banking
+  ]
+-
+  name: bdo
+  label: BDO
+  categories: [
+    banking
+  ]
+-
+  name: bpi
+  label: BPI
+  categories: [
+    banking
+  ]
+-
+  name: gcash
+  label: GCash
+  categories: [
+    wallet
+  ]
+-
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  categories: []
+-
+  name: naps
+  label: Naps
+  categories: [
+    credit_card
+  ]
+-
+  name: benefit
+  label: Benefit
+  categories: [
+    credit_card
+  ]
+-
+  name: sadad
+  label: Sadad
+  categories: [
+    credit_card
+  ]
+-
+  name: mada
+  label: Mada
+  categories: [
+    credit_card
+  ]
+-
+  name: kfast
+  label: KFast
+  categories: [
+    credit_card
+  ]
+-
+  name: knet
+  label: KNet
+  categories: [
+    credit_card
+  ]
+-
+  name: uaevisa
+  label: UAE Visa Credit Card
+  categories: [
+    credit_card
+  ]
+-
+  name: fps
+  label: FPS
+  categories: [
+    wallet
+  ]
+-
+  name: line_pay
+  label: LINE Pay
+  categories: [
+    wallet
+  ]
+-
+  name: rakuten_pay
+  label: Rakuten Pay
+  categories: [
+    wallet
+  ]
+-
+  name: pay_easy
+  label: Pay Easy
+  categories: []
+-
+  name: merpay
+  label: Merpay
+  categories: [
+    wallet
+  ]
+-
+  name: softbank
+  label: Softbank
+  categories: []
+-
+  name: givacard
+  label: GivaCard
+  categories: []
+-
+  name: ymobile
+  label: Y!Mobile
+  categories: []
+-
+  name: mtn_mobile_money
+  label: MTN Mobile Money
+  categories: [
+    wallet
+  ]
+-
+  name: fashioncheque
+  label: Fashioncheque
+  categories: []
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  categories: [
+    wallet
+  ]
+-
+  name: tendopay
+  label: TendoPay
+  categories: []
+-
+  name: coinsph
+  label: Coins.ph
+  categories: [
+    wallet
+  ]
+-
+  name: payu
+  label: PayU
+  categories: []
+-
+  name: d_barai
+  label: d Barai
+  categories: []
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  categories: []
+-
+  name: pay_pay
+  label: PayPay
+  categories: [
+    wallet
+  ]
+-
+  name: blik
+  label: BLIK
+  categories: []
+-
+  name: billink
+  label: Billink
+  categories: []
+-
+  name: au_kantan_kessai
+  label: au Kantan Kessai
+  categories: []
+-
+  name: mbway
+  label: MB WAY
+  categories: []
+-
+  name: latitude_creditline_au
+  label: Latitude CreditLine (AU)
+  categories: []
+-
+  name: latitude_gem_au
+  label: Latitude GEM (AU)
+  categories: []
+-
+  name: latitude_gem_nz
+  label: Latitude GEM (NZ)
+  categories: []
+-
+  name: latitude_go_au
+  label: Latitude GO (AU)
+  categories: []
+-
+  name: mb
+  label: Multibanco
+  categories: []
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
+  categories: []
+-
+  name: postfinance_card
+  label: PostFinance Card
+  categories: [
+    credit_card
+  ]
+-
+  name: postfinance_efinance
+  label: PostFinance E-Finance
+  categories: [
+    banking
+  ]
+-
+  name: alipay
+  label: AliPay
+  categories: []
+-
+  name: alipay_hk
+  label: AliPay HK
+  categories: []
+-
+  name: ask
+  label: ASK
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: paymaya
+  label: Paymaya
+  categories: [
+    wallet
+  ]
+-
+  name: maya
+  label: Maya
+  categories: [
+    wallet
+  ]
+-
+  name: mayabank
+  label: Maya Bank
+  categories: [
+    banking
+  ]
+-
+  name: qr_promptpay
+  label: QR PromptPay
+  categories: []
+-
+  name: rcs
+  label: RCS
+  categories: []
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  categories: [
+    banking
+  ]
+-
+  name: kasikornbank
+  label: Kasikorn Bank
+  categories: [
+    banking
+  ]
+-
+  name: krungthaibank
+  label: Krung Thai Bank
+  categories: [
+    banking
+  ]
+-
+  name: thanachartbank
+  label: Thanachart Bank
+  categories: [
+    banking
+  ]
+-
+  name: uobthai
+  label: UOB Thai
+  categories: [
+    banking
+  ]
+-
+  name: bigc
+  label: Big C
+  categories: [
+    wallet
+  ]
+-
+  name: boost
+  label: Boost
+  categories: [
+    wallet
+  ]
+-
+  name: ecpay
+  label: EC Pay
+  categories: [
+    wallet
+  ]
+-
+  name: maybankqrpay
+  label: Maybank QR Pay
+  categories: [
+    wallet
+  ]
+-
+  name: mcash
+  label: M Cash
+  categories: [
+    wallet
+  ]
+-
+  name: rabbitlinepay
+  label: Rabbit Line Pay
+  categories: [
+    wallet
+  ]
+-
+  name: tescolotus
+  label: Tesco Lotus
+  categories: [
+    wallet
+  ]
+-
+  name: touchngo
+  label: Touch n Go
+  categories: [
+    wallet
+  ]
+-
+  name: payme
+  label: PayMe
+  categories: [
+    wallet
+  ]
+-
+  name: payflex
+  label: Payflex
+  categories: [
+    credit_card
+  ]
+-
+  name: maxima
+  label: Maxima
+  categories: []
+-
+  name: alfamart
+  label: Alfamart
+  categories: [
+    convenience_store
+  ]
+-
+  name: alfamidi
+  label: Alfamidi
+  categories: [
+    convenience_store
+  ]
+-
+  name: dandan
+  label: DanDan
+  categories: [
+    convenience_store
+  ]
+-
+  name: indomaret
+  label: Indomaret
+  categories: [
+    convenience_store
+  ]
+-
+  name: dana
+  label: Dana
+  categories: [
+    wallet
+  ]
+-
+  name: linkaja
+  label: LinkAja
+  categories: [
+    wallet
+  ]
+-
+  name: shopeepay
+  label: ShopeePay
+  categories: [
+    wallet
+  ]
+-
+  name: gopay
+  label: Gopay
+  categories: [
+    wallet
+  ]
+-
+  name: bca
+  label: BCA
+  categories: [
+    banking
+  ]
+-
+  name: bni
+  label: BNI
+  categories: [
+    banking
+  ]
+-
+  name: bri
+  label: BRI
+  categories: [
+    banking
+  ]
+-
+  name: mandiri
+  label: Mandiri
+  categories: [
+    banking
+  ]
+-
+  name: permata
+  label: Permata
+  categories: [
+    banking
+  ]
+-
+  name: bri_direct_debit
+  label: BRI Direct Debit
+  categories: []
+-
+  name: octoclicks
+  label: Octo Clicks
+  categories: []
+-
+  name: brimo
+  label: BRI Direct Debit
+  categories: []
+-
+  name: danamononline
+  label: Danamon Direct Debit
+  categories: []
+-
+  name: bcaklikpay
+  label: BCA Klikpay
+  categories: []
+-
+  name: akulaku
+  label: Akulaku Cardless Credit
+  categories: []
+-
+  name: satispay
+  label: Satispay
+  categories: [
+    wallet
+  ]
+-
+  name: qrph
+  label: QR Ph
+  categories: []
+-
+  name: arhaus
+  label: Arhaus
+  categories: [
+    credit_card
+  ]
+-
+  name: generalfinancing
+  label: General financing
+  categories: []
+-
+  name: ubp
+  label: UBP
+  categories: [
+    banking
+  ]
+-
+  name: farmlands
+  label: Farmlands Card
+  categories: [
+    credit_card
+  ]
+-
+  name: qris
+  label: QRIS
+  categories: []
+-
+  name: axs
+  label: AXS
+  categories: []
+-
+  name: sam
+  label: SAM
+  categories: []
+-
+  name: facebook_pay
+  label: Facebook Pay
+  categories: [
+    wallet
+  ]
+-
+  name: metapay
+  label: Meta Pay
+  categories: [
+    wallet
+  ]
+-
+  name: kueskipay
+  label: Kueski Pay
+  categories: []
+-
+  name: bread
+  label: Bread
+  categories: []
+-
+  name: breadpay
+  label: Bread Pay
+  categories: []
+-
+  name: payplan
+  label: PayPlan by RBC
+  categories: []
+-
+  name: nelo
+  label: Nelo
+  categories: []
+-
+  name: vvv_giftcard
+  label: VVV Giftcard
+  categories: []
+-
+  name: kunstencultuurcadeaukaart
+  label: Kunst en Cultuur Cadeaukaart
+  categories: []
+-
+  name: nationalebioscoopbon
+  label: Nationale Bioscoop Bon
+  categories: []
+-
+  name: nationaleentertainmentcard
+  label: Nationale Entertainment Card
+  categories: []
+-
+  name: podiumcadeaukaart
+  label: Podium Cadeaukaart
+  categories: []
+-
+  name: webshopgiftcard
+  label: Webshop Giftcard
+  categories: []
+-
+  name: billease
+  label: BillEase
+  categories: []
+-
+  name: lku
+  label: LKU
+  categories: []
+-
+  name: rietumu
+  label: Rietumu
+  categories: [
+    banking
+  ]
+-
+  name: affirm
+  label: Affirm
+  categories: []
+-
+  name: splitit
+  label: Splitit
+  categories: []
+-
+  name: zip
+  label: Zip
+  categories: []
+-
+  name: humm
+  label: Humm
+  categories: []
+-
+  name: synchrony
+  label: Synchrony
+  categories: [
+    credit_card
+  ]
+-
+  name: satisfi
+  label: SatisFi
+  categories: []
+-
+  name: checkout_finance
+  label: Checkout Finance
+  categories: []
+-
+  name: n26
+  label: N26
+  categories: [
+    banking
+  ]
+-
+  name: echelon_financing
+  label: Echelon Finance
+  categories: []
+-
+  name: acima_leasing
+  label: Acima Leasing
+  categories: []
+-
+  name: synchrony_pay
+  label: Synchrony Pay
+  categories: []
+-
+  name: truemoney_pay
+  label: TrueMoney Pay
+  categories: [
+    wallet
+  ]
+-
+  name: gmo-postpay
+  label: GMO PostPay
+  categories: []
+-
+  name: gift-card
+  label: Gift Card
+  categories: []
+-
+  name: siauliubankas
+  label: Šiaulių bankas
+  categories: [
+    banking
+  ]
+-
+  name: medicinosbankas
+  label: Medicinos bankas
+  categories: [
+    banking
+  ]
+-
+  name: epospay
+  label: EPOS Kantan Kessai
+  categories: []
+-
+  name: poli
+  label: POLi
+  categories: [
+    banking
+  ]
+-
+  name: perlasfinance
+  label: Perlas finance
+  categories: []
+-
+  name: directpay
+  label: DirectPay
+  categories: [
+    banking
+  ]
+-
+  name: latitudepay
+  label: LatitudePay
+  categories: []
+-
+  name: genoapay
+  label: Genoapay
+  categories: []
+-
+  name: pop-pankki
+  label: POP Pankki
+  categories: [
+    banking
+  ]
+-
+  name: revolut
+  label: Revolut
+  categories: [
+    banking
+  ]
+-
+  name: aktia
+  label: Aktia
+  categories: [
+    banking
+  ]
+-
+  name: saastopankki
+  label: Säästöpankki
+  categories: [
+    banking
+  ]
+-
+  name: s-pankki
+  label: S Pankki
+  categories: [
+    banking
+  ]
+-
+  name: walley
+  label: Walley
+  categories: []
+-
+  name: atone
+  label: Atone
+  categories: []
+-
+  name: addi
+  label: ADDI
+  categories: []
+-
+  name: omasp
+  label: OmaSp
+  categories: [
+    banking
+  ]
+-
+  name: handelsbanken
+  label: Handelsbanken
+  categories: [
+    banking
+  ]
+-
+  name: alandsbanken
+  label: Ålandsbanken
+  categories: [
+    banking
+  ]
+-
+  name: siirto
+  label: Siirto
+  categories: []
+-
+  name: scalapay
+  label: Scalapay
+  categories: []
+-
+  name: aplazo
+  label: Aplazo
+  categories: []
+-
+  name: paybylink
+  label: Pay By Link
+  categories: []
+-
+  name: snap_checkout
+  label: Snap Checkout
+  categories: []
+-
+  name: fairstonepayments
+  label: Fairstone Payments
+  categories: []
+-
+  name: upi
+  label: UPI
+  categories: []
+-
+  name: sveaeramaksu
+  label: Svea Erämaksu
+  categories: []
+-
+  name: sveapartpayment
+  label: Svea Part Payment
+  categories: []
+-
+  name: sveadelbetalning
+  label: Svea Delbetalning
+  categories: []
+-
+  name: svealasku
+  label: Svea Lasku
+  categories: []
+-
+  name: sveainvoice
+  label: Svea Invoice
+  categories: []
+-
+  name: sveafaktura
+  label: Svea Faktura
+  categories: []
+-
+  name: sveayrityslasku
+  label: Svea Yrityslasku
+  categories: []
+-
+  name: sveab2binvoice
+  label: Svea B2B Invoice
+  categories: []
+-
+  name: sveab2bfaktura
+  label: Svea B2B Faktura
+  categories: []
+-
+  name: pix
+  label: Pix
+  categories: []
+-
+  name: wegetfinancing
+  label: WeGetFinancing
+  categories: []
+-
+  name: anyday
+  label: Anyday
+  categories: []
+-
+  name: cleverpay
+  label: CleverPay
+  categories: []
+-
+  name: payid
+  label: PayID
+  categories: []
+-
+  name: uangme
+  label: UangMe
+  categories: []
+-
+  name: grailpay
+  label: GrailPay
+  categories: [
+    banking
+  ]
+-
+  name: payto
+  label: PayTo
+  categories: []
+-
+  name: zinia
+  label: Zinia
+  categories: []
+-
+  name: fortiva
+  label: Fortiva
+  categories: []
+-
+  name: fintecture
+  label: Fintecture
+  categories: [
+    banking
+  ]
+-
+  name: helloclever
+  label: Hello Clever
+  categories: []
+-
+  name: creditkey
+  label: Credit Key
+  categories: []
+-
+  name: palawa
+  label: Palawa
+  categories: []
+-
+  name: palawan
+  label: Palawan
+  categories: []
+-
+  name: kredivo
+  label: Kredivo
+  categories: []
+-
+  name: uobezpay
+  label: UOB EZPay
+  categories: []
+-
+  name: akulakupaylater
+  label: Akulaku PayLater
+  categories: []
+-
+  name: tandympayment
+  label: Tandym Payment
+  categories: []
+-
+  name: paytomorrow
+  label: PayTomorrow
+  categories: []
+-
+  name: bsi
+  label: BSI
+  categories: [
+    banking
+  ]
+-
+  name: clavetelered
+  label: Clave
+  categories: [
+    credit_card
+  ]
+-
+  name: credix
+  label: Credix
+  categories: [
+    credit_card
+  ]
+-
+  name: sinpemovil
+  label: Sinpe Móvil
+  categories: [
+    banking
+  ]
+-
+  name: laybuyheart
+  label: Laybuy
+  categories: []
+-
+  name: lydia
+  label: Lydia
+  categories: [
+    wallet
+  ]
+-
+  name: atome
+  label: Atome
+  categories: []
+-
+  name: creditclickpaynlversion
+  label: CreditClick (PAY. version)
+  categories: []
+-
+  name: dropp
+  label: Dropp
+  categories: [
+    wallet
+  ]
+-
+  name: cebuana
+  label: Cebuana
+  categories: []
+-
+  name: futurepaymytab
+  label: FuturePay MyTab
+  categories: []
+-
+  name: bierchequepaynlversion
+  label: Biercheque (PAY. version)
+  categories: []
+-
+  name: swiftpay
+  label: SwiftPay
+  categories: []
+-
+  name: linkpay
+  label: LinkPay
+  categories: [
+    banking
+  ]
+-
+  name: rivertypaynlversion
+  label: Riverty (PAY. version)
+  categories: []
+-
+  name: wechatpaynlversion
+  label: WeChat (PAY. version)
+  categories: []
+-
+  name: vvvcadeaukaartpaynlversion
+  label: VVV Cadeaukaart (PAY. version)
+  categories: []
+-
+  name: przelewytwofourpaynlversion
+  label: Przelewy24 (PAY. version)
+  categories: []
+-
+  name: paysafecardpaynlversion
+  label: Paysafecard (PAY. version)
+  categories: []
+-
+  name: gezondheidsbonpaynlversion
+  label: GezondheidsBon (PAY. version)
+  categories: []
+-
+  name: fashiongiftcardpaynlversion
+  label: Fashion Giftcard (PAY. version)
+  categories: []
+-
+  name: alipaypaynlversion
+  label: Alipay (PAY. version)
+  categories: []
+-
+  name: aftee
+  label: AFTEE
+  categories: []
+-
+  name: momopay
+  label: MoMoPay
+  categories: [
+    wallet
+  ]
+-
+  name: zalopay
+  label: ZaloPay
+  categories: [
+    wallet
+  ]
+-
+  name: finloup
+  label: finloup
+  categories: [
+    credit_card
+  ]
+-
+  name: billinkmethod
+  label: Billink
+  categories: []
+-
+  name: oxxo
+  label: OXXO
+  categories: [
+    convenience_store
+  ]
+-
+  name: spei
+  label: SPEI
+  categories: [
+    banking
+  ]
+-
+  name: bbvacie
+  label: BBVA CIE
+  categories: [
+    convenience_store
+  ]
+-
+  name: alma
+  label: Alma
+  categories: []
+-
+  name: sveaostukonto
+  label: Svea Ostukonto
+  categories: []
+-
+  name: sveacreditaccount
+  label: Svea Credit account
+  categories: []
+-
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  categories: []
+-
+  name: swissbilling
+  label: swissbilling
+  categories: []
+-
+  name: bizum
+  label: Bizum
+  categories: []
+-
+  name: rcbc
+  label: RCBC
+  categories: []
+-
+  name: inbank
+  label: Inbank
+  categories: []
+-
+  name: ivy
+  label: Ivy
+  categories: []
+-
+  name: zoodpay
+  label: ZoodPay
+  categories: []
+-
+  name: valu
+  label: VaLU
+  categories: []
+-
+  name: omannet
+  label: OmanNet
+  categories: [
+    credit_card
+  ]
+-
+  name: tabby
+  label: Tabby
+  categories: []
+-
+  name: cliq
+  label: CliQ
+  categories: [
+    wallet
+  ]
+-
+  name: postpay
+  label: Postpay
+  categories: []
+-
+  name: urpay
+  label: Urpay
+  categories: [
+    wallet
+  ]
+-
+  name: hypercash
+  label: Hypercash
+  categories: []
+-
+  name: fawry
+  label: Fawry
+  categories: []
+-
+  name: spotii
+  label: Spotii
+  categories: []
+-
+  name: tamara
+  label: Tamara
+  categories: []
+-
+  name: aqsat
+  label: AQSAT
+  categories: []
+-
+  name: careempay
+  label: Careem Pay
+  categories: [
+    wallet
+  ]
+-
+  name: billie
+  label: Billie
+  categories: []
+-
+  name: sbpl
+  label: ShopBack
+  categories: []
+-
+  name: coppelpay
+  label: Coppel Pay
+  categories: [
+    wallet
+  ]
+-
+  name: sequra
+  label: SeQura
+  categories: []
+-
+  name: aeropay
+  label: Aeropay
+  categories: [
+    banking
+  ]
+-
+  name: catchpayments
+  label: Catch
+  categories: []
+-
+  name: openpay
+  label: Openpay
+  categories: []
+-
+  name: lbc
+  label: LBC
+  categories: [
+    convenience_store
+  ]
+-
+  name: atrato
+  label: Atrato
+  categories: []
+-
+  name: bss
+  label: BSS
+  categories: [
+    banking
+  ]
+-
+  name: gmobanktransfer
+  label: GMO Bank Transfer
+  categories: []
+-
+  name: trevipay
+  label: TreviPay
+  categories: []
+-
+  name: paypo
+  label: PayPo
+  categories: []
+-
+  name: younitedpay
+  label: Younited Pay
+  categories: []
+-
+  name: tabit
+  label: Tabit
+  categories: [
+    wallet
+  ]
+-
+  name: etika
+  label: etika
+  categories: []
+-
+  name: mokka
+  label: Mokka
+  categories: []
+-
+  name: myfatoorah
+  label: MyFatoorah
+  categories: []
+-
+  name: meeza
+  label: Meeza
+  categories: [
+    credit_card
+  ]
+-
+  name: paysafecash
+  label: Paysafecash
+  categories: []
+-
+  name: tbibank
+  label: tbi bank
+  categories: []
+-
+  name: skrilldigitalwallet
+  label: Skrill Digital Wallet
+  categories: [
+    wallet
+  ]
+-
+  name: cash
+  label: Cash
+  categories: []
+-
+  name: pei
+  label: Pei
+  categories: []
+-
+  name: paybybank
+  label: Pay By Bank
+  categories: [
+    banking
+  ]
+-
+  name: rapidtransfer
+  label: Rapid Transfer
+  categories: [
+    banking
+  ]
+-
+  name: neteller
+  label: NETELLER
+  categories: [
+    wallet
+  ]
+-
+  name: cetelem
+  label: Cetelem
+  categories: []
+-
+  name: duitnow
+  label: DuitNow
+  categories: []
+-
+  name: sympl
+  label: Sympl
+  categories: []
+-
+  name: paid
+  label: Paid
+  categories: []
+-
+  name: directa24
+  label: Directa24
+  categories: []
+-
+  name: superpayments
+  label: Super Payments
+  categories: [
+    banking
+  ]
+-
+  name: sikafsa
+  label: Sika FSA
+  categories: []
+-
+  name: sikahsa
+  label: Sika HSA
+  categories: []
+-
+  name: sika
+  label: Sika
+  categories: []
+-
+  name: citipay
+  label: Citi Pay
+  categories: []
+-
+  name: freedompay
+  label: FreedomPay
+  categories: []
+-
+  name: clerq
+  label: Clerq
+  categories: [
+    banking
+  ]
+-
+  name: skeps
+  label: Skeps
+  categories: []
+-
+  name: payjustnow
+  label: PayJustNow
+  categories: []
+-
+  name: mybank
+  label: mybank
+  categories: [
+    banking
+  ]
+-
+  name: ewalletindonesia
+  label: E-wallet Indonesia
+  categories: [
+    wallet
+  ]
+-
+  name: boodil
+  label: Boodil
+  categories: [
+    banking
+  ]
+-
+  name: mach
+  label: Mach
+  categories: [
+    wallet
+  ]
+-
+  name: happypay
+  label: Happy Pay
+  categories: []
+-
+  name: payoo
+  label: Payoo
+  categories: [
+    wallet
+  ]
+-
+  name: payooqr
+  label: Payoo Qr
+  categories: []
+-
+  name: homecredit
+  label: Home Credit
+  categories: []
+-
+  name: jko
+  label: Jko
+  categories: []
+-
+  name: zingala
+  label: Zingala
+  categories: []
+-
+  name: hitrustpaytransfer
+  label: Hitrustpay Transfer
+  categories: []
+-
+  name: easywallet
+  label: Easywallet
+  categories: []
+-
+  name: pse
+  label: Pagos Electrónicos Seguros (PSE)
+  categories: [
+    banking
+  ]
+-
+  name: aupay
+  label: au PAY
+  categories: [
+    wallet
+  ]
+-
+  name: dappmx
+  label: Dapp
+  categories: [
+    wallet
+  ]
+-
+  name: npatobarai
+  label: NP後払い
+  categories: []
+-
+  name: npkakebarai
+  label: NP掛け払い
+  categories: []
+-
+  name: ewalletphilippines
+  label: E-wallet Philippines
+  categories: [
+    wallet
+  ]
+-
+  name: ewalletsouthkorea
+  label: E-wallet South Korea
+  categories: [
+    wallet
+  ]
+-
+  name: tasacero
+  label: Tasa Cero
+  categories: [
+    credit_card
+  ]
+-
+  name: minicuotas
+  label: Minicuotas
+  categories: [
+    credit_card
+  ]
+-
+  name: cuotas
+  label: Cuotas
+  categories: [
+    credit_card
+  ]
+-
+  name: ibexpay
+  label: IBEXPAY
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: paycash
+  label: PayCash
+  categories: []
+-
+  name: yappy
+  label: yappy
+  categories: []
+-
+  name: mercadopago
+  label: Mercado Pago
+  categories: [
+    wallet
+  ]
+-
+  name: iwocapaypaylater
+  label: iwocaPay Pay Later
+  categories: []
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  categories: [
+    banking
+  ]
+-
+  name: offlinebanktransferlatinamerica
+  label: Offline Bank Transfer Latin America
+  categories: [
+    banking
+  ]
+-
+  name: cashinvoicelatinamerica
+  label: Cash/Invoice Latin America
+  categories: []
+-
+  name: twoinvoice
+  label: Two Business Invoice
+  categories: []
+-
+  name: generic
+  label: Generic
+  categories: []
+-
+  name: huistuincadeau
+  label: Huis & Tuin Cadeau
+  categories: []
+-
+  name: gmovirtualaccount
+  label: GMO VirtualAccount
+  categories: [
+    banking
+  ]
+-
+  name: slicefnbo
+  label: Slice by FNBO
+  categories: []
+-
+  name: edenred
+  label: Edenred
+  categories: []
+-
+  name: kasssh
+  label: Kasssh
+  categories: []
+-
+  name: decadeaukaart
+  label: De cadeau kaart
+  categories: []
+-
+  name: zulilycreditcard
+  label: Zulily Credit Card
+  categories: [
+    credit_card
+  ]
+-
+  name: onlinebanking
+  label: Online Banking
+  categories: [
+    banking
+  ]
+-
+  name: storecredit
+  label: Store Credit
+  categories: []
+-
+  name: wallet
+  label: Wallet
+  categories: [
+    wallet
+  ]
+-
+  name: glbepaypal
+  label: Global-E Paypal
+  categories: []
+-
+  name: glbeplus
+  label: Global-E Plus
+  categories: []
+-
+  name: qasitli
+  label: Qasitli
+  categories: []
+-
+  name: tpay
+  label: Tpay
+  categories: []
+-
+  name: ratypekao
+  label: Raty Pekao
+  categories: []
+-
+  name: lunchcheck
+  label: Lunch-Check
+  categories: []
+-
+  name: octopus
+  label: Octopus
+  categories: [
+    wallet
+  ]
+-
+  name: paybybankus
+  label: Pay by Bank
+  categories: [
+    banking
+  ]
+-
+  name: fam
+  label: Fam
+  categories: [
+    banking
+  ]
+-
+  name: jenius
+  label: Jenius
+  categories: [
+    banking
+  ]
+-
+  name: chinabank
+  label: Chinabank
+  categories: [
+    banking
+  ]
+-
+  name: timepayment
+  label: TimePayment
+  categories: [
+    wallet
+  ]
+-
+  name: koin
+  label: Koin
+  categories: []
+-
+  name: underpay
+  label: Underpay
+  categories: [
+    banking
+  ]
+-
+  name: pfpay
+  label: PostFinance Pay
+  categories: []
+-
+  name: sveacheckout
+  label: Svea Checkout
+  categories: []
+-
+  name: oca
+  label: OCA
+  categories: [
+    credit_card
+  ]
+-
+  name: mercadocredito
+  label: Mercado Crédito
+  categories: [
+    wallet
+  ]
+-
+  name: floatpayments
+  label: Float Payments
+  categories: []
+-
+  name: truelayer
+  label: TrueLayer
+  categories: [
+    banking
+  ]
+-
+  name: ada
+  label: Cardano
+  categories: [
+    cryptocurrency
+  ]
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  categories: []
+-
+  name: simplepay
+  label: Simple Pay
+  categories: []
+-
+  name: clip
+  label: Clip
+  categories: []
+-
+  name: todopay
+  label: Todopay
+  categories: []
