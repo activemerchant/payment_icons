@@ -4,6 +4,27 @@ require "test_helper"
 
 module PaymentIcons
   class PaymentMethodTest < ActiveSupport::TestCase
+
+    def setup
+      @fake_payment_methods = [
+        PaymentMethod.new(
+          name: "PM1",
+          label: "Payment Method 1",
+          categories: ["credit_card"]
+        ),
+        PaymentMethod.new(
+          name: "PM2",
+          label: "Payment Method 2",
+          categories: ["credit_card", "wallet"]
+        ),
+        PaymentMethod.new(
+          name: "PM3",
+          label: "Payment Method 3",
+          categories: ["cryptocurrency"]
+        ),
+      ]
+    end
+
     test "Every records are valid" do
       PaymentMethod.all.each do |payment_method|
         assert_predicate(payment_method.name, :present?)
@@ -23,10 +44,23 @@ module PaymentIcons
     end
 
     test "#find_by_category_name returns all payment methods with that category name" do
-      assert_equal(42, PaymentMethod.find_by_category_name("credit_card").count)
-      assert_equal(79, PaymentMethod.find_by_category_name("wallet").count)
-      assert_equal(31, PaymentMethod.find_by_category_name("cryptocurrency").count)
+      PaymentMethod.stubs(:all).returns(@fake_payment_methods)
+
+      assert_equal(2, PaymentMethod.find_by_category_name("credit_card").count)
+      assert_equal(1, PaymentMethod.find_by_category_name("cryptocurrency").count)
       assert_equal(0, PaymentMethod.find_by_category_name("dummy").count)
+    end
+
+    test "#find_by_category_name excludes payment methods with excluded catagory name" do
+      PaymentMethod.stubs(:all).returns(@fake_payment_methods)
+
+      assert_equal(1, PaymentMethod.find_by_category_name("credit_card", exclude: ["wallet"]).count)
+    end
+
+    test "#all_except_categories excludes payment methods with excluded catagory name" do
+      PaymentMethod.stubs(:all).returns(@fake_payment_methods)
+
+      assert_equal(2, PaymentMethod.all_except_categories(["wallet"]).count)
     end
 
     test "#icon_variation_path raises when the variation doesn't exist" do

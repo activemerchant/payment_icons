@@ -24,8 +24,10 @@ Gem::Specification.new do |s|
   end
 
   s.add_development_dependency('rails', '>= 5.0')
-  s.add_development_dependency('pry')
+  s.add_development_dependency("pry")
+  s.add_development_dependency("pry-byebug")
   s.add_development_dependency('bump')
   s.add_development_dependency("rubocop", "~> 1.22")
   s.add_development_dependency("rubocop-shopify")
+  s.add_development_dependency("mocha")
 end

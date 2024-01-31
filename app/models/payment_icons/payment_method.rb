@@ -8,6 +8,26 @@ module PaymentIcons
       end
     end
 
+    class << self
+      def find_by_category_name(category_name, exclude: [])
+        methods_with_category = all_except_categories(exclude).filter do |payment_method|
+          payment_method.categories.any? do |category|
+            category.name == category_name
+          end
+        end
+      end
+
+      def all_except_categories(category_names)
+        all.filter do |payment_method|
+          category_names.none? do |excluded_category_name|
+            payment_method.categories.any? do |category|
+              category.name == excluded_category_name
+            end
+          end
+        end
+      end
+    end
+
     def default_icon_path
       "payment_icons/#{name}/default.svg"
     end
@@ -21,18 +41,8 @@ module PaymentIcons
     end
 
     def categories
-      super.map do |category|
+      super().map do |category|
         Category.find_by_name(category)
-      end
-    end
-
-    class << self
-      def find_by_category_name(category_name)
-        all.filter do |payment_method|
-          payment_method.categories.any? do |category|
-            category.name == category_name
-          end
-        end
       end
     end
   end
