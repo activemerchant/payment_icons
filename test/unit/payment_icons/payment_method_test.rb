@@ -43,18 +43,18 @@ module PaymentIcons
       end
     end
 
-    test "#find_by_category_name returns all payment methods with that category name" do
+    test "#find_by_category returns all payment methods with that category name" do
       PaymentMethod.stubs(:all).returns(@fake_payment_methods)
 
-      assert_equal(2, PaymentMethod.find_by_category_name("credit_card").count)
-      assert_equal(1, PaymentMethod.find_by_category_name("cryptocurrency").count)
-      assert_equal(0, PaymentMethod.find_by_category_name("dummy").count)
+      assert_equal(2, PaymentMethod.find_by_category("credit_card").count)
+      assert_equal(1, PaymentMethod.find_by_category("cryptocurrency").count)
+      assert_equal(0, PaymentMethod.find_by_category("dummy").count)
     end
 
-    test "#find_by_category_name excludes payment methods with excluded catagory name" do
+    test "#find_by_category excludes payment methods with excluded catagory name" do
       PaymentMethod.stubs(:all).returns(@fake_payment_methods)
 
-      assert_equal(1, PaymentMethod.find_by_category_name("credit_card", exclude: ["wallet"]).count)
+      assert_equal(1, PaymentMethod.find_by_category("credit_card", exclude: ["wallet"]).count)
     end
 
     test "#all_except_categories excludes payment methods with excluded catagory name" do

@@ -9,7 +9,7 @@ module PaymentIcons
     end
 
     class << self
-      def find_by_category_name(category_name, exclude: [])
+      def find_by_category(category_name, exclude: [])
         methods_with_category = all_except_categories(exclude).filter do |payment_method|
           payment_method.categories.any? do |category|
             category.name == category_name

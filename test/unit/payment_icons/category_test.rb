@@ -5,7 +5,7 @@ require "test_helper"
 module PaymentIcons
   class CategoryTest < ActiveSupport::TestCase
     test "All categories are returned" do
-      assert_equal(7, Category.count)
+      assert_equal(8, Category.count)
     end
 
     test "Every category record is valid" do
