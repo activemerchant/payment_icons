@@ -3,8 +3,8 @@ require 'test_helper'
 class PaymentIconTest < ActiveSupport::TestCase
 
   ICONS_DIRECTORY = PaymentIcons::Engine.root.join("app/assets/images/payment_icons")
-  SVG_PAYMENT_TYPES = Dir[ICONS_DIRECTORY.join('*.svg')].each_with_object({}) do |path, hash|
-    hash[File.basename(path, '.svg')] = File.read(path).freeze
+  SVG_PAYMENT_TYPES = Dir[ICONS_DIRECTORY.join('*')].each_with_object({}) do |path, hash|
+    hash[File.basename(path)] = File.read("#{path}/default.svg").freeze
   end.freeze
 
   test "Every payment icon record is valid" do
@@ -17,10 +17,10 @@ class PaymentIconTest < ActiveSupport::TestCase
 
   test '#path returns path within app/assets/images' do
     visa = PaymentIcon.where(name: 'visa').first
-    assert_equal 'payment_icons/visa.svg', visa.path
+    assert_equal 'payment_icons/visa/default.svg', visa.path
   end
 
-  test 'Every payment icon record has a corresponding SVG file' do
+  test 'Every payment icon record has a corresponding default SVG file' do
     PaymentIcon.all.each do |icon|
       assert SVG_PAYMENT_TYPES.key?(icon.name)
     end

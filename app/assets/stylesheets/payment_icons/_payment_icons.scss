@@ -16,6 +16,6 @@ $easing--spring: cubic-bezier(0.3, 0, 0, 1);
 
 @each $svg-name, $class-name in payment-icons() {
   .payment-icon--#{$class-name} {
-    background-image: image-url("payment_icons/#{$svg-name}.svg"), none;
+    background-image: image-url("payment_icons/#{$svg-name}/default.svg"), none;
   }
 }

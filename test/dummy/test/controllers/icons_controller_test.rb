@@ -4,7 +4,7 @@ class IconsControllerTest < ActionController::TestCase
 
   test 'can find all payment icon assets' do
     PaymentIcon.all.each do |icon|
-      assert_not_nil Rails.application.assets.find_asset("payment_icons/#{icon.name}.svg"), "#{icon.name} not found"
+      assert_not_nil Rails.application.assets.find_asset("payment_icons/#{icon.name}/default.svg"), "#{icon.name} not found"
     end
   end
 
@@ -12,7 +12,7 @@ class IconsControllerTest < ActionController::TestCase
     get :show
     PaymentIcon.credit_cards.each do |card|
       assert_select "##{card.name}" do |element|
-        assert_select "[src=?]", "/assets/#{Rails.application.assets.find_asset("payment_icons/#{card.name}.svg").digest_path}"
+        assert_select "[src=?]", "/assets/#{Rails.application.assets.find_asset("payment_icons/#{card.name}/default.svg").digest_path}"
       end
     end
   end
@@ -21,7 +21,7 @@ class IconsControllerTest < ActionController::TestCase
     get :show
     PaymentIcon.cryptocurrencies.each do |currency|
       assert_select "##{currency.name}" do |element|
-        assert_select "[src=?]", "/assets/#{Rails.application.assets.find_asset("payment_icons/#{currency.name}.svg").digest_path}"
+        assert_select "[src=?]", "/assets/#{Rails.application.assets.find_asset("payment_icons/#{currency.name}/default.svg").digest_path}"
       end
     end
   end
