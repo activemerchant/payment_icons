@@ -19,3 +19,6 @@
 -
   name: installment
   description:
+-
+  name: restricted_for_payments_apps
+  description: Payment methods that are restricted for payment partner to support on Shopify

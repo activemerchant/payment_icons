@@ -286,7 +286,8 @@
   name: google_pay
   label: Google Pay
   categories: [
-    wallet
+    wallet,
+    restricted_for_payments_apps
   ]
 -
   name: google_wallet
@@ -308,7 +309,8 @@
   name: paypal
   label: PayPal
   categories: [
-    wallet
+    wallet,
+    restricted_for_payments_apps
   ]
 -
   name: venmo
@@ -634,12 +636,16 @@
   name: apple_pay
   label: Apple Pay
   categories: [
-    wallet
+    wallet,
+    restricted_for_payments_apps
   ]
 -
   name: shopify_pay
   label: Shop Pay
-  categories: []
+  categories: [
+    wallet,
+    restricted_for_payments_apps
+  ]
 -
   name: trustly
   label: Trustly
