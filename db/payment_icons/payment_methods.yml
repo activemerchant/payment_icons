@@ -2582,7 +2582,7 @@
   name: zulilycreditcard
   label: Zulily Credit Card
   categories: [
-    credit_card
+    private_label_credit_card
   ]
 -
   name: onlinebanking
