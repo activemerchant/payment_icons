@@ -43,6 +43,12 @@ module PaymentIcons
       end
     end
 
+    test "Every payment method icon folders have a record" do
+      Dir.glob("#{Engine::IMAGES_DIRECTORY}/images").each do |folder|
+        assert_not_nil(PaymentMethod.find_by_name(folder), "#{folder} doesn't have a record")
+      end
+    end
+
     test "#find_by_category returns all payment methods with that category name" do
       PaymentMethod.stubs(:all).returns(@fake_payment_methods)
 
