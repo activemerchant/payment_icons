@@ -2154,3 +2154,7 @@
   name: taly
   label: Taly
   group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
