@@ -539,6 +539,10 @@
   label: EFT Secure
   group: bank_transfers
 -
+  name: yoco_instant_eft
+  label: Instant EFT
+  group: bank_transfers
+-
   name: mpesa
   label: M-Pesa
   group: wallets
