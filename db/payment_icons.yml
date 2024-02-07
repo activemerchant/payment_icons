@@ -2158,3 +2158,7 @@
   name: fintoc
   label: Fintoc
   group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
