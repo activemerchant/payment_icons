@@ -1675,6 +1675,10 @@
   label: OmanNet
   group: credit_cards
 -
+  name: cashew
+  label: cashew
+  group: other 
+-
   name: tabby
   label: Tabby
   group: other
@@ -2150,3 +2154,19 @@
   name: resolvepay
   label: Resolve Pay
   group: other
+- 
+  name: taly
+  label: Taly
+  group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
+-
+  name: lpb
+  label: LPB
+  group: bank_transfers
