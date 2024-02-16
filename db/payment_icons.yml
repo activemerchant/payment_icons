@@ -2167,6 +2167,10 @@
   label: LPB
   group: bank_transfers
 -
+  name: katapult
+  label: Katapult
+  group: other
+-
   name: bancomat
   label: Bancomat
   group: other
