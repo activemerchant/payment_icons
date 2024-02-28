@@ -2174,3 +2174,7 @@
   name: reka
   label: Reka
   group: other
+-
+  name: bank_transfer
+  label: Bank Transfer
+  group: bank_transfers
