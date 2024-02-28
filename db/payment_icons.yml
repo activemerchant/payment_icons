@@ -2170,3 +2170,7 @@
   name: centi
   label: Centi
   group: cryptocurrencies
+-
+  name: reka
+  label: Reka
+  group: other
