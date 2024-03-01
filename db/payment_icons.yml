@@ -2166,3 +2166,8 @@
   name: lpb
   label: LPB
   group: bank_transfers
+-
+  name: bancomat_pay
+  label: BANCOMAT Pay
+  group: other
+
