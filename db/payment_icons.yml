@@ -2168,7 +2168,7 @@
   group: bank_transfers
 -
   name: bancomat_pay
-  label: BANCOMAT Pay
+  label: Bancomat Pay
   group: other
 -
   name: centi
