@@ -2167,8 +2167,8 @@
   label: LPB
   group: bank_transfers
 -
-  name: bancomat_pay
-  label: Bancomat Pay
+  name: bancomat
+  label: Bancomat
   group: other
 -
   name: centi
