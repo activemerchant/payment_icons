@@ -1275,6 +1275,14 @@
   label: Synchrony Pay
   group: other
 -
+  name: progressiveleasing
+  label: Progressive Leasing
+  group: other
+-
+  name: koalafi
+  label: Koalafi
+  group: other
+-
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
@@ -1677,7 +1685,7 @@
 -
   name: cashew
   label: cashew
-  group: other 
+  group: other
 -
   name: tabby
   label: Tabby
@@ -2138,7 +2146,7 @@
   name: sepadirectdebit
   label: SEPA Direct Debit
   group: other
-- 
+-
   name: simplepay
   label: Simple Pay
   group: other
@@ -2150,7 +2158,7 @@
   name: todopay
   label: Todopay
   group: other
-- 
+-
   name: taly
   label: Taly
   group: other
@@ -2167,7 +2175,18 @@
   label: LPB
   group: bank_transfers
 -
+  name: pastpay
+  label: PastPay
+  group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
+-
   name: bancomat
   label: Bancomat
   group: other
-
