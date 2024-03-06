@@ -13,12 +13,20 @@ To add a new payment method icon to this repository:
     - `other`
     - `wallets`
 
-4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons).
-5. Optimize your icon using [SVGO](https://jakearchibald.github.io/svgomg/) - instructions below.
+4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons). If you are adding a generic payment method, you may use the following generic icons.
+
+    - [`cash`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/cash.svg)
+    - [`generic`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/generic.svg)
+    - [`gift-card`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/gift-card.svg)
+    - [`onlinebanking`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/onlinebanking.svg)
+    - [`storecredit`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/storecredit.svg)
+    - [`wallet`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/wallet.svg)
+
+5. Optimize your icon using [SVGO](https://github.com/svg/svgo) (`v1.x.x`) - instructions below.
 
     ```
-    $ npm install -g svgo
-    $ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
+    npm install -g svgo@1.3.2
+    svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,removeViewBox}
     ```
 
 5. Push your changes to your fork (`git push origin my_new_icon`)
@@ -28,7 +36,7 @@ To add a new payment method icon to this repository:
 
 ## Guidelines for new icons
 
-All icon contributions must follow the guidelines below. The **markup** guidelines aim to make the inline SVG accessible to assistive technology; these are enforced by a [suite of automatic tests](https://github.com/activemerchant/payment_icons/blob/master/test/unit/payment_icon_test.rb). The **appearance** guidelines aim to provide consistency in the icons' appearance.
+All icon contributions must follow the guidelines below. The **markup** guidelines aim to make the inline SVG accessible to assistive technology; these are enforced by a [suite of automatic tests](https://github.com/activemerchant/payment_icons/blob/master/test/unit/payment_icon_test.rb). The **appearance** guidelines aim to provide consistency in the icons' appearance. Duplicate icons will not be accepted.
 
 ### Markup
 - The root `<svg>` tag has the following attributes:
@@ -43,6 +51,9 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Nested `<image>` or `<img>` elements will only be accepted if they contain base64-encoded PNG image data. Paths to image files will not be accepted.
   - Embedded fonts or bitmaps will not be accepted.
 - All `id` attributes start with `pi-`.
+- All styles should be inline. There should be no `<style>`.
+- `base64` encoded images are not allowed.
+- `class` attributes are not allowed.
 
 ### Appearance
 - Logos appear on a solid color background.
@@ -50,11 +61,14 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - Whenever possible, the background color does not use a gradient fill.
   - Transparent backgrounds will not be accepted.
 - Icons have a visible border to give them a consistent shape on pages whose backgrounds match that of the icon.
-  - Whenever possible, the border should be black (hex color `#000`) with a 0.07% opacity.
+  - Whenever possible, the border should be black (hex color `#000`) with a 7% opacity (`0.07`).
   - The border width must be 1px (pixel) thick.
   - The border must have a 2px radius (outside stroke).
 - Icons are clear and easy to read/understand
 - Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
+
+### Name
+- The name entered in `db/payment_icons.yml` must be lowercase alpha characters only.
 
 ### File
 - The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`

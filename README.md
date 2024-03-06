@@ -1,4 +1,9 @@
+## ⚠️ Only Shopify Partners team approved icons may be reviewed/merged ⚠️
+Please read more on [shopify.dev/apps/payments](https://shopify.dev/apps/payments) and/or reach out on the [developer forums](https://community.shopify.com/c/App-Partner-Platform/ct-p/appdev).
+
 # Payment Icons
+
+[![Build Status](https://github.com/activemerchant/payment_icons/workflows/CI/badge.svg?branch=master)](https://github.com/activemerchant/payment_icons/actions?query=workflow%3ACI)
 
 Payment Icons is a simple Ruby on Rails engine extracted from Shopify. Shopify supports multiple payment methods through gems like Active Merchant and Offsite Payments. This has lead to an accumulation of icons for various payment methods. This gem provides easy access to those icons and helpful methods to integrate them into any Ruby on Rails app.
 
@@ -34,22 +39,19 @@ For information on adding or updating payment icons, see our [CONTRIBUTING.md](h
 
 ### Releases
 
-This information is for project maintainers: 
+This information is for project maintainers:
 
 Requirements
-- ruby version: 2.5.1
+- Ruby version: >= 2.5.0
 - Bundler 2.0.2 (`gem install bundler:2.0.2`)
 
 Any updates that add new icons, or change the style of existing ones, are to be considered patches (i.e. `v1.0.X`).
 
 To create a new release:
+- `git checkout master` to get back to master branch
 - `git fetch --tags --force` to refresh tags
 - `git pull origin master` to pull latest changes to your local environment
-- Change version in `lib/<gem name>/version.rb`
-- Run `bundle install`
-- `git tag -a v<version>`
-- If prompted, make a comment about this version bump. i.e. "Adds icons X and Y"
-- Commit the changes: `git commit -m 'bump to <vesion>'`
+- Run `bump patch --tag --tag-prefix v --commit-message release`. This will create a new commit that includes a version bump and a new tag.
 - `git push --tags origin master`
 - Contact a maintainer in Shopify to release the new version via ShipIt.
 

@@ -1,4 +1,8 @@
 -
+  name: acuotaz
+  label: acuotaz
+  group: other
+-
   name: visa
   label: Visa
   group: credit_cards
@@ -75,6 +79,78 @@
   label: USDC
   group: cryptocurrencies
 -
+  name: apecoin
+  label: ApeCoin
+  group: cryptocurrencies
+-
+  name: solana
+  label: Solana
+  group: cryptocurrencies
+-
+  name: solanapay
+  label: Solana Pay
+  group: cryptocurrencies
+-
+  name: bnbchain
+  label: BNB Chain
+  group: cryptocurrencies
+-
+  name: polygon
+  label: Polygon
+  group: cryptocurrencies
+-
+  name: depay
+  label: DePay
+  group: cryptocurrencies
+-
+  name: fantom
+  label: Fantom
+  group: cryptocurrencies
+-
+  name: gnosis
+  label: Gnosis
+  group: cryptocurrencies
+-
+  name: avalanche
+  label: Avalanche
+  group: cryptocurrencies
+-
+  name: arbitrum
+  label: Arbitrum
+  group: cryptocurrencies
+-
+  name: optimism
+  label: Optimism
+  group: cryptocurrencies
+-
+  name: base
+  label: Base
+  group: cryptocurrencies
+-
+  name: busd
+  label: Binance USD
+  group: cryptocurrencies
+-
+  name: gusd
+  label: Gemini Dollar
+  group: cryptocurrencies
+-
+  name: shib
+  label: Shiba Inu
+  group: cryptocurrencies
+-
+  name: usdp
+  label: Pax Dollar
+  group: cryptocurrencies
+-
+  name: wbtc
+  label: Wrapped Bitcoin
+  group: cryptocurrencies
+-
+  name: xrp
+  label: XRP
+  group: cryptocurrencies
+-
   name: amazon
   label: Amazon
   group: wallets
@@ -103,6 +179,10 @@
   label: Dwolla
   group: bank_transfers
 -
+  name: tensile
+  label: Tensile
+  group: bank_transfers
+-
   name: forbrugsforeningen
   label: Forbrugsforeningen
   group: bank_transfers
@@ -118,6 +198,10 @@
   name: google_wallet
   label: Google Wallet
   group: wallets
+-
+  name: opay
+  label: OPAY
+  group: other
 -
   name: laser
   label: Laser
@@ -247,6 +331,22 @@
   label: ViaBill
   group: other
 -
+  name: novuna
+  label: Novuna
+  group: other
+-
+  name: divido
+  label: Divido
+  group: other
+-
+  name: oney
+  label: Oney
+  group: other
+-
+  name: duologi
+  label: Duologi
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
@@ -267,19 +367,25 @@
   label: Santander
   group: other
 -
+  name: flexiti
+  label: Flexiti
+  group: other
+-
   name: elv
   label: ELV
   group: bank_transfers
 -
+  name: astrapay
+  label: AstraPay
+  group: other
+-
   name: ideal
   label: iDEAL
   group: other
-
 -
   name: interac
   label: Interac
   group: other
-
 -
   name: arvato
   label: Arvato
@@ -287,10 +393,14 @@
 -
   name: swish
   label: Swish
-  group: other
+  group: bank_transfers
 -
-  name: przelew24
-  label: Przelew24
+  name: ratepay
+  label: RatePay
+  group: wallets
+-
+  name: przelewy24
+  label: Przelewy24
   group: bank_transfers
 -
   name: epayments
@@ -298,7 +408,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: PaySafeCard
+  label: Paysafecard
   group: other
 -
   name: laybuy
@@ -335,6 +445,10 @@
 -
   name: dailyyamazaki
   label: Daily Yamazaki
+  group: convenience_stores
+-
+  name: seicomart
+  label: Seicomart
   group: convenience_stores
 -
   name: mondido
@@ -417,10 +531,6 @@
   label: Banc Net
   group: bank_transfers
 -
-  name: alipay
-  label: AliPay
-  group: wallets
--
   name: eghl
   label: eGHL
   group: other
@@ -439,7 +549,7 @@
 -
   name: vipps
   label: Vipps
-  group: other
+  group: wallets
 -
   name: krungsri
   label: Krungsri
@@ -471,6 +581,10 @@
 -
   name: ovo
   label: OVO
+  group: wallets
+-
+  name: mode
+  label: Mode
   group: wallets
 -
   name: wechatpay
@@ -509,12 +623,92 @@
   label: EPS
   group: bank_transfers
 -
+  name: affinbank
+  label: Affin Bank
+  group: bank_transfers
+-
+  name: alliancebank
+  label: Alliance Bank
+  group: bank_transfers
+-
+  name: atobaraidotcom
+  label: Atobaraidotcom
+  group: other
+-
+  name: bankislam
+  label: Bank Islam
+  group: bank_transfers
+-
+  name: bankmuamalat
+  label: Bank Muamalat
+  group: bank_transfers
+-
+  name: bankrakyat
+  label: Bank Rakyat
+  group: bank_transfers
+-
+  name: bsn
+  label: BSN Bank
+  group: bank_transfers
+-
+  name: cimbclicks
+  label: CIMB Clicks
+  group: bank_transfers
+-
+  name: deutschebank
+  label: Deutsche Bank
+  group: bank_transfers
+-
+  name: hongleongconnect
+  label: Hong Leong Connect
+  group: bank_transfers
+-
+  name: hsbc
+  label: HSBC Bank
+  group: bank_transfers
+-
+  name: kuwaitfinancehouse
+  label: Kuwait Finance House
+  group: bank_transfers
+-
+  name: maybankm2u
+  label: Maybank 2U
+  group: bank_transfers
+-
+  name: ocbcbank
+  label: OCBC Bank
+  group: bank_transfers
+-
+  name: publicbank_pbe
+  label: Public Bank PBe
+  group: bank_transfers
+-
+  name: rhbnow
+  label: RHB Now
+  group: bank_transfers
+-
+  name: standardchartered
+  label: Standard Chartered
+  group: bank_transfers
+-
   name: afterpay
   label: Afterpay
   group: other
 -
   name: clearpay
   label: Clearpay
+  group: other
+-
+  name: waavepaybybank
+  label: Waave Pay by Bank
+  group: bank_transfers
+-
+  name: cashapppay
+  label: Cash App Pay
+  group: other
+-
+  name: smartpay
+  label: Smartpay
   group: other
 -
   name: zapper
@@ -527,6 +721,10 @@
 -
   name: paidy
   label: Paidy
+  group: other
+-
+  name: twigpay
+  label: Twig Pay
   group: other
 -
   name: stcpay
@@ -573,6 +771,10 @@
   label: Kakao Pay
   group: wallets
 -
+  name: kakebaraidotcom
+  label: Kakebaraidotcom
+  group: other
+-
   name: naver_pay
   label: Naver Pay
   group: wallets
@@ -609,6 +811,10 @@
   label: GCash
   group: wallets
 -
+  name: afterpay_paynl_version
+  label: Afterpay (Pay.nl version)
+  group: other
+-
   name: naps
   label: Naps
   group: credit_cards
@@ -640,7 +846,6 @@
   name: fps
   label: FPS
   group: wallets
-
 -
   name: line_pay
   label: LINE Pay
@@ -654,22 +859,1338 @@
   label: Pay Easy
   group: other
 -
+  name: merpay
+  label: Merpay
+  group: wallets
+-
   name: softbank
   label: Softbank
   group: other
 -
-  name: yahoo_mobile
-  label: Yahoo Mobile
+  name: givacard
+  label: GivaCard
+  group: other
+-
+  name: ymobile
+  label: Y!Mobile
   group: other
 -
   name: mtn_mobile_money
   label: MTN Mobile Money
   group: wallets
 -
-  name: orangemobilemoney
+  name: fashioncheque
+  label: Fashioncheque
+  group: other
+-
+  name: airteltigo_mobile_money
+  label: AirtelTigo Money
+  group: wallets
+-
+  name: tendopay
+  label: TendoPay
+  group: other
+-
+  name: coinsph
+  label: Coins.ph
+  group: wallets
+-
+  name: payu
+  label: PayU
+  group: other
+-
+  name: d_barai
+  label: d Barai
+  group: other
+-
+  name: docomo_barai
+  label: DOCOMO Barai
+  group: other
+-
+  name: pay_pay
+  label: PayPay
+  group: wallets
+-
+  name: blik
+  label: BLIK
+  group: other
+-
+  name: billink
+  label: Billink
+  group: other
+-
+  name: au_kantan_kessai
+  label: au Kantan Kessai
+  group: other
+-
+  name: mbway
+  label: MB WAY
+  group: other
+-
+  name: latitude_creditline_au
+  label: Latitude CreditLine (AU)
+  group: other
+-
+  name: latitude_gem_au
+  label: Latitude GEM (AU)
+  group: other
+-
+  name: latitude_gem_nz
+  label: Latitude GEM (NZ)
+  group: other
+-
+  name: latitude_go_au
+  label: Latitude GO (AU)
+  group: other
+-
+  name: mb
+  label: Multibanco
+  group: other
+-
+  name: bogus_app_coin
+  label: BOGUS_APP_COIN
+  group: other
+-
+  name: postfinance_card
+  label: PostFinance Card
+  group: credit_cards
+-
+  name: postfinance_efinance
+  label: PostFinance E-Finance
+  group: bank_transfers
+-
+  name: alipay
+  label: AliPay
+  group: other
+-
+  name: alipay_hk
+  label: AliPay HK
+  group: other
+-
+  name: ask
+  label: ASK
+  group: cryptocurrencies
+-
+  name: paymaya
+  label: Paymaya
+  group: wallets
+-
+  name: maya
+  label: Maya
+  group: wallets
+-
+  name: mayabank
+  label: Maya Bank
+  group: bank_transfers
+-
+  name: qr_promptpay
+  label: QR PromptPay
+  group: other
+-
+  name: rcs
+  label: RCS
+  group: other
+-
+  name: bangkokbank
+  label: Bangkok Bank
+  group: bank_transfers
+-
+  name: kasikornbank
+  label: Kasikorn Bank
+  group: bank_transfers
+-
+  name: krungthaibank
+  label: Krung Thai Bank
+  group: bank_transfers
+-
+  name: thanachartbank
+  label: Thanachart Bank
+  group: bank_transfers
+-
+  name: uobthai
+  label: UOB Thai
+  group: bank_transfers
+-
+  name: bigc
+  label: Big C
+  group: wallets
+-
+  name: boost
+  label: Boost
+  group: wallets
+-
+  name: ecpay
+  label: EC Pay
+  group: wallets
+-
+  name: maybankqrpay
+  label: Maybank QR Pay
+  group: wallets
+-
+  name: mcash
+  label: M Cash
+  group: wallets
+-
+  name: rabbitlinepay
+  label: Rabbit Line Pay
+  group: wallets
+-
+  name: tescolotus
+  label: Tesco Lotus
+  group: wallets
+-
+  name: touchngo
+  label: Touch n Go
+  group: wallets
+-
+  name: payme
+  label: PayMe
+  group: wallets
+-
+  name: payflex
+  label: Payflex
+  group: credit_cards
+-
+  name: maxima
+  label: Maxima
+  group: other
+-
+  name: alfamart
+  label: Alfamart
+  group: convenience_stores
+-
+  name: alfamidi
+  label: Alfamidi
+  group: convenience_stores
+-
+  name: dandan
+  label: DanDan
+  group: convenience_stores
+-
+  name: indomaret
+  label: Indomaret
+  group: convenience_stores
+-
+  name: dana
+  label: Dana
+  group: wallets
+-
+  name: linkaja
+  label: LinkAja
+  group: wallets
+-
+  name: shopeepay
+  label: ShopeePay
+  group: wallets
+-
+  name: gopay
+  label: Gopay
+  group: wallets
+-
+  name: bca
+  label: BCA
+  group: bank_transfers
+-
+  name: bni
+  label: BNI
+  group: bank_transfers
+-
+  name: bri
+  label: BRI
+  group: bank_transfers
+-
+  name: mandiri
+  label: Mandiri
+  group: bank_transfers
+-
+  name: permata
+  label: Permata
+  group: bank_transfers
+-
+  name: bri_direct_debit
+  label: BRI Direct Debit
+  group: other
+-
+  name: octoclicks
+  label: Octo Clicks
+  group: other
+-
+  name: brimo
+  label: BRI Direct Debit
+  group: other
+-
+  name: danamononline
+  label: Danamon Direct Debit
+  group: other
+-
+  name: bcaklikpay
+  label: BCA Klikpay
+  group: other
+-
+  name: akulaku
+  label: Akulaku Cardless Credit
+  group: other
+-
+  name: satispay
+  label: Satispay
+  group: wallets
+-
+  name: qrph
+  label: QR Ph
+  group: other
+-
+  name: arhaus
+  label: Arhaus
+  group: credit_cards
+-
+  name: generalfinancing
+  label: General financing
+  group: other
+-
+  name: ubp
+  label: UBP
+  group: bank_transfers
+-
+  name: farmlands
+  label: Farmlands Card
+  group: credit_cards
+-
+  name: qris
+  label: QRIS
+  group: other
+-
+  name: axs
+  label: AXS
+  group: other
+-
+  name: sam
+  label: SAM
+  group: other
+-
+  name: facebook_pay
+  label: Facebook Pay
+  group: wallets
+-
+  name: metapay
+  label: Meta Pay
+  group: wallets
+-
+  name: kueskipay
+  label: Kueski Pay
+  group: other
+-
+  name: bread
+  label: Bread
+  group: other
+-
+  name: breadpay
+  label: Bread Pay
+  group: other
+-
+  name: payplan
+  label: PayPlan by RBC
+  group: other
+-
+  name: nelo
+  label: Nelo
+  group: other
+-
+  name: vvv_giftcard
+  label: VVV Giftcard
+  group: other
+-
+  name: kunstencultuurcadeaukaart
+  label: Kunst en Cultuur Cadeaukaart
+  group: other
+-
+  name: nationalebioscoopbon
+  label: Nationale Bioscoop Bon
+  group: other
+-
+  name: nationaleentertainmentcard
+  label: Nationale Entertainment Card
+  group: other
+-
+  name: podiumcadeaukaart
+  label: Podium Cadeaukaart
+  group: other
+-
+  name: webshopgiftcard
+  label: Webshop Giftcard
+  group: other
+-
+  name: billease
+  label: BillEase
+  group: other
+-
+  name: lku
+  label: LKU
+  group: other
+-
+  name: rietumu
+  label: Rietumu
+  group: bank_transfers
+-
+  name: affirm
+  label: Affirm
+  group: other
+-
+  name: splitit
+  label: Splitit
+  group: other
+-
+  name: zip
+  label: Zip
+  group: other
+-
+  name: humm
+  label: Humm
+  group: other
+-
+  name: synchrony
+  label: Synchrony
+  group: credit_cards
+-
+  name: satisfi
+  label: SatisFi
+  group: other
+-
+  name: checkout_finance
+  label: Checkout Finance
+  group: other
+-
+  name: n26
+  label: N26
+  group: bank_transfers
+-
+  name: echelon_financing
+  label: Echelon Finance
+  group: other
+-
+  name: acima_leasing
+  label: Acima Leasing
+  group: other
+-
+  name: synchrony_pay
+  label: Synchrony Pay
+  group: other
+-
+  name: progressiveleasing
+  label: Progressive Leasing
+  group: other
+-
+  name: koalafi
+  label: Koalafi
+  group: other
+-
+  name: truemoney_pay
+  label: TrueMoney Pay
+  group: wallets
+-
+  name: gmo-postpay
+  label: GMO PostPay
+  group: other
+-
+  name: gift-card
+  label: Gift Card
+  group: other
+-
+  name: siauliubankas
+  label: Šiaulių bankas
+  group: bank_transfers
+-
+  name: medicinosbankas
+  label: Medicinos bankas
+  group: bank_transfers
+-
+  name: epospay
+  label: EPOS Kantan Kessai
+  group: other
+-
+  name: poli
+  label: POLi
+  group: bank_transfers
+-
+  name: perlasfinance
+  label: Perlas finance
+  group: other
+-
+  name: directpay
+  label: DirectPay
+  group: bank_transfers
+-
+  name: latitudepay
+  label: LatitudePay
+  group: other
+-
+  name: genoapay
+  label: Genoapay
+  group: other
+-
+  name: pop-pankki
+  label: POP Pankki
+  group: bank_transfers
+-
+  name: revolut
+  label: Revolut
+  group: bank_transfers
+-
+  name: aktia
+  label: Aktia
+  group: bank_transfers
+-
+  name: saastopankki
+  label: Säästöpankki
+  group: bank_transfers
+-
+  name: s-pankki
+  label: S Pankki
+  group: bank_transfers
+-
+  name: walley
+  label: Walley
+  group: other
+-
+  name: atone
+  label: Atone
+  group: other
+-
+  name: addi
+  label: ADDI
+  group: other
+-
+  name: omasp
+  label: OmaSp
+  group: bank_transfers
+-
+  name: handelsbanken
+  label: Handelsbanken
+  group: bank_transfers
+-
+  name: alandsbanken
+  label: Ålandsbanken
+  group: bank_transfers
+-
+  name: siirto
+  label: Siirto
+  group: other
+-
+  name: scalapay
+  label: Scalapay
+  group: other
+-
+  name: aplazo
+  label: Aplazo
+  group: other
+-
+  name: paybylink
+  label: Pay By Link
+  group: other
+-
+  name: snap_checkout
+  label: Snap Checkout
+  group: other
+-
+  name: fairstonepayments
+  label: Fairstone Payments
+  group: other
+-
+  name: upi
+  label: UPI
+  group: other
+-
+  name: sveaeramaksu
+  label: Svea Erämaksu
+  group: other
+-
+  name: sveapartpayment
+  label: Svea Part Payment
+  group: other
+-
+  name: sveadelbetalning
+  label: Svea Delbetalning
+  group: other
+-
+  name: svealasku
+  label: Svea Lasku
+  group: other
+-
+  name: sveainvoice
+  label: Svea Invoice
+  group: other
+-
+  name: sveafaktura
+  label: Svea Faktura
+  group: other
+-
+  name: sveayrityslasku
+  label: Svea Yrityslasku
+  group: other
+-
+  name: sveab2binvoice
+  label: Svea B2B Invoice
+  group: other
+-
+  name: sveab2bfaktura
+  label: Svea B2B Faktura
+  group: other
+-
+  name: pix
+  label: Pix
+  group: other
+-
+  name: wegetfinancing
+  label: WeGetFinancing
+  group: other
+-
+  name: anyday
+  label: Anyday
+  group: other
+-
+  name: cleverpay
+  label: CleverPay
+  group: other
+-
+  name: payid
+  label: PayID
+  group: other
+-
+  name: uangme
+  label: UangMe
+  group: other
+-
+  name: grailpay
+  label: GrailPay
+  group: bank_transfers
+-
+  name: payto
+  label: PayTo
+  group: other
+-
+  name: zinia
+  label: Zinia
+  group: other
+-
+  name: fortiva
+  label: Fortiva
+  group: other
+-
+  name: fintecture
+  label: Fintecture
+  group: bank_transfers
+-
+  name: helloclever
+  label: Hello Clever
+  group: other
+-
+  name: creditkey
+  label: Credit Key
+  group: other
+-
+  name: palawa
+  label: Palawa
+  group: other
+-
+  name: palawan
+  label: Palawan
+  group: other
+-
+  name: kredivo
+  label: Kredivo
+  group: other
+-
+  name: uobezpay
+  label: UOB EZPay
+  group: other
+-
+  name: akulakupaylater
+  label: Akulaku PayLater
+  group: other
+-
+  name: tandympayment
+  label: Tandym Payment
+  group: other
+-
+  name: paytomorrow
+  label: PayTomorrow
+  group: other
+-
+  name: bsi
+  label: BSI
+  group: bank_transfers
+-
+  name: clavetelered
+  label: Clave
+  group: credit_cards
+-
+  name: credix
+  label: Credix
+  group: credit_cards
+-
+  name: sinpemovil
+  label: Sinpe Móvil
+  group: bank_transfers
+-
+  name: laybuyheart
+  label: Laybuy
+  group: other
+-
+  name: lydia
+  label: Lydia
+  group: wallets
+-
+  name: atome
+  label: Atome
+  group: other
+-
+  name: creditclickpaynlversion
+  label: CreditClick (PAY. version)
+  group: other
+-
+  name: dropp
+  label: Dropp
+  group: wallets
+-
+  name: cebuana
+  label: Cebuana
+  group: other
+-
+  name: futurepaymytab
+  label: FuturePay MyTab
+  group: other
+-
+  name: bierchequepaynlversion
+  label: Biercheque (PAY. version)
+  group: other
+-
+  name: swiftpay
+  label: SwiftPay
+  group: other
+-
+  name: linkpay
+  label: LinkPay
+  group: bank_transfers
+-
+  name: rivertypaynlversion
+  label: Riverty (PAY. version)
+  group: other
+-
+  name: wechatpaynlversion
+  label: WeChat (PAY. version)
+  group: other
+-
+  name: vvvcadeaukaartpaynlversion
+  label: VVV Cadeaukaart (PAY. version)
+  group: other
+-
+  name: przelewytwofourpaynlversion
+  label: Przelewy24 (PAY. version)
+  group: other
+-
+  name: paysafecardpaynlversion
+  label: Paysafecard (PAY. version)
+  group: other
+-
+  name: gezondheidsbonpaynlversion
+  label: GezondheidsBon (PAY. version)
+  group: other
+-
+  name: fashiongiftcardpaynlversion
+  label: Fashion Giftcard (PAY. version)
+  group: other
+-
+  name: alipaypaynlversion
+  label: Alipay (PAY. version)
+  group: other
+-
+  name: aftee
+  label: AFTEE
+  group: other
+-
+  name: momopay
+  label: MoMoPay
+  group: wallets
+-
+  name: zalopay
+  label: ZaloPay
+  group: wallets
+-
+  name: finloup
+  label: finloup
+  group: credit_cards
+-
+  name: billinkmethod
+  label: Billink
+  group: other
+-
+  name: oxxo
+  label: OXXO
+  group: convenience_stores
+-
+  name: spei
+  label: SPEI
+  group: bank_transfers
+-
+  name: bbvacie
+  label: BBVA CIE
+  group: convenience_stores
+-
+  name: alma
+  label: Alma
+  group: other
+-
+  name: sveaostukonto
+  label: Svea Ostukonto
+  group: other
+-
+  name: sveacreditaccount
+  label: Svea Credit account
+  group: other
+-
+  name: billerpaynlversion
+  label: Biller (PAY. version)
+  group: other
+-
+  name: swissbilling
+  label: swissbilling
+  group: other
+-
+  name: bizum
+  label: Bizum
+  group: other
+-
+  name: rcbc
+  label: RCBC
+  group: other
+-
+  name: inbank
+  label: Inbank
+  group: other
+-
+  name: ivy
+  label: Ivy
+  group: other
+-
+  name: zoodpay
+  label: ZoodPay
+  group: other
+-
+  name: valu
+  label: VaLU
+  group: other
+-
+  name: omannet
+  label: OmanNet
+  group: credit_cards
+-
+  name: cashew
+  label: cashew
+  group: other
+-
+  name: tabby
+  label: Tabby
+  group: other
+-
+  name: cliq
+  label: CliQ
+  group: wallets
+-
+  name: postpay
+  label: Postpay
+  group: other
+-
+  name: urpay
+  label: Urpay
+  group: wallets
+-
+  name: hypercash
+  label: Hypercash
+  group: other
+-
+  name: fawry
+  label: Fawry
+  group: other
+-
+  name: spotii
+  label: Spotii
+  group: other
+-
+  name: tamara
+  label: Tamara
+  group: other
+-
+  name: aqsat
+  label: AQSAT
+  group: other
+-
+  name: careempay
+  label: Careem Pay
+  group: wallets
+-
+  name: billie
+  label: Billie
+  group: other
+-
+  name: sbpl
+  label: ShopBack
+  group: other
+-
+  name: coppelpay
+  label: Coppel Pay
+  group: wallets
+-
+  name: sequra
+  label: SeQura
+  group: other
+-
+  name: aeropay
+  label: Aeropay
+  group: bank_transfers
+-
+  name: catchpayments
+  label: Catch
+  group: other
+-
+  name: openpay
+  label: Openpay
+  group: other
+-
+  name: lbc
+  label: LBC
+  group: convenience_stores
+-
+  name: atrato
+  label: Atrato
+  group: other
+-
+  name: bss
+  label: BSS
+  group: bank_transfers
+-
+  name: gmobanktransfer
+  label: GMO Bank Transfer
+  group: other
+-
+  name: trevipay
+  label: TreviPay
+  group: other
+-
+  name: paypo
+  label: PayPo
+  group: other
+-
+  name: younitedpay
+  label: Younited Pay
+  group: other
+-
+  name: tabit
+  label: Tabit
+  group: wallets
+-
+  name: etika
+  label: etika
+  group: other
+-
+  name: mokka
+  label: Mokka
+  group: other
+-
+  name: myfatoorah
+  label: MyFatoorah
+  group: other
+-
+  name: meeza
+  label: Meeza
+  group: credit_cards
+-
+  name: paysafecash
+  label: Paysafecash
+  group: other
+-
+  name: tbibank
+  label: tbi bank
+  group: other
+-
+  name: skrilldigitalwallet
+  label: Skrill Digital Wallet
+  group: wallets
+-
+  name: cash
+  label: Cash
+  group: other
+-
+  name: pei
+  label: Pei
+  group: other
+-
+  name: paybybank
+  label: Pay By Bank
+  group: bank_transfers
+-
+  name: rapidtransfer
+  label: Rapid Transfer
+  group: bank_transfers
+-
+  name: neteller
+  label: NETELLER
+  group: wallets
+-
+  name: cetelem
+  label: Cetelem
+  group: other
+-
+  name: duitnow
+  label: DuitNow
+  group: other  
+- 
+  name: sympl
+  label: Sympl
+  group: other    
+-
+  name: paid
+  label: Paid
+  group: other
+-
+  name: directa24
+  label: Directa24
+  group: other
+-
+  name: superpayments
+  label: Super Payments
+  group: bank_transfers
+-
+  name: sikafsa
+  label: Sika FSA
+  group: other
+-
+  name: sikahsa
+  label: Sika HSA
+  group: other
+-
+  name: sika
+  label: Sika
+  group: other
+-
+  name: citipay
+  label: Citi Pay
+  group: other
+-
+  name: freedompay
+  label: FreedomPay
+  group: other
+-
+  name: clerq
+  label: Clerq
+  group: bank_transfers
+-
+  name: skeps
+  label: Skeps
+  group: other
+-
+  name: payjustnow
+  label: PayJustNow
+  group: other
+-
+  name: mybank
+  label: mybank
+  group: bank_transfers
+-
+  name: ewalletindonesia
+  label: E-wallet Indonesia
+  group: wallets
+-
+  name: boodil
+  label: Boodil
+  group: bank_transfers
+-
+  name: mach
+  label: Mach
+  group: wallets
+-
+  name: happypay
+  label: Happy Pay
+  group: other
+-
+  name: payoo
+  label: Payoo
+  group: wallets
+-
+  name: payooqr
+  label: Payoo Qr
+  group: other
+-
+  name: homecredit
+  label: Home Credit
+  group: other
+-
+  name: jko
+  label: Jko
+  group: other
+-
+  name: zingala
+  label: Zingala
+  group: other
+-
+  name: hitrustpaytransfer
+  label: Hitrustpay Transfer
+  group: other
+-
+  name: easywallet
+  label: Easywallet
+  group: other
+-
+  name: pse
+  label: Pagos Electrónicos Seguros (PSE)
+  group: bank_transfers
+-
+  name: aupay
+  label: au PAY
+  group: wallets
+-
+  name: dappmx
+  label: Dapp
+  group: wallets
+-
+  name: npatobarai
+  label: NP後払い
+  group: other
+-
+  name: npkakebarai
+  label: NP掛け払い
+  group: other
+-
+  name: ewalletphilippines
+  label: E-wallet Philippines
+  group: wallets
+-
+  name: ewalletsouthkorea
+  label: E-wallet South Korea
+  group: wallets
+-
+  name: tasacero
+  label: Tasa Cero
+  group: credit_cards
+-
+  name: minicuotas
+  label: Minicuotas
+  group: credit_cards
+-
+  name: cuotas
+  label: Cuotas
+  group: credit_cards
+-
+  name: ibexpay
+  label: IBEXPAY
+  group: cryptocurrencies
+-
+  name: paycash
+  label: PayCash
+  group: other
+-
+  name: yappy
+  label: yappy
+  group: other
+-
+  name: mercadopago
+  label: Mercado Pago
+  group: wallets
+-
+  name: iwocapaypaylater
+  label: iwocaPay Pay Later
+  group: other
+-
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
+-
+  name: offlinebanktransferlatinamerica
+  label: Offline Bank Transfer Latin America
+  group: bank_transfers
+-
+  name: cashinvoicelatinamerica
+  label: Cash/Invoice Latin America
+  group: other
+-
+  name: twoinvoice
+  label: Two Business Invoice
+  group: other
+-
+  name: generic
+  label: Generic
+  group: other
+-
+  name: huistuincadeau
+  label: Huis & Tuin Cadeau
+  group: other
+-
+  name: gmovirtualaccount
+  label: GMO VirtualAccount
+  group: bank_transfers
+- 
+  name: slicefnbo
+  label: Slice by FNBO
+  group: other
+-
+  name: edenred
+  label: Edenred
+  group: other
+-
+  name: kasssh
+  label: Kasssh
+  group: other
+-
+  name: decadeaukaart
+  label: De cadeau kaart
+  group: other
+-
+  name: zulilycreditcard
+  label: Zulily Credit Card
+  group: credit_cards
+-
+  name: onlinebanking
+  label: Online Banking
+  group: bank_transfers
+-
+  name: storecredit
+  label: Store Credit
+  group: other
+-
+  name: wallet
+  label: Wallet
+  group: wallets
+-
+  name: glbepaypal
+  label: Global-E Paypal
+  group: other
+- 
+  name: glbeplus
+  label: Global-E Plus
+  group: other
+- 
+  name: qasitli
+  label: Qasitli
+  group: other
+-
+  name: tpay
+  label: Tpay
+  group: other
+-
+  name: ratypekao
+  label: Raty Pekao
+  group: other
+-
+  name: lunchcheck
+  label: Lunch-Check
+  group: other
+-
+  name: octopus
+  label: Octopus
+  group: wallets
+-
+  name: paybybankus
+  label: Pay by Bank
+  group: bank_transfers
+-
+  name: fam
+  label: Fam
+  group: bank_transfers
+-
+  name: jenius
+  label: Jenius
+  group: bank_transfers
+-
+  name: chinabank
+  label: Chinabank
+  group: bank_transfers  
+-
+  name: timepayment
+  label: TimePayment
+  group: wallets
+-
+  name: koin
+  label: Koin
+  group: other
+-
+  name: underpay
+  label: Underpay
+  group: bank_transfers
+-
+  name: pfpay
+  label: PostFinance Pay
+  group: other
+-
+  name: sveacheckout
+  label: Svea Checkout
+  group: other
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Crédito
+  group: wallets
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
+-
+  name: truelayer
+  label: TrueLayer
+  group: bank_transfers
+-
+  name: ada
+  label: Cardano
+  group: cryptocurrencies
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  group: other
+-
+  name: simplepay
+  label: Simple Pay
+  group: other
+-
+  name: clip
+  label: Clip
+  group: other
+-
+  name: todopay
+  label: Todopay
+  group: other
+-
+  name: taly
+  label: Taly
+  group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
+-
+  name: lpb
+  label: LPB
+  group: bank_transfers
+-
+  name: pastpay
+  label: PastPay
+  group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
+-
+  name: bancomat
+  label: Bancomat
+  group: other
+-
+name: orangemobilemoney
   label: Orange Mobile Money
   group: wallets
-
-
-
-
