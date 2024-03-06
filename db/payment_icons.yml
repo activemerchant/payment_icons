@@ -1275,6 +1275,14 @@
   label: Synchrony Pay
   group: other
 -
+  name: progressiveleasing
+  label: Progressive Leasing
+  group: other
+-
+  name: koalafi
+  label: Koalafi
+  group: other
+-
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
