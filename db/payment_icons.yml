@@ -2182,3 +2182,7 @@
   name: urbo
   label: Urbo
   group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
