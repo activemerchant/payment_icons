@@ -2170,3 +2170,7 @@
   name: pastpay
   label: PastPay
   group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
