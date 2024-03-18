@@ -1275,6 +1275,14 @@
   label: Synchrony Pay
   group: other
 -
+  name: progressiveleasing
+  label: Progressive Leasing
+  group: other
+-
+  name: koalafi
+  label: Koalafi
+  group: other
+-
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
@@ -1675,6 +1683,10 @@
   label: OmanNet
   group: credit_cards
 -
+  name: cashew
+  label: cashew
+  group: other
+-
   name: tabby
   label: Tabby
   group: other
@@ -2071,6 +2083,10 @@
   label: Lunch-Check
   group: other
 -
+  name: octopus
+  label: Octopus
+  group: wallets
+-
   name: paybybankus
   label: Pay by Bank
   group: bank_transfers
@@ -2099,8 +2115,80 @@
   label: Underpay
   group: bank_transfers
 -
+  name: pfpay
+  label: PostFinance Pay
+  group: other
+-
   name: sveacheckout
   label: Svea Checkout
+  group: other
+- 
+  name: oca
+  label: OCA
+  group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Crédito
+  group: wallets
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
+-
+  name: truelayer
+  label: TrueLayer
+  group: bank_transfers
+-
+  name: ada
+  label: Cardano
+  group: cryptocurrencies
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  group: other
+-
+  name: simplepay
+  label: Simple Pay
+  group: other
+-
+  name: clip
+  label: Clip
+  group: other
+-
+  name: todopay
+  label: Todopay
+  group: other
+-
+  name: taly
+  label: Taly
+  group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
+-
+  name: lpb
+  label: LPB
+  group: bank_transfers
+-
+  name: pastpay
+  label: PastPay
+  group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
+-
+  name: bancomat
+  label: Bancomat
   group: other
 -
   name: abn

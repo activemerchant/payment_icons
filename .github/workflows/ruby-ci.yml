@@ -29,6 +29,8 @@ jobs:
         exclude:
           - version: 2.6
             gemfile: gemfiles/rails-edge.gemfile
+          - version: 2.7
+            gemfile: gemfiles/rails-edge.gemfile
           - version: 3.0
             gemfile: gemfiles/rails-6-0.gemfile
           - version: 3.1
