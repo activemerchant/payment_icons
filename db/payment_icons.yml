@@ -2190,6 +2190,10 @@
   label: Bancomat
   group: other
 -
+  name: tcf
+  label: Telefónica Consumer Finance
+  group: other
+-
   name: favepay
   label: FavePay
   group: other
