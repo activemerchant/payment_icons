@@ -1879,6 +1879,10 @@
   label: FreedomPay
   group: other
 -
+  name: yardbird
+  label: YardBird
+  group: other
+-
   name: clerq
   label: Clerq
   group: bank_transfers
