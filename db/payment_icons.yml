@@ -1685,7 +1685,7 @@
 -
   name: cashew
   label: cashew
-  group: other 
+  group: other
 -
   name: tabby
   label: Tabby
@@ -2149,7 +2149,7 @@
   name: sepadirectdebit
   label: SEPA Direct Debit
   group: other
-- 
+-
   name: simplepay
   label: Simple Pay
   group: other
@@ -2161,7 +2161,7 @@
   name: todopay
   label: Todopay
   group: other
-- 
+-
   name: taly
   label: Taly
   group: other
@@ -2188,6 +2188,10 @@
 -
   name: bancomat
   label: Bancomat
+  group: other
+-
+  name: favepay
+  label: FavePay
   group: other
 -
   name: centi
