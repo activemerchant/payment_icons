@@ -2190,3 +2190,7 @@
   name: bancomat
   label: Bancomat
   group: other
+-
+  name: favepay
+  label: FavePay
+  group: other
