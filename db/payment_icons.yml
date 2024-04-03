@@ -2191,6 +2191,6 @@
   label: Bancomat
   group: other
 -
-name: orangemobilemoney
+  name: orangemobilemoney
   label: Orange Mobile Money
   group: wallets
