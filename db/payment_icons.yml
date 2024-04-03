@@ -2159,6 +2159,10 @@
   label: Todopay
   group: other
 -
+  name: resolvepay
+  label: Resolve Pay
+  group: other
+- 
   name: taly
   label: Taly
   group: other
@@ -2194,3 +2198,7 @@
   name: tcf
   label: Telefónica Consumer Finance
   group: other
+-
+  name: orangemobilemoney
+  label: Orange Mobile Money
+  group: wallets
