@@ -2195,6 +2195,10 @@
   label: Bancomat
   group: other
 -
+  name: tcf
+  label: Telefónica Consumer Finance
+  group: other
+-
   name: orangemobilemoney
   label: Orange Mobile Money
   group: wallets
