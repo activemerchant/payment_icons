@@ -2218,6 +2218,6 @@
   label: Reka
   group: other
 -
-  name: bank-transfer
-  label: Bank Transfer
+  name: payrexxbanktransfer
+  label: Payrexx Bank Transfer
   group: bank_transfers
