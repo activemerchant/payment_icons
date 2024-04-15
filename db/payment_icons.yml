@@ -2206,3 +2206,7 @@
   name: orangemobilemoney
   label: Orange Mobile Money
   group: wallets
+-
+  name: landbank
+  label: Land Bank
+  group: bank_transfers
