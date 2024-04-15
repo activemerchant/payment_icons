@@ -2206,3 +2206,15 @@
   name: orangemobilemoney
   label: Orange Mobile Money
   group: wallets
+-
+  name: souhoola
+  label: Souhoola
+  group: other
+-
+  name: aman
+  label: Aman
+  group: other
+-
+  name: forsa
+  label: Forsa
+  group: other
