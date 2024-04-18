@@ -2210,3 +2210,11 @@
   name: qliro
   label: Qliro
   group: other
+-
+  name: ostkmastercard
+  label: Overstock Master Card
+  group: credit_cards
+-
+  name: ostkcreditcard
+  label: Overstock Credit Card
+  group: credit_cards
