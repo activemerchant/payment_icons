@@ -2162,3 +2162,127 @@
   name: sveacheckout
   label: Svea Checkout
   group: other
+-
+  name: oca
+  label: OCA
+  group: credit_cards
+-
+  name: mercadocredito
+  label: Mercado Crédito
+  group: wallets
+-
+  name: floatpayments
+  label: Float Payments
+  group: other
+-
+  name: truelayer
+  label: TrueLayer
+  group: bank_transfers
+-
+  name: ada
+  label: Cardano
+  group: cryptocurrencies
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  group: other
+-
+  name: simplepay
+  label: Simple Pay
+  group: other
+-
+  name: clip
+  label: Clip
+  group: other
+-
+  name: todopay
+  label: Todopay
+  group: other
+-
+  name: taly
+  label: Taly
+  group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
+-
+  name: lpb
+  label: LPB
+  group: bank_transfers
+-
+  name: pastpay
+  label: PastPay
+  group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
+-
+  name: bancomat
+  label: Bancomat
+  group: other
+-
+  name: abn
+  label: ABN
+  group: bank_transfers
+-
+  name: barclays
+  label: Barclays
+  group: bank_transfers
+-
+  name: bnp
+  label: BNP
+  group: bank_transfers
+-
+  name: creditagricole
+  label: Credit Agricole
+  group: bank_transfers
+-
+  name: erste
+  label: Erste
+  group: bank_transfers
+-
+  name: lloyds
+  label: LLoyds
+  group: bank_transfers
+-
+  name: natwest
+  label: Natwest
+  group: bank_transfers
+-
+  name: rabobank
+  label: Rabobank
+  group: bank_transfers
+-
+  name: societegenerale
+  label: Societe Generale
+  group: bank_transfers
+-
+  name: sparda
+  label: Sparda
+  group: bank_transfers
+-
+  name: sparkasse
+  label: Sparkasse
+  group: bank_transfers
+-
+  name: volksbank
+  label: Volksbank
+  group: bank_transfers
+-
+  name: volt
+  label: Volt
+  group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
