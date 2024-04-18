@@ -2242,3 +2242,7 @@
   name: volt
   label: Volt
   group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
