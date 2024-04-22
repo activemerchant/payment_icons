@@ -2211,10 +2211,10 @@
   label: Qliro
   group: other
 -
-  name: overstock_citi_cobrand
-  label: Overstock Master Card
+  name: overstockciticobrand
+  label: Overstock Mastercard
   group: credit_cards
 -
-  name: overstock_citi_plcc
+  name: overstockcitiplcc
   label: Overstock Credit Card
   group: credit_cards
