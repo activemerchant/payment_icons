@@ -2210,3 +2210,7 @@
   name: qliro
   label: Qliro
   group: other
+-
+  name: knaken
+  label: Knaken Settle
+  group: cryptocurrencies
