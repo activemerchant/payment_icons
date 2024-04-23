@@ -1275,6 +1275,14 @@
   label: Synchrony Pay
   group: other
 -
+  name: progressiveleasing
+  label: Progressive Leasing
+  group: other
+-
+  name: koalafi
+  label: Koalafi
+  group: other
+-
   name: truemoney_pay
   label: TrueMoney Pay
   group: wallets
@@ -1674,6 +1682,10 @@
   name: omannet
   label: OmanNet
   group: credit_cards
+-
+  name: cashew
+  label: cashew
+  group: other
 -
   name: tabby
   label: Tabby
@@ -2120,9 +2132,85 @@
   group: credit_cards
 -
   name: mercadocredito
-  label: Mercado Credito
+  label: Mercado Crédito
   group: wallets
 -
   name: floatpayments
   label: Float Payments
+  group: other
+-
+  name: truelayer
+  label: TrueLayer
+  group: bank_transfers
+-
+  name: ada
+  label: Cardano
+  group: cryptocurrencies
+-
+  name: sepadirectdebit
+  label: SEPA Direct Debit
+  group: other
+-
+  name: simplepay
+  label: Simple Pay
+  group: other
+-
+  name: clip
+  label: Clip
+  group: other
+-
+  name: todopay
+  label: Todopay
+  group: other
+-
+  name: resolvepay
+  label: Resolve Pay
+  group: other
+- 
+  name: taly
+  label: Taly
+  group: other
+-
+  name: fintoc
+  label: Fintoc
+  group: bank_transfers
+-
+  name: wise
+  label: Wise
+  group: bank_transfers
+-
+  name: lpb
+  label: LPB
+  group: bank_transfers
+-
+  name: pastpay
+  label: PastPay
+  group: other
+-
+  name: urbo
+  label: Urbo
+  group: bank_transfers
+-
+  name: katapult
+  label: Katapult
+  group: other
+-
+  name: bancomat
+  label: Bancomat
+  group: other
+-
+  name: favepay
+  label: FavePay
+  group: other
+-
+  name: tcf
+  label: Telefónica Consumer Finance
+  group: other
+-
+  name: orangemobilemoney
+  label: Orange Mobile Money
+  group: wallets
+-
+  name: qliro
+  label: Qliro
   group: other
