@@ -879,10 +879,6 @@
   label: MTN Mobile Money
   group: wallets
 -
-  name: orangemobilemoney
-  label: Orange Mobile Money
-  group: wallets
--
   name: fashioncheque
   label: Fashioncheque
   group: other
@@ -2139,9 +2135,6 @@
   label: Float Payments
   group: other
 -
-  name: pastpay
-  label: PastPay
-  group: other-
   name: truelayer
   label: TrueLayer
   group: bank_transfers
