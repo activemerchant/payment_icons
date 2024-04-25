@@ -2186,6 +2186,10 @@
   label: LPB
   group: bank_transfers
 -
+  name: pastpay
+  label: PastPay
+  group: other
+-
   name: urbo
   label: Urbo
   group: bank_transfers
@@ -2198,16 +2202,20 @@
   label: Bancomat
   group: other
 -
-  name: orangemobilemoney
-  label: Orange Mobile Money
-  group: wallets
+  name: favepay
+  label: FavePay
+  group: other
 -
   name: tcf
   label: Telefónica Consumer Finance
   group: other
 -
-  name: favepay
-  label: FavePay
+  name: orangemobilemoney
+  label: Orange Mobile Money
+  group: wallets
+-
+  name: qliro
+  label: Qliro
   group: other
 -
   name: centi
