@@ -2210,3 +2210,7 @@
   name: qliro
   label: Qliro
   group: other
+-
+  name: banco_azteca
+  label: Banco Azteca
+  group: wallets
