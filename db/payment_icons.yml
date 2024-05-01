@@ -2222,3 +2222,15 @@
   name: qliro
   label: Qliro
   group: other
+-
+  name: souhoola
+  label: Souhoola
+  group: other
+-
+  name: aman
+  label: Aman
+  group: other
+-
+  name: forsa
+  label: Forsa
+  group: other
