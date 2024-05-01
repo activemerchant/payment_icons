@@ -2296,5 +2296,5 @@
   group: bank_transfers
 -
   name: cembrapay
-  label: cembrapay
+  label: CembraPay
   group: other
