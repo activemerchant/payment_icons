@@ -1879,6 +1879,10 @@
   label: FreedomPay
   group: other
 -
+  name: bestbuycard
+  label: Best Buy Card
+  group: other
+-
   name: clerq
   label: Clerq
   group: bank_transfers
@@ -2115,6 +2119,10 @@
   label: Underpay
   group: bank_transfers
 -
+  name: stoov
+  label: Stoov
+  group: other
+-
   name: pfpay
   label: PostFinance Pay
   group: other
@@ -2133,6 +2141,10 @@
 -
   name: floatpayments
   label: Float Payments
+  group: other
+-
+  name: notyd
+  label: NOTYD
   group: other
 -
   name: truelayer
@@ -2209,6 +2221,18 @@
 -
   name: qliro
   label: Qliro
+  group: other
+-
+  name: souhoola
+  label: Souhoola
+  group: other
+-
+  name: aman
+  label: Aman
+  group: other
+-
+  name: forsa
+  label: Forsa
   group: other
 -
   name: landbank
