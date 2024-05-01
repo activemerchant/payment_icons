@@ -2219,6 +2219,10 @@
   label: Orange Mobile Money
   group: wallets
 -
+  name: metrobank
+  label: Metro Bank
+  group: bank_transfers
+-
   name: qliro
   label: Qliro
   group: other
