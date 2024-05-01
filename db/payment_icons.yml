@@ -2139,6 +2139,10 @@
   label: Float Payments
   group: other
 -
+  name: notyd
+  label: NOTYD
+  group: other
+-
   name: truelayer
   label: TrueLayer
   group: bank_transfers
