@@ -1879,6 +1879,10 @@
   label: FreedomPay
   group: other
 -
+  name: bestbuycard
+  label: Best Buy Card
+  group: other
+-
   name: clerq
   label: Clerq
   group: bank_transfers
