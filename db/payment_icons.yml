@@ -2242,3 +2242,7 @@
   name: landbank
   label: Land Bank
   group: bank_transfers
+-
+  name: snapmint
+  label: Snapmint
+  group: other
