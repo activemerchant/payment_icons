@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.7.38)
+    payment_icons (1.7.39)
       frozen_record
       railties (>= 5.0)
       sassc-rails
@@ -114,9 +114,9 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
-    method_source (1.0.0)
+    method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minitest (5.22.3)
     mutex_m (0.2.0)
     net-imap (0.4.10)
@@ -129,7 +129,7 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.1)
-    nokogiri (1.16.3)
+    nokogiri (1.16.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     pry (0.14.2)
@@ -175,10 +175,10 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
-    rake (13.2.0)
+    rake (13.2.1)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    reline (0.5.0)
+    reline (0.5.4)
       io-console (~> 0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -217,4 +217,4 @@ DEPENDENCIES
   rails (>= 5.0)
 
 BUNDLED WITH
-   2.5.3
+   2.4.4
