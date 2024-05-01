@@ -2115,6 +2115,10 @@
   label: Underpay
   group: bank_transfers
 -
+  name: stoov
+  label: Stoov
+  group: other
+-
   name: pfpay
   label: PostFinance Pay
   group: other
