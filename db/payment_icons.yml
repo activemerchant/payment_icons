@@ -2246,3 +2246,7 @@
   name: snapmint
   label: Snapmint
   group: other
+-
+  name: dinacard
+  label: DinaCard
+  group: credit_cards
