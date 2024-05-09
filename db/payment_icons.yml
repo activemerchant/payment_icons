@@ -2246,6 +2246,10 @@
   name: snapmint
   label: Snapmint
   group: other
+-  
+  name: simpl
+  label: Simpl
+  group: other
 -
   name: centi
   label: Centi
