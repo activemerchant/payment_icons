@@ -2227,10 +2227,6 @@
   label: Qliro
   group: other
 -
-  name: in3viaideal
-  label: in3 via iDEAL
-  group: other
--
   name: souhoola
   label: Souhoola
   group: other
