@@ -2246,3 +2246,7 @@
   name: snapmint
   label: Snapmint
   group: other
+-
+  name: paynowmbank
+  label: Paynow mBank
+  group: other
