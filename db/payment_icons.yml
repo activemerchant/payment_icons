@@ -2251,10 +2251,6 @@
   label: Snapmint
   group: other
 -
-  name: paynowmbank
-  label: Paynow mBank
-  group: other
--
   name: overstockciticobrand
   label: Overstock Mastercard
   group: credit_cards
