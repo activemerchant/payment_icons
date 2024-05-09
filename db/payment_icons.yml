@@ -2251,6 +2251,10 @@
   label: Simpl
   group: other
 -
+  name: tiptop
+  label: TipTop
+  group: other
+-
   name: centi
   label: Centi
   group: cryptocurrencies
