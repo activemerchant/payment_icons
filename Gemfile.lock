@@ -84,7 +84,7 @@ GEM
       mutex_m
       tzinfo (~> 2.0)
     base64 (0.2.0)
-    bigdecimal (3.1.8)
+    bigdecimal (3.1.7)
     builder (3.2.4)
     bump (0.10.0)
     coderay (1.1.3)
@@ -99,11 +99,11 @@ GEM
       activemodel
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.5)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.13.1)
-      rdoc (>= 4.0.0)
+    irb (1.12.0)
+      rdoc
       reline (>= 0.4.2)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -119,7 +119,7 @@ GEM
     mini_portile2 (2.8.6)
     minitest (5.22.3)
     mutex_m (0.2.0)
-    net-imap (0.4.11)
+    net-imap (0.4.10)
       date
       net-protocol
     net-pop (0.1.2)
@@ -128,7 +128,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.3)
+    nio4r (2.7.1)
     nokogiri (1.16.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -178,7 +178,7 @@ GEM
     rake (13.2.1)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    reline (0.5.6)
+    reline (0.5.4)
       io-console (~> 0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -217,4 +217,4 @@ DEPENDENCIES
   rails (>= 5.0)
 
 BUNDLED WITH
-   2.5.3
+   2.4.4
