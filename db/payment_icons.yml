@@ -1841,11 +1841,11 @@
 -
   name: duitnow
   label: DuitNow
-  group: other  
-- 
+  group: other
+-
   name: sympl
   label: Sympl
-  group: other    
+  group: other
 -
   name: paid
   label: Paid
@@ -2030,7 +2030,7 @@
   name: gmovirtualaccount
   label: GMO VirtualAccount
   group: bank_transfers
-- 
+-
   name: slicefnbo
   label: Slice by FNBO
   group: other
@@ -2066,11 +2066,11 @@
   name: glbepaypal
   label: Global-E Paypal
   group: other
-- 
+-
   name: glbeplus
   label: Global-E Plus
   group: other
-- 
+-
   name: qasitli
   label: Qasitli
   group: other
@@ -2105,7 +2105,7 @@
 -
   name: chinabank
   label: Chinabank
-  group: bank_transfers  
+  group: bank_transfers
 -
   name: timepayment
   label: TimePayment
@@ -2130,7 +2130,7 @@
   name: sveacheckout
   label: Svea Checkout
   group: other
-- 
+-
   name: oca
   label: OCA
   group: credit_cards
@@ -2174,7 +2174,7 @@
   name: resolvepay
   label: Resolve Pay
   group: other
-- 
+-
   name: taly
   label: Taly
   group: other
@@ -2227,6 +2227,10 @@
   label: Qliro
   group: other
 -
+  name: in3viaideal
+  label: in3 via iDEAL
+  group: other
+-
   name: souhoola
   label: Souhoola
   group: other
@@ -2250,3 +2254,31 @@
   name: paynowmbank
   label: Paynow mBank
   group: other
+-
+  name: overstockciticobrand
+  label: Overstock Mastercard
+  group: credit_cards
+-
+  name: overstockcitiplcc
+  label: Overstock Credit Card
+  group: credit_cards
+-  
+  name: simpl
+  label: Simpl
+  group: other
+-
+  name: tiptop
+  label: TipTop
+  group: other
+-
+  name: centi
+  label: Centi
+  group: cryptocurrencies
+-
+  name: reka
+  label: Reka
+  group: other
+-
+  name: payrexxbanktransfer
+  label: Payrexx Bank Transfer
+  group: bank_transfers
