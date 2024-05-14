@@ -2211,6 +2211,6 @@
   label: Qliro
   group: other
 -
-  name: banco_azteca
+  name: bancoazteca
   label: Banco Azteca
   group: wallets
