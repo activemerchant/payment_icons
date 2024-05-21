@@ -571,6 +571,14 @@
   label: GrabPay
   group: wallets
 -
+  name: eftposau
+  label: Eftposau
+  group: credit_cards
+-
+  name: eftpos_au
+  label: Eftpos
+  group: credit_cards
+-
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
