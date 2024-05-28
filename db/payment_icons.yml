@@ -2282,3 +2282,7 @@
   name: payrexxbanktransfer
   label: Payrexx Bank Transfer
   group: bank_transfers
+-
+  name: sistecredito
+  label: Sistecredito
+  group: other
