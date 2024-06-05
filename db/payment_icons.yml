@@ -2219,6 +2219,10 @@
   label: Orange Mobile Money
   group: wallets
 -
+  name: sistecredito
+  label: Sistecredito
+  group: other
+-
   name: metrobank
   label: Metro Bank
   group: bank_transfers
@@ -2282,6 +2286,22 @@
   name: payrexxbanktransfer
   label: Payrexx Bank Transfer
   group: bank_transfers
+-
+  name: dinacard
+  label: DinaCard
+  group: credit_cards
+-
+  name: knakensettle
+  label: Knaken Settle
+  group: cryptocurrencies
+-
+  name: escrowcom
+  label: Escrow.com
+  group: bank_transfers
+-
+  name: cembrapay
+  label: CembraPay
+  group: other
 -
   name: zustaina
   label: Zustaina
