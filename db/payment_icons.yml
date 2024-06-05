@@ -2287,6 +2287,10 @@
   label: Payrexx Bank Transfer
   group: bank_transfers
 -
+  name: knakensettle
+  label: Knaken Settle
+  group: cryptocurrencies
+-
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
