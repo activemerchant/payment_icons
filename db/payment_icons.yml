@@ -2294,3 +2294,7 @@
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
+-
+  name: cembrapay
+  label: CembraPay
+  group: other
