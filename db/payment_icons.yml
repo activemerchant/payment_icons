@@ -2287,6 +2287,10 @@
   label: Payrexx Bank Transfer
   group: bank_transfers
 -
+  name: dinacard
+  label: DinaCard
+  group: credit_cards
+-
   name: knakensettle
   label: Knaken Settle
   group: cryptocurrencies
