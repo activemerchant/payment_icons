@@ -2282,3 +2282,8 @@
   name: payrexxbanktransfer
   label: Payrexx Bank Transfer
   group: bank_transfers
+-
+  name: escrowcom
+  label: Escrow.com
+  group: bank_transfers
+  
