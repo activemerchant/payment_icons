@@ -2219,6 +2219,10 @@
   label: Orange Mobile Money
   group: wallets
 -
+  name: sistecredito
+  label: Sistecredito
+  group: other
+-
   name: metrobank
   label: Metro Bank
   group: bank_transfers
@@ -2286,3 +2290,7 @@
   name: knakensettle
   label: Knaken Settle
   group: cryptocurrencies
+-
+  name: escrowcom
+  label: Escrow.com
+  group: bank_transfers
