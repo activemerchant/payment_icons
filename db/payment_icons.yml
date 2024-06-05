@@ -2302,3 +2302,7 @@
   name: cembrapay
   label: CembraPay
   group: other
+-
+  name: zustaina
+  label: Zustaina
+  group: gift_card
