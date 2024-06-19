@@ -2266,7 +2266,7 @@
   name: overstockcitiplcc
   label: Overstock Credit Card
   group: credit_cards
--  
+-
   name: simpl
   label: Simpl
   group: other
@@ -2302,3 +2302,7 @@
   name: cembrapay
   label: CembraPay
   group: other
+-
+  name: bancoazteca
+  label: Banco Azteca
+  group: wallets
