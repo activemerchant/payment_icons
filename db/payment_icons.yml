@@ -2302,3 +2302,7 @@
   name: cembrapay
   label: CembraPay
   group: other
+- 
+  name: ecocash
+  label: ecocash
+  group: wallets
