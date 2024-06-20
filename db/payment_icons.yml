@@ -2310,6 +2310,10 @@
   name: cembrapay
   label: CembraPay
   group: other
+- 
+  name: ecocash
+  label: ecocash
+  group: wallets
 -
   name: bancoazteca
   label: Banco Azteca
