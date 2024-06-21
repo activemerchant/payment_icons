@@ -2311,6 +2311,11 @@
   label: CembraPay
   group: other
 -
+  name: payright
+  label: Payright
+  group: other
+-
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+
