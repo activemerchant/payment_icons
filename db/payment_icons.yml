@@ -2314,3 +2314,7 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: militarystarcard
+  label: Military StarCard
+  group: credit_cards
