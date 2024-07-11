@@ -2314,3 +2314,11 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: multisafepay
+  label: MultiSafepay
+  group: other
+-
+  name: pay_after_delivery_instalments
+  label: Pay After Delivery Installments
+  group: other
