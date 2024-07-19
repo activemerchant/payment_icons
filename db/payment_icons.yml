@@ -571,6 +571,14 @@
   label: GrabPay
   group: wallets
 -
+  name: eftposau
+  label: Eftposau
+  group: credit_cards
+-
+  name: eftpos_au
+  label: Eftpos
+  group: credit_cards
+-
   name: eft_secure
   label: EFT Secure
   group: bank_transfers
@@ -2266,7 +2274,7 @@
   name: overstockcitiplcc
   label: Overstock Credit Card
   group: credit_cards
--  
+-
   name: simpl
   label: Simpl
   group: other
@@ -2306,3 +2314,7 @@
   name: zustaina
   label: Zustaina
   group: gift_card
+-
+  name: bancoazteca
+  label: Banco Azteca
+  group: wallets
