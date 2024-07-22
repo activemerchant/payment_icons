@@ -2314,3 +2314,11 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: pointspay
+  label: Pointspay
+  group: other
+-
+  name: flyingblueplus
+  label: Flying Blue+
+  group: other
