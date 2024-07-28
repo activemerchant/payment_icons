@@ -2314,3 +2314,35 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: aqui-pago
+  label: Aqui Pago
+  group: other
+-
+  name: giros-claro
+  label: Giros Claro
+  group: wallets
+-
+  name: pago-express
+  label: Pago Express
+  group: other
+-
+  name: personal-pay
+  label: Personal Pay
+  group: wallets
+-
+  name: tigo-money
+  label: Tigo Money
+  group: wallets
+-
+  name: wally
+  label: Wally
+  group: wallets
+-
+  name: wepa
+  label: Wepa
+  group: other
+-
+  name: zimple
+  label: Zimple
+  group: wallets
