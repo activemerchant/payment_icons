@@ -2314,3 +2314,7 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+
+- name: vbucks
+  label: V-Bucks
+  group: other
