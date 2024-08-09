@@ -2319,6 +2319,6 @@
   label: MultiSafepay
   group: other
 -
-  name: pay_after_delivery_instalments
+  name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
