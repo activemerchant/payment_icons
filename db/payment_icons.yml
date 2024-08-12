@@ -91,6 +91,10 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: solanapayhelio
+  label: Solana Pay
+  group: cryptocurrencies
+-
   name: bnbchain
   label: BNB Chain
   group: cryptocurrencies
