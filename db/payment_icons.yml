@@ -2358,3 +2358,43 @@
   name: payrexxbanktransfer
   label: Payrexx Bank Transfer
   group: bank_transfers
+-
+  name: dinacard
+  label: DinaCard
+  group: credit_cards
+-
+  name: knakensettle
+  label: Knaken Settle
+  group: cryptocurrencies
+-
+  name: escrowcom
+  label: Escrow.com
+  group: bank_transfers
+-
+  name: cembrapay
+  label: CembraPay
+  group: other
+-
+  name: payright
+  label: Payright
+  group: other
+-
+  name: bancoazteca
+  label: Banco Azteca
+  group: wallets
+-
+  name: venusplcc
+  label: Venus Credit Card
+  group: credit_cards
+-
+  name: efecty
+  label: Efecty
+  group: other
+-
+  name: nequi
+  label: Nequi
+  group: wallets
+-
+  name: yape
+  label: Yape
+  group: wallets
