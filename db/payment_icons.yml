@@ -2322,3 +2322,15 @@
   name: venusplcc
   label: Venus Credit Card
   group: credit_cards
+-
+  name: efecty
+  label: Efecty
+  group: other
+-
+  name: nequi
+  label: Nequi
+  group: wallets
+-
+  name: yape
+  label: Yape
+  group: wallets
