@@ -2311,6 +2311,10 @@
   label: CembraPay
   group: other
 -
+  name: payright
+  label: Payright
+  group: other
+-
   name: bancoazteca
   label: Banco Azteca
   group: wallets
@@ -2318,3 +2322,7 @@
   name: aba
   label: aba bank
   group: wallets
+-
+  name: venusplcc
+  label: Venus Credit Card
+  group: credit_cards
