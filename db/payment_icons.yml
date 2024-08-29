@@ -239,6 +239,22 @@
   label: mobicred
   group: other
 -
+  name: stripe
+  label: Stripe
+  group: other
+-
+  name: adyen
+  label: Adyen
+  group: other
+-
+  name: braintree
+  label: Braintree
+  group: other
+-
+  name: authorizenet
+  label: Authorize Net
+  group: other
+-
   name: payd
   label: payD
   group: other
