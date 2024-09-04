@@ -239,6 +239,22 @@
   label: mobicred
   group: other
 -
+  name: stripe
+  label: Stripe
+  group: other
+-
+  name: adyen
+  label: Adyen
+  group: other
+-
+  name: braintree
+  label: Braintree
+  group: other
+-
+  name: authorizenet
+  label: Authorize Net
+  group: other
+-
   name: payd
   label: payD
   group: other
@@ -2311,6 +2327,10 @@
   label: CembraPay
   group: other
 -
+  name: payright
+  label: Payright
+  group: other
+-
   name: bancoazteca
   label: Banco Azteca
   group: wallets
@@ -2318,3 +2338,7 @@
   name: onlinebanktransfer
   label: Online Banktransfer
   group: bank_transfers
+-
+  name: venusplcc
+  label: Venus Credit Card
+  group: credit_cards
