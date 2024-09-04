@@ -2338,3 +2338,7 @@
   name: venusplcc
   label: Venus Credit Card
   group: credit_cards
+-
+  name: paysquad
+  label: Paysquad
+  group: other
