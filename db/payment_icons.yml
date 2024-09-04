@@ -2339,6 +2339,14 @@
   label: Banco Azteca
   group: wallets
 -
+  name: pointspay
+  label: Pointspay
+  group: other
+-
+  name: flyingblueplus
+  label: Flying Blue+
+  group: other
+-
   name: onlinebanktransfer
   label: Online Banktransfer
   group: bank_transfers
