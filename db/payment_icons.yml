@@ -2339,6 +2339,10 @@
   label: Banco Azteca
   group: wallets
 -
+  name: onlinebanktransfer
+  label: Online Banktransfer
+  group: bank_transfers
+-
   name: venusplcc
   label: Venus Credit Card
   group: credit_cards
