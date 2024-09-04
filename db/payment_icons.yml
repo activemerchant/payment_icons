@@ -2322,3 +2322,7 @@
   name: venusplcc
   label: Venus Credit Card
   group: credit_cards
+-
+  name: codensa
+  label: Codensa
+  group: credit_cards
