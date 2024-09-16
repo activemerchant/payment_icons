@@ -2357,6 +2357,7 @@
 -
   name: paysquad
   label: Paysquad
+  group: other
 -
   name: multisafepay
   label: MultiSafepay
