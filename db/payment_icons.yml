@@ -2318,3 +2318,23 @@
   name: wingbank
   label: Wing Bank
   group: bank_transfers
+-
+  name: pointspay
+  label: Pointspay
+  group: other
+-
+  name: flyingblueplus
+  label: Flying Blue+
+  group: other
+-
+  name: onlinebanktransfer
+  label: Online Banktransfer
+  group: bank_transfers
+-
+  name: venusplcc
+  label: Venus Credit Card
+  group: credit_cards
+-
+  name: paysquad
+  label: Paysquad
+  group: other
