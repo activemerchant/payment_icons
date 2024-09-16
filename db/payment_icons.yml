@@ -2315,10 +2315,6 @@
   label: Banco Azteca
   group: wallets
 -
-  name: wingbank
-  label: Wing Bank
-  group: bank_transfers
--
   name: pointspay
   label: Pointspay
   group: other
@@ -2338,3 +2334,7 @@
   name: paysquad
   label: Paysquad
   group: other
+-
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
