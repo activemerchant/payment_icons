@@ -2387,6 +2387,10 @@
   label: Venus Credit Card
   group: credit_cards
 -
+  name: paysquad
+  label: Paysquad
+  group: other
+-
   name: efecty
   label: Efecty
   group: other
