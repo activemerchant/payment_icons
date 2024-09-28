@@ -2358,3 +2358,7 @@
   name: paysquad
   label: Paysquad
   group: other
+-
+  name: jazzcash
+  label: JazzCash
+  group: wallet
