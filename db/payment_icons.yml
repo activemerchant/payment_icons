@@ -91,6 +91,10 @@
   label: Solana Pay
   group: cryptocurrencies
 -
+  name: solanapayhelio
+  label: Solana Pay
+  group: cryptocurrencies
+-
   name: bnbchain
   label: BNB Chain
   group: cryptocurrencies
@@ -237,6 +241,22 @@
 -
   name: mobicred
   label: mobicred
+  group: other
+-
+  name: stripe
+  label: Stripe
+  group: other
+-
+  name: adyen
+  label: Adyen
+  group: other
+-
+  name: braintree
+  label: Braintree
+  group: other
+-
+  name: authorizenet
+  label: Authorize Net
   group: other
 -
   name: payd
@@ -2326,3 +2346,23 @@
   name: venusplcc
   label: Venus Credit Card
   group: credit_cards
+- 
+  name: pointspay
+  label: Pointspay
+  group: other
+-
+  name: flyingblueplus
+  label: Flying Blue+
+  group: other
+-
+  name: onlinebanktransfer
+  label: Online Banktransfer
+  group: bank_transfers
+-
+  name: venusplcc
+  label: Venus Credit Card
+  group: credit_cards
+-
+  name: paysquad
+  label: Paysquad
+  group: other
