@@ -2358,3 +2358,7 @@
   name: paysquad
   label: Paysquad
   group: other
+-
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
