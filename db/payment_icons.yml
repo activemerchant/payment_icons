@@ -2339,6 +2339,10 @@
   label: Banco Azteca
   group: wallets
 -
+  name: vbucks
+  label: V-Bucks
+  group: other
+-
   name: pointspay
   label: Pointspay
   group: other
