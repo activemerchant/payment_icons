@@ -2286,3 +2286,79 @@
   name: monzo
   label: Monzo
   group: bank_transfers
+-
+  name: favepay
+  label: FavePay
+  group: other
+-
+  name: tcf
+  label: Telefónica Consumer Finance
+  group: other
+-
+  name: orangemobilemoney
+  label: Orange Mobile Money
+  group: wallets
+-
+  name: metrobank
+  label: Metro Bank
+  group: bank_transfers
+-
+  name: qliro
+  label: Qliro
+  group: other
+-
+  name: in3viaideal
+  label: in3 via iDEAL
+  group: other
+-
+  name: souhoola
+  label: Souhoola
+  group: other
+-
+  name: aman
+  label: Aman
+  group: other
+-
+  name: forsa
+  label: Forsa
+  group: other
+-
+  name: landbank
+  label: Land Bank
+  group: bank_transfers
+-
+  name: snapmint
+  label: Snapmint
+  group: other
+-
+  name: paynowmbank
+  label: Paynow mBank
+  group: other
+-
+  name: overstockciticobrand
+  label: Overstock Mastercard
+  group: credit_cards
+-
+  name: overstockcitiplcc
+  label: Overstock Credit Card
+  group: credit_cards
+-
+  name: simpl
+  label: Simpl
+  group: other
+-
+  name: tiptop
+  label: TipTop
+  group: other
+-
+  name: centi
+  label: Centi
+  group: cryptocurrencies
+-
+  name: reka
+  label: Reka
+  group: other
+-
+  name: payrexxbanktransfer
+  label: Payrexx Bank Transfer
+  group: bank_transfers
