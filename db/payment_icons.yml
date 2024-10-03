@@ -2318,7 +2318,7 @@
   name: overstockcitiplcc
   label: Overstock Credit Card
   group: credit_cards
--  
+-
   name: simpl
   label: Simpl
   group: other
