@@ -2228,7 +2228,7 @@
   group: bank_transfers
 -
   name: lloyds
-  label: LLoyds
+  label: Lloyds
   group: bank_transfers
 -
   name: natwest
