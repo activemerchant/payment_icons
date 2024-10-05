@@ -2358,3 +2358,7 @@
   name: paysquad
   label: Paysquad
   group: other
+-
+  name: yape
+  label: Yape
+  group: wallets
