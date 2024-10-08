@@ -2450,7 +2450,7 @@
   name: paysquad
   label: Paysquad
   group: other
--
+- 
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2531,7 +2531,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado
+  name: bancoestado 
   label: Banco Estado
   group: bank_transfers
 -
@@ -2939,10 +2939,6 @@
   label: Ach
   group: bank_transfers
 -
-  name: achdirectdebit
-  label: Ach Direct Debit
-  group: bank_transfers
--
   name: bacs
   label: Bacs
   group: bank_transfers
@@ -3031,22 +3027,15 @@
   label: Avarda Pay Later
   group: other
 -
-  name: bobpayinstanteft
-  label: Bob Pay Instant EFT
-  group: bank_transfers
+  name: flexhsa
+  label: Flex HSA
+  group: other
 -
-  name: bobpaymanualeft
-  label: Bob Pay Manual EFT
-  group: bank_transfers
+  name: flexfsa
+  label: Flex FSA
+  group: other
 -
-  name:  capitecpay
-  label: Capitec Pay
-  group: bank_transfers
+  name: flex
+  label: Flex
+  group: other
 -
-  name:  scantopay
-  label: Scan to Pay
-  group: bank_transfers
--
-  name:  payshap
-  label: PayShap
-  group: bank_transfers
