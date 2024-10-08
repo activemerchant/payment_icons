@@ -2954,3 +2954,27 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+  name: bob_pay_instant_eft
+  label: Bob Pay Instant EFT
+  group: bank_transfers
+-
+  name: bob_pay_manual_eft
+  label: Bob Pay Manual EFT
+  group: bank_transfers
+-
+  name: bob_pay_credit_card
+  label: Bob Pay Credit Card
+  group: credit_cards
+-
+  name: bob_pay_capitec_pay
+  label: Bob Pay Capitec Pay
+  group: bank_transfers
+-
+  name: bob_pay_scan_to_pay
+  label: Bob Pay Scan To Pay
+  group: bank_transfers
+-
+  name: bob_pay_pay_shap
+  label: Bob Pay PayShap
+  group: bank_transfers
