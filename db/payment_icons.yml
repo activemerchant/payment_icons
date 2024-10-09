@@ -2359,6 +2359,10 @@
   label: Paysquad
   group: other
 -
+  name: codensa
+  label: Codensa
+  group: credit_cards
+-
   name: bob_pay_instant_eft
   label: Bob Pay Instant EFT
   group: bank_transfers
