@@ -2331,6 +2331,10 @@
   label: CembraPay
   group: other
 -
+  name: zustaina
+  label: Zustaina
+  group: other
+-
   name: payright
   label: Payright
   group: other
