@@ -2358,3 +2358,11 @@
   name: paysquad
   label: Paysquad
   group: other
+-
+  name: multisafepay
+  label: MultiSafepay
+  group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
