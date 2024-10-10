@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.7.45)
+    payment_icons (1.7.47)
       frozen_record
       railties (>= 5.0)
       sassc-rails
@@ -95,10 +95,10 @@ GEM
       activemodel
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.14.0)
+    irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     logger (1.6.1)
@@ -174,7 +174,7 @@ GEM
     rake (13.2.1)
     rdoc (6.7.0)
       psych (>= 4.0.0)
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -199,7 +199,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     useragent (0.16.10)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
