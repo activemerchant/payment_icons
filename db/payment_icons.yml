@@ -2366,3 +2366,7 @@
   name: codensa
   label: Codensa
   group: credit_cards
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
