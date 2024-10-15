@@ -131,6 +131,10 @@
   label: Base
   group: cryptocurrencies
 -
+  name: worldchain
+  label: World Chain
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
