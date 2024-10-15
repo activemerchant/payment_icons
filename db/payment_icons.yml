@@ -2251,6 +2251,10 @@
   label: Sistecredito
   group: other
 -
+  name: sumas_pay
+  label: Sumas Pay
+  group: other
+-
   name: metrobank
   label: Metro Bank
   group: bank_transfers
