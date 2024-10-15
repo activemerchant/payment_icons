@@ -2382,3 +2382,7 @@
   name: heylightred
   label: HeyLight red
   group: other
+-
+  name: etihadguestpay
+  label: Etihad GuestPay
+  group: other
