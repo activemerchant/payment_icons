@@ -2374,3 +2374,11 @@
   name: gmoatokara
   label: GMO Atokara
   group: other
+-
+  name: heylight
+  label: HeyLight
+  group: other
+-
+  name: heylightred
+  label: HeyLight red
+  group: other
