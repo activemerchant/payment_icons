@@ -2366,3 +2366,11 @@
   name: codensa
   label: Codensa
   group: credit_cards
+-
+  name: heylight
+  label: HeyLight
+  group: other
+-
+  name: heylightred
+  label: HeyLight red
+  group: other
