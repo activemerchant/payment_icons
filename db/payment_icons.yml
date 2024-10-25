@@ -2363,6 +2363,10 @@
   label: Paysquad
   group: other
 -
+  name: yape
+  label: Yape
+  group: wallets
+-
   name: codensa
   label: Codensa
   group: credit_cards
