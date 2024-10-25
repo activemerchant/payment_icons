@@ -2331,6 +2331,10 @@
   label: CembraPay
   group: other
 -
+  name: zustaina
+  label: Zustaina
+  group: other
+-
   name: payright
   label: Payright
   group: other
@@ -2362,3 +2366,7 @@
   name: yape
   label: Yape
   group: wallets
+-
+  name: codensa
+  label: Codensa
+  group: credit_cards
