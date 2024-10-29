@@ -719,8 +719,8 @@
   label: Standard Chartered
   group: bank_transfers
 -
-  name: afterpay
-  label: Afterpay
+  name: riverty
+  label: Riverty
   group: other
 -
   name: clearpay
