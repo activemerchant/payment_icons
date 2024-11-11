@@ -2366,3 +2366,11 @@
   name: codensa
   label: Codensa
   group: credit_cards
+-
+  name: konbini
+  label: Konbini
+  group: convenience_stores
+-
+  name: paybybankapp
+  label: Pay by Bank app
+  group: bank_transfers
