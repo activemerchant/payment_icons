@@ -2486,3 +2486,7 @@
   name: heylightred
   label: HeyLight red
   group: other
+-
+  name: ashley_plcc
+  label: Ashley Credit Card
+  group: credit_cards
