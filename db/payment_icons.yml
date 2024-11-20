@@ -643,8 +643,8 @@
   label: PagoEfectivo
   group: other
 -
-  name: ozow
-  label: Ozow
+  name: paybyeft
+  label: Pay By EFT
   group: bank_transfers
 -
   name: eps
