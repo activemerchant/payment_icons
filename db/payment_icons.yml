@@ -2482,3 +2482,7 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
+-
+  name: gmoatokara
+  label: GMO Atokara
+  group: other
