@@ -927,6 +927,10 @@
   label: PayU
   group: other
 -
+  name: conekta
+  label: Conekta
+  group: other
+-
   name: d_barai
   label: d Barai
   group: other
