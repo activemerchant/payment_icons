@@ -2363,6 +2363,10 @@
   label: Paysquad
   group: other
 -
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
+-
   name: codensa
   label: Codensa
   group: credit_cards
