@@ -2243,10 +2243,6 @@
   label: Societe Generale
   group: bank_transfers
 -
-  name: sparda
-  label: Sparda
-  group: bank_transfers
--
   name: sparkasse
   label: Sparkasse
   group: bank_transfers
