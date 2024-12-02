@@ -2425,7 +2425,7 @@
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
@@ -2478,7 +2478,3 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
--
-  name: efecty
-  label: Efecty
-  group: bank_transfers
