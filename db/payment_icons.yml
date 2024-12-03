@@ -2478,3 +2478,7 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
+-
+  name: daviplata
+  label: DaviPlata
+  group: wallets
