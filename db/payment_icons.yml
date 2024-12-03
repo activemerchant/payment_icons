@@ -2578,3 +2578,7 @@
   name: cbc
   label: CBC
   group: bank_transfers
+-
+  name: bancolombia
+  label: Bancolombia
+  group: bank_transfer
