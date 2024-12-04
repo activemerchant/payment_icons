@@ -2370,3 +2370,7 @@
   name: ventipay
   label: VentiPay
   group: other
+-
+  name: riverty
+  label: Riverty
+  group: other
