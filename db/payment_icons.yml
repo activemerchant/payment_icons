@@ -2371,6 +2371,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: ashleyplcc
+  label: Ashley Credit Card
+  group: credit_cards
+-
   name: heylight
   label: HeyLight
   group: other
