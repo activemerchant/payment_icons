@@ -2367,6 +2367,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: etihadguestpay
+  label: Etihad GuestPay
+  group: other
+-
   name: ventipay
   label: VentiPay
   group: other
