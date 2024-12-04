@@ -2371,6 +2371,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: gmoatokara
+  label: GMO Atokara
+  group: other
+-
   name: ashleyplcc
   label: Ashley Credit Card
   group: credit_cards
