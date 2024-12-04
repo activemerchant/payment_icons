@@ -2375,6 +2375,10 @@
   label: Ashley Credit Card
   group: credit_cards
 -
+  name: heylight
+  label: HeyLight
+  group: other
+-
   name: etihadguestpay
   label: Etihad GuestPay
   group: other
