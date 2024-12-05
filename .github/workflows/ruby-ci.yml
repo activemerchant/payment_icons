@@ -39,3 +39,4 @@ jobs:
 
       - name: Test
         run: bundle exec rake test
+
