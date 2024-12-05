@@ -1,3 +1,3 @@
 module PaymentIcons
-  VERSION = "1.7.47"
+  VERSION = "1.7.48"
 end
