@@ -2371,7 +2371,7 @@
   label: Codensa
   group: credit_cards
 -
-  name: kcp_creditcard
+  name: kcpcreditcard
   label: KCP Credit Card
   group: credit_cards
 -
