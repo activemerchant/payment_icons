@@ -2371,6 +2371,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: kcpcreditcard
+  label: KCP Credit Card
+  group: credit_cards
+-
   name: gmoatokara
   label: GMO Atokara
   group: other
@@ -2394,3 +2398,4 @@
   name: riverty
   label: Riverty
   group: other
+
