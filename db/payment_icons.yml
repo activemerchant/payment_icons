@@ -723,6 +723,10 @@
   label: Standard Chartered
   group: bank_transfers
 -
+  name: afterpay_us
+  label: Afterpay US
+  group: other
+-
   name: afterpay
   label: Afterpay
   group: other
