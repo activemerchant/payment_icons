@@ -2371,6 +2371,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
   name: gmoatokara
   label: GMO Atokara
   group: other
