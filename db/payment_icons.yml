@@ -2395,6 +2395,6 @@
   label: Riverty
   group: other
 -
-name: payafterdeliveryinstalments
-label: Pay After Delivery Installments
-group: other
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
