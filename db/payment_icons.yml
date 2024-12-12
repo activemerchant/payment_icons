@@ -43,6 +43,10 @@
   label: Ethereum
   group: cryptocurrencies
 -
+  name: usdt 
+  label: Tether (USDT)
+  group: cryptocurrencies
+-
   name: bitcoin
   label: Bitcoin
   group: cryptocurrencies
