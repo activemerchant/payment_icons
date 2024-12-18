@@ -131,6 +131,10 @@
   label: Base
   group: cryptocurrencies
 -
+  name: worldchain
+  label: World Chain
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
@@ -2378,4 +2382,27 @@
   name: codensa
   label: Codensa
   group: credit_cards
-
+-
+  name: gmoatokara
+  label: GMO Atokara
+  group: other
+-
+  name: ashleyplcc
+  label: Ashley Credit Card
+  group: credit_cards
+-
+  name: heylight
+  label: HeyLight
+  group: other
+-
+  name: etihadguestpay
+  label: Etihad GuestPay
+  group: other
+-
+  name: ventipay
+  label: VentiPay
+  group: other
+-
+  name: riverty
+  label: Riverty
+  group: other
