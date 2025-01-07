@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: rotterdam_pas
+  label: Rotterdam pas
+  group: other
