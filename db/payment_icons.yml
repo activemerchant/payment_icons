@@ -2525,4 +2525,8 @@
 -
   name: multisafepay
   label: MultiSafepay
+   group: other
+-
+  name: stadspas_amsterdam
+  label: Stadspas Amsterdam
   group: other
