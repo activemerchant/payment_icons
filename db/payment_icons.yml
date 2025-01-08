@@ -2462,3 +2462,7 @@
   name: powerpay
   label: Powerpay
   group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
