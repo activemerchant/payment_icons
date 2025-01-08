@@ -2398,3 +2398,7 @@
   name: whishcheckout
   label: Whish Checkout
   group: wallets
+-
+  name: powerpay
+  label: Powerpay
+  group: other
