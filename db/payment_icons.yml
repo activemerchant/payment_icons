@@ -2347,6 +2347,10 @@
   label: Banco Azteca
   group: wallets
 -
+  name: payitmonthly
+  label: PayItMonthly
+  group: other
+-
   name: pointspay
   label: Pointspay
   group: other
