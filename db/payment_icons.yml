@@ -2399,6 +2399,10 @@
   label: Whish Checkout
   group: wallets
 -
+  name: kcpcreditcard
+  label: KCP Credit Card
+  group: credit_cards
+-
   name: powerpay
   label: Powerpay
   group: other
