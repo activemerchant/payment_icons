@@ -2394,6 +2394,10 @@
   name: riverty
   label: Riverty
   group: other
+-
+  name: powerpay
+  label: Powerpay
+  group: other
 - 
   name: whishcheckout
   label: Whish Checkout
