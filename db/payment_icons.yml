@@ -2423,6 +2423,18 @@
   label: Paysquad
   group: other
 -
+  name: efecty
+  label: Efecty
+  group: other
+-
+  name: nequi
+  label: Nequi
+  group: wallets
+-
+  name: yape
+  label: Yape
+  group: wallets
+-
   name: codensa
   label: Codensa
   group: credit_cards
@@ -2461,6 +2473,10 @@
 -
   name: powerpay
   label: Powerpay
+  group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
   group: other
 -
   name: multisafepay
