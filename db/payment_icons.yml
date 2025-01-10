@@ -2367,7 +2367,7 @@
   label: Paysquad
   group: other
 - 
-  name: hsbc_uk_version
+  name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
 -
