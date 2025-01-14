@@ -131,6 +131,10 @@
   label: Base
   group: cryptocurrencies
 -
+  name: worldchain
+  label: World Chain
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
@@ -2235,6 +2239,58 @@
   label: Bancomat
   group: other
 -
+  name: abn
+  label: ABN
+  group: bank_transfers
+-
+  name: barclays
+  label: Barclays
+  group: bank_transfers
+-
+  name: bnp
+  label: BNP
+  group: bank_transfers
+-
+  name: creditagricole
+  label: Credit Agricole
+  group: bank_transfers
+-
+  name: erste
+  label: Erste
+  group: bank_transfers
+-
+  name: lloyds
+  label: Lloyds
+  group: bank_transfers
+-
+  name: natwest
+  label: Natwest
+  group: bank_transfers
+-
+  name: rabobank
+  label: Rabobank
+  group: bank_transfers
+-
+  name: societegenerale
+  label: Societe Generale
+  group: bank_transfers
+-
+  name: sparkasse
+  label: Sparkasse
+  group: bank_transfers
+-
+  name: volksbank
+  label: Volksbank
+  group: bank_transfers
+-
+  name: volt
+  label: Volt
+  group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
+-
   name: favepay
   label: FavePay
   group: other
@@ -2331,6 +2387,10 @@
   label: CembraPay
   group: other
 -
+  name: zustaina
+  label: Zustaina
+  group: other
+-
   name: payright
   label: Payright
   group: other
@@ -2338,6 +2398,10 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: payitmonthly
+  label: PayItMonthly
+  group: other
 -
   name: pointspay
   label: Pointspay
@@ -2359,6 +2423,62 @@
   label: Paysquad
   group: other
 -
-  name: payeverpaybybank
+  name: 
   label: payever Pay by Bank
   group: bank_transfers
+-
+  name: efecty
+  label: Efecty
+  group: other
+-
+  name: nequi
+  label: Nequi
+  group: wallets
+-
+  name: yape
+  label: Yape
+  group: wallets
+-
+  name: codensa
+  label: Codensa
+  group: credit_cards
+-
+  name: gmoatokara
+  label: GMO Atokara
+  group: other
+-
+  name: ashleyplcc
+  label: Ashley Credit Card
+  group: credit_cards
+-
+  name: heylight
+  label: HeyLight
+  group: other
+-
+  name: etihadguestpay
+  label: Etihad GuestPay
+  group: other
+-
+  name: ventipay
+  label: VentiPay
+  group: other
+-
+  name: riverty
+  label: Riverty
+  group: other
+- 
+  name: whishcheckout
+  label: Whish Checkout
+  group: wallets
+-
+  name: kcpcreditcard
+  label: KCP Credit Card
+  group: credit_cards
+-
+  name: powerpay
+  label: Powerpay
+  group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
