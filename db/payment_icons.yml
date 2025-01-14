@@ -2423,7 +2423,7 @@
   label: Paysquad
   group: other
 -
-  name: 
+  name: payeverpaybybank
   label: payever Pay by Bank
   group: bank_transfers
 -
