@@ -74,7 +74,7 @@ class PaymentIconTest < ActiveSupport::TestCase
       assert_equal "title", document.root.first_element_child.name,
         message: "The '#{payment_type}' SVG file should have a <title> tag as first child of the root <svg> tag"
 
-      expected_title = PaymentIcon.where(name: payment_type).present? ? PaymentIcon.where(name: payment_type).first.label : payment_type
+      expected_title = PaymentIcon.where(name: payment_type).present? ? PaymentIcon.where(name: payment_type).first.label : payment_type.titleize
       assert_equal expected_title, document.root.at('title').content,
         message: "The '#{payment_type}' SVG file does not have the appropriate <title> value"
 
