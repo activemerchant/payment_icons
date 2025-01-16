@@ -2469,7 +2469,7 @@
 -
   name: kcpcreditcard
   label: KCP Credit Card
-  group: credit_cards
+  group: other
 -
   name: powerpay
   label: Powerpay
