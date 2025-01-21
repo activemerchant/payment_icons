@@ -2375,8 +2375,8 @@
   label: DinaCard
   group: credit_cards
 -
-  name: knakensettle
-  label: Knaken Settle
+  name: gosettle
+  label: goSettle
   group: cryptocurrencies
 -
   name: escrowcom
