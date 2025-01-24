@@ -2478,3 +2478,15 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
+-
+  name: centrapay
+  label: Centrapay
+  group: other
+-
+  name: payap
+  label: Payap
+  group: other
+-
+  name: gift-station
+  label: Gift Station
+  group: other
