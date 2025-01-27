@@ -2462,6 +2462,10 @@
   name: riverty
   label: Riverty
   group: other
+-
+  name: stadspas_amsterdam
+  label: Stadspas Amsterdam
+  group: other
 - 
   name: whishcheckout
   label: Whish Checkout
