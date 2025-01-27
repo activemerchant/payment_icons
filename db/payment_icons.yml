@@ -2423,6 +2423,10 @@
   label: Paysquad
   group: other
 -
+  name: payeverpaybybank
+  label: payever Pay by Bank
+  group: bank_transfers
+-
   name: efecty
   label: Efecty
   group: other
