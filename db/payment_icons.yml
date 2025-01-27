@@ -2425,7 +2425,7 @@
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
