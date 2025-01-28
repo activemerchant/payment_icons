@@ -2402,3 +2402,51 @@
   name: yape
   label: Yape
   group: wallets
+-
+  name: codensa
+  label: Codensa
+  group: credit_cards
+-
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
+  name: gmoatokara
+  label: GMO Atokara
+  group: other
+-
+  name: ashleyplcc
+  label: Ashley Credit Card
+  group: credit_cards
+-
+  name: heylight
+  label: HeyLight
+  group: other
+-
+  name: etihadguestpay
+  label: Etihad GuestPay
+  group: other
+-
+  name: ventipay
+  label: VentiPay
+  group: other
+-
+  name: riverty
+  label: Riverty
+  group: other
+-
+  name: whishcheckout
+  label: Whish Checkout
+  group: wallets
+-
+  name: kcpcreditcard
+  label: KCP Credit Card
+  group: credit_cards
+-
+  name: powerpay
+  label: Powerpay
+  group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
