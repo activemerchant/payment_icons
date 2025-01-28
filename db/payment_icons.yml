@@ -2478,3 +2478,11 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
+-
+  name: screamtruck
+  label: Scream Truck
+  group: other
+-
+  name: screamtruckwallet
+  label: Scream Truck Wallet
+  group: other
