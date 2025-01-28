@@ -135,6 +135,10 @@
   label: World Chain
   group: cryptocurrencies
 -
+  name: worldchain
+  label: World Chain
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
@@ -2307,6 +2311,58 @@
   label: Monzo
   group: bank_transfers
 -
+  name: abn
+  label: ABN
+  group: bank_transfers
+-
+  name: barclays
+  label: Barclays
+  group: bank_transfers
+-
+  name: bnp
+  label: BNP
+  group: bank_transfers
+-
+  name: creditagricole
+  label: Credit Agricole
+  group: bank_transfers
+-
+  name: erste
+  label: Erste
+  group: bank_transfers
+-
+  name: lloyds
+  label: Lloyds
+  group: bank_transfers
+-
+  name: natwest
+  label: Natwest
+  group: bank_transfers
+-
+  name: rabobank
+  label: Rabobank
+  group: bank_transfers
+-
+  name: societegenerale
+  label: Societe Generale
+  group: bank_transfers
+-
+  name: sparkasse
+  label: Sparkasse
+  group: bank_transfers
+-
+  name: volksbank
+  label: Volksbank
+  group: bank_transfers
+-
+  name: volt
+  label: Volt
+  group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
+-
   name: favepay
   label: FavePay
   group: other
@@ -2411,6 +2467,10 @@
   label: Zustaina
   group: other
 -
+  name: zustaina
+  label: Zustaina
+  group: other
+-
   name: payright
   label: Payright
   group: other
@@ -2418,14 +2478,6 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
--
-  name: militarystarcard
-  label: Military StarCard
-  group: credit_cards
--
-  name: payitmonthly
-  label: PayItMonthly
-  group: other
 -
   name: pointspay
   label: Pointspay
@@ -2446,22 +2498,10 @@
   name: paysquad
   label: Paysquad
   group: other
-- 
-  name: hsbcukversion
-  label: HSBC Bank (UK version)
-  group: bank_transfers
--
-  name: wingbank
-  label: Wing Bank
-  group: bank_transfers
--
-  name: payeverpaybybank
-  label: payever Pay by Bank
-  group: bank_transfers
 -
   name: efecty
   label: Efecty
-  group: bank_transfers
+  group: other
 -
   name: nequi
   label: Nequi
@@ -2498,18 +2538,14 @@
   name: riverty
   label: Riverty
   group: other
--
+- 
   name: whishcheckout
   label: Whish Checkout
   group: wallets
 -
-  name: whishpay
-  label: Whish Pay
-  group: wallets
--
   name: kcpcreditcard
   label: KCP Credit Card
-  group: other
+  group: credit_cards
 -
   name: powerpay
   label: Powerpay
@@ -2518,446 +2554,6 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
--
-  name: neocuotas
-  label: Neocuotas
-  group: credit_cards
--
-  name: usdt
-  label: USDT
-  group: cryptocurrencies
--
-  name: bancoestado 
-  label: Banco Estado
-  group: bank_transfers
--
-  name: bancobice
-  label: Banco Bice
-  group: bank_transfers
--
-  name: bancodechile
-  label: Banco de Chile
-  group: bank_transfers
--
-  name: itau
-  label: Itau
-  group: bank_transfers
--
-  name: bancofalabella
-  label: Banco Falabella
-  group: bank_transfers
--
-  name: bancoedwards
-  label: Banco Edwards
-  group: bank_transfers
--
-  name: bancosecurity
-  label: Banco Security
-  group: bank_transfers
--
-  name: scotiabank
-  label: Scotiabank
-  group: bank_transfers
--
-  name: bci
-  label: BCI
-  group: bank_transfers
--
-  name: centrapay
-  label: Centrapay
-  group: other
--
-  name: payap
-  label: Payap
-  group: other
--
-  name: giftstation
-  label: Gift Station
-  group: other
--
-  name: wissel
-  label: Wissel.nl
-  group: other
--
-  name: screamtruck
-  label: Scream Truck
-  group: other
--
-  name: screamtruckwallet
-  label: Scream Truck Wallet
-  group: other
--
-  name: poweredbyansa
-  label: Powered by Ansa
-  group: other
--
-  name: poweredbyansastoredvalue
-  label: Powered by Ansa Stored Value
-  group: other
--
-  name: ansa
-  label: Ansa
-  group: other
--
-  name: ansastoredvalue
-  label: Ansa Stored Value
-  group: other
--
-  name: khqr
-  label: Khqr
-  group: wallets
--
-  name: daviplata
-  label: DaviPlata
-  group: wallets
--
-  name: multisafepay
-  label: MultiSafepay
-  group: other
--
-  name: cofidis3x
-  label: Cofidis en 3 fois
-  group: other
--
-  name: cofidis4x
-  label: Cofidis en 4 fois
-  group: other
--
-  name: ipwire
-  label: Virement SEPA
-  group: bank_transfers
--
-  name: ipwireinst
-  label: Virement SEPA Instantané
-  group: bank_transfers
--
-  name: purdeygiftcard
-  label: Purdey Giftcard
-  group: other
--
-  name: curacaopay
-  label: CuracaoPay 
-  group: other
--
-  name: novalnetinvoice
-  label: Novalnet Invoice
-  group: other
--
-  name: novalnetprepayment
-  label: Novalnet Prepayment
-  group: other
--
-  name: stadspasamsterdam
-  label: Stadspas Amsterdam
-  group: other
--
-  name: stadspasrotterdam
-  label: Stadspas Rotterdam
-  group: other
--
-  name: postepay
-  label: PostePay
-  group: credit_cards
--
-  name: cartebleue
-  label: Carte Bleue
-  group: credit_cards
--
-  name: nexi
-  label: Nexi
-  group: credit_cards
--
-  name: upgradeflexpay
-  label: Flex Pay
-  group: other
--
-  name: babycadeaubon
-  label: Babycadeaubon
-  group: other
--
-  name: mondupurple
-  label: Mondu
-  group: other
--
-  name: shopcash
-  label: Shop Cash
-  group: other
--
-  name: buckaroopaybybank
-  label: Buckaroo-PayByBank
-  group: bank_transfers
--
-  name: nubank
-  label: Nubank
-  group: bank_transfers
--
-  name: cbc
-  label: CBC
-  group: bank_transfers
--
-  name: benefitpay
-  label: Benefitpay
-  group: wallets
--
-  name: sslcommerz
-  label: Sslcommerz
-  group: wallets
--
-  name: arca
-  label: Arca
-  group: wallets
--
-  name: khalti
-  label: Khalti
-  group: wallets
--
-  name: esewa
-  label: Esewa
-  group: wallets
--
-  name: areeba
-  label: Areeba
-  group: credit_cards
--
-  name: ezcash
-  label: Ezcash
-  group: wallets
--
-  name: mcashcreditcard
-  label: M Cash Credit Card
-  group: credit_cards
--
-  name: postfinancenew
-  label: Postfinancenew
-  group: other
--
-  name: humo
-  label: Humo
-  group: credit_cards
--
-  name: uzcard
-  label: Uzcard
-  group: credit_cards
--
-  name: bumper
-  label: Bumper
-  group: wallets
--
-  name: novalnetcashpayment
-  label: Novalnet Barzahlen/viacash
-  group: other
--
-  name: tappay
-  label: TapPay
-  group: other
--
-  name: novalnetdirectdebitach
-  label: Novalnet Direct Debit ACH
-  group: other
--
-  name: mondu
-  label: Mondu
-  group: other
--
-  name: bancolombia
-  label: Bancolombia
-  group: bank_transfers
--
-  name: zaver
-  label: Zaver
-  group: other
--
-  name: novalnetinstalmentbyinvoice
-  label: Novalnet Instalment by Invoice
-  group: other
--
-  name: novalnetinstalmentbydirectdebitsepa
-  label: Novalnet Instalment by Direct Debit SEPA
-  group: other
--
-  name: crediviva
-  label: Crediviva
-  group: bank_transfers
--
-  name: safetypaycashpayment
-  label: SafetyPay cash payment
-  group: other
--
-  name: safetypaybanktransfer
-  label: SafetyPay bank transfer
-  group: bank_transfers
--
-  name: brite
-  label: Brite
-  group: other
--
-  name: artea
-  label: Artea
-  group: bank_transfers
--
-  name: horsesandgifts
-  label: Horses and Gifts
-  group: other
--
-  name: upas
-  label: U-Pas
-  group: other
--
-  name: cacpaywallet
-  label: CacpayWallet
-  group: wallets
--
-  name: qpay
-  label: Qpay
-  group: wallets
--
-  name: amwal
-  label: Amwal
-  group: other
--
-  name: bizumpaynlversion
-  label: Bizum
-  group: other
--
-  name: ipass
-  label: Ipass
-  group: wallets
--
-  name: payrexxpaybybank
-  label: Payrexx Pay by Bank
-  group: bank_transfers
--
-  name: payrexxpowerpay
-  label: Payrexx Powerpay
-  group: other
--
-  name: saunaandwellnesscadeau
-  label: Sauna & Wellness cadeaukaart
-  group: other
--
-  name: bbqcadeaukaart
-  label: BBQ cadeaukaart
-  group: other
--
-  name: beautyandmorecadeaukaart
-  label: Beauty & More cadeaukaart
-  group: other
--
-  name: vippspaynlversion
-  label: Vipps
-  group: other
--
-  name: wero
-  label: WERO
-  group: other
--
-  name: azericard
-  label: Azericard
-  group: credit_cards
--
-  name: mbwaypaynlversion
-  label: MB WAY
-  group: other
--
-  name: genie
-  label: Genie
-  group: wallets
--
-  name: tafi
-  label: Tafi
-  group: bank_transfers
--
-  name: idram
-  label: IDram
-  group: wallets
--
-  name: vodafone
-  label: Vodafone
-  group: wallets
--
-  name: free
-  label: Free
-  group: wallets
--
-  name: halotel
-  label: Halotel
-  group: wallets
--
-  name: zamtel
-  label: zamtel
-  group: wallets
--
-  name: moov
-  label: Moov
-  group: wallets
--
-  name: tnmmoney
-  label: TNMmoney
-  group: wallets
--
-  name: almapaynlversion
-  label: Alma
-  group: other
--
-  name: klap
-  label: Klap
-  group: wallets
--
-  name: clickuz
-  label: Clickuz
-  group: wallets
--
-  name: verifonebnpl
-  label: Verifone BNPL
-  group: other
-- 
-  name: glbemoreoptions
-  label: Global-E More Options
-  group: other
--
-  name: bol
-  label: Checkout via bol
-  group: other
--
-  name: pads
-  label: Pads
-  group: bank_transfers
--
-  name: betalingsservice
-  label: Betalingsservice
-  group: bank_transfers
--
-  name: bgautogiro
-  label: Bgautogiro
-  group: bank_transfers
--
-  name: ach
-  label: Ach
-  group: bank_transfers
--
-  name: bacs
-  label: Bacs
-  group: bank_transfers
--
-  name: becs
-  label: Becs
-  group: bank_transfers
--
-  name: ledyer
-  label: Ledyer
-  group: other
--
-  name: kidsandteen
-  label: Kids & Teen
-  group: other
--  
-  name: paybybankmollie
-  label: Pay by Bank
-  group: bank_transfers
--
-  name: codensa
-  label: Codensa
-  group: credit_cards
 -
   name: bob_pay_instant_eft
   label: Bob Pay Instant EFT
