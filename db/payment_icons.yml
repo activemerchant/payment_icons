@@ -135,6 +135,10 @@
   label: World Chain
   group: cryptocurrencies
 -
+  name: worldchain
+  label: World Chain
+  group: cryptocurrencies
+-
   name: busd
   label: Binance USD
   group: cryptocurrencies
@@ -2311,6 +2315,58 @@
   label: Monzo
   group: bank_transfers
 -
+  name: abn
+  label: ABN
+  group: bank_transfers
+-
+  name: barclays
+  label: Barclays
+  group: bank_transfers
+-
+  name: bnp
+  label: BNP
+  group: bank_transfers
+-
+  name: creditagricole
+  label: Credit Agricole
+  group: bank_transfers
+-
+  name: erste
+  label: Erste
+  group: bank_transfers
+-
+  name: lloyds
+  label: Lloyds
+  group: bank_transfers
+-
+  name: natwest
+  label: Natwest
+  group: bank_transfers
+-
+  name: rabobank
+  label: Rabobank
+  group: bank_transfers
+-
+  name: societegenerale
+  label: Societe Generale
+  group: bank_transfers
+-
+  name: sparkasse
+  label: Sparkasse
+  group: bank_transfers
+-
+  name: volksbank
+  label: Volksbank
+  group: bank_transfers
+-
+  name: volt
+  label: Volt
+  group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
+-
   name: favepay
   label: FavePay
   group: other
@@ -2415,6 +2471,10 @@
   label: Zustaina
   group: other
 -
+  name: zustaina
+  label: Zustaina
+  group: other
+-
   name: payright
   label: Payright
   group: other
@@ -2422,14 +2482,6 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
--
-  name: militarystarcard
-  label: Military StarCard
-  group: credit_cards
--
-  name: payitmonthly
-  label: PayItMonthly
-  group: other
 -
   name: pointspay
   label: Pointspay
@@ -2465,7 +2517,7 @@
 -
   name: efecty
   label: Efecty
-  group: bank_transfers
+  group: other
 -
   name: nequi
   label: Nequi
@@ -2502,18 +2554,14 @@
   name: riverty
   label: Riverty
   group: other
--
+- 
   name: whishcheckout
   label: Whish Checkout
   group: wallets
 -
-  name: whishpay
-  label: Whish Pay
-  group: wallets
--
   name: kcpcreditcard
   label: KCP Credit Card
-  group: other
+  group: credit_cards
 -
   name: powerpay
   label: Powerpay
