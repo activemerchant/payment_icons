@@ -1,0 +1,24 @@
+-
+  name: credit_card
+  description: Credit card payment methods
+-
+  name: private_label_credit_card
+  description: Private labeled or co-branded credit cards
+-
+  name: banking
+  description: Banking payment methods
+-
+  name: cryptocurrency
+  description: Crypto payment methods
+-
+  name: wallet
+  description: Wallet payment methods
+-
+  name: convenience_store
+  description: Convenience store
+-
+  name: installment
+  description: These payment methods support installments
+-
+  name: restricted_for_payments_apps
+  description: Payment methods that are restricted for payment partner to support on Shopify
