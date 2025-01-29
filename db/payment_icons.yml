@@ -2563,8 +2563,8 @@
   label: Bob Pay Manual EFT
   group: bank_transfers
 -
-  name:  capitec
-  label: Capitec
+  name:  capitec_pay
+  label: Capitec Pay
   group: bank_transfers
 -
   name:  scan_to_pay
