@@ -2511,7 +2511,7 @@
   label: Banco Ripley
   group: bank_transfers
 -
-  name: soctiabank
+  name: scotiabank
   label: Scotiabank
   group: bank_transfers
 -
