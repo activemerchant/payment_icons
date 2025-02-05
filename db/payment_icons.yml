@@ -2466,7 +2466,7 @@
   name: riverty
   label: Riverty
   group: other
-- 
+-
   name: whishcheckout
   label: Whish Checkout
   group: wallets
@@ -2482,6 +2482,10 @@
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
   group: other
+-
+  name: daviplata
+  label: DaviPlata
+  group: wallets
 -
   name: multisafepay
   label: MultiSafepay
