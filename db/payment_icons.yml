@@ -2471,6 +2471,10 @@
   label: Whish Checkout
   group: wallets
 -
+  name: whishpay
+  label: Whish Pay
+  group: wallets
+-
   name: kcpcreditcard
   label: KCP Credit Card
   group: other
