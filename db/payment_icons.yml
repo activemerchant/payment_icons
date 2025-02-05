@@ -2487,6 +2487,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: wissel
+  label: Wissel.nl
+  group: other
+-
   name: screamtruck
   label: Scream Truck
   group: other
