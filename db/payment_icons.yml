@@ -2483,6 +2483,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: khqr
+  label: Khqr
+  group: wallets
+-
   name: daviplata
   label: DaviPlata
   group: wallets
