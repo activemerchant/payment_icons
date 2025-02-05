@@ -2399,6 +2399,10 @@
   label: Banco Azteca
   group: wallets
 -
+  name: militarystarcard
+  label: Military StarCard
+  group: credit_cards
+-
   name: payitmonthly
   label: PayItMonthly
   group: other
@@ -2467,9 +2471,13 @@
   label: Whish Checkout
   group: wallets
 -
+  name: whishpay
+  label: Whish Pay
+  group: wallets
+-
   name: kcpcreditcard
   label: KCP Credit Card
-  group: credit_cards
+  group: other
 -
   name: powerpay
   label: Powerpay
@@ -2501,4 +2509,16 @@
 -
   name: ansastoredvalue
   label: Ansa Stored Value
+  group: other
+-
+  name: khqr
+  label: Khqr
+  group: wallets
+-
+  name: daviplata
+  label: DaviPlata
+  group: wallets
+-
+  name: multisafepay
+  label: MultiSafepay
   group: other
