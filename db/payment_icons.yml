@@ -2487,6 +2487,30 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: screamtruck
+  label: Scream Truck
+  group: other
+-
+  name: screamtruckwallet
+  label: Scream Truck Wallet
+  group: other
+-
+  name: poweredbyansa
+  label: Powered by Ansa
+  group: other
+-
+  name: poweredbyansastoredvalue
+  label: Powered by Ansa Stored Value
+  group: other
+-
+  name: ansa
+  label: Ansa
+  group: other
+-
+  name: ansastoredvalue
+  label: Ansa Stored Value
+  group: other
+-
   name: khqr
   label: Khqr
   group: wallets
