@@ -2399,6 +2399,10 @@
   label: Banco Azteca
   group: wallets
 -
+  name: militarystarcard
+  label: Military StarCard
+  group: credit_cards
+-
   name: payitmonthly
   label: PayItMonthly
   group: other
@@ -2482,3 +2486,7 @@
   name: daviplata
   label: DaviPlata
   group: wallets
+-
+  name: multisafepay
+  label: MultiSafepay
+  group: other
