@@ -13,7 +13,15 @@ To add a new payment method icon to this repository:
     - `other`
     - `wallets`
 
-4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons).
+4. Add an SVG icon to the `app/assets/images/payment_icons/` directory following the [guidelines for new icons](#guidelines-for-new-icons). If you are adding a generic payment method, you may use the following generic icons.
+
+    - [`cash`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/cash.svg)
+    - [`generic`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/generic.svg)
+    - [`gift-card`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/gift-card.svg)
+    - [`onlinebanking`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/onlinebanking.svg)
+    - [`storecredit`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/storecredit.svg)
+    - [`wallet`](https://github.com/activemerchant/payment_icons/blob/master/app/assets/images/payment_icons/wallet.svg)
+
 5. Optimize your icon using [SVGO](https://github.com/svg/svgo) (`v1.x.x`) - instructions below.
 
     ```
@@ -58,6 +66,9 @@ All icon contributions must follow the guidelines below. The **markup** guidelin
   - The border must have a 2px radius (outside stroke).
 - Icons are clear and easy to read/understand
 - Whenever possible, provide a link to the brand icon’s brand guidelines (e.g. [Google Pay](https://developers.google.com/pay/api/web/guides/brand-guidelines))
+
+### Name
+- The name entered in `db/payment_icons.yml` must be lowercase alpha characters only.
 
 ### File
 - The name of the SVG must be the same as the `name` entered in `db/payment_icons.yml`
