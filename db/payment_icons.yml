@@ -2528,5 +2528,5 @@
   group: other
 -
   name: buckaroopaybybank
-  label: Buckaroo Pay by Bank
+  label: Buckaroo-PayByBank
   group: bank_transfers
