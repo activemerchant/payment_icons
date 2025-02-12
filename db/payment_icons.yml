@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: buckaroopaybybank
+  label: Buckaroo Pay by Bank
+  group: bank_transfers
