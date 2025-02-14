@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: shop_cash
+  label: Shop Cash
+  group: other
