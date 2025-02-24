@@ -2239,6 +2239,58 @@
   label: Bancomat
   group: other
 -
+  name: abn
+  label: ABN
+  group: bank_transfers
+-
+  name: barclays
+  label: Barclays
+  group: bank_transfers
+-
+  name: bnp
+  label: BNP
+  group: bank_transfers
+-
+  name: creditagricole
+  label: Credit Agricole
+  group: bank_transfers
+-
+  name: erste
+  label: Erste
+  group: bank_transfers
+-
+  name: lloyds
+  label: Lloyds
+  group: bank_transfers
+-
+  name: natwest
+  label: Natwest
+  group: bank_transfers
+-
+  name: rabobank
+  label: Rabobank
+  group: bank_transfers
+-
+  name: societegenerale
+  label: Societe Generale
+  group: bank_transfers
+-
+  name: sparkasse
+  label: Sparkasse
+  group: bank_transfers
+-
+  name: volksbank
+  label: Volksbank
+  group: bank_transfers
+-
+  name: volt
+  label: Volt
+  group: bank_transfers
+-
+  name: monzo
+  label: Monzo
+  group: bank_transfers
+-
   name: favepay
   label: FavePay
   group: other
@@ -2347,6 +2399,14 @@
   label: Banco Azteca
   group: wallets
 -
+  name: militarystarcard
+  label: Military StarCard
+  group: credit_cards
+-
+  name: payitmonthly
+  label: PayItMonthly
+  group: other
+-
   name: pointspay
   label: Pointspay
   group: other
@@ -2370,6 +2430,18 @@
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
+-
+  name: efecty
+  label: Efecty
+  group: other
+-
+  name: nequi
+  label: Nequi
+  group: wallets
+-
+  name: yape
+  label: Yape
+  group: wallets
 -
   name: codensa
   label: Codensa
@@ -2397,4 +2469,64 @@
 -
   name: riverty
   label: Riverty
+  group: other
+-
+  name: whishcheckout
+  label: Whish Checkout
+  group: wallets
+-
+  name: whishpay
+  label: Whish Pay
+  group: wallets
+-
+  name: kcpcreditcard
+  label: KCP Credit Card
+  group: other
+-
+  name: powerpay
+  label: Powerpay
+  group: other
+-
+  name: payafterdeliveryinstalments
+  label: Pay After Delivery Installments
+  group: other
+-
+  name: wissel
+  label: Wissel.nl
+  group: other
+-
+  name: screamtruck
+  label: Scream Truck
+  group: other
+-
+  name: screamtruckwallet
+  label: Scream Truck Wallet
+  group: other
+-
+  name: poweredbyansa
+  label: Powered by Ansa
+  group: other
+-
+  name: poweredbyansastoredvalue
+  label: Powered by Ansa Stored Value
+  group: other
+-
+  name: ansa
+  label: Ansa
+  group: other
+-
+  name: ansastoredvalue
+  label: Ansa Stored Value
+  group: other
+-
+  name: khqr
+  label: Khqr
+  group: wallets
+-
+  name: daviplata
+  label: DaviPlata
+  group: wallets
+-
+  name: multisafepay
+  label: MultiSafepay
   group: other
