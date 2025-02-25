@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: babycadeaubon
+  label: Babycadeaubon
+  group: other
