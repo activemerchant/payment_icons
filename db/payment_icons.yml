@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: upgradeflexpay
+  label: Flex Pay
+  group: other
