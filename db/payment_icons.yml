@@ -2527,18 +2527,18 @@
   label: MultiSafepay
   group: other
 -
-  name: novalnet_invoice
+  name: novalnetinvoice
   label: Novalnet Invoice
   group: other
 -
-  name: novalnet_prepayment
+  name: novalnetprepayment
   label: Novalnet Prepayment
   group: other
 -
-  name: novalnet_cashpayment
+  name: novalnetcashpayment
   label: Novalnet Barzahlen/viacash
   group: other
 -
-  name: novalnet_direct_debit_ach
+  name: novalnetdirectdebitach
   label: Novalnet Direct Debit ACH
   group: other
