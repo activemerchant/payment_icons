@@ -2534,11 +2534,3 @@
   name: novalnetprepayment
   label: Novalnet Prepayment
   group: other
--
-  name: novalnetcashpayment
-  label: Novalnet Barzahlen/viacash
-  group: other
--
-  name: novalnetdirectdebitach
-  label: Novalnet Direct Debit ACH
-  group: other
