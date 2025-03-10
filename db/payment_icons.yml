@@ -2375,6 +2375,10 @@
   label: DinaCard
   group: credit_cards
 -
+  name: knakensettle
+  label: Knaken Settle
+  group: cryptocurrencies
+-
   name: gosettle
   label: goSettle
   group: cryptocurrencies
