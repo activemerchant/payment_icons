@@ -2379,6 +2379,10 @@
   label: Knaken Settle
   group: cryptocurrencies
 -
+  name: gosettle
+  label: goSettle
+  group: cryptocurrencies
+-
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
@@ -2526,3 +2530,15 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: postepay
+  label: PostePay
+  group: credit_cards
+-
+  name: cartebleue
+  label: Carte Bleue
+  group: credit_cards
+-
+  name: nexi
+  label: Nexi
+  group: credit_cards
