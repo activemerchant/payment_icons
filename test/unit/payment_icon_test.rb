@@ -150,13 +150,13 @@ class PaymentIconTest < ActiveSupport::TestCase
     ]
 
     max_size_kb = 7.5
-    max_size_kb_large_files = 13
+    max_size_kb_large_files = 12.5
 
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       file_size_kb = svg.bytesize / 1024.0
       max_file_size_kb = existing_large_files.include?(payment_type) ? max_size_kb_large_files : max_size_kb
       assert file_size_kb < max_file_size_kb,
-        message: "The '#{payment_type}' SVG file is #{file_size_kb.round(2)}KB, which exceeds the maximum allowed size of #{max_size_kb}KB"
+        message: "The '#{payment_type}' SVG file is #{file_size_kb.round(2)}KB, which exceeds the maximum allowed size of #{max_file_size_kb}KB"
     end
   end
 end
