@@ -2426,6 +2426,10 @@
   name: paysquad
   label: Paysquad
   group: other
+- 
+  name: hsbcukversion
+  label: HSBC Bank (UK version)
+  group: bank_transfers
 -
   name: wingbank
   label: Wing Bank
