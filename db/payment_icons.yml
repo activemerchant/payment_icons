@@ -432,7 +432,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: Paysafecard
+  label: PaysafeCard
   group: other
 -
   name: laybuy
@@ -737,6 +737,10 @@
 -
   name: cashapppay
   label: Cash App Pay
+  group: other
+-
+  name: cashappafterpay
+  label: Cash App Afterpay
   group: other
 -
   name: smartpay
@@ -2426,10 +2430,18 @@
   name: paysquad
   label: Paysquad
   group: other
+- 
+  name: hsbcukversion
+  label: HSBC Bank (UK version)
+  group: bank_transfers
+-
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
@@ -2487,6 +2499,18 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: centrapay
+  label: Centrapay
+  group: other
+-
+  name: payap
+  label: Payap
+  group: other
+-
+  name: giftstation
+  label: Gift Station
+  group: other
+-
   name: wissel
   label: Wissel.nl
   group: other
@@ -2530,3 +2554,15 @@
   name: shopcash
   label: Shop Cash
   group: other
+-
+  name: buckaroopaybybank
+  label: Buckaroo-PayByBank
+  group: bank_transfers
+-
+  name: nubank
+  label: Nubank
+  group: bank_transfers
+-
+  name: cbc
+  label: CBC
+  group: bank_transfers
