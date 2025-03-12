@@ -2551,6 +2551,10 @@
   label: MultiSafepay
   group: other
 -
+  name: mondupurple
+  label: Mondu
+  group: other
+-
   name: shopcash
   label: Shop Cash
   group: other
