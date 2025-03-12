@@ -2551,6 +2551,10 @@
   label: MultiSafepay
   group: other
 -
+  name: nubank
+  label: Nubank
+  group: bank_transfers
+-
   name: cbc
   label: CBC
   group: bank_transfers
