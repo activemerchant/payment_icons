@@ -2551,6 +2551,10 @@
   label: MultiSafepay
   group: other
 -
+  name: shopcash
+  label: Shop Cash
+  group: other
+-
   name: buckaroopaybybank
   label: Buckaroo-PayByBank
   group: bank_transfers
