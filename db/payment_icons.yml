@@ -432,7 +432,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: Paysafecard
+  label: PaysafeCard
   group: other
 -
   name: laybuy
