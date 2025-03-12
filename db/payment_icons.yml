@@ -739,6 +739,10 @@
   label: Cash App Pay
   group: other
 -
+  name: cashappafterpay
+  label: Cash App Afterpay
+  group: other
+-
   name: smartpay
   label: Smartpay
   group: other
@@ -2426,10 +2430,18 @@
   name: paysquad
   label: Paysquad
   group: other
+- 
+  name: hsbcukversion
+  label: HSBC Bank (UK version)
+  group: bank_transfers
+-
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
@@ -2485,6 +2497,18 @@
 -
   name: payafterdeliveryinstalments
   label: Pay After Delivery Installments
+  group: other
+-
+  name: centrapay
+  label: Centrapay
+  group: other
+-
+  name: payap
+  label: Payap
+  group: other
+-
+  name: giftstation
+  label: Gift Station
   group: other
 -
   name: wissel
@@ -2565,4 +2589,8 @@
 -
   name: bci
   label: BCI
+  group: bank_transfers
+-
+  name: cbc
+  label: CBC
   group: bank_transfers
