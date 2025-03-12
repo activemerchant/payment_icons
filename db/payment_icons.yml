@@ -2551,6 +2551,10 @@
   label: MultiSafepay
   group: other
 -
+  name: upgradeflexpay
+  label: Flex Pay
+  group: other
+-
   name: babycadeaubon
   label: Babycadeaubon
   group: other
