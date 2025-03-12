@@ -2499,6 +2499,18 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: centrapay
+  label: Centrapay
+  group: other
+-
+  name: payap
+  label: Payap
+  group: other
+-
+  name: giftstation
+  label: Gift Station
+  group: other
+-
   name: wissel
   label: Wissel.nl
   group: other
