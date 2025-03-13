@@ -1840,7 +1840,7 @@
   group: credit_cards
 -
   name: paysafecash
-  label: Paysafecash
+  label: PaysafeCash
   group: other
 -
   name: tbibank
