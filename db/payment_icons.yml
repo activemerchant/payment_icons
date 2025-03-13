@@ -432,7 +432,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: Paysafecard
+  label: PaysafeCard
   group: other
 -
   name: laybuy
@@ -2554,6 +2554,30 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: upgradeflexpay
+  label: Flex Pay
+  group: other
+-
+  name: babycadeaubon
+  label: Babycadeaubon
+  group: other
+-
+  name: mondupurple
+  label: Mondu
+  group: other
+-
+  name: shopcash
+  label: Shop Cash
+  group: other
+-
+  name: buckaroopaybybank
+  label: Buckaroo-PayByBank
+  group: bank_transfers
+-
+  name: nubank
+  label: Nubank
+  group: bank_transfers
 -
   name: cbc
   label: CBC
