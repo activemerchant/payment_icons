@@ -2582,7 +2582,3 @@
   name: cbc
   label: CBC
   group: bank_transfers
--
-  name: usdt
-  label: USDT
-  group: cryptocurrencies
