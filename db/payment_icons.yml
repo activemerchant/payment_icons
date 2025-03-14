@@ -2550,6 +2550,46 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+- 
+  name: bancoestado 
+  label: Banco Estado
+  group: bank_transfers
+-
+  name: bancobice
+  label: Banco Bice
+  group: bank_transfers
+-
+  name: bancodechile
+  label: Banco de Chile
+  group: bank_transfers
+-
+  name: itau
+  label: Itau
+  group: bank_transfers
+-
+  name: bancofalabella
+  label: Banco Falabella
+  group: bank_transfers
+-
+  name: bancoedwards
+  label: Banco Edwards
+  group: bank_transfers
+-
+  name: bancosecurity
+  label: Banco Security
+  group: bank_transfers
+-
+  name: bancoripley
+  label: Banco Ripley
+  group: bank_transfers
+-
+  name: scotiabank
+  label: Scotiabank
+  group: bank_transfers
+-
+  name: bci
+  label: BCI
+  group: bank_transfers
 -
   name: upgradeflexpay
   label: Flex Pay
