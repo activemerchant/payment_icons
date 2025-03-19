@@ -2106,6 +2106,10 @@
   name: glbeplus
   label: Global-E Plus
   group: other
+
+  name: glbeclear
+  label: Global-E Clear
+  group: other
 -
   name: qasitli
   label: Qasitli
