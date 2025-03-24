@@ -2537,7 +2537,8 @@
 -
   name: bci
   label: BCI
-  group: bank_transfers-
+  group: bank_transfers
+-
   name: centrapay
   label: Centrapay
   group: other
