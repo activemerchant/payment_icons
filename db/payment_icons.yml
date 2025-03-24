@@ -2566,7 +2566,7 @@
   name: ipwireinst
   label: Virement SEPA Instantané
   group: bank_transfers
-
+-
   name: upgradeflexpay
   label: Flex Pay
   group: other
