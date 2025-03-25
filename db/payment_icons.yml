@@ -2578,3 +2578,7 @@
   name: cbc
   label: CBC
   group: bank_transfers
+-
+  name: humo
+  label: Humo
+  group: credit_cards
