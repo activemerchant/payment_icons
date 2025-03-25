@@ -2578,3 +2578,7 @@
   name: cbc
   label: CBC
   group: bank_transfers
+-
+  name: uzcard
+  label: Uzcard
+  group: credit_cards
