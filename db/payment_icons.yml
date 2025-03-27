@@ -2580,5 +2580,5 @@
   group: bank_transfers
 -
   name: novalnetcashpayment
-  label: Barzahlen/viacash
+  label: Novalnet Barzahlen/viacash
   group: other
