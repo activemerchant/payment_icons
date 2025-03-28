@@ -2568,7 +2568,7 @@
   group: bank_transfers
 -
   name:  scan_to_pay
-  label: Scan To Pay
+  label: Scan to Pay
   group: bank_transfers
 -
   name:  pay_shap
