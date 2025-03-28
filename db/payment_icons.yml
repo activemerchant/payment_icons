@@ -2597,3 +2597,4 @@
 -
   name:  pay_shap
   label: PayShap
+  group: bank_transfers
