@@ -2578,3 +2578,7 @@
   name: cbc
   label: CBC
   group: bank_transfers
+-
+  name: areeba
+  label: Areeba
+  group: credit_cards
