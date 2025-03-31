@@ -2527,10 +2527,6 @@
   label: Banco Security
   group: bank_transfers
 -
-  name: bancoripley
-  label: Banco Ripley
-  group: bank_transfers
--
   name: scotiabank
   label: Scotiabank
   group: bank_transfers
