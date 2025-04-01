@@ -138,21 +138,19 @@ class PaymentIconTest < ActiveSupport::TestCase
       'fashiongiftcardpaynlversion',
       'fps',
       'gezondheidsbonpaynlversion', 
-      'giftstation',
       'huistuincadeau',
       'maybankqrpay',
       'medicinosbankas',
       'metrobank',
       'overstockciticobrand',
       'palawa',
-      'payap',
       'pay_easy',
       'payooqr',
       'tasacero',
     ]
 
     max_size_kb = 9
-    max_size_kb_large_files = 50
+    max_size_kb_large_files = 12.5
 
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       file_size_kb = svg.bytesize / 1024.0
