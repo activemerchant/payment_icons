@@ -527,6 +527,10 @@
   label: ESR Paymentslip
   group: other
 -
+  name: qr_paymentslip
+  label: QR Paymentslip
+  group: other
+-
   name: twint
   label: Twint
   group: wallets
