@@ -2463,6 +2463,10 @@
   label: Codensa
   group: credit_cards
 -
+  name: aplus
+  label: A+
+  group: credit_cards
+-
   name: gmoatokara
   label: GMO Atokara
   group: other
