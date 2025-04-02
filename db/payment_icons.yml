@@ -2503,6 +2503,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
   name: centrapay
   label: Centrapay
   group: other
