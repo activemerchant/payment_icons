@@ -2383,6 +2383,10 @@
   label: Knaken Settle
   group: cryptocurrencies
 -
+  name: gosettle
+  label: goSettle
+  group: cryptocurrencies
+-
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
@@ -2499,6 +2503,46 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: usdt
+  label: USDT
+  group: cryptocurrencies
+-
+  name: bancoestado 
+  label: Banco Estado
+  group: bank_transfers
+-
+  name: bancobice
+  label: Banco Bice
+  group: bank_transfers
+-
+  name: bancodechile
+  label: Banco de Chile
+  group: bank_transfers
+-
+  name: itau
+  label: Itau
+  group: bank_transfers
+-
+  name: bancofalabella
+  label: Banco Falabella
+  group: bank_transfers
+-
+  name: bancoedwards
+  label: Banco Edwards
+  group: bank_transfers
+-
+  name: bancosecurity
+  label: Banco Security
+  group: bank_transfers
+-
+  name: scotiabank
+  label: Scotiabank
+  group: bank_transfers
+-
+  name: bci
+  label: BCI
+  group: bank_transfers
+-
   name: centrapay
   label: Centrapay
   group: other
@@ -2559,6 +2603,22 @@
   label: Novalnet Prepayment
   group: other
 -
+  name: stadspasamsterdam
+  label: Stadspas Amsterdam
+  group: other
+-
+  name: postepay
+  label: PostePay
+  group: credit_cards
+-
+  name: cartebleue
+  label: Carte Bleue
+  group: credit_cards
+-
+  name: nexi
+  label: Nexi
+  group: credit_cards
+-
   name: upgradeflexpay
   label: Flex Pay
   group: other
@@ -2585,4 +2645,8 @@
 -
   name: cbc
   label: CBC
+  group: bank_transfers
+-
+  name: bancolombia
+  label: Bancolombia
   group: bank_transfers
