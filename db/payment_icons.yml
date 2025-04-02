@@ -2595,6 +2595,14 @@
   label: MultiSafepay
   group: other
 -
+  name: novalnetinvoice
+  label: Novalnet Invoice
+  group: other
+-
+  name: novalnetprepayment
+  label: Novalnet Prepayment
+  group: other
+-
   name: stadspasamsterdam
   label: Stadspas Amsterdam
   group: other
