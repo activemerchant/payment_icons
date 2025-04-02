@@ -2651,6 +2651,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: mondu
+  label: Mondu
+  group: other
+-
   name: bancolombia
   label: Bancolombia
   group: bank_transfers
