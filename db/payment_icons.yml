@@ -2503,6 +2503,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: usdt
+  label: USDT
+  group: cryptocurrencies
+-
   name: bancoestado 
   label: Banco Estado
   group: bank_transfers
