@@ -432,7 +432,7 @@
   group: bank_transfers
 -
   name: paysafecard
-  label: Paysafecard
+  label: PaysafeCard
   group: other
 -
   name: laybuy
@@ -525,6 +525,10 @@
 -
   name: esr_paymentslip_switzerland
   label: ESR Paymentslip
+  group: other
+-
+  name: qr_paymentslip
+  label: QR Paymentslip
   group: other
 -
   name: twint
@@ -737,6 +741,10 @@
 -
   name: cashapppay
   label: Cash App Pay
+  group: other
+-
+  name: cashappafterpay
+  label: Cash App Afterpay
   group: other
 -
   name: smartpay
@@ -1836,7 +1844,7 @@
   group: credit_cards
 -
   name: paysafecash
-  label: Paysafecash
+  label: PaysafeCash
   group: other
 -
   name: tbibank
@@ -2379,6 +2387,10 @@
   label: Knaken Settle
   group: cryptocurrencies
 -
+  name: gosettle
+  label: goSettle
+  group: cryptocurrencies
+-
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
@@ -2426,10 +2438,18 @@
   name: paysquad
   label: Paysquad
   group: other
+- 
+  name: hsbcukversion
+  label: HSBC Bank (UK version)
+  group: bank_transfers
+-
+  name: wingbank
+  label: Wing Bank
+  group: bank_transfers
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
@@ -2487,6 +2507,58 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: usdt
+  label: USDT
+  group: cryptocurrencies
+-
+  name: bancoestado 
+  label: Banco Estado
+  group: bank_transfers
+-
+  name: bancobice
+  label: Banco Bice
+  group: bank_transfers
+-
+  name: bancodechile
+  label: Banco de Chile
+  group: bank_transfers
+-
+  name: itau
+  label: Itau
+  group: bank_transfers
+-
+  name: bancofalabella
+  label: Banco Falabella
+  group: bank_transfers
+-
+  name: bancoedwards
+  label: Banco Edwards
+  group: bank_transfers
+-
+  name: bancosecurity
+  label: Banco Security
+  group: bank_transfers
+-
+  name: scotiabank
+  label: Scotiabank
+  group: bank_transfers
+-
+  name: bci
+  label: BCI
+  group: bank_transfers
+-
+  name: centrapay
+  label: Centrapay
+  group: other
+-
+  name: payap
+  label: Payap
+  group: other
+-
+  name: giftstation
+  label: Gift Station
+  group: other
+-
   name: wissel
   label: Wissel.nl
   group: other
@@ -2530,3 +2602,63 @@
   name: curacaopay
   label: CuracaoPay 
   group: other
+-
+  name: novalnetinvoice
+  label: Novalnet Invoice
+  group: other
+-
+  name: novalnetprepayment
+  label: Novalnet Prepayment
+  group: other
+-
+  name: stadspasamsterdam
+  label: Stadspas Amsterdam
+  group: other
+-
+  name: postepay
+  label: PostePay
+  group: credit_cards
+-
+  name: cartebleue
+  label: Carte Bleue
+  group: credit_cards
+-
+  name: nexi
+  label: Nexi
+  group: credit_cards
+-
+  name: upgradeflexpay
+  label: Flex Pay
+  group: other
+-
+  name: babycadeaubon
+  label: Babycadeaubon
+  group: other
+-
+  name: mondupurple
+  label: Mondu
+  group: other
+-
+  name: shopcash
+  label: Shop Cash
+  group: other
+-
+  name: buckaroopaybybank
+  label: Buckaroo-PayByBank
+  group: bank_transfers
+-
+  name: nubank
+  label: Nubank
+  group: bank_transfers
+-
+  name: cbc
+  label: CBC
+  group: bank_transfers
+-
+  name: mondu
+  label: Mondu
+  group: other
+-
+  name: bancolombia
+  label: Bancolombia
+  group: bank_transfers
