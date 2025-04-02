@@ -2383,6 +2383,10 @@
   label: Knaken Settle
   group: cryptocurrencies
 -
+  name: gosettle
+  label: goSettle
+  group: cryptocurrencies
+-
   name: escrowcom
   label: Escrow.com
   group: bank_transfers
@@ -2587,6 +2591,18 @@
   label: MultiSafepay
   group: other
 -
+  name: postepay
+  label: PostePay
+  group: credit_cards
+-
+  name: cartebleue
+  label: Carte Bleue
+  group: credit_cards
+-
+  name: nexi
+  label: Nexi
+  group: credit_cards
+-
   name: upgradeflexpay
   label: Flex Pay
   group: other
@@ -2613,4 +2629,8 @@
 -
   name: cbc
   label: CBC
+  group: bank_transfers
+-
+  name: bancolombia
+  label: Bancolombia
   group: bank_transfers
