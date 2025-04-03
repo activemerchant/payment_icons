@@ -2670,6 +2670,10 @@
   name:  pay_shap
   label: PayShap
 -
+  name: novalnetdirectdebitach
+  label: Novalnet Direct Debit ACH
+  group: other
+-
   name: mondu
   label: Mondu
   group: other
@@ -2677,3 +2681,7 @@
   name: bancolombia
   label: Bancolombia
   group: bank_transfers
+-
+  name: zaver
+  label: Zaver
+  group: other
