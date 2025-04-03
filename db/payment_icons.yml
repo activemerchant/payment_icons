@@ -2658,3 +2658,7 @@
   name: bancolombia
   label: Bancolombia
   group: bank_transfers
+-
+  name: zaver
+  label: Zaver
+  group: other
