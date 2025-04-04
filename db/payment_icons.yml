@@ -2599,6 +2599,22 @@
   label: MultiSafepay
   group: other
 -
+  name: cofidis3x
+  label: Cofidis en 3 fois
+  group: other
+-
+  name: cofidis4x
+  label: Cofidis en 4 fois
+  group: other
+-
+  name: ipwire
+  label: Virement SEPA
+  group: bank_transfers
+-
+  name: ipwireinst
+  label: Virement SEPA Instantané
+  group: bank_transfers
+-
   name: novalnetinvoice
   label: Novalnet Invoice
   group: other
