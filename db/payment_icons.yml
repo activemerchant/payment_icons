@@ -2651,6 +2651,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: tappay
+  label: TapPay
+  group: other
+-
   name: novalnetdirectdebitach
   label: Novalnet Direct Debit ACH
   group: other
