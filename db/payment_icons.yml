@@ -2526,3 +2526,7 @@
   name: multisafepay
   label: MultiSafepay
   group: other
+-
+  name: purdeygiftcard
+  label: Purdey Giftcard
+  group: other
