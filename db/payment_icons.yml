@@ -2599,6 +2599,10 @@
   label: MultiSafepay
   group: other
 -
+  name: purdeygiftcard
+  label: Purdey Giftcard
+  group: other
+-
   name: novalnetinvoice
   label: Novalnet Invoice
   group: other
