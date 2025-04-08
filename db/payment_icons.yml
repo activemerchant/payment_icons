@@ -744,7 +744,7 @@
   group: other
 -
   name: cashappafterpay
-  label: Cash App Afterpay
+  label: Afterpay
   group: other
 -
   name: smartpay
