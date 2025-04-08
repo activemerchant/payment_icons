@@ -527,7 +527,7 @@
   label: ESR Paymentslip
   group: other
 -
-  name: qr_paymentslip
+  name: qrpaymentslip
   label: QR Paymentslip
   group: other
 -
