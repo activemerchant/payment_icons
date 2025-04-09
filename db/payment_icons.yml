@@ -2651,6 +2651,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: cacpay
+  label: Cacpay
+  group: other
+-
   name: tappay
   label: TapPay
   group: other
