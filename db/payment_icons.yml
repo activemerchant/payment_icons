@@ -2670,3 +2670,7 @@
   name: zaver
   label: Zaver
   group: other
+-
+  name: cacpaywallet
+  label: CacpayWallet
+  group: wallets
