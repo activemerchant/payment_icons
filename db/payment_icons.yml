@@ -2611,6 +2611,10 @@
   label: Stadspas Amsterdam
   group: other
 -
+  name: stadspasrotterdam
+  label: Stadspas Rotterdam
+  group: other
+-
   name: postepay
   label: PostePay
   group: credit_cards
