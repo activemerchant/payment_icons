@@ -2670,3 +2670,11 @@
   name: zaver
   label: Zaver
   group: other
+-
+  name: novalnetinstalmentinvoice
+  label: Novalnet Instalment by Invoice
+  group: other
+-
+  name: novalnetinstalmentsepa
+  label: Novalnet Instalment by Direct Debit SEPA
+  group: other
