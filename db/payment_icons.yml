@@ -2438,7 +2438,7 @@
   name: paysquad
   label: Paysquad
   group: other
-- 
+-
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2511,7 +2511,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado 
+  name: bancoestado
   label: Banco Estado
   group: bank_transfers
 -
@@ -2669,4 +2669,12 @@
 -
   name: zaver
   label: Zaver
+  group: other
+-
+  name: avardapartpayment
+  label: Avarda Part Payment
+  group: other
+-
+  name: avardapaylater
+  label: Avarda Pay Later
   group: other
