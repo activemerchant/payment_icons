@@ -2942,3 +2942,7 @@
   name: ledyer
   label: Ledyer
   group: other
+-  
+  name: paybybank_mollie
+  label: Pay by Bank
+  group: bank_transfers
