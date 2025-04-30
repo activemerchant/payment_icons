@@ -2943,6 +2943,6 @@
   label: Ledyer
   group: other
 -  
-  name: paybybank_mollie
+  name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
