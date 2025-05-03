@@ -2447,6 +2447,10 @@
   label: Wing Bank
   group: bank_transfers
 -
+  name: payeverpaybybank
+  label: payever Pay by Bank
+  group: bank_transfers
+-
   name: efecty
   label: Efecty
   group: bank_transfers
