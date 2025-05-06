@@ -2651,8 +2651,8 @@
   label: CBC
   group: bank_transfers
 -
-  name: m_cash
-  label: Mcash
+  name: mcashcreditcard
+  label: M Cash Credit Card
   group: credit_cards
 -
   name: tappay
