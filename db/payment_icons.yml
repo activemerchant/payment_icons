@@ -2043,6 +2043,18 @@
   label: iwocaPay Pay Later
   group: other
 -
+  name: directbanktransferlatinamerica
+  label: Direct Bank Transfer Latin America
+  group: bank_transfers
+-
+  name: offlinebanktransferlatinamerica
+  label: Offline Bank Transfer Latin America
+  group: bank_transfers
+-
+  name: cashinvoicelatinamerica
+  label: Cash/Invoice Latin America
+  group: other
+-
   name: twoinvoice
   label: Two Business Invoice
   group: other
