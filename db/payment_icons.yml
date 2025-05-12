@@ -2727,6 +2727,10 @@
   label: Zaver
   group: other
 -
+  name: artea
+  label: Artea
+  group: bank_transfers
+-
   name: horsesandgifts
   label: Horses and Gifts
   group: other
