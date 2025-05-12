@@ -2727,6 +2727,10 @@
   label: Zaver
   group: other
 -
+  name: crediviva
+  label: Crediviva
+  group: bank_transfers
+-
   name: safetypaycashpayment
   label: SafetyPay cash payment
   group: other
