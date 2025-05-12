@@ -2659,6 +2659,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: uzcard
+  label: Uzcard
+  group: credit_cards
+-
   name: bumper
   label: Bumper
   group: wallets
