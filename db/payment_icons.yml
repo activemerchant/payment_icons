@@ -2659,6 +2659,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: esewa
+  label: Esewa
+  group: wallets
+-
   name: areeba
   label: Areeba
   group: credit_cards
