@@ -2727,6 +2727,10 @@
   label: Zaver
   group: other
 -
+  name: upas
+  label: U-Pas
+  group: other
+-
   name: cacpaywallet
   label: CacpayWallet
   group: wallets
