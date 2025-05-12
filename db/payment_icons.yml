@@ -2603,6 +2603,10 @@
   label: MultiSafepay
   group: other
 -
+  name: purdeygiftcard
+  label: Purdey Giftcard
+  group: other
+-
   name: curacaopay
   label: CuracaoPay 
   group: other
