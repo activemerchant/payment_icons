@@ -2670,3 +2670,7 @@
   name: zaver
   label: Zaver
   group: other
+-
+  name: bizumpaynlversion
+  label: Bizum
+  group: other
