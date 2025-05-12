@@ -2603,6 +2603,10 @@
   label: MultiSafepay
   group: other
 -
+  name: curacaopay
+  label: CuracaoPay 
+  group: other
+-
   name: novalnetinvoice
   label: Novalnet Invoice
   group: other
