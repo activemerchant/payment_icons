@@ -2659,6 +2659,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: bumper
+  label: Bumper
+  group: wallets
+-
   name: novalnetcashpayment
   label: Novalnet Barzahlen/viacash
   group: other
