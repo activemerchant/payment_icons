@@ -2507,6 +2507,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
   name: usdt
   label: USDT
   group: cryptocurrencies
@@ -2599,6 +2603,10 @@
   label: MultiSafepay
   group: other
 -
+  name: curacaopay
+  label: CuracaoPay 
+  group: other
+-
   name: novalnetinvoice
   label: Novalnet Invoice
   group: other
@@ -2651,6 +2659,38 @@
   label: CBC
   group: bank_transfers
 -
+  name: ezcash
+  label: Ezcash
+  group: wallets
+-
+  name: mcashcreditcard
+  label: M Cash Credit Card
+  group: credit_cards
+-
+  name: postfinancenew
+  label: Postfinancenew
+  group: other
+-
+  name: humo
+  label: Humo
+  group: credit_cards
+-
+  name: uzcard
+  label: Uzcard
+  group: credit_cards
+-
+  name: bumper
+  label: Bumper
+  group: wallets
+-
+  name: novalnetcashpayment
+  label: Novalnet Barzahlen/viacash
+  group: other
+-
+  name: tappay
+  label: TapPay
+  group: other
+-
   name: novalnetdirectdebitach
   label: Novalnet Direct Debit ACH
   group: other
@@ -2669,4 +2709,8 @@
 -
   name: amwal
   label: Amwal
+  group: other
+-
+  name: bizumpaynlversion
+  label: Bizum
   group: other
