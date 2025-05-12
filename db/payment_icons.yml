@@ -2507,6 +2507,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
   name: usdt
   label: USDT
   group: cryptocurrencies
