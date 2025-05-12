@@ -2659,6 +2659,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: postfinancenew
+  label: Postfinancenew
+  group: other
+-
   name: humo
   label: Humo
   group: credit_cards
