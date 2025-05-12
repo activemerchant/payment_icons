@@ -2727,6 +2727,14 @@
   label: Zaver
   group: other
 -
+  name: safetypaycashpayment
+  label: SafetyPay cash payment
+  group: other
+-
+  name: safetypaybanktransfer
+  label: SafetyPay bank transfer
+  group: bank_transfers
+-
   name: brite
   label: Brite
   group: other
