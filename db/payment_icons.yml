@@ -2723,6 +2723,10 @@
   label: Zaver
   group: other
 -
+  name: qpay
+  label: Qpay
+  group: wallets
+-
   name: amwal
   label: Amwal
   group: other
