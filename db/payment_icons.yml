@@ -2707,6 +2707,10 @@
   label: Zaver
   group: other
 -
+  name: amwal
+  label: Amwal
+  group: other
+-
   name: bizumpaynlversion
   label: Bizum
   group: other
