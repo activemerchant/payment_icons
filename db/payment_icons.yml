@@ -2727,6 +2727,10 @@
   label: Zaver
   group: other
 -
+  name: brite
+  label: Brite
+  group: other
+-
   name: artea
   label: Artea
   group: bank_transfers
