@@ -2723,6 +2723,10 @@
   label: Zaver
   group: other
 -
+  name: cacpaywallet
+  label: CacpayWallet
+  group: wallets
+-
   name: qpay
   label: Qpay
   group: wallets
