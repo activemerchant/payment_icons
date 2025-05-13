@@ -2667,6 +2667,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: benefitpay
+  label: Benefitpay
+  group: wallets
+-
   name: khalti
   label: Khalti
   group: wallets
