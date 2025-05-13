@@ -2838,3 +2838,7 @@
   name: vippspaynlversion
   label: Vipps
   group: other
+-
+  name: wero
+  label: WERO
+  group: other
