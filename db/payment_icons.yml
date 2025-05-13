@@ -527,7 +527,7 @@
   label: ESR Paymentslip
   group: other
 -
-  name: qr_paymentslip
+  name: qrpaymentslip
   label: QR Paymentslip
   group: other
 -
@@ -744,7 +744,7 @@
   group: other
 -
   name: cashappafterpay
-  label: Cash App Afterpay
+  label: Afterpay
   group: other
 -
   name: smartpay
@@ -2507,6 +2507,10 @@
   label: Pay After Delivery Installments
   group: other
 -
+  name: neocuotas
+  label: Neocuotas
+  group: credit_cards
+-
   name: usdt
   label: USDT
   group: cryptocurrencies
@@ -2599,6 +2603,14 @@
   label: MultiSafepay
   group: other
 -
+  name: purdeygiftcard
+  label: Purdey Giftcard
+  group: other
+-
+  name: curacaopay
+  label: CuracaoPay 
+  group: other
+-
   name: novalnetinvoice
   label: Novalnet Invoice
   group: other
@@ -2609,6 +2621,10 @@
 -
   name: stadspasamsterdam
   label: Stadspas Amsterdam
+  group: other
+-
+  name: stadspasrotterdam
+  label: Stadspas Rotterdam
   group: other
 -
   name: postepay
@@ -2655,6 +2671,46 @@
   label: Sslcommerz
   group: wallets
 -
+  name: khalti
+  label: Khalti
+  group: wallets
+-
+  name: esewa
+  label: Esewa
+  group: wallets
+-
+  name: areeba
+  label: Areeba
+  group: credit_cards
+-
+  name: ezcash
+  label: Ezcash
+  group: wallets
+-
+  name: mcashcreditcard
+  label: M Cash Credit Card
+  group: credit_cards
+-
+  name: postfinancenew
+  label: Postfinancenew
+  group: other
+-
+  name: humo
+  label: Humo
+  group: credit_cards
+-
+  name: uzcard
+  label: Uzcard
+  group: credit_cards
+-
+  name: bumper
+  label: Bumper
+  group: wallets
+-
+  name: novalnetcashpayment
+  label: Novalnet Barzahlen/viacash
+  group: other
+-
   name: tappay
   label: TapPay
   group: other
@@ -2673,4 +2729,48 @@
 -
   name: zaver
   label: Zaver
+  group: other
+-
+  name: crediviva
+  label: Crediviva
+  group: bank_transfers
+-
+  name: safetypaycashpayment
+  label: SafetyPay cash payment
+  group: other
+-
+  name: safetypaybanktransfer
+  label: SafetyPay bank transfer
+  group: bank_transfers
+-
+  name: brite
+  label: Brite
+  group: other
+-
+  name: artea
+  label: Artea
+  group: bank_transfers
+-
+  name: horsesandgifts
+  label: Horses and Gifts
+  group: other
+-
+  name: upas
+  label: U-Pas
+  group: other
+-
+  name: cacpaywallet
+  label: CacpayWallet
+  group: wallets
+-
+  name: qpay
+  label: Qpay
+  group: wallets
+-
+  name: amwal
+  label: Amwal
+  group: other
+-
+  name: bizumpaynlversion
+  label: Bizum
   group: other
