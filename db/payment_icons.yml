@@ -2826,3 +2826,7 @@
   name: saunaandwellnesscadeau
   label: Sauna & Wellness cadeaukaart
   group: other
+-
+  name: bbqcadeaukaart
+  label: BBQ cadeaukaart
+  group: other
