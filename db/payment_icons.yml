@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: mbwaypaynlversion
+  label: MB WAY
+  group: other
