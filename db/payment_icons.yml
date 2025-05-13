@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: beautyandmorecadeaukaart
+  label: Beauty & More cadeaukaart
+  group: other
