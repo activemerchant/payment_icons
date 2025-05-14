@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: payrexxpaybybank
+  label: Payrexx Pay by Bank
+  group: bank_transfers
