@@ -2842,3 +2842,7 @@
   name: wero
   label: WERO
   group: other
+-
+  name: azericard
+  label: Azericard
+  group: credit_cards
