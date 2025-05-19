@@ -2854,3 +2854,7 @@
   name: genie
   label: Genie
   group: wallets
+-
+  name: idram
+  label: IDram
+  group: wallets
