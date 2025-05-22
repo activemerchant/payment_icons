@@ -2854,3 +2854,7 @@
   name: genie
   label: Genie
   group: wallets
+-
+  name: tafi
+  label: Tafi
+  group: bank_transfers
