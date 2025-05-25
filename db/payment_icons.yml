@@ -2862,3 +2862,7 @@
   name: idram
   label: IDram
   group: wallets
+-
+  name: vodafone
+  label: Vodafone
+  group: wallets
