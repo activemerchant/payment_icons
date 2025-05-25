@@ -2882,3 +2882,7 @@
   name: moov
   label: Moov
   group: wallets
+-
+  name: tnmmoney
+  label: TNMmoney
+  group: wallets
