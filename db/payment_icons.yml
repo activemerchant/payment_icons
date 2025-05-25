@@ -2870,3 +2870,7 @@
   name: free
   label: Free
   group: wallets
+-
+  name: halotel
+  label: Halotel
+  group: wallets
