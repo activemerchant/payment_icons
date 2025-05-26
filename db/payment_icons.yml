@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: almapaynlversion
+  label: Alma
+  group: other
