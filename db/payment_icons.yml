@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: verifone_bnpl
+  label: Verifone BNPL
+  group: other
