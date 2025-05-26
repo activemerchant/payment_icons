@@ -2886,3 +2886,7 @@
   name: tnmmoney
   label: TNMmoney
   group: wallets
+-
+  name: almapaynlversion
+  label: Alma
+  group: other
