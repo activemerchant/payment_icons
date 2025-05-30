@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: tafi
+  label: Tafi
+  group: bank_transfers
