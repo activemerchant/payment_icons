@@ -2898,3 +2898,7 @@
   name: clickuz
   label: Clickuz
   group: wallets
+- 
+  name: glbemoreoptions
+  label: Global-E More Options
+  group: other
