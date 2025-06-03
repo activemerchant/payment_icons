@@ -2761,7 +2761,7 @@
 -
   name: qpay
   label: Qpay
-  group: wallets
+  group: wallets  
 -
   name: amwal
   label: Amwal
@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+  
+  name: ipass
+  label: Ipass
+  group: wallets
