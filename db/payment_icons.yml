@@ -1575,6 +1575,10 @@
   label: Laybuy
   group: other
 -
+  name: laybuybyklarna
+  label: Laybuy by Klarna
+  group: other
+-
   name: lydia
   label: Lydia
   group: wallets
