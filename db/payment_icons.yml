@@ -2850,3 +2850,7 @@
   name: mbwaypaynlversion
   label: MB WAY
   group: other
+-
+  name: genie
+  label: Genie
+  group: wallets
