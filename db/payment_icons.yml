@@ -2894,3 +2894,7 @@
   name: klap
   label: Klap
   group: wallets
+-
+  name: clickuz
+  label: Clickuz
+  group: wallets
