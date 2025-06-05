@@ -2770,3 +2770,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: ledyer
+  label: Ledyer
+  group: other
