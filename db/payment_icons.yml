@@ -2843,6 +2843,10 @@
   label: WERO
   group: other
 -
+  name: azericard
+  label: Azericard
+  group: credit_cards
+-
   name: mbwaypaynlversion
   label: MB WAY
   group: other
