@@ -2866,3 +2866,7 @@
   name: vodafone
   label: Vodafone
   group: wallets
+-
+  name: free
+  label: Free
+  group: wallets
