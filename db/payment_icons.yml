@@ -2938,3 +2938,7 @@
   name: becs
   label: Becs
   group: bank_transfers
+-
+  name: ledyer
+  label: Ledyer
+  group: other
