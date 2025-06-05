@@ -2834,3 +2834,7 @@
   name: beautyandmorecadeaukaart
   label: Beauty & More cadeaukaart
   group: other
+-
+  name: vippspaynlversion
+  label: Vipps
+  group: other
