@@ -2878,3 +2878,7 @@
   name: zamtel
   label: zamtel
   group: wallets
+-
+  name: moov
+  label: Moov
+  group: wallets
