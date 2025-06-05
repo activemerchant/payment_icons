@@ -2830,3 +2830,7 @@
   name: bbqcadeaukaart
   label: BBQ cadeaukaart
   group: other
+-
+  name: beautyandmorecadeaukaart
+  label: Beauty & More cadeaukaart
+  group: other
