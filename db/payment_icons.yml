@@ -2890,3 +2890,7 @@
   name: almapaynlversion
   label: Alma
   group: other
+-
+  name: clickuz
+  label: Clickuz
+  group: wallets
