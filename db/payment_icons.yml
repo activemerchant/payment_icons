@@ -2687,6 +2687,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: benefitpay
+  label: Benefitpay
+  group: wallets
+-
   name: sslcommerz
   label: Sslcommerz
   group: wallets
