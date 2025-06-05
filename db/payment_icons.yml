@@ -2815,6 +2815,10 @@
   label: Bizum
   group: other
 -
+  name: ipass
+  label: Ipass
+  group: wallets
+-
   name: payrexxpaybybank
   label: Payrexx Pay by Bank
   group: bank_transfers
