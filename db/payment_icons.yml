@@ -2855,6 +2855,10 @@
   label: Genie
   group: wallets
 -
+  name: tafi
+  label: Tafi
+  group: bank_transfers
+-
   name: idram
   label: IDram
   group: wallets
