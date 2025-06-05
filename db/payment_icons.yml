@@ -2687,6 +2687,10 @@
   label: CBC
   group: bank_transfers
 -
+  name: arca
+  label: Arca
+  group: wallets
+-
   name: khalti
   label: Khalti
   group: wallets
