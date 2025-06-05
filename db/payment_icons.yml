@@ -2810,3 +2810,7 @@
   name: bizumpaynlversion
   label: Bizum
   group: other
+-
+  name: payrexxpowerpay
+  label: Payrexx Powerpay
+  group: other
