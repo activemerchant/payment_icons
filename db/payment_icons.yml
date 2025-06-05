@@ -2874,3 +2874,7 @@
   name: halotel
   label: Halotel
   group: wallets
+-
+  name: zamtel
+  label: zamtel
+  group: wallets
