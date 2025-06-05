@@ -2818,3 +2818,87 @@
   name: ipass
   label: Ipass
   group: wallets
+-
+  name: payrexxpaybybank
+  label: Payrexx Pay by Bank
+  group: bank_transfers
+-
+  name: payrexxpowerpay
+  label: Payrexx Powerpay
+  group: other
+-
+  name: saunaandwellnesscadeau
+  label: Sauna & Wellness cadeaukaart
+  group: other
+-
+  name: bbqcadeaukaart
+  label: BBQ cadeaukaart
+  group: other
+-
+  name: beautyandmorecadeaukaart
+  label: Beauty & More cadeaukaart
+  group: other
+-
+  name: vippspaynlversion
+  label: Vipps
+  group: other
+-
+  name: wero
+  label: WERO
+  group: other
+-
+  name: azericard
+  label: Azericard
+  group: credit_cards
+-
+  name: mbwaypaynlversion
+  label: MB WAY
+  group: other
+-
+  name: genie
+  label: Genie
+  group: wallets
+-
+  name: tafi
+  label: Tafi
+  group: bank_transfers
+-
+  name: idram
+  label: IDram
+  group: wallets
+-
+  name: vodafone
+  label: Vodafone
+  group: wallets
+-
+  name: free
+  label: Free
+  group: wallets
+-
+  name: halotel
+  label: Halotel
+  group: wallets
+-
+  name: zamtel
+  label: zamtel
+  group: wallets
+-
+  name: moov
+  label: Moov
+  group: wallets
+-
+  name: tnmmoney
+  label: TNMmoney
+  group: wallets
+-
+  name: almapaynlversion
+  label: Alma
+  group: other
+-
+  name: klap
+  label: Klap
+  group: wallets
+-
+  name: clickuz
+  label: Clickuz
+  group: wallets
