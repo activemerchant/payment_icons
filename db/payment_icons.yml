@@ -2903,7 +2903,7 @@
   label: Clickuz
   group: wallets
 -
-  name: verifone_bnpl
+  name: verifonebnpl
   label: Verifone BNPL
   group: other
 - 
