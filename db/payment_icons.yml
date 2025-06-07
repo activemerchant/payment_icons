@@ -2910,3 +2910,7 @@
   name: bol
   label: Checkout via bol
   group: other
+-
+  name: ach
+  label: Ach
+  group: bank_transfers
