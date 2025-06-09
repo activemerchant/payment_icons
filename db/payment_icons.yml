@@ -2915,6 +2915,10 @@
   label: Checkout via bol
   group: other
 -
+  name: pads
+  label: Pads
+  group: bank_transfers
+-
   name: betalingsservice
   label: Betalingsservice
   group: bank_transfers
