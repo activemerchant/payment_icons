@@ -2902,6 +2902,10 @@
   name: clickuz
   label: Clickuz
   group: wallets
+-
+  name: verifonebnpl
+  label: Verifone BNPL
+  group: other
 - 
   name: glbemoreoptions
   label: Global-E More Options
@@ -2913,4 +2917,12 @@
 -
   name: ach
   label: Ach
+  group: bank_transfers
+-
+  name: bacs
+  label: Bacs
+  group: bank_transfers
+-
+  name: becs
+  label: Becs
   group: bank_transfers
