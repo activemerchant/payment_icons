@@ -2915,6 +2915,10 @@
   label: Checkout via bol
   group: other
 -
+  name: bacs
+  label: Bacs
+  group: bank_transfers
+-
   name: becs
   label: Becs
   group: bank_transfers
