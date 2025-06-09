@@ -2915,6 +2915,10 @@
   label: Checkout via bol
   group: other
 -
+  name: betalingsservice
+  label: Betalingsservice
+  group: bank_transfers
+-
   name: bgautogiro
   label: Bgautogiro
   group: bank_transfers
