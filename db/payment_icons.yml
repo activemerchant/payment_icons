@@ -371,6 +371,10 @@
   label: Duologi
   group: other
 -
+  name: newpay
+  label: Newpay
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
