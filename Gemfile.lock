@@ -2,9 +2,6 @@ PATH
   remote: .
   specs:
     payment_icons (1.7.56)
-      frozen_record
-      railties (>= 5.0)
-      sassc-rails
 
 GEM
   remote: https://rubygems.org/
@@ -93,9 +90,6 @@ GEM
     drb (2.2.3)
     erb (5.0.1)
     erubi (1.13.1)
-    ffi (1.17.2)
-    frozen_record (0.27.4)
-      activemodel
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -185,26 +179,9 @@ GEM
       psych (>= 4.0.0)
     reline (0.6.1)
       io-console (~> 0.5)
-    sassc (2.4.0)
-      ffi (~> 1.9)
-    sassc-rails (2.1.2)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     securerandom (0.4.1)
-    sprockets (4.2.2)
-      concurrent-ruby (~> 1.0)
-      logger
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.5.2)
-      actionpack (>= 6.1)
-      activesupport (>= 6.1)
-      sprockets (>= 3.0.0)
     stringio (3.1.7)
     thor (1.3.2)
-    tilt (2.6.0)
     timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
