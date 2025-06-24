@@ -2942,6 +2942,10 @@
   name: ledyer
   label: Ledyer
   group: other
+-
+  name: kidsandteen
+  label: Kids & Teen
+  group: other
 -  
   name: paybybankmollie
   label: Pay by Bank
