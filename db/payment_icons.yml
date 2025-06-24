@@ -2946,3 +2946,7 @@
   name: kidsandteen
   label: Kids & Teen
   group: other
+-  
+  name: paybybankmollie
+  label: Pay by Bank
+  group: bank_transfers
