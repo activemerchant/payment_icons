@@ -2450,7 +2450,7 @@
   name: paysquad
   label: Paysquad
   group: other
-- 
+-
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2531,7 +2531,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado 
+  name: bancoestado
   label: Banco Estado
   group: bank_transfers
 -
@@ -2958,7 +2958,7 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
--  
+-
   name: twisto
   label: Twisto
   group: bank_transfers
@@ -2998,7 +2998,7 @@
   name: barion
   label: Barion
   group: wallets
--  
+-
   name: bogpay
   label: Bogpay
   group: credit_cards
@@ -3025,4 +3025,8 @@
 -
   name: avardapaylater
   label: Avarda Pay Later
+  group: other
+-
+  name: payu_installments
+  label: PayU Installments
   group: other
