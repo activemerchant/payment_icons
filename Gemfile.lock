@@ -226,4 +226,4 @@ DEPENDENCIES
   rails (>= 5.0)
 
 BUNDLED WITH
-   2.6.5
+   2.7.1
