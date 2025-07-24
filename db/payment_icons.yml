@@ -371,6 +371,10 @@
   label: Duologi
   group: other
 -
+  name: newpay
+  label: Newpay
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
@@ -1575,6 +1579,10 @@
   label: Laybuy
   group: other
 -
+  name: laybuybyklarna
+  label: Laybuy by Klarna
+  group: other
+-
   name: lydia
   label: Lydia
   group: wallets
@@ -2438,13 +2446,17 @@
   name: paysquad
   label: Paysquad
   group: other
-- 
+-
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
 -
   name: wingbank
   label: Wing Bank
+  group: bank_transfers
+-
+  name: payeverpaybybank
+  label: payever Pay by Bank
   group: bank_transfers
 -
   name: efecty
@@ -2515,7 +2527,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado 
+  name: bancoestado
   label: Banco Estado
   group: bank_transfers
 -
@@ -2603,12 +2615,28 @@
   label: MultiSafepay
   group: other
 -
+  name: cofidis3x
+  label: Cofidis en 3 fois
+  group: other
+-
+  name: cofidis4x
+  label: Cofidis en 4 fois
+  group: other
+-
+  name: ipwire
+  label: Virement SEPA
+  group: bank_transfers
+-
+  name: ipwireinst
+  label: Virement SEPA Instantané
+  group: bank_transfers
+-
   name: purdeygiftcard
   label: Purdey Giftcard
   group: other
 -
   name: curacaopay
-  label: CuracaoPay 
+  label: CuracaoPay
   group: other
 -
   name: novalnetinvoice
@@ -2666,6 +2694,18 @@
   name: cbc
   label: CBC
   group: bank_transfers
+-
+  name: benefitpay
+  label: Benefitpay
+  group: wallets
+-
+  name: sslcommerz
+  label: Sslcommerz
+  group: wallets
+-
+  name: arca
+  label: Arca
+  group: wallets
 -
   name: khalti
   label: Khalti
@@ -2727,8 +2767,12 @@
   label: Zaver
   group: other
 -
-  name: rvrpas
-  label: RVR-PAS
+  name: novalnetinstalmentbyinvoice
+  label: Novalnet Instalment by Invoice
+  group: other
+-
+  name: novalnetinstalmentbydirectdebitsepa
+  label: Novalnet Instalment by Direct Debit SEPA
   group: other
 -
   name: crediviva
@@ -2773,4 +2817,144 @@
 -
   name: bizumpaynlversion
   label: Bizum
+  group: other
+-
+  name: ipass
+  label: Ipass
+  group: wallets
+-
+  name: payrexxpaybybank
+  label: Payrexx Pay by Bank
+  group: bank_transfers
+-
+  name: payrexxpowerpay
+  label: Payrexx Powerpay
+  group: other
+-
+  name: saunaandwellnesscadeau
+  label: Sauna & Wellness cadeaukaart
+  group: other
+-
+  name: bbqcadeaukaart
+  label: BBQ cadeaukaart
+  group: other
+-
+  name: beautyandmorecadeaukaart
+  label: Beauty & More cadeaukaart
+  group: other
+-
+  name: vippspaynlversion
+  label: Vipps
+  group: other
+-
+  name: wero
+  label: WERO
+  group: other
+-
+  name: azericard
+  label: Azericard
+  group: credit_cards
+-
+  name: mbwaypaynlversion
+  label: MB WAY
+  group: other
+-
+  name: genie
+  label: Genie
+  group: wallets
+-
+  name: tafi
+  label: Tafi
+  group: bank_transfers
+-
+  name: idram
+  label: IDram
+  group: wallets
+-
+  name: vodafone
+  label: Vodafone
+  group: wallets
+-
+  name: free
+  label: Free
+  group: wallets
+-
+  name: halotel
+  label: Halotel
+  group: wallets
+-
+  name: zamtel
+  label: zamtel
+  group: wallets
+-
+  name: moov
+  label: Moov
+  group: wallets
+-
+  name: tnmmoney
+  label: TNMmoney
+  group: wallets
+-
+  name: almapaynlversion
+  label: Alma
+  group: other
+-
+  name: klap
+  label: Klap
+  group: wallets
+-
+  name: clickuz
+  label: Clickuz
+  group: wallets
+-
+  name: verifonebnpl
+  label: Verifone BNPL
+  group: other
+-
+  name: glbemoreoptions
+  label: Global-E More Options
+  group: other
+-
+  name: bol
+  label: Checkout via bol
+  group: other
+-
+  name: pads
+  label: Pads
+  group: bank_transfers
+-
+  name: betalingsservice
+  label: Betalingsservice
+  group: bank_transfers
+-
+  name: bgautogiro
+  label: Bgautogiro
+  group: bank_transfers
+-
+  name: ach
+  label: Ach
+  group: bank_transfers
+-
+  name: bacs
+  label: Bacs
+  group: bank_transfers
+-
+  name: becs
+  label: Becs
+  group: bank_transfers
+-
+  name: ledyer
+  label: Ledyer
+  group: other
+-
+  name: kidsandteen
+  label: Kids & Teen
+  group: other
+-
+  name: paybybankmollie
+  label: Pay by Bank
+  group: bank_transfers
+-
+  name: rvrpas
+  label: RVR-PAS
   group: other
