@@ -2446,7 +2446,7 @@
   name: paysquad
   label: Paysquad
   group: other
--
+- 
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2527,7 +2527,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado
+  name: bancoestado 
   label: Banco Estado
   group: bank_transfers
 -
@@ -2636,7 +2636,7 @@
   group: other
 -
   name: curacaopay
-  label: CuracaoPay
+  label: CuracaoPay 
   group: other
 -
   name: novalnetinvoice
@@ -2694,18 +2694,6 @@
   name: cbc
   label: CBC
   group: bank_transfers
--
-  name: benefitpay
-  label: Benefitpay
-  group: wallets
--
-  name: sslcommerz
-  label: Sslcommerz
-  group: wallets
--
-  name: arca
-  label: Arca
-  group: wallets
 -
   name: khalti
   label: Khalti
