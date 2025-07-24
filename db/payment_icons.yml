@@ -2910,7 +2910,7 @@
   name: verifonebnpl
   label: Verifone BNPL
   group: other
-- 
+-
   name: glbemoreoptions
   label: Global-E More Options
   group: other
@@ -2950,7 +2950,11 @@
   name: kidsandteen
   label: Kids & Teen
   group: other
--  
+-
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+  name: rvrpas
+  label: RVR-PAS
+  group: other
