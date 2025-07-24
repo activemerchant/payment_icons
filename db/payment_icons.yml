@@ -2574,3 +2574,15 @@
   name:  pay_shap
   label: PayShap
   group: bank_transfers
+-
+  name: novalnetdirectdebitach
+  label: Novalnet Direct Debit ACH
+  group: other
+-
+  name: mondu
+  label: Mondu
+  group: other
+-
+  name: bancolombia
+  label: Bancolombia
+  group: bank_transfers
