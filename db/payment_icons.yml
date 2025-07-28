@@ -2966,3 +2966,7 @@
   name: masr
   label: MASR
   group: bank_transfers
+-  
+  name: nbd
+  label: NBD
+  group: bank_transfers
