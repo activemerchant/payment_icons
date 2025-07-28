@@ -2970,3 +2970,7 @@
   name: nbd
   label: NBD
   group: bank_transfers
+-  
+  name: nbe
+  label: NBE
+  group: bank_transfers
