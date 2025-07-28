@@ -2985,4 +2985,7 @@
   name: nbd
   label: NBD
   group: bank_transfers
->>>>>>> 800ff441 (nbd icon added)
+-  
+  name: nbe
+  label: NBE
+  group: bank_transfers
