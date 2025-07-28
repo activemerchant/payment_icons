@@ -2965,6 +2965,7 @@
 -  
   name: masr
   label: MASR
+<<<<<<< HEAD
   group: bank_transfers
 -  
   name: nbd
@@ -2974,3 +2975,6 @@
   name: nbe
   label: NBE
   group: bank_transfers
+=======
+  group: bank_transfers
+>>>>>>> 89d6d15b (masr icon added)
