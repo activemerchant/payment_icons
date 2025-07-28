@@ -2446,7 +2446,7 @@
   name: paysquad
   label: Paysquad
   group: other
-- 
+-
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2527,7 +2527,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado 
+  name: bancoestado
   label: Banco Estado
   group: bank_transfers
 -
@@ -2636,7 +2636,7 @@
   group: other
 -
   name: curacaopay
-  label: CuracaoPay 
+  label: CuracaoPay
   group: other
 -
   name: novalnetinvoice
@@ -2910,7 +2910,7 @@
   name: verifonebnpl
   label: Verifone BNPL
   group: other
-- 
+-
   name: glbemoreoptions
   label: Global-E More Options
   group: other
@@ -2950,7 +2950,35 @@
   name: kidsandteen
   label: Kids & Teen
   group: other
--  
+-
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+    name: ab
+    label: Aruba Bank
+    group: bank_transfers
+-
+    name: apc
+    label: APC Bank
+    group: bank_transfers
+-
+    name: bdc
+    label: Banco di Caribe
+    group: bank_transfers
+-
+    name: cmb
+    label: Caribbean Mercantile Bank
+    group: bank_transfers
+-
+    name: mcb
+    label: Maduro & Curiel's Bank
+    group: bank_transfers
+-
+    name: orco
+    label: Orco Bank
+    group: bank_transfers
+-
+    name: wib
+    label: Windward Islands Bank
+    group: bank_transfers
