@@ -2958,7 +2958,3 @@
   name: qnb
   label: QNB
   group: bank_transfers
--  
-  name: adib
-  label: ADIB
-  group: bank_transfers
