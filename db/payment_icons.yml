@@ -2954,3 +2954,7 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-  
+  name: nayapay
+  label: Nayapay
+  group: wallets
