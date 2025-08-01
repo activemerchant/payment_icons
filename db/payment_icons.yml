@@ -2954,3 +2954,8 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+-  
+  name: suyool
+  label: Suyool
+  group: wallets
