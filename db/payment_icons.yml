@@ -2095,6 +2095,10 @@
   label: De cadeau kaart
   group: other
 -
+  name: decadeaukaartblack
+  label: De cadeau kaart
+  group: other
+-
   name: zulilycreditcard
   label: Zulily Credit Card
   group: credit_cards
@@ -2636,7 +2640,7 @@
   group: other
 -
   name: curacaopay
-  label: CuracaoPay 
+  label: CuracaoPay
   group: other
 -
   name: novalnetinvoice
@@ -2910,7 +2914,7 @@
   name: verifonebnpl
   label: Verifone BNPL
   group: other
-- 
+-
   name: glbemoreoptions
   label: Global-E More Options
   group: other
@@ -2950,7 +2954,7 @@
   name: kidsandteen
   label: Kids & Teen
   group: other
--  
+-
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
@@ -2958,3 +2962,39 @@
   name: navarpay
   label: Navarpay
   group: wallets
+-
+  name: easypaisa
+  label: Easypaisa
+  group: other
+-
+  name: barion
+  label: Barion
+  group: wallets
+-  
+  name: bogpay
+  label: Bogpay
+  group: credit_cards
+-
+  name: alifpay
+  label: Alifpay
+  group: wallets
+-
+  name: plata
+  label: Plata
+  group: other
+-
+  name: leanpay
+  label: Leanpay
+  group: other
+-
+  name: rvrpas
+  label: RVR-PAS
+  group: other
+-
+  name: avardapartpayment
+  label: Avarda Part Payment
+  group: other
+-
+  name: avardapaylater
+  label: Avarda Pay Later
+  group: other
