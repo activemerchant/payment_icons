@@ -2636,7 +2636,7 @@
   group: other
 -
   name: curacaopay
-  label: CuracaoPay 
+  label: CuracaoPay
   group: other
 -
   name: novalnetinvoice
@@ -2910,7 +2910,7 @@
   name: verifonebnpl
   label: Verifone BNPL
   group: other
-- 
+-
   name: glbemoreoptions
   label: Global-E More Options
   group: other
@@ -2950,7 +2950,15 @@
   name: kidsandteen
   label: Kids & Teen
   group: other
--  
+-
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+  name: avardapartpayment
+  label: Avarda Part Payment
+  group: other
+-
+  name: avardapaylater
+  label: Avarda Pay Later
+  group: other
