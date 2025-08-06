@@ -2959,6 +2959,10 @@
   label: Pay by Bank
   group: bank_transfers
 -  
+  name: paynuno
+  label: Paynuno
+  group: wallets
+-
   name: paymee
   label: Paymee
   group: credit_cards
