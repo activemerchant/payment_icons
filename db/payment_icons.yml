@@ -2959,8 +2959,58 @@
   label: Pay by Bank
   group: bank_transfers
 -  
+
   name: floapay
   label: Floa Pay
+  group: other
+
+  name: twisto
+  label: Twisto
+  group: bank_transfers
+-
+  name: suyool
+  label: Suyool
+  group: wallets
+-
+  name: sadapay
+  label: Sadapay
+  group: wallets
+-
+  name: portmone
+  label: Portmone
+  group: wallets
+-
+  name: paynuno
+  label: Paynuno
+  group: wallets
+-
+  name: paymee
+  label: Paymee
+  group: credit_cards
+-
+  name: nayapay
+  label: Nayapay
+  group: wallets
+-
+  name: navarpay
+  label: Navarpay
+  group: wallets
+-
+  name: easypaisa
+  label: Easypaisa
+  group: other
+-
+  name: barion
+  label: Barion
+  group: wallets
+-  
+  name: bogpay
+  label: Bogpay
+  group: credit_cards
+-
+  name: alifpay
+  label: Alifpay
+  group: wallets
 -
   name: plata
   label: Plata
