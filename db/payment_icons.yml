@@ -2959,6 +2959,10 @@
   label: Pay by Bank
   group: bank_transfers
 -
+  name: plata
+  label: Plata
+  group: other
+-
   name: leanpay
   label: Leanpay
   group: other
