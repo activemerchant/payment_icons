@@ -2959,8 +2959,8 @@
   label: Pay by Bank
   group: bank_transfers
 -  
-  name: navarpay
-  label: Navarpay
+  name: naverpay
+  label: NaverPay
   group: wallets
 -
   name: easypaisa
