@@ -3027,6 +3027,6 @@
   label: Avarda Pay Later
   group: other
 -
-  name: payu_installments
+  name: payuinstallments
   label: PayU Installments
   group: other
