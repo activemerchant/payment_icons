@@ -2959,7 +2959,7 @@
   label: Pay by Bank
   group: bank_transfers
 -
-  name: buckaroo_payments
+  name: buckaroopayments
   label: Buckaroo Payments
   group: other
 -
