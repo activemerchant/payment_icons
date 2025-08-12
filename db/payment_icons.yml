@@ -2958,26 +2958,6 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
--
-  name: bob_pay_instant_eft
-  label: Bob Pay Instant EFT
-  group: bank_transfers
--
-  name: bob_pay_manual_eft
-  label: Bob Pay Manual EFT
-  group: bank_transfers
--
-  name:  capitec_pay
-  label: Capitec Pay
-  group: bank_transfers
--
-  name:  scan_to_pay
-  label: Scan to Pay
-  group: bank_transfers
--
-  name:  pay_shap
-  label: PayShap
-  group: bank_transfers
 -  
   name: twisto
   label: Twisto
@@ -3046,3 +3026,23 @@
   name: avardapaylater
   label: Avarda Pay Later
   group: other
+-
+  name: bob_pay_instant_eft
+  label: Bob Pay Instant EFT
+  group: bank_transfers
+-
+  name: bob_pay_manual_eft
+  label: Bob Pay Manual EFT
+  group: bank_transfers
+-
+  name:  capitec_pay
+  label: Capitec Pay
+  group: bank_transfers
+-
+  name:  scan_to_pay
+  label: Scan to Pay
+  group: bank_transfers
+-
+  name:  pay_shap
+  label: PayShap
+  group: bank_transfers
