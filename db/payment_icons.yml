@@ -3026,3 +3026,7 @@
   name: avardapaylater
   label: Avarda Pay Later
   group: other
+-
+  name: pragmapay
+  label: PragmaPay
+  group: other
