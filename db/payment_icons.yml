@@ -2962,3 +2962,15 @@
   name: adib
   label: ADIB
   group: bank_transfers
+-  
+  name: masr
+  label: MASR
+  group: bank_transfers
+-  
+  name: nbd
+  label: Emirates NBD
+  group: bank_transfers
+-  
+  name: nbe
+  label: NBE
+  group: bank_transfers
