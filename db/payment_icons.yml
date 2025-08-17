@@ -2968,5 +2968,5 @@
   group: bank_transfers
 -  
   name: nbd
-  label: NBD
+  label: Emirates NBD
   group: bank_transfers
