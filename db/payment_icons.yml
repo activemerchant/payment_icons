@@ -3026,3 +3026,7 @@
   name: avardapaylater
   label: Avarda Pay Later
   group: other
+-
+  name: unzerbanktransfer
+  label: Unzer Direct Bank Transfer
+  group: other
