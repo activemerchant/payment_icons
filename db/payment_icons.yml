@@ -3026,3 +3026,16 @@
   name: avardapaylater
   label: Avarda Pay Later
   group: other
+-
+  name: flexhsa
+  label: Flex HSA
+  group: other
+-
+  name: flexfsa
+  label: Flex FSA
+  group: other
+-
+  name: flex
+  label: Flex
+  group: other
+-
