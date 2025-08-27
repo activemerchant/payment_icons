@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24"
-    fill="none" aria-labelledby="pi-fundiin">
-    <title id="pi-fundiin">Fundiin</title>
-    <g clip-path="url(#pi-fundiin)">
-        <rect width="38" height="24" rx="3" fill="#F5F5F5" />
-        <rect x=".5" y=".5" width="37" height="23" rx="2.5" stroke="#000" stroke-opacity=".07" />
-        <rect id="pi-logo-top" x="8" y="3" width="20" height="5" rx="2.5" fill="#6D5FF0" />
-        <rect id="pi-logo-middle" x="8" y="10" width="15" height="5" rx="2.5" fill="#3899DE" />
-        <rect id="pi-logo-bottom" x="8" y="17" width="7" height="5" rx="2.5" fill="#00D6CA" />
-    </g>
-    <defs>
-        <clipPath id="pi-fundiin">
-            <path fill="#fff" d="M0 0h38v24H0z" />
-        </clipPath>
-    </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="24" fill="none" aria-labelledby="pi-fundiin"><title id="pi-fundiin">Fundiin</title><g clip-path="url(#pi-fundiin)"><rect width="38" height="24" rx="3" fill="#F5F5F5"/><rect x=".5" y=".5" width="37" height="23" rx="2.5" stroke="#000" stroke-opacity=".07"/><rect id="pi-logo-top" x="8" y="3" width="20" height="5" rx="2.5" fill="#6D5FF0"/><rect id="pi-logo-middle" x="8" y="10" width="15" height="5" rx="2.5" fill="#3899DE"/><rect id="pi-logo-bottom" x="8" y="17" width="7" height="5" rx="2.5" fill="#00D6CA"/></g><defs><clipPath id="pi-fundiin"><path fill="#fff" d="M0 0h38v24H0z"/></clipPath></defs></svg>
