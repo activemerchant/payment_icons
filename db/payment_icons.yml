@@ -2963,6 +2963,34 @@
   label: NaverPay
   group: wallets
 -
+  name: twisto
+  label: Twisto
+  group: bank_transfers
+-
+  name: suyool
+  label: Suyool
+  group: wallets
+-
+  name: sadapay
+  label: Sadapay
+  group: wallets
+-
+  name: portmone
+  label: Portmone
+  group: wallets
+-
+  name: paynuno
+  label: Paynuno
+  group: wallets
+-
+  name: paymee
+  label: Paymee
+  group: credit_cards
+-
+  name: nayapay
+  label: Nayapay
+  group: wallets
+-
   name: easypaisa
   label: Easypaisa
   group: other
