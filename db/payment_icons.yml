@@ -2959,6 +2959,14 @@
   label: Pay by Bank
   group: bank_transfers
 -  
+  name: qnb
+  label: QNB
+  group: bank_transfers
+-  
+  name: adib
+  label: ADIB
+  group: bank_transfers
+-
   name: twisto
   label: Twisto
   group: bank_transfers
