@@ -3015,6 +3015,10 @@
   label: Leanpay
   group: other
 -
+  name: buckaroopayments
+  label: Buckaroo Payments
+  group: other
+-
   name: rvrpas
   label: RVR-PAS
   group: other
