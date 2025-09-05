@@ -3067,6 +3067,10 @@
   label: Avarda Pay Later
   group: other
 -
+  name: dopple
+  label: Dopple
+  group: other
+-
   name: payuinstallments
   label: PayU Installments
   group: other
