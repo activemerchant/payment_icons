@@ -2958,6 +2958,10 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-  
+  name: floapay
+  label: Floapay
+  group: other
 -
   name: twisto
   label: Twisto
@@ -3015,6 +3019,10 @@
   label: Leanpay
   group: other
 -
+  name: buckaroopayments
+  label: Buckaroo Payments
+  group: other
+-
   name: rvrpas
   label: RVR-PAS
   group: other
@@ -3029,4 +3037,8 @@
 -
   name: payuinstallments
   label: PayU Installments
+  group: other
+-
+  name: sumas
+  label: Sumas
   group: other
