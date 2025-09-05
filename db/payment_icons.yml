@@ -3067,6 +3067,11 @@
   label: Avarda Pay Later
   group: other
 -
+
+  name: pragmapay
+  label: PragmaPay
+  group: other
+-
   name: dopple
   label: Dopple
   group: other
