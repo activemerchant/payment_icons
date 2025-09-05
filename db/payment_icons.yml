@@ -2959,6 +2959,10 @@
   label: Pay by Bank
   group: bank_transfers
 -  
+  name: floapay
+  label: Floapay
+  group: other
+-
   name: twisto
   label: Twisto
   group: bank_transfers
