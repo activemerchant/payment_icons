@@ -3034,3 +3034,7 @@
   name: avardapaylater
   label: Avarda Pay Later
   group: other
+-
+  name: sumas
+  label: Sumas
+  group: other
