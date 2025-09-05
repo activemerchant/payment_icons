@@ -2959,6 +2959,34 @@
   label: Pay by Bank
   group: bank_transfers
 -
+  name: ab
+  label: Aruba Bank
+  group: bank_transfers
+-
+  name: apc
+  label: APC Bank
+  group: bank_transfers
+-
+  name: bdc
+  label: Banco di Caribe
+  group: bank_transfers
+-
+  name: cmb
+  label: Caribbean Mercantile Bank
+  group: bank_transfers
+-
+  name: mcb
+  label: Maduro & Curiel's Bank
+  group: bank_transfers
+-
+  name: orco
+  label: Orco Bank
+  group: bank_transfers
+-
+  name: wib
+  label: Windward Islands Bank
+  group: bank_transfers
+-
   name: eurobonuscheckout
   label: Eurobonus Checkout
   group: other
