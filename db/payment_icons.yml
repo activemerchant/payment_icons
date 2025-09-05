@@ -2958,6 +2958,10 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+  name: eurobonuscheckout
+  label: Eurobonus Checkout
+  group: other
 -  
   name: floapay
   label: Floapay
