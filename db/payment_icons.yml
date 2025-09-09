@@ -2994,7 +2994,7 @@
   name: eurobonuscheckout
   label: Eurobonus Checkout
   group: other
--  
+-
   name: floapay
   label: Floapay
   group: other
@@ -3097,4 +3097,8 @@
 -
   name: sumas
   label: Sumas
+  group: other
+-
+  name: avardakekale
+  label: Kekäle
   group: other
