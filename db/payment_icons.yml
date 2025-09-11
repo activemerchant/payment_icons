@@ -135,10 +135,6 @@
   label: World Chain
   group: cryptocurrencies
 -
-  name: worldchain
-  label: World Chain
-  group: cryptocurrencies
--
   name: busd
   label: Binance USD
   group: cryptocurrencies
@@ -2315,58 +2311,6 @@
   label: Monzo
   group: bank_transfers
 -
-  name: abn
-  label: ABN
-  group: bank_transfers
--
-  name: barclays
-  label: Barclays
-  group: bank_transfers
--
-  name: bnp
-  label: BNP
-  group: bank_transfers
--
-  name: creditagricole
-  label: Credit Agricole
-  group: bank_transfers
--
-  name: erste
-  label: Erste
-  group: bank_transfers
--
-  name: lloyds
-  label: Lloyds
-  group: bank_transfers
--
-  name: natwest
-  label: Natwest
-  group: bank_transfers
--
-  name: rabobank
-  label: Rabobank
-  group: bank_transfers
--
-  name: societegenerale
-  label: Societe Generale
-  group: bank_transfers
--
-  name: sparkasse
-  label: Sparkasse
-  group: bank_transfers
--
-  name: volksbank
-  label: Volksbank
-  group: bank_transfers
--
-  name: volt
-  label: Volt
-  group: bank_transfers
--
-  name: monzo
-  label: Monzo
-  group: bank_transfers
--
   name: favepay
   label: FavePay
   group: other
@@ -2471,10 +2415,6 @@
   label: Zustaina
   group: other
 -
-  name: zustaina
-  label: Zustaina
-  group: other
--
   name: payright
   label: Payright
   group: other
@@ -2482,6 +2422,14 @@
   name: bancoazteca
   label: Banco Azteca
   group: wallets
+-
+  name: militarystarcard
+  label: Military StarCard
+  group: credit_cards
+-
+  name: payitmonthly
+  label: PayItMonthly
+  group: other
 -
   name: pointspay
   label: Pointspay
@@ -2517,7 +2465,7 @@
 -
   name: efecty
   label: Efecty
-  group: other
+  group: bank_transfers
 -
   name: nequi
   label: Nequi
@@ -2554,14 +2502,18 @@
   name: riverty
   label: Riverty
   group: other
-- 
+-
   name: whishcheckout
   label: Whish Checkout
   group: wallets
 -
+  name: whishpay
+  label: Whish Pay
+  group: wallets
+-
   name: kcpcreditcard
   label: KCP Credit Card
-  group: credit_cards
+  group: other
 -
   name: powerpay
   label: Powerpay
@@ -3010,7 +2962,43 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-
+  name: ab
+  label: Aruba Bank
+  group: bank_transfers
+-
+  name: apc
+  label: APC Bank
+  group: bank_transfers
+-
+  name: bdc
+  label: Banco di Caribe
+  group: bank_transfers
+-
+  name: cmb
+  label: Caribbean Mercantile Bank
+  group: bank_transfers
+-
+  name: mcb
+  label: Maduro & Curiel's Bank
+  group: bank_transfers
+-
+  name: orco
+  label: Orco Bank
+  group: bank_transfers
+-
+  name: wib
+  label: Windward Islands Bank
+  group: bank_transfers
+-
+  name: eurobonuscheckout
+  label: Eurobonus Checkout
+  group: other
 -  
+  name: floapay
+  label: Floapay
+  group: other
+-
   name: twisto
   label: Twisto
   group: bank_transfers
@@ -3050,7 +3038,7 @@
   name: barion
   label: Barion
   group: wallets
--  
+-
   name: bogpay
   label: Bogpay
   group: credit_cards
@@ -3067,6 +3055,10 @@
   label: Leanpay
   group: other
 -
+  name: buckaroopayments
+  label: Buckaroo Payments
+  group: other
+-
   name: rvrpas
   label: RVR-PAS
   group: other
@@ -3079,6 +3071,34 @@
   label: Avarda Pay Later
   group: other
 -
+  name: flexhsa
+  label: Flex HSA
+  group: other
+-
+  name: flexfsa
+  label: Flex FSA
+  group: other
+-
+  name: flex
+  label: Flex
+  group: other
+-
+  name: pragmapay
+  label: PragmaPay
+  group: other
+-
+  name: dopple
+  label: Dopple
+  group: other
+-
+  name: payuinstallments
+  label: PayU Installments
+  group: other
+-
+  name: sumas
+  label: Sumas
+  group: other
+- 
   name: bobpayinstanteft
   label: Bob Pay Instant EFT
   group: bank_transfers
