@@ -3027,22 +3027,22 @@
   label: Avarda Pay Later
   group: other
 -
-  name: bob_pay_instant_eft
+  name: bobpayinstanteft
   label: Bob Pay Instant EFT
   group: bank_transfers
 -
-  name: bob_pay_manual_eft
+  name: bobpaymanualeft
   label: Bob Pay Manual EFT
   group: bank_transfers
 -
-  name:  capitec_pay
+  name:  capitecpay
   label: Capitec Pay
   group: bank_transfers
 -
-  name:  scan_to_pay
+  name:  scantopay
   label: Scan to Pay
   group: bank_transfers
 -
-  name:  pay_shap
+  name:  payshap
   label: PayShap
   group: bank_transfers
