@@ -3098,3 +3098,7 @@
   name: sumas
   label: Sumas
   group: other
+-
+  name: verve
+  label: Verve
+  group: credit_cards
