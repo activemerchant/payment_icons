@@ -2450,7 +2450,7 @@
   name: paysquad
   label: Paysquad
   group: other
--
+- 
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2531,7 +2531,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado
+  name: bancoestado 
   label: Banco Estado
   group: bank_transfers
 -
@@ -2939,10 +2939,6 @@
   label: Ach
   group: bank_transfers
 -
-  name: achdirectdebit
-  label: Ach Direct Debit
-  group: bank_transfers
--
   name: bacs
   label: Bacs
   group: bank_transfers
@@ -2962,63 +2958,7 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
--
-  name: ab
-  label: Aruba Bank
-  group: bank_transfers
--
-  name: apc
-  label: APC Bank
-  group: bank_transfers
--
-  name: bdc
-  label: Banco di Caribe
-  group: bank_transfers
--
-  name: cmb
-  label: Caribbean Mercantile Bank
-  group: bank_transfers
--
-  name: mcb
-  label: Maduro & Curiel's Bank
-  group: bank_transfers
--
-  name: orco
-  label: Orco Bank
-  group: bank_transfers
--
-  name: wib
-  label: Windward Islands Bank
-  group: bank_transfers
--
-  name: eurobonuscheckout
-  label: Eurobonus Checkout
-  group: other
 -  
-  name: qnb
-  label: QNB
-  group: bank_transfers
--  
-  name: adib
-  label: ADIB
-  group: bank_transfers
--  
-  name: masr
-  label: MASR
-  group: bank_transfers
--  
-  name: nbd
-  label: NBD
-  group: bank_transfers
--  
-  name: nbe
-  label: NBE
-  group: bank_transfers
--
-  name: floapay
-  label: Floapay
-  group: other
--
   name: twisto
   label: Twisto
   group: bank_transfers
@@ -3058,7 +2998,7 @@
   name: barion
   label: Barion
   group: wallets
--
+-  
   name: bogpay
   label: Bogpay
   group: credit_cards
@@ -3073,10 +3013,6 @@
 -
   name: leanpay
   label: Leanpay
-  group: other
--
-  name: buckaroopayments
-  label: Buckaroo Payments
   group: other
 -
   name: rvrpas
@@ -3103,18 +3039,3 @@
   label: Flex
   group: other
 -
-  name: pragmapay
-  label: PragmaPay
-  group: other
--
-  name: dopple
-  label: Dopple
-  group: other
--
-  name: payuinstallments
-  label: PayU Installments
-  group: other
--
-  name: sumas
-  label: Sumas
-  group: other
