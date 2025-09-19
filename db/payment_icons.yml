@@ -2995,6 +2995,26 @@
   label: Eurobonus Checkout
   group: other
 -  
+  name: qnb
+  label: QNB
+  group: bank_transfers
+-  
+  name: adib
+  label: ADIB
+  group: bank_transfers
+-  
+  name: masr
+  label: MASR
+  group: bank_transfers
+-  
+  name: nbd
+  label: NBD
+  group: bank_transfers
+-  
+  name: nbe
+  label: NBE
+  group: bank_transfers
+-
   name: floapay
   label: Floapay
   group: other
