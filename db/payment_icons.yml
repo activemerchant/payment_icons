@@ -3099,10 +3099,6 @@
   label: Sumas
   group: other
 -
-  name: verve
-  label: Verve
-  group: credit_cards
--
   name: nomba
   label: Nomba
   group: bank_transfers
