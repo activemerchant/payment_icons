@@ -3098,3 +3098,7 @@
   name: sumas
   label: Sumas
   group: other
+-
+  name: bank
+  label: Generic bank
+  group: other
