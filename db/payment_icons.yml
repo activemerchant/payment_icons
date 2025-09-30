@@ -3127,8 +3127,8 @@
   label: Citi
   group: bank_transfers
 -
-  name: citizen
-  label: Citizen
+  name: citizens
+  label: Citizens
   group: bank_transfers
 -
   name: firstcitizens
