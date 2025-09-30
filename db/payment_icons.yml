@@ -3099,7 +3099,7 @@
   label: Sumas
   group: other
 -
-  name: bank_of_america
+  name: bankofamerica
   label: Bank of America
   group: bank_transfers
 -
@@ -3111,7 +3111,7 @@
   label: BNY
   group: bank_transfers
 -
-  name: capital_one
+  name: capitalone
   label: Capital One
   group: bank_transfers
 -
@@ -3119,7 +3119,7 @@
   label: Chase
   group: bank_transfers
 -
-  name: charles_schwab
+  name: charlesschwab
   label: Charles Schwab
   group: bank_transfers
 -
@@ -3131,11 +3131,11 @@
   label: Citizen
   group: bank_transfers
 -
-  name: first_citizens
+  name: firstcitizens
   label: First Citizens
   group: bank_transfers
 -
-  name: golden_sachs 
+  name: goldensachs 
   label: Golden Sachs
   group: bank_transfers
 -
@@ -3143,7 +3143,7 @@
   label: PNC
   group: bank_transfers
 -
-  name: state_street 
+  name: statestreet 
   label: State Street
   group: bank_transfers
 -
@@ -3155,7 +3155,7 @@
   label: Truist
   group: bank_transfers
 -
-  name: us_bank
+  name: usbank
   label: US Bank
   group: bank_transfers
 -
@@ -3163,6 +3163,6 @@
   label: USAA
   group: bank_transfers
 -
-  name: wells_fargo
+  name: wellsfargo
   label: Wells Fargo
   group: bank_transfers
