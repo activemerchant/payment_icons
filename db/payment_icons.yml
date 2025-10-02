@@ -2942,3 +2942,7 @@
   name: ledyer
   label: Ledyer
   group: other
+-
+  name: crediteapay
+  label: Creditea Pay
+  group: other
