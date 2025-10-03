@@ -3131,6 +3131,74 @@
   label: Sumas
   group: other
 -
+  name: bankofamerica
+  label: Bank of America
+  group: bank_transfers
+-
+  name: bmo
+  label: BMO
+  group: bank_transfers
+-
+  name: bny
+  label: BNY
+  group: bank_transfers
+-
+  name: capitalone
+  label: Capital One
+  group: bank_transfers
+-
+  name: chase
+  label: Chase
+  group: bank_transfers
+-
+  name: charlesschwab
+  label: Charles Schwab
+  group: bank_transfers
+-
+  name: citi
+  label: Citi
+  group: bank_transfers
+-
+  name: citizens
+  label: Citizens
+  group: bank_transfers
+-
+  name: firstcitizens
+  label: First Citizens
+  group: bank_transfers
+-
+  name: goldensachs 
+  label: Golden Sachs
+  group: bank_transfers
+-
+  name: pnc 
+  label: PNC
+  group: bank_transfers
+-
+  name: statestreet 
+  label: State Street
+  group: bank_transfers
+-
+  name: td   
+  label: TD
+  group: bank_transfers
+-
+  name: truist
+  label: Truist
+  group: bank_transfers
+-
+  name: usbank
+  label: US Bank
+  group: bank_transfers
+-
+  name: usaa
+  label: USAA
+  group: bank_transfers
+-
+  name: wellsfargo
+  label: Wells Fargo
+  group: bank_transfers
+-
   name: genericbank
   label: Generic bank
   group: other
