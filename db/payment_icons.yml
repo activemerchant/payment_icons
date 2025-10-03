@@ -3111,6 +3111,10 @@
   label: Sumas
   group: other
 -
+  name: unzerdirectdebit
+  label: Unzer Direct Debit
+  group: other
+-
   name: unzerinstallment
   label: Unzer Installment
   group: other
