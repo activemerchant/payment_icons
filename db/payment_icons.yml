@@ -1127,6 +1127,18 @@
   label: ShopeePay
   group: wallets
 -
+  name: spaylater
+  label: SPayLater
+  group: other
+-
+  name: seabankid
+  label: SeaBank
+  group: other
+-
+  name: seabankph
+  label: SeaBank
+  group: other
+-
   name: gopay
   label: Gopay
   group: wallets
