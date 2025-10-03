@@ -3131,6 +3131,10 @@
   label: Sumas
   group: other
 -
+  name: xendit
+  label: Xendit
+  group: other
+-
   name: credova
   label: Credova
   group: other
