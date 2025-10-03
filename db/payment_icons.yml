@@ -3131,6 +3131,10 @@
   label: Sumas
   group: other
 -
+  name: flow
+  label: Flow
+  group: other
+-
   name: magnetiq
   label: Magnetiq
   group: bank_transfers
