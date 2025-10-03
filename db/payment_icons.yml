@@ -1127,6 +1127,18 @@
   label: ShopeePay
   group: wallets
 -
+  name: spaylater
+  label: SPayLater
+  group: other
+-
+  name: seabankid
+  label: SeaBank
+  group: other
+-
+  name: seabankph
+  label: SeaBank
+  group: other
+-
   name: gopay
   label: Gopay
   group: wallets
@@ -3102,3 +3114,31 @@
   name: unzerprepayment
   label: Unzer Prepayment
   group: other
+-
+  name: unzerdirectdebit
+  label: Unzer Direct Debit
+  group: other
+-
+  name: unzerinstallment
+  label: Unzer Installment
+  group: other
+- 
+  name: bobpayinstanteft
+  label: Bob Pay Instant EFT
+  group: bank_transfers
+-
+  name: bobpaymanualeft
+  label: Bob Pay Manual EFT
+  group: bank_transfers
+-
+  name:  capitecpay
+  label: Capitec Pay
+  group: bank_transfers
+-
+  name:  scantopay
+  label: Scan to Pay
+  group: bank_transfers
+-
+  name:  payshap
+  label: PayShap
+  group: bank_transfers
