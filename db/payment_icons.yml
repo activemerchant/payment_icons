@@ -3083,6 +3083,10 @@
   label: Avarda Pay Later
   group: other
 -
+  name: otpbank
+  label: OTP Bank
+  group: other
+-
   name: pluxee
   label: Pluxee
   group: other
