@@ -3131,6 +3131,10 @@
   label: Sumas
   group: other
 -
+  name: magnetiq
+  label: Magnetiq
+  group: bank_transfers
+-
   name: xendit
   label: Xendit
   group: other
