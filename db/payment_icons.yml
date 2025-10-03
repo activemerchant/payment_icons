@@ -3083,6 +3083,22 @@
   label: Avarda Pay Later
   group: other
 -
+  name: pluxee
+  label: Pluxee
+  group: other
+-
+  name: monizze
+  label: Monizze
+  group: other
+-
+  name: leescadeaukaart
+  label: Lees! Cadeaukaart
+  group: other
+-
+  name: boekencadeau
+  label: Boeken Cadeau
+  group: other
+-
   name: flexhsa
   label: Flex HSA
   group: other
