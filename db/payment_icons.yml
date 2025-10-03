@@ -3098,3 +3098,23 @@
   name: sumas
   label: Sumas
   group: other
+- 
+  name: bobpayinstanteft
+  label: Bob Pay Instant EFT
+  group: bank_transfers
+-
+  name: bobpaymanualeft
+  label: Bob Pay Manual EFT
+  group: bank_transfers
+-
+  name:  capitecpay
+  label: Capitec Pay
+  group: bank_transfers
+-
+  name:  scantopay
+  label: Scan to Pay
+  group: bank_transfers
+-
+  name:  payshap
+  label: PayShap
+  group: bank_transfers
