@@ -3111,6 +3111,10 @@
   label: Sumas
   group: other
 -
+  name: unzerprepayment
+  label: Unzer Prepayment
+  group: other
+-
   name: unzerdirectdebit
   label: Unzer Direct Debit
   group: other
