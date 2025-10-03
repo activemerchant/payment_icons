@@ -3098,3 +3098,7 @@
   name: sumas
   label: Sumas
   group: other
+-
+  name: pesalink
+  label: Pesalink
+  group: bank_transfers
