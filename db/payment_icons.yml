@@ -3006,7 +3006,7 @@
   name: eurobonuscheckout
   label: Eurobonus Checkout
   group: other
--  
+-
   name: floapay
   label: Floapay
   group: other
@@ -3109,6 +3109,10 @@
 -
   name: sumas
   label: Sumas
+  group: other
+-
+  name: unzerinstallment
+  label: Unzer Installment
   group: other
 - 
   name: bobpayinstanteft
