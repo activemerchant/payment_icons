@@ -3266,3 +3266,7 @@
   name:  payshap
   label: PayShap
   group: bank_transfers
+-
+  name: nomba
+  label: Nomba
+  group: bank_transfers
