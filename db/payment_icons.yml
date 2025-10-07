@@ -2828,7 +2828,7 @@
   group: wallets
 -
   name: pxpay
-  label: PXPAY
+  label: Pxpay
   group: wallets
 -
   name: payrexxpaybybank
