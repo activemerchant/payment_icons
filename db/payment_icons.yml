@@ -2827,6 +2827,10 @@
   label: Ipass
   group: wallets
 -
+  name: pxpay
+  label: PXPAY
+  group: wallets
+-
   name: payrexxpaybybank
   label: Payrexx Pay by Bank
   group: bank_transfers
