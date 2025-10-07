@@ -3098,3 +3098,7 @@
   name: sumas
   label: Sumas
   group: other
+-
+  name: goldmansachs 
+  label: Goldman Sachs
+  group: bank_transfers
