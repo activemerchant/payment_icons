@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+        id="pi-verd-cash"
+        xmlns="http://www.w3.org/2000/svg"
+        width="38"
+        height="24"
+        viewBox="0 0 38 24"
+        role="img"
+        aria-labelledby="pi-verd-cash">
+    <title id="pi-verd-cash">VERD.cash</title>
+    <defs>
+        <clipPath id="pi-clippath">
+            <rect x="10.968" y="5.571" width="14.064" height="14.298" style="fill: none;"/>
+        </clipPath>
+    </defs>
+
+    <g transform="translate(1, 0)">
+        <rect y="0.024" width="36" height="24" rx="1.2" ry="1.2" style="fill: #ff7541;"/>
+
+        <g style="clip-path: url(#pi-clippath);">
+            <g>
+                <path d="M20.244,15.306 L25.032,5.571 L21.297,5.571 L18.504,11.562 L20.247,15.303 Z"
+                      style="fill: #fff;"/>
+                <path d="M14.697,5.571 L10.968,5.571 L18,19.869 L19.722,16.368 L14.697,5.574 Z" style="fill: #fff;"/>
+            </g>
+        </g>
+    </g>
+</svg>
