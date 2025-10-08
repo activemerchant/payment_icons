@@ -1127,6 +1127,18 @@
   label: ShopeePay
   group: wallets
 -
+  name: spaylater
+  label: SPayLater
+  group: other
+-
+  name: seabankid
+  label: SeaBank
+  group: other
+-
+  name: seabankph
+  label: SeaBank
+  group: other
+-
   name: gopay
   label: Gopay
   group: wallets
@@ -2994,7 +3006,7 @@
   name: eurobonuscheckout
   label: Eurobonus Checkout
   group: other
--  
+-
   name: floapay
   label: Floapay
   group: other
@@ -3071,6 +3083,26 @@
   label: Avarda Pay Later
   group: other
 -
+  name: otpbank
+  label: OTP Bank
+  group: other
+-
+  name: pluxee
+  label: Pluxee
+  group: other
+-
+  name: monizze
+  label: Monizze
+  group: other
+-
+  name: leescadeaukaart
+  label: Lees! Cadeaukaart
+  group: other
+-
+  name: boekencadeau
+  label: Boeken Cadeau
+  group: other
+-
   name: flexhsa
   label: Flex HSA
   group: other
@@ -3098,6 +3130,146 @@
   name: sumas
   label: Sumas
   group: other
+-
+  name: bankofamerica
+  label: Bank of America
+  group: bank_transfers
+-
+  name: bmo
+  label: BMO
+  group: bank_transfers
+-
+  name: bny
+  label: BNY
+  group: bank_transfers
+-
+  name: capitalone
+  label: Capital One
+  group: bank_transfers
+-
+  name: chase
+  label: Chase
+  group: bank_transfers
+-
+  name: charlesschwab
+  label: Charles Schwab
+  group: bank_transfers
+-
+  name: citi
+  label: Citi
+  group: bank_transfers
+-
+  name: citizens
+  label: Citizens
+  group: bank_transfers
+-
+  name: firstcitizens
+  label: First Citizens
+  group: bank_transfers
+-
+  name: goldensachs 
+  label: Golden Sachs
+  group: bank_transfers
+-
+  name: pnc 
+  label: PNC
+  group: bank_transfers
+-
+  name: statestreet 
+  label: State Street
+  group: bank_transfers
+-
+  name: td   
+  label: TD
+  group: bank_transfers
+-
+  name: truist
+  label: Truist
+  group: bank_transfers
+-
+  name: usbank
+  label: US Bank
+  group: bank_transfers
+-
+  name: usaa
+  label: USAA
+  group: bank_transfers
+-
+  name: wellsfargo
+  label: Wells Fargo
+  group: bank_transfers
+-
+  name: genericbank
+  label: Generic bank
+  group: other
+-
+  name: flow
+  label: Flow
+  group: other
+-
+  name: magnetiq
+  label: Magnetiq
+  group: bank_transfers
+-
+  name: xendit
+  label: Xendit
+  group: other
+-
+  name: credova
+  label: Credova
+  group: other
+-
+  name: verve
+  label: Verve
+  group: credit_cards
+-
+  name: truemed
+  label: Truemed
+  group: other
+-
+  name: skyro
+  label: Skyro
+  group: other
+-
+  name: unzerbanktransfer
+  label: Unzer Direct Bank Transfer
+  group: other
+-
+  name: unzerprepayment
+  label: Unzer Prepayment
+  group: other
+-
+  name: unzerdirectdebit
+  label: Unzer Direct Debit
+  group: other
+-
+  name: unzerinstallment
+  label: Unzer Installment
+  group: other
+- 
+  name: bobpayinstanteft
+  label: Bob Pay Instant EFT
+  group: bank_transfers
+-
+  name: bobpaymanualeft
+  label: Bob Pay Manual EFT
+  group: bank_transfers
+-
+  name:  capitecpay
+  label: Capitec Pay
+  group: bank_transfers
+-
+  name:  scantopay
+  label: Scan to Pay
+  group: bank_transfers
+-
+  name:  payshap
+  label: PayShap
+  group: bank_transfers
+-
+  name: nomba
+  label: Nomba
+  group: bank_transfers
 -
   name: payrexxcrypto
   label: Payrexx Crypto
