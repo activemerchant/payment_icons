@@ -3167,19 +3167,19 @@
   label: First Citizens
   group: bank_transfers
 -
-  name: goldensachs 
+  name: goldensachs
   label: Golden Sachs
   group: bank_transfers
 -
-  name: pnc 
+  name: pnc
   label: PNC
   group: bank_transfers
 -
-  name: statestreet 
+  name: statestreet
   label: State Street
   group: bank_transfers
 -
-  name: td   
+  name: td
   label: TD
   group: bank_transfers
 -
@@ -3246,7 +3246,7 @@
   name: unzerinstallment
   label: Unzer Installment
   group: other
-- 
+-
   name: bobpayinstanteft
   label: Bob Pay Instant EFT
   group: bank_transfers
@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: unzerinvoice
+  label: Unzer Invoice
+  group: other
