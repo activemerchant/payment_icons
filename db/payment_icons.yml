@@ -3131,6 +3131,10 @@
   label: Sumas
   group: other
 -
+  name: avardakekale
+  label: Kekäle
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
