@@ -2974,6 +2974,26 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
+-  
+  name: qnb
+  label: QNB
+  group: bank_transfers
+-  
+  name: adib
+  label: ADIB
+  group: bank_transfers
+-  
+  name: masr
+  label: MASR
+  group: bank_transfers
+-  
+  name: nbd
+  label: Emirates NBD
+  group: bank_transfers
+-  
+  name: nbe
+  label: NBE
+  group: bank_transfers
 -
   name: ab
   label: Aruba Bank
