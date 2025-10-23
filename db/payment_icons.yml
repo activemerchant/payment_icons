@@ -3272,5 +3272,5 @@
   group: bank_transfers
 -
   name: neopay3
-  label: NeoPay3
+  label: Neopay3
   group: bank_transfers
