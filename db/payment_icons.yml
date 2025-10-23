@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: neopay3
+  label: NeoPay3
+  group: bank_transfers
