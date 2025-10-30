@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: moncash
+  label: Moncash
+  group: other
