@@ -3342,3 +3342,7 @@
   name: crediteapay
   label: Creditea Pay
   group: other
+-
+  name: broadnet
+  label: Broadnet
+  group: other
