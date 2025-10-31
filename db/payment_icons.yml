@@ -3346,3 +3346,7 @@
   name: bemovil
   label: Bemovil
   group: other
+-
+  name: payphonenew
+  label: Payphonenew
+  group: wallets
