@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: snap_checkout_uk
+  label: Snap Checkout UK
+  group: other
