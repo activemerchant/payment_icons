@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+
+  name: paymentassist
+  label: Payment Assist
+  group: other
