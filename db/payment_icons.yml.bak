@@ -1127,18 +1127,6 @@
   label: ShopeePay
   group: wallets
 -
-  name: spaylater
-  label: SPayLater
-  group: other
--
-  name: seabankid
-  label: SeaBank
-  group: other
--
-  name: seabankph
-  label: SeaBank
-  group: other
--
   name: gopay
   label: Gopay
   group: wallets
@@ -2462,7 +2450,7 @@
   name: paysquad
   label: Paysquad
   group: other
--
+- 
   name: hsbcukversion
   label: HSBC Bank (UK version)
   group: bank_transfers
@@ -2543,7 +2531,7 @@
   label: USDT
   group: cryptocurrencies
 -
-  name: bancoestado
+  name: bancoestado 
   label: Banco Estado
   group: bank_transfers
 -
@@ -2951,10 +2939,6 @@
   label: Ach
   group: bank_transfers
 -
-  name: achdirectdebit
-  label: Ach Direct Debit
-  group: bank_transfers
--
   name: bacs
   label: Bacs
   group: bank_transfers
@@ -2974,47 +2958,7 @@
   name: paybybankmollie
   label: Pay by Bank
   group: bank_transfers
--
-  name: secure_bank_transfer
-  label: Secure Bank Transfer
-  group: bank_transfers
--
-  name: ab
-  label: Aruba Bank
-  group: bank_transfers
--
-  name: apc
-  label: APC Bank
-  group: bank_transfers
--
-  name: bdc
-  label: Banco di Caribe
-  group: bank_transfers
--
-  name: cmb
-  label: Caribbean Mercantile Bank
-  group: bank_transfers
--
-  name: mcb
-  label: Maduro & Curiel's Bank
-  group: bank_transfers
--
-  name: orco
-  label: Orco Bank
-  group: bank_transfers
--
-  name: wib
-  label: Windward Islands Bank
-  group: bank_transfers
--
-  name: eurobonuscheckout
-  label: Eurobonus Checkout
-  group: other
--
-  name: floapay
-  label: Floapay
-  group: other
--
+-  
   name: twisto
   label: Twisto
   group: bank_transfers
@@ -3054,7 +2998,7 @@
   name: barion
   label: Barion
   group: wallets
--
+-  
   name: bogpay
   label: Bogpay
   group: credit_cards
@@ -3071,10 +3015,6 @@
   label: Leanpay
   group: other
 -
-  name: buckaroopayments
-  label: Buckaroo Payments
-  group: other
--
   name: rvrpas
   label: RVR-PAS
   group: other
@@ -3085,26 +3025,6 @@
 -
   name: avardapaylater
   label: Avarda Pay Later
-  group: other
--
-  name: otpbank
-  label: OTP Bank
-  group: other
--
-  name: pluxee
-  label: Pluxee
-  group: other
--
-  name: monizze
-  label: Monizze
-  group: other
--
-  name: leescadeaukaart
-  label: Lees! Cadeaukaart
-  group: other
--
-  name: boekencadeau
-  label: Boeken Cadeau
   group: other
 -
   name: flexhsa
@@ -3119,158 +3039,3 @@
   label: Flex
   group: other
 -
-  name: pragmapay
-  label: PragmaPay
-  group: other
--
-  name: dopple
-  label: Dopple
-  group: other
--
-  name: payuinstallments
-  label: PayU Installments
-  group: other
--
-  name: sumas
-  label: Sumas
-  group: other
--
-  name: bankofamerica
-  label: Bank of America
-  group: bank_transfers
--
-  name: bmo
-  label: BMO
-  group: bank_transfers
--
-  name: bny
-  label: BNY
-  group: bank_transfers
--
-  name: capitalone
-  label: Capital One
-  group: bank_transfers
--
-  name: chase
-  label: Chase
-  group: bank_transfers
--
-  name: charlesschwab
-  label: Charles Schwab
-  group: bank_transfers
--
-  name: citi
-  label: Citi
-  group: bank_transfers
--
-  name: citizens
-  label: Citizens
-  group: bank_transfers
--
-  name: firstcitizens
-  label: First Citizens
-  group: bank_transfers
--
-  name: goldensachs 
-  label: Golden Sachs
-  group: bank_transfers
--
-  name: pnc 
-  label: PNC
-  group: bank_transfers
--
-  name: statestreet 
-  label: State Street
-  group: bank_transfers
--
-  name: td   
-  label: TD
-  group: bank_transfers
--
-  name: truist
-  label: Truist
-  group: bank_transfers
--
-  name: usbank
-  label: US Bank
-  group: bank_transfers
--
-  name: usaa
-  label: USAA
-  group: bank_transfers
--
-  name: wellsfargo
-  label: Wells Fargo
-  group: bank_transfers
--
-  name: genericbank
-  label: Generic bank
-  group: other
--
-  name: flow
-  label: Flow
-  group: other
--
-  name: magnetiq
-  label: Magnetiq
-  group: bank_transfers
--
-  name: xendit
-  label: Xendit
-  group: other
--
-  name: credova
-  label: Credova
-  group: other
--
-  name: verve
-  label: Verve
-  group: credit_cards
--
-  name: truemed
-  label: Truemed
-  group: other
--
-  name: skyro
-  label: Skyro
-  group: other
--
-  name: unzerbanktransfer
-  label: Unzer Direct Bank Transfer
-  group: other
--
-  name: unzerprepayment
-  label: Unzer Prepayment
-  group: other
--
-  name: unzerdirectdebit
-  label: Unzer Direct Debit
-  group: other
--
-  name: unzerinstallment
-  label: Unzer Installment
-  group: other
-- 
-  name: bobpayinstanteft
-  label: Bob Pay Instant EFT
-  group: bank_transfers
--
-  name: bobpaymanualeft
-  label: Bob Pay Manual EFT
-  group: bank_transfers
--
-  name:  capitecpay
-  label: Capitec Pay
-  group: bank_transfers
--
-  name:  scantopay
-  label: Scan to Pay
-  group: bank_transfers
--
-  name:  payshap
-  label: PayShap
-  group: bank_transfers
--
-  name: nomba
-  label: Nomba
-  group: bank_transfers
