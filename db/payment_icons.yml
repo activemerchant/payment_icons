@@ -3272,5 +3272,5 @@
   group: bank_transfers
 -
   name: wallid
-  label: "Wallid: Pay by Bank"
+  label: Wallid Pay by Bank
   group: bank_transfers
