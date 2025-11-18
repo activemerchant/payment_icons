@@ -3350,3 +3350,7 @@
   name: bemovil
   label: Bemovil
   group: other
+-
+  name: bancocuscatlan
+  label: Banco Cuscatlan
+  group: credit_cards
