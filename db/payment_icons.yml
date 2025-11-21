@@ -3350,3 +3350,7 @@
   name: payphonenew
   label: Payphonenew
   group: wallets
+-
+  name: payphone
+  label: PayPhone
+  group: wallets
