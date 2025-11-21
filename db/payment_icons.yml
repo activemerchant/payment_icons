@@ -3131,8 +3131,8 @@
   label: Sumas
   group: other
 -
-  name: easycredit
-  label: easyCredit
+  name: easycredit-ratenkauf
+  label: easyCredit Ratenkauf
   group: other
 -
   name: bankofamerica
