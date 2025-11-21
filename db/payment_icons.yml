@@ -3271,6 +3271,6 @@
   label: Nomba
   group: bank_transfers
 -
-  name: verd-cash
+  name: verdcash
   label: VERD.cash
   group: other
