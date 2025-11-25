@@ -3016,7 +3016,7 @@
   group: bank_transfers
 -
   name: eurobonuscheckout
-  label: Eurobonus Checkout
+  label: EuroBonus Checkout
   group: other
 -
   name: floapay
@@ -3289,72 +3289,4 @@
 -
   name: nomba
   label: Nomba
-  group: bank_transfers
--
-  name: modo
-  label: Modo
-  group: wallets
--
-  name: redactiva
-  label: Redactiva
-  group: other
--
-  name: moncash
-  label: Moncash
-  group: other
--
-  name: monizzenew
-  label: Monizzenew
-  group: other
--
-  name: pluxeenew
-  label: Pluxeenew
-  group: other
--
-  name: webpaynew
-  label: Webpaynew
-  group: credit_cards
--
-  name: wallid
-  label: Wallid Pay by Bank
-  group: bank_transfers
--
-  name: sentoo
-  label: Sentoo
-  group: bank_transfers
--
-  name: unzerinvoice
-  label: Unzer Invoice
-  group: other
--
-  name: verdcash
-  label: VERD.cash
-  group: other
--
-  name: payrexxcrypto
-  label: Payrexx Crypto
-  group: cryptocurrencies
--
-  name: fundiin
-  label: Fundiin
-  group: other
--
-  name: crediteapay
-  label: Creditea Pay
-  group: other
--
-  name: broadnet
-  label: Broadnet
-  group: other
--
-  name: bemovil
-  label: Bemovil
-  group: other
--
-  name: virementmaitrise
-  label: Virement Maitrisé
-  group: bank_transfers
--
-  name: indexo
-  label: Indexo
   group: bank_transfers
