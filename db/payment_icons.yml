@@ -3362,3 +3362,7 @@
   name: indexo
   label: Indexo
   group: bank_transfers
+-
+  name: carecredit
+  label: CareCredit
+  group: credit_cards
