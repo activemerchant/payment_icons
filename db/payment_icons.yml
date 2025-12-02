@@ -3063,6 +3063,10 @@
   label: Alifpay
   group: wallets
 -
+  name: webpay
+  label: Webpay
+  group: wallets
+-
   name: plata
   label: Plata
   group: other
