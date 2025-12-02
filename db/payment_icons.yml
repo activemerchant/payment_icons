@@ -3016,7 +3016,7 @@
   group: bank_transfers
 -
   name: eurobonuscheckout
-  label: Eurobonus Checkout
+  label: EuroBonus Checkout
   group: other
 -
   name: floapay
