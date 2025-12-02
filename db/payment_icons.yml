@@ -1917,7 +1917,7 @@
 -
   name: superpayments
   label: Super Payments
-  group: bank_transfers
+  group: other
 -
   name: sikafsa
   label: Sika FSA
@@ -2839,6 +2839,10 @@
   label: Ipass
   group: wallets
 -
+  name: pxpay
+  label: Pxpay
+  group: wallets
+-
   name: payrexxpaybybank
   label: Payrexx Pay by Bank
   group: bank_transfers
@@ -3059,6 +3063,10 @@
   label: Alifpay
   group: wallets
 -
+  name: webpay
+  label: Webpay
+  group: wallets
+-
   name: plata
   label: Plata
   group: other
@@ -3130,6 +3138,10 @@
   name: sumas
   label: Sumas
   group: other
+-  
+  name: v12finance
+  label: V12 Retail Finance
+  group: other
 -
   name: bankofamerica
   label: Bank of America
@@ -3167,19 +3179,19 @@
   label: First Citizens
   group: bank_transfers
 -
-  name: goldensachs 
-  label: Golden Sachs
+  name: goldmansachs 
+  label: Goldman Sachs
   group: bank_transfers
 -
-  name: pnc 
+  name: pnc
   label: PNC
   group: bank_transfers
 -
-  name: statestreet 
+  name: statestreet
   label: State Street
   group: bank_transfers
 -
-  name: td   
+  name: td
   label: TD
   group: bank_transfers
 -
@@ -3246,7 +3258,7 @@
   name: unzerinstallment
   label: Unzer Installment
   group: other
-- 
+-
   name: bobpayinstanteft
   label: Bob Pay Instant EFT
   group: bank_transfers
@@ -3273,4 +3285,40 @@
 -
   name: monizzenew
   label: Monizzenew
+  group: other
+-
+  name: pluxeenew
+  label: Pluxeenew
+  group: other
+-
+  name: webpaynew
+  label: Webpaynew
+  group: credit_cards
+-
+  name: wallid
+  label: Wallid Pay by Bank
+  group: bank_transfers
+-
+  name: sentoo
+  label: Sentoo
+  group: bank_transfers
+-
+  name: unzerinvoice
+  label: Unzer Invoice
+  group: other
+-
+  name: verdcash
+  label: VERD.cash
+  group: other
+-
+  name: payrexxcrypto
+  label: Payrexx Crypto
+  group: cryptocurrencies
+-
+  name: fundiin
+  label: Fundiin
+  group: other
+-
+  name: crediteapay
+  label: Creditea Pay
   group: other
