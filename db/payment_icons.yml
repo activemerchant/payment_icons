@@ -3287,6 +3287,10 @@
   label: Pluxeenew
   group: other
 -
+  name: webpaynew
+  label: Webpaynew
+  group: credit_cards
+-
   name: wallid
   label: Wallid Pay by Bank
   group: bank_transfers
