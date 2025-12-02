@@ -3354,3 +3354,7 @@
   name: virementmaitrise
   label: Virement Maitrisé
   group: bank_transfers
+-
+  name: indexo
+  label: Indexo
+  group: bank_transfers
