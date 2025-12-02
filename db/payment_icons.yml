@@ -3270,3 +3270,7 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: crediteapay
+  label: Creditea Pay
+  group: other
