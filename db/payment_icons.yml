@@ -3351,6 +3351,10 @@
   label: Bemovil
   group: other
 -
+  name: bancocuscatlan
+  label: Banco Cuscatlan
+  group: credit_cards
+-
   name: virementmaitrise
   label: Virement Maitrisé
   group: bank_transfers
