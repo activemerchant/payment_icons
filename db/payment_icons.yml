@@ -3271,6 +3271,10 @@
   label: Nomba
   group: bank_transfers
 -
+  name: payrexxcrypto
+  label: Payrexx Crypto
+  group: cryptocurrencies
+-
   name: fundiin
   label: Fundiin
   group: other
