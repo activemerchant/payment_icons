@@ -2839,6 +2839,10 @@
   label: Ipass
   group: wallets
 -
+  name: pxpay
+  label: Pxpay
+  group: wallets
+-
   name: payrexxpaybybank
   label: Payrexx Pay by Bank
   group: bank_transfers
@@ -3130,6 +3134,10 @@
   name: sumas
   label: Sumas
   group: other
+-  
+  name: v12finance
+  label: V12 Retail Finance
+  group: other
 -
   name: bankofamerica
   label: Bank of America
@@ -3167,8 +3175,8 @@
   label: First Citizens
   group: bank_transfers
 -
-  name: goldensachs 
-  label: Golden Sachs
+  name: goldmansachs 
+  label: Goldman Sachs
   group: bank_transfers
 -
   name: pnc 
@@ -3273,4 +3281,16 @@
 -
   name: verdcash
   label: VERD.cash
+  group: other
+-
+  name: payrexxcrypto
+  label: Payrexx Crypto
+  group: cryptocurrencies
+-
+  name: fundiin
+  label: Fundiin
+  group: other
+-
+  name: crediteapay
+  label: Creditea Pay
   group: other
