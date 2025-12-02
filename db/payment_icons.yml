@@ -3274,3 +3274,7 @@
   name: fundiin
   label: Fundiin
   group: other
+-
+  name: crediteapay
+  label: Creditea Pay
+  group: other
