@@ -3279,6 +3279,10 @@
   label: Nomba
   group: bank_transfers
 -
+  name: sentoo
+  label: Sentoo
+  group: bank_transfers
+-
   name: unzerinvoice
   label: Unzer Invoice
   group: other
