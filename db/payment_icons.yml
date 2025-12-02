@@ -3283,6 +3283,10 @@
   label: Nomba
   group: bank_transfers
 -
+  name: pluxeenew
+  label: Pluxeenew
+  group: other
+-
   name: webpaynew
   label: Webpaynew
   group: credit_cards
