@@ -2871,6 +2871,10 @@
   label: WERO
   group: other
 -
+  name: idealwero
+  label: iDEAL - WERO
+  group: other
+-
   name: azericard
   label: Azericard
   group: credit_cards
