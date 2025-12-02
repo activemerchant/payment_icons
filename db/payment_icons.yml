@@ -3283,6 +3283,10 @@
   label: Nomba
   group: bank_transfers
 -
+  name: modo
+  label: Modo
+  group: wallets
+-
   name: redactiva
   label: Redactiva
   group: other
