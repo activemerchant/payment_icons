@@ -113,7 +113,8 @@ GEM
     loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.8.1)
+    mail (2.9.0)
+      logger
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -207,7 +208,8 @@ GEM
       sprockets (>= 3.0.0)
     stringio (3.1.7)
     thor (1.4.0)
-    timeout (0.4.3)
+    tilt (2.6.1)
+    timeout (0.4.4)
     tsort (0.2.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
