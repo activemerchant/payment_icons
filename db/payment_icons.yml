@@ -3283,6 +3283,10 @@
   label: Nomba
   group: bank_transfers
 -
+  name: moncash
+  label: Moncash
+  group: other
+-
   name: monizzenew
   label: Monizzenew
   group: other
