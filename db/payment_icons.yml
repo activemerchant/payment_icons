@@ -1,4 +1,8 @@
 -
+  name: tpgpay
+  label: TPG Pay
+  group: bank_transfers
+-
   name: acuotaz
   label: acuotaz
   group: other
