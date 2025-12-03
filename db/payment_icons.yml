@@ -3146,7 +3146,7 @@
   name: sumas
   label: Sumas
   group: other
--  
+-
   name: v12finance
   label: V12 Retail Finance
   group: other
@@ -3187,7 +3187,7 @@
   label: First Citizens
   group: bank_transfers
 -
-  name: goldmansachs 
+  name: goldmansachs
   label: Goldman Sachs
   group: bank_transfers
 -
@@ -3366,3 +3366,7 @@
   name: carecredit
   label: CareCredit
   group: credit_cards
+-
+  name: easycreditratenkauf
+  label: easyCredit Ratenkauf
+  group: other
