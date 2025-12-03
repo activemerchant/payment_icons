@@ -3366,3 +3366,7 @@
   name: carecredit
   label: CareCredit
   group: credit_cards
+-
+  name: payphone
+  label: PayPhone
+  group: wallets
