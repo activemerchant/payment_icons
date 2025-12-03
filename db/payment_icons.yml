@@ -3367,6 +3367,10 @@
   label: CareCredit
   group: credit_cards
 -
+  name: payphone
+  label: PayPhone
+  group: wallets
+-
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
