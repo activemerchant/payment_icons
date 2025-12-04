@@ -3151,6 +3151,10 @@
   label: V12 Retail Finance
   group: other
 -
+  name: avardakekale
+  label: Kekäle
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
