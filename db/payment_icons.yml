@@ -3378,3 +3378,7 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: snap_checkout_uk
+  label: Snap Checkout UK
+  group: other
