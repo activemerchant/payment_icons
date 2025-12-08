@@ -3378,3 +3378,11 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: giftforgood
+  label: Gift for good
+  group: other
+-
+  name: keuzecadeau
+  label: Keuze Cadeau
+  group: other
