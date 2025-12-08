@@ -1,4 +1,8 @@
 -
+  name: tpgpay
+  label: TPG Pay
+  group: bank_transfers
+-
   name: acuotaz
   label: acuotaz
   group: other
@@ -1917,7 +1921,7 @@
 -
   name: superpayments
   label: Super Payments
-  group: bank_transfers
+  group: other
 -
   name: sikafsa
   label: Sika FSA
@@ -2839,6 +2843,10 @@
   label: Ipass
   group: wallets
 -
+  name: pxpay
+  label: Pxpay
+  group: wallets
+-
   name: payrexxpaybybank
   label: Payrexx Pay by Bank
   group: bank_transfers
@@ -2865,6 +2873,10 @@
 -
   name: wero
   label: WERO
+  group: other
+-
+  name: idealwero
+  label: iDEAL - WERO
   group: other
 -
   name: azericard
@@ -3004,7 +3016,7 @@
   group: bank_transfers
 -
   name: eurobonuscheckout
-  label: Eurobonus Checkout
+  label: EuroBonus Checkout
   group: other
 -
   name: floapay
@@ -3057,6 +3069,10 @@
 -
   name: alifpay
   label: Alifpay
+  group: wallets
+-
+  name: webpay
+  label: Webpay
   group: wallets
 -
   name: plata
@@ -3131,6 +3147,10 @@
   label: Sumas
   group: other
 -
+  name: v12finance
+  label: V12 Retail Finance
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
@@ -3167,19 +3187,19 @@
   label: First Citizens
   group: bank_transfers
 -
-  name: goldensachs 
-  label: Golden Sachs
+  name: goldmansachs
+  label: Goldman Sachs
   group: bank_transfers
 -
-  name: pnc 
+  name: pnc
   label: PNC
   group: bank_transfers
 -
-  name: statestreet 
+  name: statestreet
   label: State Street
   group: bank_transfers
 -
-  name: td   
+  name: td
   label: TD
   group: bank_transfers
 -
@@ -3246,7 +3266,7 @@
   name: unzerinstallment
   label: Unzer Installment
   group: other
-- 
+-
   name: bobpayinstanteft
   label: Bob Pay Instant EFT
   group: bank_transfers
@@ -3270,3 +3290,91 @@
   name: nomba
   label: Nomba
   group: bank_transfers
+-
+  name: paymentassist
+  label: Payment Assist
+  group: other
+-
+  name: modo
+  label: Modo
+  group: wallets
+-
+  name: redactiva
+  label: Redactiva
+  group: other
+-
+  name: moncash
+  label: Moncash
+  group: other
+-
+  name: monizzenew
+  label: Monizzenew
+  group: other
+-
+  name: pluxeenew
+  label: Pluxeenew
+  group: other
+-
+  name: webpaynew
+  label: Webpaynew
+  group: credit_cards
+-
+  name: wallid
+  label: Wallid Pay by Bank
+  group: bank_transfers
+-
+  name: sentoo
+  label: Sentoo
+  group: bank_transfers
+-
+  name: unzerinvoice
+  label: Unzer Invoice
+  group: other
+-
+  name: verdcash
+  label: VERD.cash
+  group: other
+-
+  name: payrexxcrypto
+  label: Payrexx Crypto
+  group: cryptocurrencies
+-
+  name: fundiin
+  label: Fundiin
+  group: other
+-
+  name: crediteapay
+  label: Creditea Pay
+  group: other
+-
+  name: broadnet
+  label: Broadnet
+  group: other
+-
+  name: bemovil
+  label: Bemovil
+  group: other
+-
+  name: bancocuscatlan
+  label: Banco Cuscatlan
+  group: credit_cards
+-
+  name: virementmaitrise
+  label: Virement Maitrisé
+  group: bank_transfers
+-
+  name: indexo
+  label: Indexo
+  group: bank_transfers
+-
+  name: carecredit
+  label: CareCredit
+  group: credit_cards
+-
+  name: payphone
+  label: PayPhone
+  group: wallets
+-
+  name: easycreditratenkauf
+  label: easyCredit Ratenkauf
+  group: other
