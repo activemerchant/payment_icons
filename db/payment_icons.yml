@@ -3378,3 +3378,7 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: iris
+  label: IRIS
+  group: bank_transfers
