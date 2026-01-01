@@ -3378,3 +3378,15 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+
+- name: gale
+  label: Gale
+  group: other
+
+- name: galehsa
+  label: Gale HSA
+  group: other
+
+- name: galefsa
+  label: Gale FSA
+  group: other
