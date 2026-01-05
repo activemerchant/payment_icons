@@ -24,6 +24,9 @@ jobs:
           - gemfiles/rails-7-2.gemfile
           - gemfiles/rails-latest-release.gemfile
           - gemfiles/rails-edge.gemfile
+        exclude:
+          - version: 3.2
+            gemfile: gemfiles/rails-edge.gemfile
     steps:
       - uses: actions/checkout@v3
 
