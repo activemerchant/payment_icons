@@ -4,9 +4,9 @@
   height="24"
   viewBox="0 0 38 24"
   role="img"
-  aria-labelledby="a-plus-title"
+  aria-labelledby="pi-a-plus-title"
 >
-  <title id="a-plus-title">Payment Option Icon</title>
+  <title id="pi-a-plus-title">Payment Option Icon</title>
   <rect x="0" y="0" width="38" height="24" fill="#ffffff"/>
 
   <rect
