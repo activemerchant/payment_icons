@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.7.60)
+    payment_icons (1.7.61)
       frozen_record
       railties (>= 5.0)
 
