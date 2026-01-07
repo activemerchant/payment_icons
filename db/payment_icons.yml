@@ -3383,6 +3383,10 @@
   label: easyCredit Ratenkauf
   group: other
 -
+  name: yourgift
+  label: YourGift
+  group: other
+-
   name: giftforgood
   label: Gift for good
   group: other
