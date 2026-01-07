@@ -3151,6 +3151,10 @@
   label: V12 Retail Finance
   group: other
 -
+  name: avardakekale
+  label: Kekäle
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
@@ -3386,3 +3390,7 @@
   name: keuzecadeau
   label: Keuze Cadeau
   group: other
+-
+  name: neopay
+  label: Neopay
+  group: bank_transfers
