@@ -15,15 +15,18 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.test_files = Dir['test/**/*']
 
+  s.required_ruby_version = '>= 3.3.0'
+
   s.add_dependency 'frozen_record'
   s.add_dependency 'railties', '>= 5.0'
-  s.add_dependency 'sassc-rails'
-  
+
   if s.respond_to?(:metadata)
     s.metadata["allowed_push_host"] = 'https://rubygems.org'
   end
 
   s.add_development_dependency('rails', '>= 5.0')
+  s.add_development_dependency('sprockets-rails')
+  s.add_development_dependency('sassc-embedded')
   s.add_development_dependency('pry')
   s.add_development_dependency('bump')
 end
