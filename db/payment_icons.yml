@@ -3382,3 +3382,7 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: neopay
+  label: Neopay
+  group: bank_transfers
