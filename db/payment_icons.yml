@@ -3382,6 +3382,10 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: snapcheckoutuk
+  label: Snap Checkout UK
+  group: other
 - 
   name: gale
   label: Gale
