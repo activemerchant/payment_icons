@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    payment_icons (1.7.60)
+    payment_icons (1.7.61)
       frozen_record
       railties (>= 5.0)
 
@@ -125,7 +125,7 @@ GEM
     mini_portile2 (2.8.9)
     minitest (6.0.1)
       prism (~> 1.5)
-    net-imap (0.5.12)
+    net-imap (0.6.2)
       date
       net-protocol
     net-pop (0.1.2)
@@ -195,7 +195,7 @@ GEM
       tsort
     reline (0.6.3)
       io-console (~> 0.5)
-    sass-embedded (1.97.0)
+    sass-embedded (1.97.2)
       google-protobuf (~> 4.31)
       rake (>= 13)
     sassc-embedded (1.80.8)
@@ -210,8 +210,8 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     stringio (3.2.0)
-    thor (1.4.0)
-    timeout (0.4.4)
+    thor (1.5.0)
+    timeout (0.6.0)
     tsort (0.2.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
