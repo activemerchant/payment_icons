@@ -2987,6 +2987,10 @@
   label: Pay by Bank
   group: bank_transfers
 -
+  name: secure_bank_transfer
+  label: Secure Bank Transfer
+  group: bank_transfers
+-
   name: ab
   label: Aruba Bank
   group: bank_transfers
