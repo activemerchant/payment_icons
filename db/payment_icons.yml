@@ -3155,6 +3155,10 @@
   label: Kekäle
   group: other
 -
+  name: avardabubbleroom
+  label: Bubbleroom
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
