@@ -3411,6 +3411,6 @@
   label: Neopay
   group: bank_transfers
 -
-  name: sp_idealwero 
+  name: spidealwero
   label: iDEAL | Wero
   group: other
