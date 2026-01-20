@@ -3383,7 +3383,7 @@
   label: easyCredit Ratenkauf
   group: other
 -
-  name: paylater
+  name: bnplx
   label: Buy now, pay later
   group: other
 - 
