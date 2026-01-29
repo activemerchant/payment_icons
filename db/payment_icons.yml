@@ -3410,3 +3410,7 @@
   name: neopay
   label: Neopay
   group: bank_transfers
+-
+  name: deema
+  label: Deema
+  group: other
