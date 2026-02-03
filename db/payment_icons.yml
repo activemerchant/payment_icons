@@ -3410,3 +3410,11 @@
   name: neopay
   label: Neopay
   group: bank_transfers
+-
+  name: cabal
+  label: Cabal
+  group: credit_cards
+-
+  name: naranjax
+  label: Naranja X
+  group: credit_cards
