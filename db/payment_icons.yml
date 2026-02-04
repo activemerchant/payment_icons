@@ -3383,6 +3383,10 @@
   label: easyCredit Ratenkauf
   group: other
 -
+  name: iris
+  label: IRIS
+  group: bank_transfers
+-
   name: aplus
   label: Pay with A+, Card
   group: credit_cards
