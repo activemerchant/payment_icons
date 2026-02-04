@@ -3423,6 +3423,10 @@
   label: Neopay
   group: bank_transfers
 -
+  name: spidealwero
+  label: iDEAL Wero
+  group: other
+-
   name: iberent
   label: Iberent
   group: other
