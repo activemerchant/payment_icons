@@ -3155,6 +3155,10 @@
   label: Kekäle
   group: other
 -
+  name: avardabubbleroom
+  label: Bubbleroom
+  group: other
+-
   name: bankofamerica
   label: Bank of America
   group: bank_transfers
@@ -3382,6 +3386,14 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: iris
+  label: IRIS
+  group: bank_transfers
+-
+  name: aplus
+  label: Pay with A+, Card
+  group: credit_cards
 - 
   name: gale
   label: Gale
@@ -3413,4 +3425,8 @@
 -
   name: spidealwero
   label: iDEAL Wero
+  group: other
+-
+  name: iberent
+  label: Iberent
   group: other
