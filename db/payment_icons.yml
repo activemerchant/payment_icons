@@ -3418,3 +3418,7 @@
   name: neopay
   label: Neopay
   group: bank_transfers
+-
+  name: iberent
+  label: Iberent
+  group: other
