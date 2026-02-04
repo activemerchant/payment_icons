@@ -3382,6 +3382,10 @@
   name: easycreditratenkauf
   label: easyCredit Ratenkauf
   group: other
+-
+  name: aplus
+  label: Pay with A+, Card
+  group: credit_cards
 - 
   name: gale
   label: Gale
