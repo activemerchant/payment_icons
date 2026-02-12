@@ -162,3 +162,51 @@ jobs:
           echo "Tests failed. Please review the PR comment for details."
           exit 1
 
+  # Runs once (not per matrix combination) to check PR file scope.
+  # Posts or updates a sticky PR comment when unexpected files are changed.
+  lint:
+    name: PR file scope check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    env:
+      BUNDLE_GEMFILE: gemfiles/rails-latest-release.gemfile
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+          rubygems: latest
+
+      - name: Check PR file scope
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          export CHANGED_FILES=$(gh pr diff $PR_NUMBER --name-only)
+          output=$(bundle exec rake lint:file_scope 2>&1)
+          echo "$output"
+
+          marker="<!-- file-scope-check -->"
+
+          if echo "$output" | grep -q "WARNING"; then
+            body=$(cat <<EOF
+          ${marker}
+          ⚠️ **File Scope Check**
+
+          \`\`\`
+          $output
+          \`\`\`
+          EOF
+          )
+            comment_id=$(gh api repos/${{ github.repository }}/issues/${PR_NUMBER}/comments \
+              --jq ".[] | select(.body | contains(\"${marker}\")) | .id" | tail -1)
+            if [ -n "$comment_id" ]; then
+              gh api repos/${{ github.repository }}/issues/comments/${comment_id} \
+                -X PATCH -f body="$body"
+            else
+              gh pr comment $PR_NUMBER --body "$body"
+            fi
+          fi
