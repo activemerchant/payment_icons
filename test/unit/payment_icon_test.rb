@@ -186,8 +186,14 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test 'Payment icon SVGs have standard border with correct styling' do
+    # Get list of changed icons from environment (for selective enforcement)
+    changed_icons = ENV['CHANGED_ICONS']&.split(',')&.map(&:strip)
+
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       document = Nokogiri::XML.parse(svg)
+
+      # Determine if this is a new/modified icon
+      is_changed = changed_icons && changed_icons.include?(payment_type)
 
       # Border can be either a <path> or <rect> element
       # Check for path-based border (standard template)
@@ -196,9 +202,20 @@ class PaymentIconTest < ActiveSupport::TestCase
       # Check for rect-based border (alternative pattern)
       border_rect = document.at_xpath("//svg:svg/svg:rect[@stroke-opacity or @opacity]", 'svg' => 'http://www.w3.org/2000/svg')
 
-      # Warning only - don't fail test for missing border
+      # Check if border is missing
       if !border_path.present? && !border_rect.present?
-        puts "\nWARNING: '#{payment_type}' is missing standard border (recommended: <path opacity='.07'> or <rect stroke-opacity='.07'>)"
+        if is_changed
+          # NEW/MODIFIED ICON: FAIL the test (critical violation)
+          assert false,
+            "The '#{payment_type}' SVG must have a standard border element.\n" \
+            "Add either:\n" \
+            "  - <path opacity=\".07\" d=\"...\"/> (recommended), or\n" \
+            "  - <rect stroke=\"#000\" stroke-opacity=\".07\" .../>\n" \
+            "See CONTRIBUTING.md for details."
+        else
+          # EXISTING ICON: Just warn (grandfathered)
+          puts "\nWARNING: '#{payment_type}' is missing standard border (pre-existing violation)"
+        end
         next
       end
 
@@ -207,16 +224,24 @@ class PaymentIconTest < ActiveSupport::TestCase
         opacity = border_path['opacity']
         opacity_float = opacity.to_f
 
-        # Warn instead of failing
+        # Check opacity (WARNING for all icons, including new ones)
         if (opacity_float - 0.07).abs > 0.001
-          puts "\nWARNING: '#{payment_type}' border opacity should be '.07' (got '#{opacity}')"
+          if is_changed
+            puts "\nWARNING: '#{payment_type}' border opacity should be '.07' (got '#{opacity}') [new/modified icon]"
+          else
+            puts "\nWARNING: '#{payment_type}' border opacity should be '.07' (got '#{opacity}')"
+          end
         end
 
         # Check fill color - accept missing (defaults to black) OR explicit black
         fill = border_path['fill']
         is_black = fill.nil? || fill.empty? || ['#000', '#000000', 'black'].include?(fill)
         if !is_black
-          puts "\nWARNING: '#{payment_type}' border should be black or default (got '#{fill}')"
+          if is_changed
+            puts "\nWARNING: '#{payment_type}' border should be black or default (got '#{fill}') [new/modified icon]"
+          else
+            puts "\nWARNING: '#{payment_type}' border should be black or default (got '#{fill}')"
+          end
         end
 
       elsif border_rect
@@ -224,16 +249,24 @@ class PaymentIconTest < ActiveSupport::TestCase
         stroke_opacity = border_rect['stroke-opacity'] || border_rect['opacity']
         opacity_float = stroke_opacity.to_f
 
-        # Warn instead of failing
+        # Check opacity (WARNING for all icons, including new ones)
         if (opacity_float - 0.07).abs > 0.001
-          puts "\nWARNING: '#{payment_type}' border stroke-opacity should be '.07' (got '#{stroke_opacity}')"
+          if is_changed
+            puts "\nWARNING: '#{payment_type}' border stroke-opacity should be '.07' (got '#{stroke_opacity}') [new/modified icon]"
+          else
+            puts "\nWARNING: '#{payment_type}' border stroke-opacity should be '.07' (got '#{stroke_opacity}')"
+          end
         end
 
         # Check stroke color
         stroke = border_rect['stroke']
         is_black = stroke.nil? || stroke.empty? || ['#000', '#000000', 'black'].include?(stroke)
         if !is_black
-          puts "\nWARNING: '#{payment_type}' border stroke should be black (got '#{stroke}')"
+          if is_changed
+            puts "\nWARNING: '#{payment_type}' border stroke should be black (got '#{stroke}') [new/modified icon]"
+          else
+            puts "\nWARNING: '#{payment_type}' border stroke should be black (got '#{stroke}')"
+          end
         end
       end
     end
