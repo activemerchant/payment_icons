@@ -127,4 +127,147 @@ class PaymentIconTest < ActiveSupport::TestCase
       assert svg.lines.count == 1 || (svg.lines.count == 2 && svg.lines[1] == ''), error_message
     end
   end
+
+  test 'Every payment icon SVG has XML namespace' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      assert document.root.namespace.present?,
+        message: "The '#{payment_type}' SVG must have an xmlns namespace"
+
+      assert_equal 'http://www.w3.org/2000/svg', document.root.namespace.href,
+        message: "The '#{payment_type}' SVG must have xmlns='http://www.w3.org/2000/svg'"
+    end
+  end
+
+  test 'Payment icon SVGs do not contain style tags' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      style_tags = document.search('style')
+      assert_equal 0, style_tags.count,
+        message: "The '#{payment_type}' SVG must not contain <style> tags. Use inline styles instead."
+    end
+  end
+
+  test 'Payment icon SVGs do not contain class attributes' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      elements_with_class = document.xpath('//*[@class]')
+      assert_equal 0, elements_with_class.count,
+        message: "The '#{payment_type}' SVG must not contain class attributes"
+    end
+  end
+
+  test 'Payment icon SVGs use vector graphics only' do
+    FORBIDDEN_RASTER_ELEMENTS = %w[img foreignObject]
+
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      FORBIDDEN_RASTER_ELEMENTS.each do |element|
+        found = document.search(element)
+        assert_equal 0, found.count,
+          message: "The '#{payment_type}' SVG must not contain <#{element}> elements (raster images not allowed)"
+      end
+    end
+  end
+
+  test 'Payment icon SVGs do not contain embedded fonts' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      # Check for font elements
+      font_elements = document.search('font-face, font')
+      assert_equal 0, font_elements.count,
+        message: "The '#{payment_type}' SVG must not contain embedded fonts"
+    end
+  end
+
+  test 'Payment icon SVGs have standard border with correct styling' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      # Border can be either a <path> or <rect> element
+      # Check for path-based border (standard template)
+      border_path = document.at_xpath("//svg:svg/svg:path[@opacity]", 'svg' => 'http://www.w3.org/2000/svg')
+
+      # Check for rect-based border (alternative pattern)
+      border_rect = document.at_xpath("//svg:svg/svg:rect[@stroke-opacity or @opacity]", 'svg' => 'http://www.w3.org/2000/svg')
+
+      assert border_path.present? || border_rect.present?,
+        message: "The '#{payment_type}' SVG must have a border (either <path opacity='.07'> or <rect stroke-opacity='.07'>)"
+
+      if border_path
+        # Validate path-based border
+        opacity = border_path['opacity']
+        opacity_float = opacity.to_f
+
+        assert_in_delta 0.07, opacity_float, 0.001,
+          message: "The '#{payment_type}' border must have opacity='.07' (got '#{opacity}')"
+
+        # Check fill color - accept missing (defaults to black) OR explicit black
+        fill = border_path['fill']
+        is_black = fill.nil? || fill.empty? || ['#000', '#000000', 'black'].include?(fill)
+        assert is_black,
+          message: "The '#{payment_type}' border must be black or default (got '#{fill}')"
+
+      elsif border_rect
+        # Validate rect-based border
+        stroke_opacity = border_rect['stroke-opacity'] || border_rect['opacity']
+        opacity_float = stroke_opacity.to_f
+
+        assert_in_delta 0.07, opacity_float, 0.001,
+          message: "The '#{payment_type}' border must have stroke-opacity='.07' (got '#{stroke_opacity}')"
+
+        # Check stroke color
+        stroke = border_rect['stroke']
+        is_black = stroke.nil? || stroke.empty? || ['#000', '#000000', 'black'].include?(stroke)
+        assert is_black,
+          message: "The '#{payment_type}' border stroke must be black (got '#{stroke}')"
+      end
+    end
+  end
+
+  test 'Payment icon SVGs are optimized and under size limit' do
+    SIZE_WARNING_KB = 10.0
+    SIZE_ERROR_KB = 15.0
+
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      size_kb = svg.bytesize / 1024.0
+
+      # Soft warning at 10KB (per guidelines: "ideally under 10kb")
+      if size_kb >= SIZE_WARNING_KB && size_kb < SIZE_ERROR_KB
+        puts "\nWARNING: '#{payment_type}' is #{size_kb.round(2)}KB (recommended: under 10KB)"
+      end
+
+      # Hard error at 15KB (catch extremely bloated files)
+      assert size_kb < SIZE_ERROR_KB,
+        message: "The '#{payment_type}' SVG is too large (#{size_kb.round(2)}KB). Must be under 15KB. Consider optimizing with SVGO."
+    end
+  end
+
+  test 'Payment icon SVGs do not link to external stylesheets' do
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      refute svg.include?('<?xml-stylesheet'),
+        message: "The '#{payment_type}' SVG must not link to external stylesheets. Use inline styles instead."
+    end
+  end
+
+  # NOTE: Base64 image policy decision needed
+  # Your AI guidelines say "avoid base64 images" but existing test (line 107-122)
+  # allows base64 PNG images. Choose ONE of the following tests:
+
+  # OPTION A: Strict - NO base64 images allowed (uncomment to use)
+  # test 'Payment icon SVGs do not contain base64 images' do
+  #   SVG_PAYMENT_TYPES.each do |payment_type, svg|
+  #     refute svg.include?('data:image'),
+  #       message: "The '#{payment_type}' SVG must not contain base64-encoded images. Use vector paths instead."
+  #   end
+  # end
+
+  # OPTION B: Pragmatic - Allow base64 PNG only (current behavior)
+  # The existing test at lines 107-122 already handles this case
+  # No additional test needed - it validates that IF images exist, they must be base64 PNG
 end

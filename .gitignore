@@ -7,3 +7,9 @@ test/dummy/tmp/
 test/dummy/.sass-cache
 gemfiles/*.lock
 .DS_Store
+
+# Hackday documentation (keep local only)
+HACKDAY_TECHNICAL_GUIDE.md
+TEST_COVERAGE_ANALYSIS.md
+TEST_RESULTS_SUMMARY.md
+SVG Submission Guidelines.md
