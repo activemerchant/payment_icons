@@ -25,6 +25,8 @@ jobs:
           - gemfiles/rails-edge.gemfile
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Need full history for git diff
 
       - name: Set up Ruby ${{ matrix.version }}
         uses: ruby/setup-ruby@v1
@@ -33,6 +35,53 @@ jobs:
           bundler-cache: true
           rubygems: latest
 
+      - name: Get changed SVG files (PR only)
+        id: changed-files
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }}
+
+          # Get all changed icons (new + modified)
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD \
+            | grep 'app/assets/images/payment_icons/.*\.svg$' \
+            | xargs -I {} basename {} .svg \
+            | tr '\n' ',' \
+            | sed 's/,$//' \
+            || echo "")
+          echo "icons=$CHANGED" >> $GITHUB_OUTPUT
+
+          # Get only NEW icons (added files only)
+          NEW=$(git diff --name-status origin/${{ github.base_ref }}...HEAD \
+            | grep '^A.*app/assets/images/payment_icons/.*\.svg$' \
+            | awk '{print $2}' \
+            | xargs -I {} basename {} .svg \
+            | tr '\n' ',' \
+            | sed 's/,$//' \
+            || echo "")
+          echo "new_icons=$NEW" >> $GITHUB_OUTPUT
+
+          if [ -n "$CHANGED" ]; then
+            echo "✓ Changed SVG icons detected: $CHANGED"
+          else
+            echo "✓ No SVG icons changed in this PR"
+          fi
+
+          if [ -n "$NEW" ]; then
+            echo "✓ New SVG icons detected: $NEW"
+          fi
+
       - name: Test
-        run: bundle exec rake test
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ] && [ -n "${{ steps.changed-files.outputs.icons }}" ]; then
+            echo "Running tests with selective enforcement for changed icons: ${{ steps.changed-files.outputs.icons }}"
+            if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
+              echo "Running strict name validation for new icons: ${{ steps.changed-files.outputs.new_icons }}"
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" NEW_ICONS="${{ steps.changed-files.outputs.new_icons }}" bundle exec rake test
+            else
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" bundle exec rake test
+            fi
+          else
+            echo "Running tests without selective enforcement"
+            bundle exec rake test
+          fi
 

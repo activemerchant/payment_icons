@@ -273,14 +273,43 @@ class PaymentIconTest < ActiveSupport::TestCase
   end
 
   test 'Payment icon SVGs are optimized and under size limit' do
-    SIZE_WARNING_KB = 15.0
+    SIZE_SOFT_LIMIT_KB = 10.0  # Soft limit: recommended size
+    SIZE_HARD_LIMIT_KB = 15.0  # Hard limit: maximum acceptable size
+
+    # Get list of changed icons from environment (for selective enforcement)
+    changed_icons = ENV['CHANGED_ICONS']&.split(',')&.map(&:strip)
 
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       size_kb = svg.bytesize / 1024.0
 
-      # Warning for files 15KB and above (per guidelines: "ideally under 10kb")
-      if size_kb >= SIZE_WARNING_KB
-        puts "\nWARNING: '#{payment_type}' is #{size_kb.round(2)}KB (recommended: under 15KB)"
+      # Determine if this is a new/modified icon
+      is_changed = changed_icons && changed_icons.include?(payment_type)
+
+      # Check hard limit (15KB)
+      if size_kb >= SIZE_HARD_LIMIT_KB
+        if is_changed
+          # NEW/MODIFIED ICON: FAIL the test (critical violation)
+          assert false,
+            "The '#{payment_type}' SVG file is too large (#{size_kb.round(2)}KB).\n" \
+            "Hard limit: #{SIZE_HARD_LIMIT_KB}KB (must be under this size).\n" \
+            "Recommended: #{SIZE_SOFT_LIMIT_KB}KB for optimal performance.\n\n" \
+            "To reduce file size:\n" \
+            "  1. Run SVGO optimization: svgo #{payment_type}.svg\n" \
+            "  2. Simplify complex paths\n" \
+            "  3. Remove unnecessary elements/attributes\n" \
+            "  4. Consider design simplification if still too large"
+        else
+          # EXISTING ICON: Just warn (grandfathered)
+          puts "\nWARNING: '#{payment_type}' is #{size_kb.round(2)}KB (hard limit: #{SIZE_HARD_LIMIT_KB}KB) [pre-existing violation]"
+        end
+
+      # Check soft limit (10KB)
+      elsif size_kb >= SIZE_SOFT_LIMIT_KB
+        if is_changed
+          puts "\nWARNING: '#{payment_type}' is #{size_kb.round(2)}KB (recommended: under #{SIZE_SOFT_LIMIT_KB}KB) [new/modified icon]"
+        else
+          puts "\nWARNING: '#{payment_type}' is #{size_kb.round(2)}KB (recommended: under #{SIZE_SOFT_LIMIT_KB}KB)"
+        end
       end
     end
   end
@@ -289,6 +318,59 @@ class PaymentIconTest < ActiveSupport::TestCase
     SVG_PAYMENT_TYPES.each do |payment_type, svg|
       refute svg.include?('<?xml-stylesheet'),
         message: "The '#{payment_type}' SVG must not link to external stylesheets. Use inline styles instead."
+    end
+  end
+
+  test 'Every payment icon SVG has viewBox of 0 0 38 24' do
+    # Get list of changed icons from environment (for selective enforcement)
+    changed_icons = ENV['CHANGED_ICONS']&.split(',')&.map(&:strip)
+
+    SVG_PAYMENT_TYPES.each do |payment_type, svg|
+      document = Nokogiri::XML.parse(svg)
+
+      # Determine if this is a new/modified icon
+      is_changed = changed_icons && changed_icons.include?(payment_type)
+
+      actual_viewbox = document.root['viewBox']
+      if actual_viewbox != '0 0 38 24'
+        if is_changed
+          # NEW/MODIFIED ICON: FAIL the test (critical violation)
+          assert_equal '0 0 38 24', actual_viewbox,
+            message: "The '#{payment_type}' SVG must have viewBox='0 0 38 24' (got '#{actual_viewbox}')"
+        else
+          # EXISTING ICON: Just warn (grandfathered)
+          puts "\nWARNING: '#{payment_type}' has incorrect viewBox '#{actual_viewbox}' (should be '0 0 38 24') [pre-existing violation]"
+        end
+      end
+    end
+  end
+
+  test 'Every payment icon name uses valid characters' do
+    # Pattern: Start with lowercase, can contain lowercase/numbers,
+    # uppercase letters ONLY allowed directly after a number
+    # NO underscores, hyphens, or special characters allowed
+    valid_name_pattern = /\A[a-z](?:(?![0-9][a-z])[a-z0-9]|(?<=[0-9])[A-Z])*\z/
+
+    # Get list of NEW icons from environment (for selective enforcement)
+    # Note: We only enforce strict naming on NEW icons, not modified ones
+    # because renaming is a breaking change for existing integrations
+    new_icons = ENV['NEW_ICONS']&.split(',')&.map(&:strip)
+
+    PaymentIcon.all.each do |icon|
+      # Determine if this is a NEW icon (not just modified)
+      is_new = new_icons && new_icons.include?(icon.name)
+
+      unless valid_name_pattern.match?(icon.name)
+        if is_new
+          # NEW ICON: FAIL the test (must follow naming rules)
+          assert false,
+            "The icon name '#{icon.name}' must start with a lowercase letter and contain only lowercase letters and numbers. " \
+            "Any letter directly following a number must be capitalized (e.g., 'visa1Card' is valid, 'visa1card' or 'visa_pay' are invalid)."
+        else
+          # EXISTING/MODIFIED ICON: Just warn (grandfathered to avoid breaking changes)
+          puts "\nWARNING: '#{icon.name}' uses invalid characters (should not contain underscores/hyphens) [pre-existing violation]"
+        end
+      end
     end
   end
 
