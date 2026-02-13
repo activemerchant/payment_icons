@@ -25,8 +25,6 @@ jobs:
           - gemfiles/rails-edge.gemfile
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Need full history for git diff
 
       - name: Set up Ruby ${{ matrix.version }}
         uses: ruby/setup-ruby@v1
@@ -38,36 +36,33 @@ jobs:
       - name: Get changed SVG files (PR only)
         id: changed-files
         if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          git fetch origin ${{ github.base_ref }}
+          FILES_API="repos/${{ github.repository }}/pulls/${PR_NUMBER}/files"
 
           # Get all changed icons (new + modified)
-          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD \
-            | grep 'app/assets/images/payment_icons/.*\.svg$' \
-            | xargs -I {} basename {} .svg \
-            | tr '\n' ',' \
-            | sed 's/,$//' \
-            || echo "")
+          CHANGED=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
           echo "icons=$CHANGED" >> $GITHUB_OUTPUT
 
           # Get only NEW icons (added files only)
-          NEW=$(git diff --name-status origin/${{ github.base_ref }}...HEAD \
-            | grep '^A.*app/assets/images/payment_icons/.*\.svg$' \
-            | awk '{print $2}' \
-            | xargs -I {} basename {} .svg \
-            | tr '\n' ',' \
-            | sed 's/,$//' \
-            || echo "")
+          NEW=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | select(.status == "added")
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
           echo "new_icons=$NEW" >> $GITHUB_OUTPUT
 
           if [ -n "$CHANGED" ]; then
-            echo "✓ Changed SVG icons detected: $CHANGED"
+            echo "Changed SVG icons detected: $CHANGED"
           else
-            echo "✓ No SVG icons changed in this PR"
+            echo "No SVG icons changed in this PR"
           fi
 
           if [ -n "$NEW" ]; then
-            echo "✓ New SVG icons detected: $NEW"
+            echo "New SVG icons detected: $NEW"
           fi
 
       - name: Test
@@ -151,10 +146,11 @@ jobs:
 
       - name: Post PR Comment
         if: failure() && github.event_name == 'pull_request' && steps.generate-comment.outcome == 'success'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh pr comment ${{ github.event.pull_request.number }} --body-file pr_comment.md
+        uses: ./.github/actions/sticky-comment
+        with:
+          marker: icon-validation-report
+          body-file: pr_comment.md
+          pr-number: ${{ github.event.pull_request.number }}
 
       - name: Fail if tests failed
         if: steps.test.outcome == 'failure'
@@ -181,6 +177,7 @@ jobs:
           rubygems: latest
 
       - name: Check PR file scope
+        id: file-scope
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
@@ -189,24 +186,21 @@ jobs:
           output=$(bundle exec rake lint:file_scope 2>&1)
           echo "$output"
 
-          marker="<!-- file-scope-check -->"
-
           if echo "$output" | grep -q "WARNING"; then
-            body=$(cat <<EOF
-          ${marker}
-          ⚠️ **File Scope Check**
-
-          \`\`\`
-          $output
-          \`\`\`
-          EOF
-          )
-            comment_id=$(gh api repos/${{ github.repository }}/issues/${PR_NUMBER}/comments \
-              --jq ".[] | select(.body | contains(\"${marker}\")) | .id" | tail -1)
-            if [ -n "$comment_id" ]; then
-              gh api repos/${{ github.repository }}/issues/comments/${comment_id} \
-                -X PATCH -f body="$body"
-            else
-              gh pr comment $PR_NUMBER --body "$body"
-            fi
+            {
+              echo "⚠️ **File Scope Check**"
+              echo ""
+              echo '```'
+              echo "$output"
+              echo '```'
+            } > file_scope_comment.md
+            echo "has_warning=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Post file scope comment
+        if: steps.file-scope.outputs.has_warning == 'true'
+        uses: ./.github/actions/sticky-comment
+        with:
+          marker: file-scope-check
+          body-file: file_scope_comment.md
+          pr-number: ${{ github.event.pull_request.number }}
