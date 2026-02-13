@@ -15,10 +15,10 @@ To add a new payment method icon to this repository:
 
 When you open a pull request:
 
-✅ **Automated Tests Run** - All 20 validation tests check your icon
-✅ **Instant Feedback** - You'll receive an automated comment (@mentioning you) if issues are found
-✅ **Selective Enforcement** - You won't be blocked by pre-existing violations in other icons
-✅ **Clear Guidance** - The PR comment shows exactly what needs fixing
+- ✅ **Automated Tests Run** - All 20 validation tests check your icon
+- ✅ **Instant Feedback** - You'll receive an automated comment (@mentioning you) if issues are found
+- ✅ **Selective Enforcement** - You won't be blocked by pre-existing violations in other icons
+- ✅ **Clear Guidance** - The PR comment shows exactly what needs fixing
 
 Tests complete in <1 second. Warnings about pre-existing violations in other icons won't block your PR.
 
