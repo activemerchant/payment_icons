@@ -17,10 +17,7 @@ When you open a pull request:
 
 - ✅ **Automated Tests Run** - All 20 validation tests check your icon
 - ✅ **Instant Feedback** - You'll receive an automated comment (@mentioning you) if issues are found
-- ✅ **Selective Enforcement** - You won't be blocked by pre-existing violations in other icons
 - ✅ **Clear Guidance** - The PR comment shows exactly what needs fixing
-
-Tests complete in <1 second. Warnings about pre-existing violations in other icons won't block your PR.
 
 ---
 
@@ -74,17 +71,26 @@ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,r
 Run the same tests that CI will run:
 
 ```bash
-# For a NEW icon
+# For a NEW icon (use the 'name' value from db/payment_icons.yml)
 CHANGED_ICONS="youricon" NEW_ICONS="youricon" bundle exec rails test
+
+# Example: Testing a new icon called 'newpay'
+CHANGED_ICONS="newpay" NEW_ICONS="newpay" bundle exec rails test
 
 # For MODIFYING an existing icon
 CHANGED_ICONS="existingicon" bundle exec rails test
+
+# Example: Modifying the 'visa' icon
+CHANGED_ICONS="visa" bundle exec rails test
+
+# Test multiple icons at once (comma-separated, no spaces)
+CHANGED_ICONS="visa,mastercard,applePay" bundle exec rails test
 
 # Run all tests (optional)
 bundle exec rails test
 ```
 
-You'll see warnings for pre-existing violations in the library, but these won't fail your tests.
+**Note:** The icon name is the `name` value from `db/payment_icons.yml` (which matches the SVG filename without `.svg`).
 
 ### 5. Submit Pull Request
 
