@@ -71,7 +71,7 @@ svgo your-icon.svg --disable={removeUnknownsAndDefaults,removeTitle,cleanupIDs,r
 Run the same tests that CI will run:
 
 ```bash
-# For a NEW icon (use the 'name' value from db/payment_icons.yml)
+# For a NEW icon
 CHANGED_ICONS="youricon" NEW_ICONS="youricon" bundle exec rails test
 
 # Example: Testing a new icon called 'newpay'
@@ -84,7 +84,9 @@ CHANGED_ICONS="existingicon" bundle exec rails test
 CHANGED_ICONS="visa" bundle exec rails test
 
 # Test multiple icons at once (comma-separated, no spaces)
-CHANGED_ICONS="visa,mastercard,applePay" bundle exec rails test
+CHANGED_ICONS="visa,master" bundle exec rails test
+
+# use the 'name' value from db/payment_icons.yml
 
 # Run all tests (optional)
 bundle exec rails test
