@@ -29,4 +29,6 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = false
 end
 
+load 'tasks/lint.rake'
+
 task default: :test

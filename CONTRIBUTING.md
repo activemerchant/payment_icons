@@ -18,6 +18,7 @@ When you open a pull request:
 - ✅ **Automated Tests Run** - All 20 validation tests check your icon
 - ✅ **Instant Feedback** - You'll receive an automated comment (@mentioning you) if issues are found
 - ✅ **Clear Guidance** - The PR comment shows exactly what needs fixing
+- ⚠️ **File Scope Check** - A warning is posted if your PR changes files outside the expected scope (see [below](#file-scope-check))
 
 ---
 
@@ -90,6 +91,9 @@ CHANGED_ICONS="visa,master" bundle exec rails test
 
 # Run all tests (optional)
 bundle exec rails test
+
+# Check file scope (see File Scope Check section below)
+bundle exec rake lint:file_scope
 ```
 
 **Note:** The icon name is the `name` value from `db/payment_icons.yml` (which matches the SVG filename without `.svg`).
@@ -301,6 +305,23 @@ New icons must pass, existing violations grandfathered:
 - **Adding a NEW icon?** Must pass all 20 tests
 - **Modifying an EXISTING icon?** Must pass tests 1-19, test 20 (naming) is grandfathered
 - **Other icons' violations?** Won't block your PR
+
+---
+
+## File Scope Check
+
+In addition to the validation tests above, CI runs a **file scope check** that reviews which files your PR changes. Icon contributions are expected to only modify:
+
+- SVG files in `app/assets/images/payment_icons/`
+- `db/payment_icons.yml`
+- Documentation files (`CONTRIBUTING.md`, `README.md`, `CHANGELOG.md`, `LICENSE`)
+
+If your PR changes files outside this scope, a **warning comment** will be posted on the PR. This is not a hard failure — it's a heads-up for maintainers that the PR touches more than the typical icon contribution. If the changes are intentional, a maintainer will review and approve them.
+
+**Run locally:**
+```bash
+bundle exec rake lint:file_scope
+```
 
 ---
 

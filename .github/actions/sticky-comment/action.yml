@@ -1,0 +1,34 @@
+name: 'Sticky PR Comment'
+description: 'Post or update a PR comment identified by a unique HTML marker. Creates a new comment on first run, updates the existing one on subsequent runs.'
+inputs:
+  marker:
+    description: 'Unique marker name (used as hidden HTML comment to identify this bot comment)'
+    required: true
+  body-file:
+    description: 'Path to file containing the comment body'
+    required: true
+  pr-number:
+    description: 'Pull request number'
+    required: true
+runs:
+  using: 'composite'
+  steps:
+    - shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        marker="<!-- ${{ inputs.marker }} -->"
+        body="${marker}
+        $(cat "${{ inputs.body-file }}")"
+
+        comment_id=$(gh api "repos/${{ github.repository }}/issues/${{ inputs.pr-number }}/comments" \
+          --jq ".[] | select(.body | contains(\"${marker}\")) | .id" | tail -1)
+
+        if [ -n "$comment_id" ]; then
+          gh api "repos/${{ github.repository }}/issues/comments/${comment_id}" \
+            -X PATCH -f body="$body"
+          echo "Updated existing comment (ID: $comment_id)"
+        else
+          gh pr comment "${{ inputs.pr-number }}" --body "$body"
+          echo "Created new comment"
+        fi
