@@ -69,6 +69,7 @@ jobs:
         id: test
         continue-on-error: true
         run: |
+          set -o pipefail
           if [ "${{ github.event_name }}" == "pull_request" ] && [ -n "${{ steps.changed-files.outputs.icons }}" ]; then
             echo "Running tests with selective enforcement for changed icons: ${{ steps.changed-files.outputs.icons }}"
             if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
