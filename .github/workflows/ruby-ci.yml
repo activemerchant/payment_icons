@@ -33,6 +33,174 @@ jobs:
           bundler-cache: true
           rubygems: latest
 
-      - name: Test
-        run: bundle exec rake test
+      - name: Get changed SVG files (PR only)
+        id: changed-files
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          FILES_API="repos/${{ github.repository }}/pulls/${PR_NUMBER}/files"
 
+          # Get all changed icons (new + modified)
+          CHANGED=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
+          echo "icons=$CHANGED" >> $GITHUB_OUTPUT
+
+          # Get only NEW icons (added files only)
+          NEW=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | select(.status == "added")
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
+          echo "new_icons=$NEW" >> $GITHUB_OUTPUT
+
+          if [ -n "$CHANGED" ]; then
+            echo "Changed SVG icons detected: $CHANGED"
+          else
+            echo "No SVG icons changed in this PR"
+          fi
+
+          if [ -n "$NEW" ]; then
+            echo "New SVG icons detected: $NEW"
+          fi
+
+      - name: Test
+        id: test
+        continue-on-error: true
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ] && [ -n "${{ steps.changed-files.outputs.icons }}" ]; then
+            echo "Running tests with selective enforcement for changed icons: ${{ steps.changed-files.outputs.icons }}"
+            if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
+              echo "Running strict name validation for new icons: ${{ steps.changed-files.outputs.new_icons }}"
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" NEW_ICONS="${{ steps.changed-files.outputs.new_icons }}" bundle exec rake test 2>&1 | tee test_output.log
+            else
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" bundle exec rake test 2>&1 | tee test_output.log
+            fi
+          else
+            echo "Running tests without selective enforcement"
+            bundle exec rake test 2>&1 | tee test_output.log
+          fi
+
+      - name: Generate PR Comment
+        if: failure() && github.event_name == 'pull_request' && steps.changed-files.outputs.icons != ''
+        id: generate-comment
+        run: |
+          cat > pr_comment.md << 'EOF'
+          ## 🔍 Icon Validation Report
+
+          Hi @${{ github.event.pull_request.user.login }}! 👋
+
+          The automated tests found issues with your icon changes. Please review and fix before merging.
+
+          EOF
+
+          # Extract issues for each changed icon
+          IFS=',' read -ra ICONS <<< "${{ steps.changed-files.outputs.icons }}"
+          for icon in "${ICONS[@]}"; do
+            # Get all failures and warnings for this icon
+            ISSUES=$(grep -E "(Failure:.*'${icon}'|WARNING: '${icon}')" test_output.log || true)
+
+            if [ -n "$ISSUES" ]; then
+              # Check if it's a new icon
+              if echo "${{ steps.changed-files.outputs.new_icons }}" | grep -q "$icon"; then
+                echo "### 🆕 \`${icon}.svg\` (New Icon)" >> pr_comment.md
+              else
+                echo "### ✏️ \`${icon}.svg\` (Modified Icon)" >> pr_comment.md
+              fi
+              echo "" >> pr_comment.md
+              echo '```' >> pr_comment.md
+              echo "$ISSUES" >> pr_comment.md
+              echo '```' >> pr_comment.md
+              echo "" >> pr_comment.md
+            fi
+          done
+
+          # Add footer
+          cat >> pr_comment.md << 'EOF'
+          ---
+
+          ### 📚 Resources
+
+          - [Contributing Guide](../blob/master/CONTRIBUTING.md) - How to create compliant icons
+          - [Selective Enforcement Policy](../blob/master/SELECTIVE_ENFORCEMENT_POLICY.md) - Understanding test requirements
+
+          ### 🧪 Test Locally
+
+          ```bash
+          EOF
+
+          if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
+            echo "CHANGED_ICONS=\"${{ steps.changed-files.outputs.icons }}\" NEW_ICONS=\"${{ steps.changed-files.outputs.new_icons }}\" bundle exec rails test" >> pr_comment.md
+          else
+            echo "CHANGED_ICONS=\"${{ steps.changed-files.outputs.icons }}\" bundle exec rails test" >> pr_comment.md
+          fi
+
+          cat >> pr_comment.md << 'EOF'
+          ```
+
+          ---
+
+          *🤖 Automated feedback from CI*
+          EOF
+
+      - name: Post PR Comment
+        if: failure() && github.event_name == 'pull_request' && steps.generate-comment.outcome == 'success'
+        uses: ./.github/actions/sticky-comment
+        with:
+          marker: icon-validation-report
+          body-file: pr_comment.md
+          pr-number: ${{ github.event.pull_request.number }}
+
+      - name: Fail if tests failed
+        if: steps.test.outcome == 'failure'
+        run: |
+          echo "Tests failed. Please review the PR comment for details."
+          exit 1
+
+  # Runs once (not per matrix combination) to check PR file scope.
+  # Posts or updates a sticky PR comment when unexpected files are changed.
+  lint:
+    name: PR file scope check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    env:
+      BUNDLE_GEMFILE: gemfiles/rails-latest-release.gemfile
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+          rubygems: latest
+
+      - name: Check PR file scope
+        id: file-scope
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          export CHANGED_FILES=$(gh pr diff $PR_NUMBER --name-only)
+          output=$(bundle exec rake lint:file_scope 2>&1)
+          echo "$output"
+
+          if echo "$output" | grep -q "WARNING"; then
+            {
+              echo "⚠️ **File Scope Check**"
+              echo ""
+              echo '```'
+              echo "$output"
+              echo '```'
+            } > file_scope_comment.md
+            echo "has_warning=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Post file scope comment
+        if: steps.file-scope.outputs.has_warning == 'true'
+        uses: ./.github/actions/sticky-comment
+        with:
+          marker: file-scope-check
+          body-file: file_scope_comment.md
+          pr-number: ${{ github.event.pull_request.number }}
