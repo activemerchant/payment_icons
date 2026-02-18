@@ -92,7 +92,7 @@ jobs:
 
           Hi @${{ github.event.pull_request.user.login }}! 👋
 
-          The automated tests found issues with your icon changes. Please review and fix.
+          The automated tests found issues with your icon(s). Please review and fix.
 
           EOF
 
