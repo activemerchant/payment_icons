@@ -84,7 +84,7 @@ jobs:
           fi
 
       - name: Generate PR Comment
-        if: failure() && github.event_name == 'pull_request' && steps.changed-files.outputs.icons != ''
+        if: steps.test.outcome == 'failure' && github.event_name == 'pull_request' && steps.changed-files.outputs.icons != ''
         id: generate-comment
         run: |
           cat > pr_comment.md << 'EOF'
@@ -146,7 +146,7 @@ jobs:
           EOF
 
       - name: Post PR Comment
-        if: failure() && github.event_name == 'pull_request' && steps.generate-comment.outcome == 'success'
+        if: steps.test.outcome == 'failure' && github.event_name == 'pull_request' && steps.generate-comment.outcome == 'success'
         uses: ./.github/actions/sticky-comment
         with:
           marker: icon-validation-report
