@@ -3442,3 +3442,7 @@
   name: iberent
   label: Iberent
   group: other
+-
+  name: testpay
+  label: Test Pay
+  group: other
