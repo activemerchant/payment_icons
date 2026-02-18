@@ -92,7 +92,7 @@ jobs:
 
           Hi @${{ github.event.pull_request.user.login }}! 👋
 
-          The automated tests found issues with your icon changes. Please review and fix before merging.
+          The automated tests found issues with your icon(s). Please review and fix.
 
           EOF
 
@@ -100,7 +100,7 @@ jobs:
           IFS=',' read -ra ICONS <<< "${{ steps.changed-files.outputs.icons }}"
           for icon in "${ICONS[@]}"; do
             # Get all failures and warnings for this icon
-            ISSUES=$(grep -E "(Failure:.*'${icon}'|WARNING: '${icon}')" test_output.log || true)
+            ISSUES=$(grep -B 4 -A 1 "'${icon}'" test_output.log || true)
 
             if [ -n "$ISSUES" ]; then
               # Check if it's a new icon
@@ -124,7 +124,6 @@ jobs:
           ### 📚 Resources
 
           - [Contributing Guide](../blob/master/CONTRIBUTING.md) - How to create compliant icons
-          - [Selective Enforcement Policy](../blob/master/SELECTIVE_ENFORCEMENT_POLICY.md) - Understanding test requirements
 
           ### 🧪 Test Locally
 
