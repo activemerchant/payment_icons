@@ -160,10 +160,11 @@ jobs:
 
   # Runs once (not per matrix combination) to check PR file scope.
   # Posts or updates a sticky PR comment when unexpected files are changed.
+  # Does not run for bot users.
   lint:
     name: PR file scope check
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && !endsWith(github.actor, '[bot]')
     env:
       BUNDLE_GEMFILE: gemfiles/rails-latest-release.gemfile
     steps:
