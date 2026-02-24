@@ -12,6 +12,9 @@ jobs:
   build:
     name: Ruby ${{ matrix.version }} ${{ matrix.gemfile }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     env:
       BUNDLE_GEMFILE: ${{ matrix.gemfile }}
     strategy:
@@ -165,6 +168,9 @@ jobs:
     name: PR file scope check
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' && !endsWith(github.actor, '[bot]')
+    permissions:
+      contents: read
+      pull-requests: write
     env:
       BUNDLE_GEMFILE: gemfiles/rails-latest-release.gemfile
     steps:
