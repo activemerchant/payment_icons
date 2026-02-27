@@ -15,10 +15,9 @@ To add a new payment method icon to this repository:
 
 When you open a pull request:
 
-- ✅ **Automated Tests Run** - All 20 validation tests check your icon
-- ✅ **Instant Feedback** - You'll receive an automated comment (@mentioning you) if issues are found
-- ✅ **Clear Guidance** - The PR comment shows exactly what needs fixing
-- ⚠️ **File Scope Check** - A warning is posted if your PR changes files outside the expected scope (see [below](#file-scope-check))
+- ✅ **Automated Tests Run** — All 20 validation tests check your icon
+- ✅ **Instant Feedback** — If tests fail, click the failed check, then the **"Summary"** tab to see a detailed validation report showing exactly what needs fixing
+- ⚠️ **File Scope Check** — If your PR changes files outside the expected scope, a warning annotation appears on the check (see [below](#file-scope-check))
 
 ---
 
@@ -316,7 +315,7 @@ In addition to the validation tests above, CI runs a **file scope check** that r
 - `db/payment_icons.yml`
 - Documentation files (`CONTRIBUTING.md`, `README.md`, `CHANGELOG.md`, `LICENSE`)
 
-If your PR changes files outside this scope, a **warning comment** will be posted on the PR. This is not a hard failure — it's a heads-up for maintainers that the PR touches more than the typical icon contribution. If the changes are intentional, a maintainer will review and approve them.
+If your PR changes files outside this scope, a **warning annotation** will appear on the "PR file scope check" CI job. This is not a hard failure — it's a heads-up for maintainers that the PR touches more than the typical icon contribution. Click the check, then the **"Summary"** tab for details. If the changes are intentional, a maintainer will review and approve them.
 
 **Run locally:**
 ```bash
