@@ -3443,6 +3443,10 @@
   label: Iberent
   group: other
 -
- name: astropay                                       
- label: AstroPay                                      
- group: wallets      
+ name: astropay
+ label: AstroPay
+ group: wallets
+-
+  name: deema
+  label: Deema
+  group: other
