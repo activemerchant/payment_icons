@@ -33,6 +33,128 @@ jobs:
           bundler-cache: true
           rubygems: latest
 
-      - name: Test
-        run: bundle exec rake test
+      - name: Get changed SVG files (PR only)
+        id: changed-files
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          FILES_API="repos/${{ github.repository }}/pulls/${PR_NUMBER}/files"
 
+          # Get all changed icons (new + modified)
+          CHANGED=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
+          echo "icons=$CHANGED" >> $GITHUB_OUTPUT
+
+          # Get only NEW icons (added files only)
+          NEW=$(gh api "$FILES_API" --paginate \
+            --jq '[.[] | select(.filename | test("app/assets/images/payment_icons/.*\\.svg$"))
+            | select(.status == "added")
+            | .filename | split("/")[-1] | rtrimstr(".svg")] | join(",")')
+          echo "new_icons=$NEW" >> $GITHUB_OUTPUT
+
+          if [ -n "$CHANGED" ]; then
+            echo "Changed SVG icons detected: $CHANGED"
+          else
+            echo "No SVG icons changed in this PR"
+          fi
+
+          if [ -n "$NEW" ]; then
+            echo "New SVG icons detected: $NEW"
+          fi
+
+      - name: Test
+        id: test
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          if [ "${{ github.event_name }}" == "pull_request" ] && [ -n "${{ steps.changed-files.outputs.icons }}" ]; then
+            echo "Running tests with selective enforcement for changed icons: ${{ steps.changed-files.outputs.icons }}"
+            if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
+              echo "Running strict name validation for new icons: ${{ steps.changed-files.outputs.new_icons }}"
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" NEW_ICONS="${{ steps.changed-files.outputs.new_icons }}" bundle exec rake test 2>&1 | tee test_output.log
+            else
+              CHANGED_ICONS="${{ steps.changed-files.outputs.icons }}" bundle exec rake test 2>&1 | tee test_output.log
+            fi
+          else
+            echo "Running tests without selective enforcement"
+            bundle exec rake test 2>&1 | tee test_output.log
+          fi
+
+      - name: Generate step summary
+        if: steps.test.outcome == 'failure' && github.event_name == 'pull_request' && steps.changed-files.outputs.icons != ''
+        run: |
+          echo "## Icon Validation — Ruby ${{ matrix.version }} / $(basename ${{ matrix.gemfile }} .gemfile)" >> $GITHUB_STEP_SUMMARY
+
+          IFS=',' read -ra ICONS <<< "${{ steps.changed-files.outputs.icons }}"
+          for icon in "${ICONS[@]}"; do
+            ISSUES=$(grep -B 4 -A 1 "'${icon}'" test_output.log || true)
+
+            if [ -n "$ISSUES" ]; then
+              if echo "${{ steps.changed-files.outputs.new_icons }}" | grep -q "$icon"; then
+                echo "### \`${icon}.svg\` (New)" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "### \`${icon}.svg\` (Modified)" >> $GITHUB_STEP_SUMMARY
+              fi
+              echo '```' >> $GITHUB_STEP_SUMMARY
+              echo "$ISSUES" >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+
+          if [ -n "${{ steps.changed-files.outputs.new_icons }}" ]; then
+            echo "Run locally: \`CHANGED_ICONS=\"${{ steps.changed-files.outputs.icons }}\" NEW_ICONS=\"${{ steps.changed-files.outputs.new_icons }}\" bundle exec rake test\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Run locally: \`CHANGED_ICONS=\"${{ steps.changed-files.outputs.icons }}\" bundle exec rake test\`" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "See the [Contributing Guide](https://github.com/${{ github.repository }}/blob/master/CONTRIBUTING.md) for icon requirements." >> $GITHUB_STEP_SUMMARY
+
+      - name: Fail if tests failed
+        if: steps.test.outcome == 'failure'
+        run: |
+          echo "Tests failed. Click the 'Summary' tab on this workflow run for a detailed validation report."
+          exit 1
+
+  # Runs once (not per matrix combination) to check PR file scope.
+  # Shows a warning annotation and step summary when unexpected files are changed.
+  lint:
+    name: PR file scope check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    env:
+      BUNDLE_GEMFILE: gemfiles/rails-latest-release.gemfile
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+          rubygems: latest
+
+      - name: Check PR file scope
+        id: file-scope
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          export CHANGED_FILES=$(gh pr diff $PR_NUMBER --name-only)
+          output=$(bundle exec rake lint:file_scope 2>&1)
+          echo "$output"
+
+          if echo "$output" | grep -q "WARNING"; then
+            echo "::warning::Unexpected files changed outside icon contribution scope. Click the 'Summary' tab on this workflow run for details."
+            {
+              echo "## File Scope Check"
+              echo ""
+              echo '```'
+              echo "$output"
+              echo '```'
+            } >> $GITHUB_STEP_SUMMARY
+          fi
