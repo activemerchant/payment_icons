@@ -3466,3 +3466,7 @@
   name: bobpayeft
   label: Bob Pay
   group: bank_transfers
+-
+  name: breb
+  label: Bre-B
+  group: bank_transfers
