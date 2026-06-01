@@ -3463,6 +3463,10 @@
   label: Banco de Bogotá
   group: bank_transfers
 -
+  name: sportsgiftcard
+  label: Sportsgiftcard
+  group: other
+-
   name: bobpayeft
   label: Bob Pay
   group: bank_transfers
