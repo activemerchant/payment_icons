@@ -3456,7 +3456,7 @@
  group: wallets
 -
   name: deema
-  label: Deema
+  label: deema
   group: other
 -
   name: bancodebogota
