@@ -3455,6 +3455,14 @@
  label: AstroPay
  group: wallets
 -
+ name: golfbon
+ label: Golfbon
+ group: other
+-
+ name: paynlspraypaynew
+ label: Paynl Spraypay New
+ group: other
+-
   name: deema
   label: deema
   group: other
