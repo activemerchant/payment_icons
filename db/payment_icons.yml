@@ -3479,6 +3479,10 @@
   label: Bre-B
   group: bank_transfers
 -
+  name: payinstore
+  label: Payinstore
+  group: other
+-
   name: mispay
   label: MISpay
   group: other
