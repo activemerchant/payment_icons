@@ -3466,3 +3466,11 @@
   name: bobpayeft
   label: Bob Pay
   group: bank_transfers
+-
+  name: mymonty
+  label: My Monty
+  group: wallets
+-
+  name: omtpay
+  label: OMT Pay
+  group: wallets
