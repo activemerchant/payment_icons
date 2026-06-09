@@ -3395,6 +3395,10 @@
   label: easyCredit Ratenkauf
   group: other
 -
+  name: snapcheckoutuk
+  label: Snap Checkout UK
+  group: other
+-
   name: bnplx
   label: Buy now, pay later
   group: other
