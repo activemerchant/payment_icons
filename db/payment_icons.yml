@@ -3482,3 +3482,7 @@
   name: mispay
   label: MISpay
   group: other
+-
+  name: cofidisexpress
+  label: Cofidis Expressz
+  group: other
