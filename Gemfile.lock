@@ -98,7 +98,7 @@ GEM
       activemodel
     globalid (1.3.0)
       activesupport (>= 6.1)
-    google-protobuf (4.35.0)
+    google-protobuf (4.35.1)
       bigdecimal
       rake (~> 13.3)
     i18n (1.14.8)
@@ -197,10 +197,10 @@ GEM
       tsort
     reline (0.6.3)
       io-console (~> 0.5)
-    sass-embedded (1.100.0)
+    sass-embedded (1.101.0)
       google-protobuf (~> 4.31)
       rake (>= 13)
-    sassc-embedded (1.80.8)
+    sassc-embedded (1.80.9)
       sass-embedded (~> 1.80)
     securerandom (0.4.1)
     sprockets (4.2.2)
