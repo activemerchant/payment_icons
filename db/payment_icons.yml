@@ -3455,8 +3455,16 @@
  label: AstroPay
  group: wallets
 -
+ name: golfbon
+ label: Golfbon
+ group: other
+-
+ name: paynlspraypaynew
+ label: Paynl Spraypay New
+ group: other
+-
   name: deema
-  label: Deema
+  label: deema
   group: other
 -
   name: bancodebogota
@@ -3474,3 +3482,11 @@
   name: omtpay
   label: OMT Pay
   group: wallets
+-
+  name: breb
+  label: Bre-B
+  group: bank_transfers
+-
+  name: mispay
+  label: MISpay
+  group: other
