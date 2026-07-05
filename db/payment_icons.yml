@@ -3482,3 +3482,7 @@
   name: mispay
   label: MISpay
   group: other
+-
+  name: amwalpay
+  label: AmwalPay
+  group: other 
