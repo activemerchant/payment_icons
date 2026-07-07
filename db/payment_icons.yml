@@ -1827,6 +1827,10 @@
   label: Openpay
   group: other
 -
+  name: openbankpay
+  label: Openbank Pay
+  group: other  
+-
   name: lbc
   label: LBC
   group: convenience_stores
