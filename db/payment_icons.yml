@@ -1199,6 +1199,10 @@
   label: Satispay
   group: wallets
 -
+  name: stitch
+  label: Stitch
+  group: other
+-
   name: qrph
   label: QR Ph
   group: other
