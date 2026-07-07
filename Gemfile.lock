@@ -2,8 +2,6 @@ PATH
   remote: .
   specs:
     payment_icons (1.7.66)
-      frozen_record
-      railties (>= 5.0)
 
 GEM
   remote: https://rubygems.org/
@@ -94,8 +92,6 @@ GEM
     drb (2.2.3)
     erb (6.0.4)
     erubi (1.13.1)
-    frozen_record (0.27.4)
-      activemodel
     globalid (1.4.0)
       activesupport (>= 6.1)
     google-protobuf (4.35.1)
@@ -238,4 +234,4 @@ DEPENDENCIES
   sprockets-rails
 
 BUNDLED WITH
-   2.6.5
+  4.0.10
