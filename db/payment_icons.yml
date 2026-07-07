@@ -1201,7 +1201,7 @@
 -
   name: stitch
   label: Stitch
-  group: wallets
+  group: other
 -
   name: qrph
   label: QR Ph
