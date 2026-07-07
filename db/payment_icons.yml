@@ -1311,6 +1311,10 @@
   label: Humm
   group: other
 -
+  name: qcard
+  label: Q Card
+  group: credit_cards
+-
   name: synchrony
   label: Synchrony
   group: credit_cards
