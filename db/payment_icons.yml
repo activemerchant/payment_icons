@@ -3511,6 +3511,10 @@
   label: MISpay
   group: other
 -
+  name: zopa
+  label: Zopa
+  group: other
+-
   name: jaywan
   label: Jaywan
   group: credit_cards
