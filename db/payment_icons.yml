@@ -1199,6 +1199,10 @@
   label: Satispay
   group: wallets
 -
+  name: stitch
+  label: Stitch
+  group: other
+-
   name: qrph
   label: QR Ph
   group: other
@@ -1310,6 +1314,10 @@
   name: humm
   label: Humm
   group: other
+-
+  name: qcard
+  label: Q Card
+  group: credit_cards
 -
   name: synchrony
   label: Synchrony
@@ -1822,6 +1830,10 @@
   name: openpay
   label: Openpay
   group: other
+-
+  name: openbankpay
+  label: Openbank Pay
+  group: other  
 -
   name: lbc
   label: LBC
@@ -3471,13 +3483,29 @@
   label: Banco de Bogotá
   group: bank_transfers
 -
+  name: sportsgiftcard
+  label: Sportsgiftcard
+  group: other
+-
   name: bobpayeft
   label: Bob Pay
   group: bank_transfers
 -
+  name: mymonty
+  label: My Monty
+  group: wallets
+-
+  name: omtpay
+  label: OMT Pay
+  group: wallets
+-
   name: breb
   label: Bre-B
   group: bank_transfers
+-
+  name: payinstore
+  label: Payinstore
+  group: other
 -
   name: mispay
   label: MISpay
@@ -3485,4 +3513,12 @@
 -
   name: amwalpay
   label: AmwalPay
-  group: other     
+  group: other
+-
+  name: energieloket
+  label: Energieloket
+  group: other
+-
+  name: cofidisexpressz
+  label: Cofidis Expressz
+  group: other
