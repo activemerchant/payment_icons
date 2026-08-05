@@ -3511,6 +3511,10 @@
   label: MISpay
   group: other
 -
+  name: jaywan
+  label: Jaywan
+  group: credit_cards
+-
   name: amwalpay
   label: AmwalPay
   group: other
