@@ -3514,3 +3514,19 @@
   name: zopa
   label: Zopa
   group: other
+-
+  name: jaywan
+  label: Jaywan
+  group: credit_cards
+-
+  name: amwalpay
+  label: AmwalPay
+  group: other
+-
+  name: energieloket
+  label: Energieloket
+  group: other
+-
+  name: cofidisexpressz
+  label: Cofidis Expressz
+  group: other
