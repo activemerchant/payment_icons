@@ -3511,6 +3511,10 @@
   label: MISpay
   group: other
 -
+  name: amwalpay
+  label: AmwalPay
+  group: other
+-
   name: energieloket
   label: Energieloket
   group: other
