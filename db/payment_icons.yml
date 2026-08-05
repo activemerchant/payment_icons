@@ -3511,6 +3511,10 @@
   label: MISpay
   group: other
 -
+  name: energieloket
+  label: Energieloket
+  group: other
+-
   name: cofidisexpressz
   label: Cofidis Expressz
   group: other
