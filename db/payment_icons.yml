@@ -1203,6 +1203,14 @@
   label: Stitch
   group: other
 -
+  name: bit
+  label: Bit
+  group: wallets
+-
+  name: paybox
+  label: Paybox
+  group: wallets
+-
   name: qrph
   label: QR Ph
   group: other
