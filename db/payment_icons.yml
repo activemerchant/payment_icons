@@ -3526,3 +3526,7 @@
   name: cofidisexpressz
   label: Cofidis Expressz
   group: other
+-
+  name: konbini
+  label: Konbini
+  group: convenience_stores
