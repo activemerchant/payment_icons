@@ -3526,3 +3526,7 @@
   name: cofidisexpressz
   label: Cofidis Expressz
   group: other
+-
+  name: wave
+  label: Waves
+  group: wallets
