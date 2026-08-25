@@ -3,6 +3,10 @@
   label: TPG Pay
   group: bank_transfers
 -
+  name: transendicon
+  label: Transend Icon
+  group: other
+-
   name: acuotaz
   label: acuotaz
   group: other
