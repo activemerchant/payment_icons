@@ -3539,6 +3539,10 @@
   label: Cofidis Expressz
   group: other
 -
+  name: maxit
+  label: MaxIt
+  group: wallets
+-
   name: vnpayqr
   label: VNPay QR
   group: bank_transfers
