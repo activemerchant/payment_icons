@@ -3535,6 +3535,10 @@
   label: Cofidis Expressz
   group: other
 -
+  name: konbini
+  label: Konbini
+  group: convenience_stores
+-
   name: togocel
   label: Togocel
   group: wallets
