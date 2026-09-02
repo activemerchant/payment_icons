@@ -3574,3 +3574,23 @@
   name: togocel
   label: Togocel
   group: wallets
+-
+  name: niqui
+  label: Niqui
+  group: other
+-
+  name: entrecuentas
+  label: Entrecuentas
+  group: other
+-
+  name: alkosto
+  label: Alkosto
+  group: other
+-
+  name: colsubsidio
+  label: Colsubsidio
+  group: other
+-
+  name: exito
+  label: Exito
+  group: other
