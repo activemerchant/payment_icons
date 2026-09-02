@@ -3,6 +3,10 @@
   label: TPG Pay
   group: bank_transfers
 -
+  name: transendicon
+  label: Transend Icon
+  group: other
+-
   name: acuotaz
   label: acuotaz
   group: other
@@ -1202,6 +1206,14 @@
   name: stitch
   label: Stitch
   group: other
+-
+  name: bit
+  label: Bit
+  group: wallets
+-
+  name: paybox
+  label: Paybox
+  group: wallets
 -
   name: qrph
   label: QR Ph
@@ -3529,4 +3541,28 @@
 -
   name: maxit
   label: MaxIt
+  group: wallets
+-
+  name: vnpayqr
+  label: VNPay QR
+  group: bank_transfers
+-
+  name: khipu
+  label: Khipu
+  group: bank_transfers
+-
+  name: wave
+  label: Wave
+  group: wallets
+-
+  name: mobicash
+  label: MobiCash
+  group: wallets
+-
+  name: konbini
+  label: Konbini
+  group: convenience_stores
+-
+  name: togocel
+  label: Togocel
   group: wallets
