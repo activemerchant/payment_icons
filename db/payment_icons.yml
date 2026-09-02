@@ -1203,6 +1203,14 @@
   label: Stitch
   group: other
 -
+  name: bit
+  label: Bit
+  group: wallets
+-
+  name: paybox
+  label: Paybox
+  group: wallets
+-
   name: qrph
   label: QR Ph
   group: other
@@ -3530,3 +3538,19 @@
   name: khipu
   label: Khipu
   group: bank_transfers
+-
+  name: wave
+  label: Wave
+  group: wallets
+-
+  name: mobicash
+  label: MobiCash
+  group: wallets
+-
+  name: konbini
+  label: Konbini
+  group: convenience_stores
+-
+  name: togocel
+  label: Togocel
+  group: wallets
