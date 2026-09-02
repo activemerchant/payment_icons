@@ -3535,6 +3535,10 @@
   label: Cofidis Expressz
   group: other
 -
+  name: vnpayqr
+  label: VNPay QR
+  group: bank_transfers
+-
   name: khipu
   label: Khipu
   group: bank_transfers
