@@ -3535,6 +3535,10 @@
   label: Cofidis Expressz
   group: other
 -
+  name: wave
+  label: Wave
+  group: wallets
+-
   name: mobicash
   label: MobiCash
   group: wallets
