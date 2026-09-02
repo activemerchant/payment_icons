@@ -3534,3 +3534,7 @@
   name: cofidisexpressz
   label: Cofidis Expressz
   group: other
+-
+  name: togocel
+  label: Togocel
+  group: wallets
