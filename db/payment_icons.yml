@@ -3535,6 +3535,10 @@
   label: Energieloket
   group: other
 -
+  name: metjebank
+  label: Metjebank
+  group: other
+-
   name: cofidisexpressz
   label: Cofidis Expressz
   group: other
