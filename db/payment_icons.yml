@@ -1,4 +1,8 @@
 -
+  name: tru
+  label: Tru
+  group: other
+-
   name: tpgpay
   label: TPG Pay
   group: bank_transfers
