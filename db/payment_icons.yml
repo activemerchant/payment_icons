@@ -3575,14 +3575,6 @@
   label: Togocel
   group: wallets
 -
-  name: niqui
-  label: Niqui
-  group: other
--
-  name: entrecuentas
-  label: Entrecuentas
-  group: other
--
   name: alkosto
   label: Alkosto
   group: other
