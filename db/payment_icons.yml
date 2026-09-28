@@ -3574,3 +3574,7 @@
   name: togocel
   label: Togocel
   group: wallets
+-
+  name: croissant
+  label: Croissant Pay
+  group: other
