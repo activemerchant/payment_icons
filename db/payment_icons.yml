@@ -3583,6 +3583,10 @@
   label: Togocel
   group: wallets
 -
+  name: madfu
+  label: Madfu
+  group: other
+-
   name: alkosto
   label: Alkosto
   group: other
