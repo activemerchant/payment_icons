@@ -3583,6 +3583,10 @@
   label: Togocel
   group: wallets
 -
+  name: madabnpljo
+  label: Mada BNPL
+  group: other
+-
   name: madfu
   label: Madfu
   group: other
