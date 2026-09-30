@@ -1,4 +1,8 @@
 -
+  name: tru
+  label: Tru
+  group: other
+-
   name: tpgpay
   label: TPG Pay
   group: bank_transfers
@@ -385,6 +389,10 @@
 -
   name: blackhorseflexpay
   label: Blackhorse Flexpay
+  group: other
+-
+  name: duskpay
+  label: DuskPay
   group: other
 -
   name: klarna
@@ -3578,3 +3586,31 @@
   name: croissant
   label: Croissant Pay
   group: wallets
+-
+  name: shiharaihisho
+  label: ShiharaiHisho
+  group: wallets
+-
+  name: madabnpljo
+  label: Mada BNPL
+  group: other
+-
+  name: madfu
+  label: Madfu
+  group: other
+-
+  name: alkosto
+  label: Alkosto
+  group: other
+-
+  name: colsubsidio
+  label: Colsubsidio
+  group: other
+-
+  name: exito
+  label: Exito
+  group: other
+-
+  name: illicado
+  label: Illicado
+  group: other
