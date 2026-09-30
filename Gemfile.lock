@@ -134,7 +134,7 @@ GEM
       net-protocol
     net-protocol (0.4.0)
       timeout
-    net-smtp (0.5.1)
+    net-smtp (0.5.2)
       net-protocol
     nio4r (2.7.5)
     nokogiri (1.19.4)
@@ -192,14 +192,14 @@ GEM
       logger
       prism (>= 1.6.0)
       tsort
-    rdoc (8.0.0)
+    rdoc (8.1.0)
       erb
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
     reline (0.7.0)
       io-console (~> 0.5)
-    sass-embedded (1.105.0)
+    sass-embedded (1.105.1)
       google-protobuf (~> 4.31)
       rake (~> 13.3)
     sassc-embedded (1.80.10)
