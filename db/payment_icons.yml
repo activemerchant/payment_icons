@@ -3583,6 +3583,10 @@
   label: Togocel
   group: wallets
 -
+  name: croissant
+  label: Croissant Pay
+  group: wallets
+-
   name: shiharaihisho
   label: ShiharaiHisho
   group: wallets
