@@ -387,6 +387,10 @@
   label: Blackhorse Flexpay
   group: other
 -
+  name: duskpay
+  label: DuskPay
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
