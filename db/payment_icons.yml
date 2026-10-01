@@ -3574,3 +3574,15 @@
   name: togocel
   label: Togocel
   group: wallets
+-
+  name: scorebnpl
+  label: Score BNPL
+  group: other
+-
+  name: ncard
+  label: Ncard
+  group: credit_cards
+-
+  name: scorebnplncard
+  label: Score BNPL Ncard
+  group: other
