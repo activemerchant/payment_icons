@@ -659,6 +659,10 @@
   label: Bancontact
   group: other
 -
+  name: bancontact_paynl_version
+  label: Bancontact (Pay.nl version)
+  group: other
+-
   name: in3
   label: in3
   group: other
