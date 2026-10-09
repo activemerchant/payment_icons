@@ -659,7 +659,7 @@
   label: Bancontact
   group: other
 -
-  name: bancontact_paynl_version
+  name: bancontactpaynlversion
   label: Bancontact (Pay.nl version)
   group: other
 -
