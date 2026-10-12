@@ -659,8 +659,8 @@
   label: Bancontact
   group: other
 -
-  name: bancontactpaynlversion
-  label: Bancontact (Pay.nl version)
+  name: billinkpaynlversion
+  label: Billink (Pay.nl version)
   group: other
 -
   name: in3
