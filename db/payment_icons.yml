@@ -3615,6 +3615,6 @@
   label: Illicado
   group: other
 -
-  name: aztecaplazos
-  label: Banco Azteca Plazos
+  name: prestamobancoazteca
+  label: Préstamo Banco Azteca
   group: other
