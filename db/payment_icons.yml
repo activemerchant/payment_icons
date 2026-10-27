@@ -3574,3 +3574,7 @@
   name: togocel
   label: Togocel
   group: wallets
+-
+  name: sppxspllogoincube
+  label: ShopeePay and SPayLater
+  group: other
