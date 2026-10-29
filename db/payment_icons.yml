@@ -3614,3 +3614,19 @@
   name: illicado
   label: Illicado
   group: other
+-
+  name: aircash
+  label: Aircash
+  group: other
+-
+  name: kekspay
+  label: KEKS Pay
+  group: other
+-
+  name: ips
+  label: IPS
+  group: bank_transfers
+-
+  name: pis
+  label: PIS
+  group: bank_transfers
