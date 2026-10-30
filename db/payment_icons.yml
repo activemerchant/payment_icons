@@ -3615,6 +3615,10 @@
   label: Illicado
   group: other
 -
+  name: prestamobancoazteca
+  label: Préstamo Banco Azteca
+  group: other
+-
   name: milpay
   label: milpay
   group: other
