@@ -3615,6 +3615,6 @@
   label: Illicado
   group: other
 -
-  name: carteInterbancaire
+  name: carteinterbancaire
   label: carteInterbancaire
   group: credit_cards
