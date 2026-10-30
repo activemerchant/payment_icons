@@ -3631,6 +3631,10 @@
   label: Illicado
   group: other
 -
+  name: carteinterbancaire
+  label: carteInterbancaire
+  group: credit_cards
+-
   name: aircash
   label: Aircash
   group: other
