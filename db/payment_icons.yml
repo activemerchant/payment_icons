@@ -3627,6 +3627,10 @@
   label: Illicado
   group: other
 -
+  name: phonepe
+  label: PhonePe
+  group: wallets
+-
   name: prestamobancoazteca
   label: Préstamo Banco Azteca
   group: other
