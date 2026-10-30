@@ -659,6 +659,10 @@
   label: Bancontact
   group: other
 -
+  name: billinkpaynlversion
+  label: Billink (Pay.nl version)
+  group: other
+-
   name: in3
   label: in3
   group: other
@@ -3583,6 +3587,18 @@
   label: Togocel
   group: wallets
 -
+  name: scorebnpl
+  label: Score BNPL
+  group: other
+-
+  name: ncard
+  label: Ncard
+  group: credit_cards
+-
+  name: scorebnplncard
+  label: Score BNPL Ncard
+  group: other
+-
   name: croissant
   label: Croissant Pay
   group: wallets
@@ -3618,3 +3634,39 @@
   name: carteinterbancaire
   label: carteInterbancaire
   group: credit_cards
+-
+  name: aircash
+  label: Aircash
+  group: other
+-
+  name: kekspay
+  label: KEKS Pay
+  group: other
+-
+  name: ips
+  label: IPS
+  group: bank_transfers
+-
+  name: pis
+  label: PIS
+  group: bank_transfers
+-
+  name: pagaleve
+  label: Pagaleve
+  group: other
+-
+  name: netsqr
+  label: NETS QR
+  group: other
+-
+  name: phonepe
+  label: PhonePe
+  group: wallets
+-
+  name: prestamobancoazteca
+  label: Préstamo Banco Azteca
+  group: other
+-
+  name: milpay
+  label: milpay
+  group: other
