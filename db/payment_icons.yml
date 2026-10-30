@@ -3583,6 +3583,18 @@
   label: Togocel
   group: wallets
 -
+  name: scorebnpl
+  label: Score BNPL
+  group: other
+-
+  name: ncard
+  label: Ncard
+  group: credit_cards
+-
+  name: scorebnplncard
+  label: Score BNPL Ncard
+  group: other
+-
   name: croissant
   label: Croissant Pay
   group: wallets
@@ -3617,4 +3629,16 @@
 -
   name: netsqr
   label: NETS QR
+  group: other
+-
+  name: phonepe
+  label: PhonePe
+  group: wallets
+-
+  name: prestamobancoazteca
+  label: Préstamo Banco Azteca
+  group: other
+-
+  name: milpay
+  label: milpay
   group: other
