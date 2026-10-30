@@ -3631,6 +3631,10 @@
   label: Illicado
   group: other
 -
+  name: edahabiacard
+  label: edahabiacard
+  group: credit_cards
+-
   name: carteinterbancaire
   label: carteInterbancaire
   group: credit_cards
