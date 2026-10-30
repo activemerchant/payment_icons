@@ -3631,6 +3631,10 @@
   label: Illicado
   group: other
 -
+  name: pagaleve
+  label: Pagaleve
+  group: other
+-
   name: netsqr
   label: NETS QR
   group: other
