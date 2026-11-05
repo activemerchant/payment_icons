@@ -384,7 +384,7 @@
   group: other
 -
   name: duskpay
-  label: DuskPay
+  label: DUSKPay powered by Newpay
   group: other
 -
   name: klarna
