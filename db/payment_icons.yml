@@ -3678,3 +3678,63 @@
   name: milpay
   label: milpay
   group: other
+-
+  name: commbank
+  label: CommBank
+  group: bank_transfers
+-
+  name: westpac
+  label: Westpac
+  group: bank_transfers
+-
+  name: anz
+  label: ANZ
+  group: bank_transfers
+-
+  name: nab
+  label: NAB
+  group: bank_transfers
+-
+  name: stgeorge
+  label: St.George Bank
+  group: bank_transfers
+-
+  name: bankofmelbourne
+  label: Bank of Melbourne
+  group: bank_transfers
+-
+  name: banksa
+  label: BankSA
+  group: bank_transfers
+-
+  name: bankwest
+  label: Bankwest
+  group: bank_transfers
+-
+  name: ingaustralia
+  label: ING Australia
+  group: bank_transfers
+-
+  name: macquarie
+  label: Macquarie Bank
+  group: bank_transfers
+-
+  name: suncorpbank
+  label: Suncorp Bank
+  group: bank_transfers
+-
+  name: bendigobank
+  label: Bendigo Bank
+  group: bank_transfers
+-
+  name: boq
+  label: Bank of Queensland
+  group: bank_transfers
+-
+  name: upbank
+  label: Up
+  group: bank_transfers
+-
+  name: greatsouthernbank
+  label: Great Southern Bank
+  group: bank_transfers
