@@ -3587,6 +3587,10 @@
   label: Togocel
   group: wallets
 -
+  name: sppxspllogoincube
+  label: ShopeePay and SPayLater
+  group: other
+-
   name: scorebnpl
   label: Score BNPL
   group: other
