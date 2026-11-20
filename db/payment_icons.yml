@@ -3683,6 +3683,10 @@
   label: milpay
   group: other
 -
+  name: smilepay
+  label: SmilePay
+  group: other
+-
   name: troy
   label: TROY
   group: credit_cards
