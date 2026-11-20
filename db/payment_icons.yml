@@ -784,7 +784,7 @@
   group: other
 -
   name: payconiq
-  label: Payconiq
+  label: Bancontact Pay
   group: other
 -
   name: paidy
